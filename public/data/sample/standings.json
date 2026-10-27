@@ -1,0 +1,107 @@
+{
+  "updatedAt": null,
+  "season": 2026,
+  "week": 0,
+  "teams": [
+    {
+      "teamId": 1,
+      "name": "Sample Team A",
+      "owner": "",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pointsFor": 0
+    },
+    {
+      "teamId": 2,
+      "name": "Sample Team B",
+      "owner": "",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pointsFor": 0
+    },
+    {
+      "teamId": 3,
+      "name": "Sample Team C",
+      "owner": "",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pointsFor": 0
+    },
+    {
+      "teamId": 4,
+      "name": "Sample Team D",
+      "owner": "",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pointsFor": 0
+    },
+    {
+      "teamId": 5,
+      "name": "Sample Team E",
+      "owner": "",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pointsFor": 0
+    },
+    {
+      "teamId": 6,
+      "name": "Sample Team F",
+      "owner": "",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pointsFor": 0
+    },
+    {
+      "teamId": 7,
+      "name": "Sample Team G",
+      "owner": "",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pointsFor": 0
+    },
+    {
+      "teamId": 8,
+      "name": "Sample Team H",
+      "owner": "",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pointsFor": 0
+    },
+    {
+      "teamId": 9,
+      "name": "Sample Team I",
+      "owner": "",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pointsFor": 0
+    },
+    {
+      "teamId": 10,
+      "name": "Sample Team J",
+      "owner": "",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pointsFor": 0
+    },
+    {
+      "teamId": 11,
+      "name": "Austin (sample)",
+      "owner": "",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pointsFor": 0,
+      "isAustin": true
+    }
+  ]
+}
