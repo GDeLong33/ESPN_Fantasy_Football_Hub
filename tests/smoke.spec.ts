@@ -58,3 +58,59 @@ test.describe('draft room', () => {
     await expect(page.locator('.wire').getByRole('button', { name: 'No open QB slot' }).first()).toBeDisabled();
   });
 });
+
+test.describe('lock in', () => {
+  test.use({ viewport: { width: 390, height: 844 } });
+
+  async function draftFullLineup(page: Page) {
+    await page.goto('#/play');
+    const lineup = page.locator('section.lineup');
+    await expect(lineup.getByText(/0 of \d+ filled/)).toBeVisible();
+    for (let i = 0; i < 20; i++) {
+      const empty = lineup.getByRole('button', { name: /^Pick a / }).first();
+      if ((await empty.count()) === 0) break;
+      await empty.click();
+      await page.locator('.wire').getByRole('button', { name: /^Add / }).first().click();
+    }
+    await page.getByRole('link', { name: 'Lock in my lineup' }).click();
+  }
+
+  test('requires a name and confirmation, then submits', async ({ page }) => {
+    let body: Record<string, unknown> | null = null;
+    await page.route('https://fake.supabase.test/rest/v1/entries*', async (route) => {
+      body = route.request().postDataJSON();
+      await route.fulfill({ status: 201, body: '' });
+    });
+    await draftFullLineup(page);
+
+    await page.getByRole('button', { name: 'Lock it in' }).click();
+    await expect(page.getByText('Enter a name between 2 and 40 characters.')).toBeVisible();
+    await expect(page.getByText('Tick the box to confirm.')).toBeVisible();
+    expect(body).toBeNull();
+
+    await page.getByLabel('Your name').fill('  Test   Player ');
+    await page.getByLabel('Team name (optional)').fill('Waiver Kings');
+    await page.getByRole('checkbox').check();
+    await page.getByRole('button', { name: 'Lock it in' }).click();
+
+    await expect(page.getByRole('heading', { name: "You're in, Test Player." })).toBeVisible();
+    expect(body).toMatchObject({ season: 2026, name: '  Test   Player ', team_name: 'Waiver Kings' });
+    expect((body!.lineup as unknown[]).length).toBe(9);
+    await expectNoOverflow(page);
+  });
+
+  test('shows a friendly message for a duplicate name', async ({ page }) => {
+    await page.route('https://fake.supabase.test/rest/v1/entries*', (route) =>
+      route.fulfill({
+        status: 409,
+        contentType: 'application/json',
+        body: JSON.stringify({ code: '23505', message: 'duplicate key value violates unique constraint' }),
+      }),
+    );
+    await draftFullLineup(page);
+    await page.getByLabel('Your name').fill('Gavin');
+    await page.getByRole('checkbox').check();
+    await page.getByRole('button', { name: 'Lock it in' }).click();
+    await expect(page.getByRole('alert')).toContainText('Someone already entered as "Gavin" this week.');
+  });
+});

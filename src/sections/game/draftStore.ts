@@ -23,6 +23,26 @@ function saveDraft(season: number, week: number, lineup: Lineup) {
   }
 }
 
+/** Remembers, in this browser only, that an entry was submitted this week. */
+const enteredKey = (season: number, week: number) => `cyba:entered:${season}:${week}`;
+
+export function loadEntered(season: number, week: number): { name: string; teamName: string | null } | null {
+  try {
+    const raw = localStorage.getItem(enteredKey(season, week));
+    return raw ? JSON.parse(raw) : null;
+  } catch {
+    return null;
+  }
+}
+
+export function saveEntered(season: number, week: number, entry: { name: string; teamName: string | null }) {
+  try {
+    localStorage.setItem(enteredKey(season, week), JSON.stringify(entry));
+  } catch {
+    // Not critical: only used to show "you're entered" on return visits.
+  }
+}
+
 /** Lineup state that starts from (already reconciled) saved picks and saves on change. */
 export function useDraft(season: number, week: number, initial: () => Lineup) {
   const [lineup, setLineup] = useState<Lineup>(initial);

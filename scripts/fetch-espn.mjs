@@ -10,6 +10,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { parseArgs } from 'node:util';
 import { createClient } from './espn-client.mjs';
+import { supabaseFromEnv } from './supabase-rest.mjs';
 import {
   ShapeError,
   assert,
@@ -152,6 +153,23 @@ async function main() {
   await writeIfChanged('austin.json', austin, updatedAt);
   await writeIfChanged('league.json', leagueWeek, updatedAt);
   await writeIfChanged('standings.json', standings, updatedAt);
+
+  // Give the database the same slots, lock time and pool so it can validate entries itself.
+  const db = supabaseFromEnv();
+  if (!db) {
+    console.log('  Supabase not configured: skipping pool sync');
+  } else if (!freeagents || locked || !lockTime) {
+    console.log('  Supabase: week locked or no lock time, pool left as is');
+  } else {
+    const status = await db.rpc('sync_week', {
+      p_season: season,
+      p_week: week,
+      p_lock_time: lockTime,
+      p_slots: meta.slots,
+      p_players: freeagents.players.map((p) => ({ id: p.id, pos: p.pos })),
+    });
+    console.log(`  Supabase: week ${week} ${status} (${freeagents.players.length} players)`);
+  }
   if (freeagents) await writeIfChanged('freeagents.json', freeagents, updatedAt);
   console.log(
     `Done. Austin projects ${austin.projTotal} (actual ${austin.actualTotal}); lock ${lockTime ?? 'unknown'}; final=${isFinal}`,

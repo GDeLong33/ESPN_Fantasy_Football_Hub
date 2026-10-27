@@ -9,6 +9,6 @@ export default defineConfig({
   base: `/${repo}/`,
   plugins: [react()],
   test: {
-    include: ['src/**/*.test.ts', 'scripts/**/*.test.mjs'],
+    include: ['src/**/*.test.ts', 'scripts/**/*.test.mjs', 'supabase/**/*.test.mjs'],
   },
 });

@@ -489,3 +489,84 @@
   max-width: 560px;
   margin: 24px 0;
 }
+
+/* Lock-in */
+.lockin {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: flex-start;
+  margin: 24px 0;
+}
+.lockin .summary {
+  flex: 1 1 320px;
+  margin: 0;
+}
+.entry-form {
+  flex: 1 1 320px;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.field label {
+  font-weight: 600;
+  font-size: 14px;
+}
+.field input {
+  min-height: 44px;
+  padding: 0 12px;
+  background: var(--bg);
+  border: 1px solid var(--input-border);
+  font-size: 16px;
+}
+.field input[aria-invalid] {
+  border-color: var(--accent-text);
+}
+.field__hint {
+  font-size: 13px;
+  color: var(--muted);
+}
+.field__error {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent-text);
+}
+.check {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  min-height: 44px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.check input {
+  width: 22px;
+  height: 22px;
+  margin: 1px 0 0;
+  flex: none;
+  accent-color: var(--accent);
+}
+.form-error {
+  margin: 0;
+  padding: 12px 14px;
+  border: 1px solid var(--accent-text);
+  font-size: 14px;
+  font-weight: 500;
+}
+.notice {
+  margin: 24px 0;
+  max-width: 560px;
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 8px 0 16px;
+}
