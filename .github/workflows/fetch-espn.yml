@@ -1,0 +1,65 @@
+name: Sync ESPN data
+
+on:
+  schedule:
+    # Every 3 hours (UTC). Projections, injuries and the waiver wire move all week.
+    - cron: '17 */3 * * *'
+  workflow_dispatch:
+    inputs:
+      week:
+        description: 'Backfill a past week (leave empty for the current week)'
+        required: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: data-sync
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    env:
+      LEAGUE_ID: ${{ vars.LEAGUE_ID || '1143865755' }}
+      SEASON: ${{ vars.SEASON || '2026' }}
+      AUSTIN_TEAM_ID: ${{ vars.AUSTIN_TEAM_ID || '9' }}
+      # Only needed if the league is ever made private.
+      ESPN_S2: ${{ secrets.ESPN_S2 }}
+      ESPN_SWID: ${{ secrets.ESPN_SWID }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # The script has no dependencies, so no npm install is needed.
+      - name: Fetch from ESPN
+        run: node scripts/fetch-espn.mjs ${{ inputs.week && format('--week {0}', inputs.week) || '' }}
+      - name: Commit changed data
+        id: commit
+        run: |
+          git add public/data
+          if git diff --cached --quiet; then
+            echo "No data changes."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "data: ESPN sync $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+  # Pushes made with GITHUB_TOKEN don't trigger other workflows, so deploy explicitly.
+  deploy:
+    needs: fetch
+    if: needs.fetch.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy.yml
+    secrets: inherit

@@ -1,0 +1,66 @@
+{
+  "updatedAt": "2026-10-27T23:26:36.911Z",
+  "season": 2026,
+  "week": 8,
+  "lockTime": "2026-10-30T00:15:00.000Z",
+  "isFinal": false,
+  "leagueName": "Woo She Woo Bing Chiling",
+  "slots": [
+    {
+      "slot": "QB",
+      "accepts": [
+        "QB"
+      ]
+    },
+    {
+      "slot": "RB",
+      "accepts": [
+        "RB"
+      ]
+    },
+    {
+      "slot": "RB",
+      "accepts": [
+        "RB"
+      ]
+    },
+    {
+      "slot": "WR",
+      "accepts": [
+        "WR"
+      ]
+    },
+    {
+      "slot": "WR",
+      "accepts": [
+        "WR"
+      ]
+    },
+    {
+      "slot": "TE",
+      "accepts": [
+        "TE"
+      ]
+    },
+    {
+      "slot": "FLEX",
+      "accepts": [
+        "RB",
+        "WR",
+        "TE"
+      ]
+    },
+    {
+      "slot": "D/ST",
+      "accepts": [
+        "D/ST"
+      ]
+    },
+    {
+      "slot": "K",
+      "accepts": [
+        "K"
+      ]
+    }
+  ]
+}

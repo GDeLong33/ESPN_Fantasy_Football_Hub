@@ -1,0 +1,91 @@
+{
+  "updatedAt": "2026-10-27T23:26:36.911Z",
+  "week": 8,
+  "teamId": 9,
+  "teamName": "Gooners Guild of America",
+  "lineup": [
+    {
+      "slot": "QB",
+      "playerId": 3912547,
+      "name": "Sam Darnold",
+      "pos": "QB",
+      "team": "SEA",
+      "projPts": 14.77,
+      "actualPts": null
+    },
+    {
+      "slot": "RB",
+      "playerId": 4870808,
+      "name": "Jeremiyah Love",
+      "pos": "RB",
+      "team": "ARI",
+      "projPts": 11.68,
+      "actualPts": null
+    },
+    {
+      "slot": "RB",
+      "playerId": 4379399,
+      "name": "James Cook III",
+      "pos": "RB",
+      "team": "BUF",
+      "projPts": 18.82,
+      "actualPts": null
+    },
+    {
+      "slot": "WR",
+      "playerId": 4870653,
+      "name": "KC Concepcion",
+      "pos": "WR",
+      "team": "CLE",
+      "projPts": 10.2,
+      "actualPts": null
+    },
+    {
+      "slot": "WR",
+      "playerId": 4685278,
+      "name": "Luther Burden III",
+      "pos": "WR",
+      "team": "CHI",
+      "projPts": 13.46,
+      "actualPts": null
+    },
+    {
+      "slot": "TE",
+      "playerId": 3929645,
+      "name": "Juwan Johnson",
+      "pos": "TE",
+      "team": "NO",
+      "projPts": 0,
+      "actualPts": null
+    },
+    {
+      "slot": "FLEX",
+      "playerId": 4426385,
+      "name": "Zach Charbonnet",
+      "pos": "RB",
+      "team": "SEA",
+      "projPts": 11.36,
+      "actualPts": null
+    },
+    {
+      "slot": "D/ST",
+      "playerId": -16007,
+      "name": "Broncos D/ST",
+      "pos": "D/ST",
+      "team": "DEN",
+      "projPts": 5.08,
+      "actualPts": null
+    },
+    {
+      "slot": "K",
+      "playerId": 17372,
+      "name": "Chris Boswell",
+      "pos": "K",
+      "team": "PIT",
+      "projPts": 10.43,
+      "actualPts": null
+    }
+  ],
+  "projTotal": 95.8,
+  "actualTotal": 0
+}
