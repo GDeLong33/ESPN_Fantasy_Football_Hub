@@ -36,9 +36,9 @@
     --row-hi: #272b33;
     --track: #2b2f37;
     --input-border: #6b7280;
-    --accent: #d4636b;
-    --on-accent: #14161a; /* white on #D4636B is only 3.6:1, dark ink is 5:1 */
-    --accent-text: #db727a; /* #D4636B is 4.47:1 on the panel; this clears 4.5 */
+    --accent: #9f2d35;
+    --on-accent: #ffffff;
+    --accent-text: #f05a5a; /* #9F2D35 is only 2.2:1 as text on the dark panel; this is 4.9:1 */
     --austin: #6fa3f0;
     --neutral-bar: #6b7280;
     --btn-dark: #edeae2;
@@ -56,9 +56,9 @@
   --row-hi: #272b33;
   --track: #2b2f37;
   --input-border: #6b7280;
-  --accent: #d4636b;
-  --on-accent: #14161a;
-  --accent-text: #db727a;
+  --accent: #9f2d35;
+  --on-accent: #ffffff;
+  --accent-text: #f05a5a;
   --austin: #6fa3f0;
   --neutral-bar: #6b7280;
   --btn-dark: #edeae2;
@@ -363,6 +363,9 @@ select {
   display: flex;
   flex-direction: column;
   height: 100%;
+}
+.lead--empty {
+  height: auto;
 }
 .lead__media {
   aspect-ratio: 16 / 7;

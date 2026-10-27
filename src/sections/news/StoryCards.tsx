@@ -5,7 +5,7 @@ import { DESKS, type Story } from './stories';
 export function LeadStory({ story }: { story: Story | undefined }) {
   if (!story) {
     return (
-      <article className="panel lead">
+      <article className="panel lead lead--empty">
         <div className="lead__body">
           <div className="kicker">Lead story</div>
           <h1 className="display lead__headline">The press box is warming up</h1>

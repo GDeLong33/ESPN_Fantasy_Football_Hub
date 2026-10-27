@@ -1,5 +1,6 @@
 import { HashRouter, Link, Route, Routes } from 'react-router-dom';
 import { Layout } from './components/Layout';
+import { LockInPage } from './sections/game/LockInPage';
 import { PlayPage } from './sections/game/PlayPage';
 import { ResultsPage } from './sections/game/ResultsPage';
 import { HomePage } from './sections/news/HomePage';
@@ -15,6 +16,7 @@ export function App() {
           <Route path="news/:slug" element={<StoryPage />} />
           {/* Can You Beat Austin? */}
           <Route path="play" element={<PlayPage />} />
+          <Route path="play/lock-in" element={<LockInPage />} />
           <Route path="results" element={<ResultsPage />} />
           <Route path="*" element={<NotFound />} />
         </Route>
