@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T05:53:12.308Z",
+  "updatedAt": "2026-10-28T13:09:20.482Z",
   "week": 8,
   "teams": [
     {
@@ -23,6 +23,22 @@
       "name": "The Juice",
       "owner": "Sam C.",
       "projTotal": 112.08,
+      "actualTotal": 0,
+      "isAustin": false
+    },
+    {
+      "teamId": 4,
+      "name": "Burrow it deeper",
+      "owner": "Max F.",
+      "projTotal": 111.91,
+      "actualTotal": 0,
+      "isAustin": false
+    },
+    {
+      "teamId": 6,
+      "name": "North Atlantic 1912 Swim Team",
+      "owner": "Cole K.",
+      "projTotal": 110.02,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -67,26 +83,10 @@
       "isAustin": false
     },
     {
-      "teamId": 4,
-      "name": "Burrow it deeper",
-      "owner": "Max F.",
-      "projTotal": 101.43,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
       "teamId": 14,
       "name": "Its gonna be Maye",
       "owner": "Jaxson C.",
       "projTotal": 99.65,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
-      "teamId": 6,
-      "name": "North Atlantic 1912 Swim Team",
-      "owner": "Cole K.",
-      "projTotal": 99.63,
       "actualTotal": 0,
       "isAustin": false
     },
