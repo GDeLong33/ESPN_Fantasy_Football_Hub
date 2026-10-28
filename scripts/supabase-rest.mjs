@@ -35,6 +35,7 @@ export function supabaseFromEnv() {
   return {
     rpc: (fn, args) => request('POST', `rpc/${fn}`, args),
     select: (path) => request('GET', path),
+    remove: (path) => request('DELETE', path, undefined, { Prefer: 'return=minimal' }),
     upsert: (table, rows, onConflict) =>
       request('POST', `${table}?on_conflict=${onConflict}`, rows, { Prefer: 'resolution=merge-duplicates,return=minimal' }),
   };

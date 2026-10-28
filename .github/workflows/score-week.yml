@@ -1,0 +1,66 @@
+name: Score the week
+
+on:
+  schedule:
+    # 8:15 AM Eastern Tue-Thu (12:15 UTC; 7:15 during standard time). Tuesday scores the
+    # week after Monday Night Football; Wed/Thu re-score to pick up ESPN stat corrections.
+    - cron: '15 12 * * 2-4'
+  workflow_dispatch:
+    inputs:
+      week:
+        description: 'Week to score (leave empty for the latest finished week)'
+        required: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: data-sync
+  cancel-in-progress: false
+
+jobs:
+  score:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    env:
+      LEAGUE_ID: ${{ vars.LEAGUE_ID || '1143865755' }}
+      SEASON: ${{ vars.SEASON || '2026' }}
+      AUSTIN_TEAM_ID: ${{ vars.AUSTIN_TEAM_ID || '9' }}
+      ESPN_S2: ${{ secrets.ESPN_S2 }}
+      ESPN_SWID: ${{ secrets.ESPN_SWID }}
+      SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # The script has no dependencies, so no npm install is needed.
+      - name: Score
+        run: node scripts/score-week.mjs ${{ inputs.week && format('--week {0}', inputs.week) || '' }}
+      - name: Commit results
+        id: commit
+        run: |
+          git add public/data
+          if git diff --cached --quiet; then
+            echo "No changes."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "results: score week $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: score
+    if: needs.score.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy.yml
+    secrets: inherit

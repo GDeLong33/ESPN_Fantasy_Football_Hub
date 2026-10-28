@@ -729,3 +729,129 @@ summary.board__summary::-webkit-details-marker {
     padding-left: 20px;
   }
 }
+
+/* Results */
+.results-head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 24px;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-bottom: 16px;
+}
+.week-pick,
+.compare-pick {
+  min-width: 200px;
+}
+.compare-pick {
+  max-width: 360px;
+  margin-bottom: 16px;
+}
+.field select {
+  min-height: 44px;
+  padding: 0 12px;
+  background: var(--bg);
+  border: 1px solid var(--input-border);
+  font-size: 16px;
+}
+.board-intro .section-title {
+  margin-bottom: 4px;
+}
+.board-intro p {
+  margin: 0 0 8px;
+  max-width: 640px;
+}
+.verdict {
+  padding: 24px;
+  border-left: 6px solid var(--line);
+}
+.verdict--austin {
+  border-left-color: var(--austin);
+}
+.verdict--field {
+  border-left-color: var(--accent);
+}
+.verdict__title {
+  margin: 6px 0 0;
+  font-size: clamp(34px, 8vw, 52px);
+}
+.verdict--austin .verdict__title {
+  color: var(--austin);
+}
+.verdict--field .verdict__title {
+  color: var(--accent-text);
+}
+.verdict__line {
+  margin: 10px 0 0;
+}
+.board__row.is-austin {
+  background: var(--row-hi);
+}
+.board__row.is-austin .board__name,
+.board__row.is-austin .board__rank {
+  color: var(--austin);
+}
+.tally {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid var(--line);
+}
+.tally__side {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 20px;
+}
+.tally__side + .tally__side {
+  border-left: 1px solid var(--line);
+}
+.tally__num {
+  font-size: 56px;
+  line-height: 1;
+}
+.tally__side--austin .tally__num {
+  color: var(--austin);
+}
+.tally__side--field .tally__num {
+  color: var(--accent-text);
+}
+.tally__weeks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.tally__weeks li + li {
+  border-top: 1px solid var(--line);
+}
+.tally__week {
+  display: grid;
+  grid-template-columns: 72px 1fr auto;
+  gap: 12px;
+  align-items: center;
+  width: 100%;
+  min-height: 56px;
+  padding: 8px 20px;
+  background: transparent;
+  border: 0;
+  text-align: left;
+  cursor: pointer;
+}
+.tally__week:hover {
+  background: var(--row-hi);
+}
+.tally__wk {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.tally__detail {
+  min-width: 0;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+.tally__detail small {
+  display: block;
+  font-size: 12px;
+  color: var(--muted);
+}

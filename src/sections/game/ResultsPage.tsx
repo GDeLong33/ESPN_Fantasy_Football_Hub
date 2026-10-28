@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { DataState } from '../../components/DataState';
-import { formatUpdated } from '../../lib/data';
+import { formatUpdated, loadData } from '../../lib/data';
 import { supabase } from '../../lib/supabase';
 import { useAsync } from '../../lib/useAsync';
 import { LEAGUE_NAME } from '../../site';
@@ -9,17 +9,66 @@ import { loadDraft, loadEntered, type EnteredEntry } from './draftStore';
 import { fmtPts, loadGameData, oppLabel, type GameData } from './gameData';
 import { LeagueBars, rankAmong, type BarItem } from './LeagueBars';
 import { lineupTotal, reconcile } from './lineup';
+import { FinalWeek } from './FinalWeek';
 import { formatLock } from './PromoCard';
+import { SeasonTally } from './SeasonTally';
+import type { ResultsFile } from './types';
 import { formatCountdown, useNow } from './useNow';
 
-// This week's board: every locked-in entry and every league team, by projection.
-// Phase 5 adds final scores, past weeks and the season tally.
+async function loadResultsPage() {
+  const [game, results] = await Promise.all([loadGameData(), loadData<ResultsFile>('results.json')]);
+  return { game, results: results.data };
+}
+
+/** Results: this week's live board, any scored week, and the season tally. */
 export function ResultsPage() {
-  const game = useAsync(loadGameData, []);
+  const state = useAsync(loadResultsPage, []);
   return (
-    <DataState state={game} loading={<div className="container page-intro">Loading the board…</div>}>
-      {(data) => <WeekBoard data={data} />}
+    <DataState state={state} loading={<div className="container page-intro">Loading results…</div>}>
+      {({ game, results }) => <Results game={game} results={results} />}
     </DataState>
+  );
+}
+
+function Results({ game, results }: { game: GameData; results: ResultsFile | null }) {
+  const { meta } = game;
+  const [params, setParams] = useSearchParams();
+  const now = useNow();
+  const locked = meta.lockTime != null && now >= Date.parse(meta.lockTime);
+  const scored = (results?.weeks ?? []).map((w) => w.week).sort((a, b) => b - a);
+  const weeks = [...new Set([meta.week, ...scored])].sort((a, b) => b - a);
+  // Before this week's kickoff, show last week's final results; after it, the live board.
+  const fallback = !locked && scored.length && !scored.includes(meta.week) ? scored[0] : meta.week;
+  const requested = Number(params.get('week'));
+  const week = weeks.includes(requested) ? requested : fallback;
+  const pick = (w: number) => {
+    setParams({ week: String(w) });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  return (
+    <div className="container">
+      <div className="page-intro results-head">
+        <div>
+          <div className="kicker">{LEAGUE_NAME} · Can you beat Austin?</div>
+          <h1 className="display page-title">Results</h1>
+        </div>
+        <label className="field week-pick">
+          <span>Week</span>
+          <select value={week} onChange={(e) => pick(Number(e.target.value))}>
+            {weeks.map((w) => (
+              <option key={w} value={w}>
+                Week {w} · {scored.includes(w) ? 'final' : w === meta.week ? 'this week' : ''}
+              </option>
+            ))}
+          </select>
+        </label>
+      </div>
+
+      {scored.includes(week) ? <FinalWeek season={meta.season} week={week} /> : <WeekBoard data={game} />}
+
+      <SeasonTally results={results} onPick={pick} />
+    </div>
   );
 }
 
@@ -34,13 +83,10 @@ function WeekBoard({ data }: { data: GameData }) {
   const mine = loadEntered(meta.season, meta.week);
 
   return (
-    <div className="container">
-      <div className="page-intro board-intro">
-        <div className="kicker">
-          {LEAGUE_NAME} · Week {meta.week} · Projected
-        </div>
-        <h1 className="display page-title">The board</h1>
-        <p>
+    <>
+      <div className="board-intro">
+        <h2 className="section-title">Week {meta.week}: the board</h2>
+        <p className="muted">
           Every waiver-wire lineup locked in so far, against Austin and the rest of the league.{' '}
           {locked
             ? 'Lineups are locked. Final scores arrive after Monday night.'
@@ -61,7 +107,7 @@ function WeekBoard({ data }: { data: GameData }) {
       <p className="small muted" style={{ marginTop: 16 }}>
         Austin's projection {fmtPts(austin.projTotal)}. League data last updated {formatUpdated(austin.updatedAt)}.
       </p>
-    </div>
+    </>
   );
 }
 

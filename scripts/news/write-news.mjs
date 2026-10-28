@@ -111,6 +111,29 @@ async function main() {
     events.push({ kind: 'recap', id: `recap:${season}:${finalPeriod}`, priority: 2, period: finalPeriod });
   }
 
+  // The game's weekly result, once scripts/score-week.mjs has scored it.
+  const seasonResults = await readJson('public/data/results.json', null);
+  const lastScored = seasonResults?.weeks?.at(-1);
+  if (lastScored && !(state?.cybaWeeks ?? []).includes(lastScored.week)) {
+    const detail = await readJson(`public/data/weeks/${lastScored.week}/results.json`, null);
+    if (detail) {
+      events.push({
+        kind: 'cyba',
+        id: `cyba:${season}:${lastScored.week}`,
+        priority: 2,
+        week: lastScored.week,
+        facts: {
+          week: lastScored.week,
+          winner: detail.winner === 'austin' ? 'Austin' : 'the field',
+          austin: { team: detail.austin.teamName, points: detail.austin.points },
+          entries: detail.entries.length,
+          leaderboard: detail.entries.slice(0, 6).map((e) => ({ name: e.name, teamName: e.teamName, points: e.points, beatAustin: e.beatAustin })),
+          seasonTally: seasonResults.tally,
+        },
+      });
+    }
+  }
+
   const lastRumor = Date.parse(state?.lastRumorAt ?? 0) || 0;
   if (now - lastRumor >= RUMOR_GAP_MS && Math.random() < RUMOR_CHANCE) {
     events.push(pickRumor(snapshot, league, { ...ctx, random: Math.random, week }));
@@ -127,12 +150,15 @@ async function main() {
   let newIndex = index;
   const taken = new Set(index.stories.map((s) => s.slug));
   const recapped = new Set(state?.recapped ?? []);
+  const cybaWeeks = new Set(state?.cybaWeeks ?? []);
   let lastRumorAt = state?.lastRumorAt ?? null;
   let failures = 0; // real problems (bad key, bad output): fail the job so it gets noticed
 
   for (const event of todo) {
     const facts =
-      event.kind === 'recap'
+      event.kind === 'cyba'
+        ? event.facts
+        : event.kind === 'recap'
         ? recapFacts(scoreboard, league, event.period, ctx)
         : event.kind === 'rumor'
           ? { rumor: event.idea, team: event.team, ...(event.partner ? { tradePartner: event.partner } : {}) }
@@ -155,6 +181,7 @@ async function main() {
       await writeJson(path.join(NEWS_DIR, 'index.json'), newIndex);
       covered.add(event.id);
       if (event.kind === 'recap') recapped.add(event.period);
+      if (event.kind === 'cyba') cybaWeeks.add(event.week);
       if (event.kind === 'rumor') lastRumorAt = new Date().toISOString();
       console.log(`  published ${slug}`);
     } catch (err) {
@@ -176,6 +203,7 @@ async function main() {
     snapshotAt: new Date().toISOString(),
     rosters: snapshot,
     recapped: [...recapped].sort((a, b) => a - b),
+    cybaWeeks: [...cybaWeeks].sort((a, b) => a - b),
     lastRumorAt,
     covered: [...covered].slice(-500),
     pending,

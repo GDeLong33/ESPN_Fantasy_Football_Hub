@@ -30,7 +30,7 @@ export const STORY_SCHEMA = {
   additionalProperties: false,
 };
 
-const TAGS = { trade: 'Trade desk', injury: 'Injury report', recap: 'Week recap', rumor: 'Rumor mill' };
+const TAGS = { trade: 'Trade desk', injury: 'Injury report', recap: 'Week recap', rumor: 'Rumor mill', cyba: 'Can you beat Austin?' };
 export const tagFor = (kind) => TAGS[kind] ?? 'League news';
 
 /** The user message for one story: what happened, as JSON facts. */
@@ -40,6 +40,7 @@ export function storyPrompt(kind, facts) {
     injury: 'A star player on a fantasy roster just landed on the injury report. Write the Injury Report story about what it means for that fantasy team.',
     recap: 'The week is final. Write the Week Recap: the headline result, the blowout, the nail-biter, the top and bottom scores, and of course how Austin did.',
     rumor: 'Write a short Rumor Mill story. The rumor below is made up for fun. Stay light and PG.',
+    cyba: `The weekly "Can you beat Austin?" game is scored: league members built lineups from free agents only and tried to outscore Austin's real lineup. Write the results story: did the field beat Austin, who topped the leaderboard, who fell short, and the season tally.`,
   }[kind];
   return `${intro}\n\nFacts (JSON):\n${JSON.stringify(facts, null, 2)}`;
 }

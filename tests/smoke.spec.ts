@@ -148,7 +148,7 @@ test.describe('week board', () => {
     );
 
     await page.goto('#/results');
-    await expect(page.getByRole('heading', { name: 'The board' })).toBeVisible();
+    await expect(page.getByRole('heading', { name: /the board/ })).toBeVisible();
     await expect(page.getByRole('heading', { name: 'Your entry' })).toBeVisible();
     const board = page.locator('ol.board');
     await expect(board.locator('.board__row')).toHaveCount(2);
@@ -201,5 +201,62 @@ test.describe('news', () => {
     await expect(page.getByText('<b>not bold</b>')).toBeVisible(); // escaped HTML stays text
     await expect(page.locator('.prose b')).toHaveCount(0);
     await expectNoOverflow(page);
+  });
+});
+
+test.describe('final results', () => {
+  test.use({ viewport: { width: 390, height: 844 } });
+
+  test('shows the verdict, leaderboard with Austin placed by score, compare chart and tally', async ({ page }) => {
+    const meta = await (await page.request.get('data/meta.json')).json();
+    const scoredWeek = meta.week - 1;
+    const lineup = (pts: number) => [{ slot: 'QB', playerId: 1, name: 'Some QB', pos: 'QB', team: 'CLE', points: pts }];
+    await page.route('**/data/results.json', (route) =>
+      route.fulfill({
+        contentType: 'application/json',
+        body: JSON.stringify({
+          updatedAt: '2026-11-03T12:00:00Z',
+          season: meta.season,
+          tally: { austin: 0, field: 1 },
+          weeks: [{ week: scoredWeek, austinPoints: 95.08, topEntryName: 'Gavin', topEntryPoints: 120.5, entryCount: 2, winner: 'field' }],
+        }),
+      }),
+    );
+    await page.route(`**/data/weeks/${scoredWeek}/results.json`, (route) =>
+      route.fulfill({
+        contentType: 'application/json',
+        body: JSON.stringify({
+          updatedAt: '2026-11-03T12:00:00Z',
+          season: meta.season,
+          week: scoredWeek,
+          austin: { teamName: 'Gooners Guild of America', points: 95.08, lineup: [] },
+          winner: 'field',
+          entries: [
+            { entryId: 'a', name: 'Gavin', teamName: 'Waiver Kings', points: 120.5, beatAustin: true, lineup: lineup(120.5) },
+            { entryId: 'b', name: 'Sam', teamName: null, points: 80, beatAustin: false, lineup: lineup(80) },
+          ],
+        }),
+      }),
+    );
+
+    await page.goto('#/results');
+    await expect(page.getByRole('heading', { name: 'The field beats Austin' })).toBeVisible();
+    const rows = page.locator('ol.board > li');
+    await expect(rows).toHaveCount(3);
+    await expect(rows.nth(0)).toContainText('Beat Austin');
+    await expect(rows.nth(1)).toContainText('Austin');
+    await expect(rows.nth(1)).toHaveClass(/is-austin/);
+    await expect(rows.nth(2)).toContainText('Fell short');
+
+    await expect(page.locator('.bars__row--you')).toContainText('Gavin');
+    await page.getByRole('combobox', { name: /^Entry/ }).selectOption('b');
+    await expect(page.locator('.bars__row--you')).toContainText('Sam');
+
+    await expect(page.locator('.tally__side--field .tally__num')).toHaveText('1');
+    await expectNoOverflow(page);
+
+    // The week picker switches to this week's live board.
+    await page.getByRole('combobox', { name: /^Week/ }).selectOption(String(meta.week));
+    await expect(page.getByRole('heading', { name: /the board/ })).toBeVisible();
   });
 });

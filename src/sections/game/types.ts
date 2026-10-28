@@ -34,7 +34,7 @@ export type LeagueFile = {
   teams: { teamId: number; name: string; owner: string; projTotal: number; actualTotal: number; isAustin: boolean }[];
 };
 
-/** public/data/results.json, written by the scoring Action. */
+/** public/data/results.json, written by scripts/score-week.mjs. One row per scored week. */
 export type ResultsFile = {
   updatedAt: string;
   season: number;
@@ -44,6 +44,26 @@ export type ResultsFile = {
     austinPoints: number;
     topEntryName: string | null;
     topEntryPoints: number | null;
+    entryCount: number;
     winner: 'austin' | 'field';
+  }[];
+};
+
+export type ScoredPlayer = { slot: string; playerId: number; name: string; pos: string | null; team: string | null; points: number };
+
+/** public/data/weeks/<n>/results.json: every entry's final score and lineup. */
+export type WeekResultsFile = {
+  updatedAt: string;
+  season: number;
+  week: number;
+  austin: { teamName: string; points: number; lineup: AustinFile['lineup'] };
+  winner: 'austin' | 'field' | null;
+  entries: {
+    entryId: string;
+    name: string;
+    teamName: string | null;
+    points: number;
+    beatAustin: boolean;
+    lineup: ScoredPlayer[];
   }[];
 };
