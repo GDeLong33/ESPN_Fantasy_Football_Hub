@@ -23,7 +23,7 @@ import {
   rosterSnapshot,
 } from './events.mjs';
 import { addToIndex, easternDate, storyMarkdown, uniqueSlug } from './publish.mjs';
-import { pickProvider, storyPrompt, tagFor, writeStory } from './writer.mjs';
+import { isTransient, pickProvider, storyPrompt, tagFor, writeStory } from './writer.mjs';
 
 const { values: args } = parseArgs({
   options: {
@@ -128,7 +128,7 @@ async function main() {
   const taken = new Set(index.stories.map((s) => s.slug));
   const recapped = new Set(state?.recapped ?? []);
   let lastRumorAt = state?.lastRumorAt ?? null;
-  let failures = 0;
+  let failures = 0; // real problems (bad key, bad output): fail the job so it gets noticed
 
   for (const event of todo) {
     const facts =
@@ -158,6 +158,11 @@ async function main() {
       if (event.kind === 'rumor') lastRumorAt = new Date().toISOString();
       console.log(`  published ${slug}`);
     } catch (err) {
+      if (isTransient(err)) {
+        // The AI is overloaded. Stop here; this and the rest are retried next run.
+        console.warn(`  AI is busy (${err.status ?? err.message}); ${event.id} and anything after it will be retried next run`);
+        break;
+      }
       failures++;
       console.error(`  FAILED to write ${event.id}: ${err.message}`);
     }
@@ -175,7 +180,7 @@ async function main() {
     covered: [...covered].slice(-500),
     pending,
   });
-  if (failures && failures === todo.length) throw new Error(`all ${failures} stories failed`);
+  if (failures) throw new Error(`${failures} stor${failures === 1 ? 'y' : 'ies'} failed (see above)`);
 }
 
 main().catch((err) => {

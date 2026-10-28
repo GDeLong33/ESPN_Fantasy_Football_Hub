@@ -136,3 +136,26 @@ describe('publishing', () => {
     expect(idx).toEqual({ updatedAt: 'now', stories: [{ slug: 'new' }, { slug: 'old' }] });
   });
 });
+
+describe('retries', () => {
+  it('retries overloads, then gives up; never retries a bad request', async () => {
+    const { withRetries, isTransient } = await import('./writer.mjs');
+    let calls = 0;
+    const busyTwice = () => (++calls <= 2 ? Promise.reject(Object.assign(new Error('high demand'), { status: 503 })) : Promise.resolve('ok'));
+    await expect(withRetries(busyTwice, { waits: [0, 0, 0], label: 't' })).resolves.toBe('ok');
+    expect(calls).toBe(3);
+
+    calls = 0;
+    const alwaysBusy = () => (calls++, Promise.reject(Object.assign(new Error('busy'), { status: 503 })));
+    await expect(withRetries(alwaysBusy, { waits: [0, 0], label: 't' })).rejects.toMatchObject({ status: 503 });
+    expect(calls).toBe(3);
+
+    calls = 0;
+    const badKey = () => (calls++, Promise.reject(Object.assign(new Error('bad key'), { status: 401 })));
+    await expect(withRetries(badKey, { waits: [0, 0], label: 't' })).rejects.toMatchObject({ status: 401 });
+    expect(calls).toBe(1);
+
+    expect(isTransient({ status: 503 })).toBe(true);
+    expect(isTransient({ status: 400 })).toBe(false);
+  });
+});

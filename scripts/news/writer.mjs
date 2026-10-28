@@ -61,7 +61,8 @@ export function cleanStory(raw) {
 // ---------------------------------------------------------------- Claude
 
 async function writeWithClaude(prompt) {
-  const client = new Anthropic(); // reads ANTHROPIC_API_KEY
+  // Reads ANTHROPIC_API_KEY. The SDK itself retries overloads (429/5xx) with backoff.
+  const client = new Anthropic({ maxRetries: 4 });
   const response = await client.beta.messages.create({
     model: process.env.CLAUDE_MODEL || 'claude-opus-5-5',
     max_tokens: 16000,
@@ -104,6 +105,29 @@ export function rankGeminiModels(models) {
 
 let geminiModelCache = null;
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+/** Overloaded or unreachable: worth waiting and trying again (unlike a bad key or a bad request). */
+export function isTransient(err) {
+  const status = err?.status;
+  if ([408, 429, 500, 502, 503, 504, 529].includes(status)) return true;
+  return err instanceof TypeError || /ECONNRESET|ETIMEDOUT|fetch failed|overloaded|high demand/i.test(err?.message ?? '');
+}
+
+/** Retry `fn` on overload errors with a growing wait (2s, 8s, 20s by default). */
+export async function withRetries(fn, { waits = [2000, 8000, 20000], label = 'request' } = {}) {
+  for (let attempt = 0; ; attempt++) {
+    try {
+      return await fn();
+    } catch (err) {
+      const status = err?.status;
+      if (attempt >= waits.length || !isTransient(err) || status === 429) throw err;
+      console.warn(`  ${label}: busy (${status ?? err.message}), retrying in ${waits[attempt] / 1000}s`);
+      await sleep(waits[attempt]);
+    }
+  }
+}
+
 async function writeWithGemini(prompt) {
   const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
   if (!geminiModelCache) {
@@ -117,27 +141,35 @@ async function writeWithGemini(prompt) {
     }
   }
   let lastError;
-  // Free-tier access differs by model: on quota/permission errors, try the next one.
+  // Each model gets a few retries when overloaded. Then, or straight away on quota/permission
+  // errors (free-tier access differs by model), move on to the next model.
   for (const model of [...geminiModelCache]) {
     try {
-      const res = await ai.models.generateContent({
-        model,
-        contents: prompt,
-        config: {
-          systemInstruction: PERSONA,
-          responseMimeType: 'application/json',
-          responseJsonSchema: STORY_SCHEMA,
-          maxOutputTokens: 8192,
-        },
-      });
+      const res = await withRetries(
+        () =>
+          ai.models.generateContent({
+            model,
+            contents: prompt,
+            config: {
+              systemInstruction: PERSONA,
+              responseMimeType: 'application/json',
+              responseJsonSchema: STORY_SCHEMA,
+              maxOutputTokens: 8192,
+            },
+          }),
+        { label: `Gemini ${model}` },
+      );
       if (!res.text) throw new Error(`Gemini (${model}) returned no text`);
       geminiModelCache = [model, ...geminiModelCache.filter((m) => m !== model)];
       return res.text;
     } catch (err) {
       lastError = err;
-      if (err instanceof ApiError && [403, 404, 429].includes(err.status)) {
-        console.warn(`  Gemini ${model}: HTTP ${err.status}, trying the next model`);
+      if (err instanceof ApiError && [403, 404].includes(err.status)) {
+        // Not available to this key at all: drop it for the rest of the run.
         geminiModelCache = geminiModelCache.filter((m) => m !== model);
+      }
+      if ((err instanceof ApiError && [403, 404].includes(err.status)) || isTransient(err)) {
+        console.warn(`  Gemini ${model}: ${err.status ?? err.message}, trying the next model`);
         continue;
       }
       throw err;
