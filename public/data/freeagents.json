@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T23:27:33.091Z",
+  "updatedAt": "2026-10-28T00:09:44.853Z",
   "season": 2026,
   "week": 8,
   "players": [
@@ -9,7 +9,7 @@
       "pos": "QB",
       "team": "CLE",
       "injury": null,
-      "ownedPct": 14.65,
+      "ownedPct": 14.64,
       "projPts": 13.04
     },
     {
@@ -18,7 +18,7 @@
       "pos": "QB",
       "team": "PHI",
       "injury": null,
-      "ownedPct": 5.75,
+      "ownedPct": 5.74,
       "projPts": 12.38
     },
     {
@@ -45,7 +45,7 @@
       "pos": "K",
       "team": "BUF",
       "injury": null,
-      "ownedPct": 9.76,
+      "ownedPct": 9.77,
       "projPts": 10.39
     },
     {
@@ -72,7 +72,7 @@
       "pos": "K",
       "team": "KC",
       "injury": null,
-      "ownedPct": 69.52,
+      "ownedPct": 69.49,
       "projPts": 8.97
     },
     {
@@ -81,7 +81,7 @@
       "pos": "WR",
       "team": "WSH",
       "injury": null,
-      "ownedPct": 0.51,
+      "ownedPct": 0.52,
       "projPts": 8.96
     },
     {
@@ -90,7 +90,7 @@
       "pos": "RB",
       "team": "PHI",
       "injury": "Q",
-      "ownedPct": 41.41,
+      "ownedPct": 41.39,
       "projPts": 8.84
     },
     {
@@ -99,7 +99,7 @@
       "pos": "WR",
       "team": "DEN",
       "injury": null,
-      "ownedPct": 65,
+      "ownedPct": 64.99,
       "projPts": 8.77
     },
     {
@@ -144,7 +144,7 @@
       "pos": "K",
       "team": "CLE",
       "injury": null,
-      "ownedPct": 1.38,
+      "ownedPct": 1.37,
       "projPts": 8.27
     },
     {
@@ -171,7 +171,7 @@
       "pos": "WR",
       "team": "PHI",
       "injury": "Q",
-      "ownedPct": 27.58,
+      "ownedPct": 27.56,
       "projPts": 8.15
     },
     {
@@ -207,7 +207,7 @@
       "pos": "RB",
       "team": "TB",
       "injury": null,
-      "ownedPct": 51.05,
+      "ownedPct": 51.04,
       "projPts": 7.76
     },
     {
@@ -234,7 +234,7 @@
       "pos": "K",
       "team": "CAR",
       "injury": null,
-      "ownedPct": 17.06,
+      "ownedPct": 17.02,
       "projPts": 7.37
     },
     {
@@ -243,7 +243,7 @@
       "pos": "K",
       "team": "LAC",
       "injury": null,
-      "ownedPct": 45.77,
+      "ownedPct": 45.76,
       "projPts": 7.34
     },
     {
@@ -279,7 +279,7 @@
       "pos": "D/ST",
       "team": "WSH",
       "injury": null,
-      "ownedPct": 2.61,
+      "ownedPct": 2.62,
       "projPts": 7.07
     },
     {
@@ -288,7 +288,7 @@
       "pos": "TE",
       "team": "TB",
       "injury": null,
-      "ownedPct": 3.51,
+      "ownedPct": 3.5,
       "projPts": 7.06
     },
     {
@@ -297,7 +297,7 @@
       "pos": "RB",
       "team": "CLE",
       "injury": null,
-      "ownedPct": 8.55,
+      "ownedPct": 8.54,
       "projPts": 6.8
     },
     {
@@ -306,7 +306,7 @@
       "pos": "WR",
       "team": "GB",
       "injury": null,
-      "ownedPct": 1.35,
+      "ownedPct": 1.34,
       "projPts": 6.8
     },
     {
@@ -315,7 +315,7 @@
       "pos": "WR",
       "team": "TB",
       "injury": null,
-      "ownedPct": 8.05,
+      "ownedPct": 8.03,
       "projPts": 6.78
     },
     {
@@ -414,7 +414,7 @@
       "pos": "RB",
       "team": "LAC",
       "injury": null,
-      "ownedPct": 13.92,
+      "ownedPct": 13.91,
       "projPts": 5.86
     },
     {
@@ -477,7 +477,7 @@
       "pos": "TE",
       "team": "DAL",
       "injury": null,
-      "ownedPct": 53.24,
+      "ownedPct": 53.22,
       "projPts": 5.46
     },
     {
@@ -486,7 +486,7 @@
       "pos": "WR",
       "team": "JAX",
       "injury": null,
-      "ownedPct": 43.25,
+      "ownedPct": 43.24,
       "projPts": 5.4
     },
     {
@@ -567,7 +567,7 @@
       "pos": "RB",
       "team": "KC",
       "injury": null,
-      "ownedPct": 13.2,
+      "ownedPct": 13.19,
       "projPts": 4.8
     },
     {
@@ -621,7 +621,7 @@
       "pos": "RB",
       "team": "MIA",
       "injury": "Q",
-      "ownedPct": 3.99,
+      "ownedPct": 3.98,
       "projPts": 4.41
     },
     {
@@ -684,7 +684,7 @@
       "pos": "D/ST",
       "team": "PHI",
       "injury": null,
-      "ownedPct": 40.68,
+      "ownedPct": 40.67,
       "projPts": 3.7
     },
     {
@@ -801,7 +801,7 @@
       "pos": "D/ST",
       "team": "TEN",
       "injury": null,
-      "ownedPct": 32.24,
+      "ownedPct": 32.18,
       "projPts": 3.16
     },
     {
@@ -855,7 +855,7 @@
       "pos": "D/ST",
       "team": "IND",
       "injury": null,
-      "ownedPct": 5.68,
+      "ownedPct": 5.67,
       "projPts": 3.02
     },
     {
@@ -954,7 +954,7 @@
       "pos": "D/ST",
       "team": "ARI",
       "injury": null,
-      "ownedPct": 0.84,
+      "ownedPct": 0.83,
       "projPts": 2.29
     },
     {
@@ -1737,7 +1737,7 @@
       "pos": "WR",
       "team": "WSH",
       "injury": "O",
-      "ownedPct": 50.62,
+      "ownedPct": 50.58,
       "projPts": 0
     },
     {
@@ -1746,7 +1746,7 @@
       "pos": "QB",
       "team": "PHI",
       "injury": "IR",
-      "ownedPct": 41.33,
+      "ownedPct": 41.29,
       "projPts": 0
     },
     {
@@ -1755,7 +1755,7 @@
       "pos": "RB",
       "team": "MIA",
       "injury": "IR",
-      "ownedPct": 32.02,
+      "ownedPct": 32.01,
       "projPts": 0
     },
     {
@@ -1764,7 +1764,7 @@
       "pos": "WR",
       "team": "HOU",
       "injury": null,
-      "ownedPct": 29.9,
+      "ownedPct": 29.86,
       "projPts": 0
     },
     {
@@ -1773,7 +1773,7 @@
       "pos": "QB",
       "team": "NYG",
       "injury": "IR",
-      "ownedPct": 23.42,
+      "ownedPct": 23.41,
       "projPts": 0
     },
     {
@@ -1791,7 +1791,7 @@
       "pos": "WR",
       "team": "GB",
       "injury": "IR",
-      "ownedPct": 21.25,
+      "ownedPct": 21.24,
       "projPts": 0
     },
     {
@@ -1800,7 +1800,7 @@
       "pos": "WR",
       "team": "SF",
       "injury": null,
-      "ownedPct": 15.91,
+      "ownedPct": 15.85,
       "projPts": 0
     },
     {
@@ -1827,7 +1827,7 @@
       "pos": "QB",
       "team": "NYG",
       "injury": null,
-      "ownedPct": 8.48,
+      "ownedPct": 8.47,
       "projPts": 0
     },
     {
@@ -1845,7 +1845,7 @@
       "pos": "RB",
       "team": "GB",
       "injury": null,
-      "ownedPct": 6.04,
+      "ownedPct": 6.03,
       "projPts": 0
     },
     {
@@ -1854,7 +1854,7 @@
       "pos": "D/ST",
       "team": "NYG",
       "injury": null,
-      "ownedPct": 6.01,
+      "ownedPct": 6,
       "projPts": 0
     },
     {
@@ -1863,7 +1863,7 @@
       "pos": "RB",
       "team": "PHI",
       "injury": "IR",
-      "ownedPct": 5.17,
+      "ownedPct": 5.16,
       "projPts": 0
     },
     {
@@ -1881,7 +1881,7 @@
       "pos": "QB",
       "team": "BAL",
       "injury": null,
-      "ownedPct": 4.15,
+      "ownedPct": 4.14,
       "projPts": 0
     },
     {
@@ -1890,7 +1890,7 @@
       "pos": "WR",
       "team": "HOU",
       "injury": null,
-      "ownedPct": 3.79,
+      "ownedPct": 3.78,
       "projPts": 0
     },
     {
@@ -1935,7 +1935,7 @@
       "pos": "RB",
       "team": "CLE",
       "injury": null,
-      "ownedPct": 2.97,
+      "ownedPct": 2.96,
       "projPts": 0
     },
     {
@@ -1953,7 +1953,7 @@
       "pos": "RB",
       "team": "NYJ",
       "injury": null,
-      "ownedPct": 2.6,
+      "ownedPct": 2.59,
       "projPts": 0
     },
     {
@@ -1989,7 +1989,7 @@
       "pos": "K",
       "team": "LAR",
       "injury": "IR",
-      "ownedPct": 1.79,
+      "ownedPct": 1.78,
       "projPts": 0
     },
     {
@@ -2016,7 +2016,7 @@
       "pos": "WR",
       "team": "SF",
       "injury": null,
-      "ownedPct": 1.68,
+      "ownedPct": 1.67,
       "projPts": 0
     },
     {
@@ -2052,7 +2052,7 @@
       "pos": "RB",
       "team": "FA",
       "injury": "Q",
-      "ownedPct": 1.32,
+      "ownedPct": 1.31,
       "projPts": 0
     },
     {
@@ -2254,21 +2254,21 @@
       "projPts": 0
     },
     {
-      "id": 4685246,
-      "name": "Kaytron Allen",
-      "pos": "RB",
-      "team": "MIA",
-      "injury": null,
-      "ownedPct": 0.4,
-      "projPts": 0
-    },
-    {
       "id": 4601080,
       "name": "Raheim Sanders",
       "pos": "RB",
       "team": "CLE",
       "injury": "IR",
       "ownedPct": 0.4,
+      "projPts": 0
+    },
+    {
+      "id": 4685246,
+      "name": "Kaytron Allen",
+      "pos": "RB",
+      "team": "MIA",
+      "injury": null,
+      "ownedPct": 0.39,
       "projPts": 0
     },
     {
@@ -2281,20 +2281,20 @@
       "projPts": 0
     },
     {
-      "id": 4596602,
-      "name": "Brashard Smith",
-      "pos": "RB",
-      "team": "KC",
-      "injury": "IR",
-      "ownedPct": 0.38,
-      "projPts": 0
-    },
-    {
       "id": 4036131,
       "name": "Noah Fant",
       "pos": "TE",
       "team": "NO",
       "injury": null,
+      "ownedPct": 0.37,
+      "projPts": 0
+    },
+    {
+      "id": 4596602,
+      "name": "Brashard Smith",
+      "pos": "RB",
+      "team": "KC",
+      "injury": "IR",
       "ownedPct": 0.37,
       "projPts": 0
     },
