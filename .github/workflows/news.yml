@@ -1,0 +1,66 @@
+name: Write league news
+
+on:
+  schedule:
+    # 9 AM and 7 PM Eastern (13:30 / 23:30 UTC; an hour off during standard time).
+    - cron: '30 13,23 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  # Shared with the ESPN sync so the two never push at the same time.
+  group: data-sync
+  cancel-in-progress: false
+
+jobs:
+  write:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    env:
+      LEAGUE_ID: ${{ vars.LEAGUE_ID || '1143865755' }}
+      SEASON: ${{ vars.SEASON || '2026' }}
+      AUSTIN_TEAM_ID: ${{ vars.AUSTIN_TEAM_ID || '9' }}
+      ESPN_S2: ${{ secrets.ESPN_S2 }}
+      ESPN_SWID: ${{ secrets.ESPN_SWID }}
+      # Add either key as a repo secret. If both exist, Claude is used unless NEWS_AI says "gemini".
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      NEWS_AI: ${{ vars.NEWS_AI }}
+      GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Write stories
+        run: node scripts/news/write-news.mjs
+      - name: Commit new stories
+        id: commit
+        run: |
+          git add public/data/news data/news-state.json
+          if git diff --cached --quiet; then
+            echo "No new stories."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "news: Stephen A. DeLong files $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: write
+    if: needs.write.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy.yml
+    secrets: inherit

@@ -4,6 +4,7 @@ import { LockInPage } from './sections/game/LockInPage';
 import { PlayPage } from './sections/game/PlayPage';
 import { ResultsPage } from './sections/game/ResultsPage';
 import { HomePage } from './sections/news/HomePage';
+import { NewsArchive } from './sections/news/NewsArchive';
 import { StoryPage } from './sections/news/StoryPage';
 
 export function App() {
@@ -13,6 +14,7 @@ export function App() {
         <Route element={<Layout />}>
           {/* News hub */}
           <Route index element={<HomePage />} />
+          <Route path="news" element={<NewsArchive />} />
           <Route path="news/:slug" element={<StoryPage />} />
           {/* Can You Beat Austin? */}
           <Route path="play" element={<PlayPage />} />

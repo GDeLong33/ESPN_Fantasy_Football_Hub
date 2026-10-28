@@ -41,17 +41,19 @@ export async function loadStory(slug: string): Promise<Story | null> {
   };
 }
 
-export async function loadStories(): Promise<{ stories: Story[]; updatedAt?: string | null }> {
+/** The newest `limit` stories (all when omitted), plus how many exist in total. */
+export async function loadStories(limit?: number): Promise<{ stories: Story[]; total: number; updatedAt?: string | null }> {
   const { data } = await loadData<NewsIndex>('news/index.json');
-  if (!data || !Array.isArray(data.stories)) return { stories: [] };
-  const loaded = await Promise.all(data.stories.map((s) => loadStory(s.slug)));
+  if (!data || !Array.isArray(data.stories)) return { stories: [], total: 0 };
+  const listed = limit ? data.stories.slice(0, limit) : data.stories;
+  const loaded = await Promise.all(listed.map((s) => loadStory(s.slug)));
   loaded.forEach((s, i) => {
-    if (!s) console.warn(`news: story "${data.stories[i].slug}" is listed in index.json but its .md file is missing`);
+    if (!s) console.warn(`news: story "${listed[i].slug}" is listed in index.json but its .md file is missing`);
   });
-  return { stories: loaded.filter((s): s is Story => s !== null), updatedAt: data.updatedAt };
+  return { stories: loaded.filter((s): s is Story => s !== null), total: data.stories.length, updatedAt: data.updatedAt };
 }
 
-/** Story bodies are written by the site owner and committed to the repo. */
+/** Story bodies come from the repo; AI-written ones have "<" escaped by scripts/news/writer.mjs. */
 export function renderMarkdown(body: string): string {
   return marked.parse(body, { async: false }) as string;
 }

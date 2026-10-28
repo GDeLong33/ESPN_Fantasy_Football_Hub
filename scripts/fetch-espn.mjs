@@ -103,7 +103,7 @@ async function main() {
 
   const [rosters, scoreboard] = await Promise.all([
     espn.league({ views: ['mRoster'], params: { scoringPeriodId: week } }),
-    espn.league({ views: ['mScoreboard'], params: { scoringPeriodId: week } }),
+    espn.league({ views: ['mMatchupScore', 'mScoreboard'], params: { scoringPeriodId: week } }),
   ]);
 
   const austin = buildAustin(rosters, ctx);

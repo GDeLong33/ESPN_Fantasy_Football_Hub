@@ -165,3 +165,41 @@ test.describe('week board', () => {
     await expectNoOverflow(page);
   });
 });
+
+test.describe('news', () => {
+  test.use({ viewport: { width: 390, height: 844 } });
+
+  test('an AI-written rumor shows on the home page', async ({ page }) => {
+    await page.route('**/data/news/index.json', (route) =>
+      route.fulfill({ contentType: 'application/json', body: JSON.stringify({ updatedAt: null, stories: [{ slug: '2026-10-28-rumor-test' }] }) }),
+    );
+    await page.route('**/data/news/2026-10-28-rumor-test.md', (route) =>
+      route.fulfill({
+        contentType: 'text/markdown',
+        body: [
+          '---',
+          'title: "Gooners Guild Fires Strength Coach"',
+          'tag: "Rumor mill"',
+          'summary: "Sources say the weight room is in shambles."',
+          'date: 2026-10-28',
+          'author: "Stephen A. DeLong"',
+          'satire: "true"',
+          '---',
+          '',
+          'LET ME TELL YOU SOMETHING. &lt;b>not bold&lt;/b>',
+          '',
+        ].join('\n'),
+      }),
+    );
+
+    await page.goto('#/');
+    const lead = page.locator('.lead');
+    await expect(lead.getByRole('heading', { name: 'Gooners Guild Fires Strength Coach' })).toBeVisible();
+
+    await lead.getByRole('link', { name: 'Gooners Guild Fires Strength Coach' }).click();
+    await expect(page.getByText('LET ME TELL YOU SOMETHING.')).toBeVisible();
+    await expect(page.getByText('<b>not bold</b>')).toBeVisible(); // escaped HTML stays text
+    await expect(page.locator('.prose b')).toHaveCount(0);
+    await expectNoOverflow(page);
+  });
+});

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { DataState } from '../../components/DataState';
 import { useAsync } from '../../lib/useAsync';
 import { PromoCard } from '../game/PromoCard';
@@ -7,7 +8,8 @@ import { LeadStory, StoryGrid } from './StoryCards';
 import { loadStories } from './stories';
 
 export function HomePage() {
-  const news = useAsync(loadStories, []);
+  // Lead story + 8 cards; older stories live on the All stories page.
+  const news = useAsync(() => loadStories(9), []);
 
   return (
     <div className="container">
@@ -29,7 +31,16 @@ export function HomePage() {
             Latest from the league
           </h2>
           <DataState state={news} loading="Loading stories…">
-            {({ stories }) => <StoryGrid stories={stories.slice(1)} />}
+            {({ stories, total }) => (
+              <>
+                <StoryGrid stories={stories.slice(1)} />
+                {total > stories.length && (
+                  <Link className="text-link" to="/news">
+                    All stories →
+                  </Link>
+                )}
+              </>
+            )}
           </DataState>
         </section>
         <div className="home-side">
