@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T23:26:36.911Z",
+  "updatedAt": "2026-10-28T20:21:44.115Z",
   "week": 8,
   "teamId": 9,
   "teamName": "Gooners Guild of America",
@@ -19,7 +19,7 @@
       "name": "Jeremiyah Love",
       "pos": "RB",
       "team": "ARI",
-      "projPts": 11.68,
+      "projPts": 11.56,
       "actualPts": null
     },
     {
@@ -86,6 +86,6 @@
       "actualPts": null
     }
   ],
-  "projTotal": 95.8,
+  "projTotal": 95.68,
   "actualTotal": 0
 }
