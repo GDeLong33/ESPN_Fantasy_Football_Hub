@@ -23,10 +23,13 @@ function saveDraft(season: number, week: number, lineup: Lineup) {
   }
 }
 
+/** What this browser submitted this week. `lineup` is missing on entries saved before it was added. */
+export type EnteredEntry = { name: string; teamName: string | null; lineup?: Lineup };
+
 /** Remembers, in this browser only, that an entry was submitted this week. */
 const enteredKey = (season: number, week: number) => `cyba:entered:${season}:${week}`;
 
-export function loadEntered(season: number, week: number): { name: string; teamName: string | null } | null {
+export function loadEntered(season: number, week: number): EnteredEntry | null {
   try {
     const raw = localStorage.getItem(enteredKey(season, week));
     return raw ? JSON.parse(raw) : null;
@@ -35,7 +38,7 @@ export function loadEntered(season: number, week: number): { name: string; teamN
   }
 }
 
-export function saveEntered(season: number, week: number, entry: { name: string; teamName: string | null }) {
+export function saveEntered(season: number, week: number, entry: EnteredEntry) {
   try {
     localStorage.setItem(enteredKey(season, week), JSON.stringify(entry));
   } catch {

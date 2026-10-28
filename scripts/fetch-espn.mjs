@@ -167,7 +167,7 @@ async function main() {
       p_week: week,
       p_lock_time: lockTime,
       p_slots: meta.slots,
-      p_players: freeagents.players.map((p) => ({ id: p.id, pos: p.pos })),
+      p_players: freeagents.players.map(({ id, pos, name, team, projPts }) => ({ id, pos, name, team, projPts })),
     });
     console.log(`  Supabase: week ${week} ${status} (${freeagents.players.length} players)`);
   }

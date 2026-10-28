@@ -114,3 +114,42 @@ test.describe('lock in', () => {
     await expect(page.getByRole('alert')).toContainText('Someone already entered as "Gavin" this week.');
   });
 });
+
+test.describe('week board', () => {
+  test.use({ viewport: { width: 390, height: 844 } });
+
+  test('lists entries with projections, highlights Austin and your entry', async ({ page }) => {
+    const meta = await (await page.request.get('data/meta.json')).json();
+    const austin = await (await page.request.get('data/austin.json')).json();
+    const pool = await (await page.request.get('data/freeagents.json')).json();
+    const ids = pool.players.slice(0, 3).map((p: { id: number }) => p.id);
+
+    await page.addInitScript(
+      ([season, week, lineup]) =>
+        localStorage.setItem(`cyba:entered:${season}:${week}`, JSON.stringify({ name: 'Test Player', teamName: 'Waiver Kings', lineup })),
+      [meta.season, meta.week, ids] as const,
+    );
+    await page.route('https://fake.supabase.test/rest/v1/rpc/entry_board*', (route) =>
+      route.fulfill({
+        status: 200,
+        contentType: 'application/json',
+        body: JSON.stringify([
+          { entry_id: 'a', name: 'Test Player', team_name: 'Waiver Kings', created_at: '2026-10-28T00:00:00Z', proj_total: austin.projTotal + 5, lineup: null },
+          { entry_id: 'b', name: 'Someone Else', team_name: null, created_at: '2026-10-28T00:00:00Z', proj_total: austin.projTotal - 10, lineup: null },
+        ]),
+      }),
+    );
+
+    await page.goto('#/results');
+    await expect(page.getByRole('heading', { name: 'The board' })).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Your entry' })).toBeVisible();
+    const board = page.locator('ol.board');
+    await expect(board.locator('.board__row')).toHaveCount(2);
+    await expect(board.locator('.is-mine')).toContainText('Ahead of Austin');
+    await expect(board.locator('.board__row').nth(1)).toContainText('Behind Austin');
+    await expect(page.locator('.bars__row--austin')).toContainText('(Austin)');
+    await expect(page.locator('.bars__row--you')).toHaveCount(1);
+    await expect(page.locator('.bars__row--entry')).toHaveCount(1);
+    await expectNoOverflow(page);
+  });
+});

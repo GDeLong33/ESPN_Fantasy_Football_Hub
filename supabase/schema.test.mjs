@@ -1,10 +1,15 @@
 // Runs the real migration in an in-process Postgres (PGlite) and checks the rules
 // from a visitor's point of view (the `anon` role), the way Supabase enforces them.
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import { PGlite } from '@electric-sql/pglite';
 import { beforeAll, beforeEach, describe, expect, it } from 'vitest';
 
-const migration = readFileSync(new URL('./migrations/20261027000000_game_schema.sql', import.meta.url), 'utf8');
+// Every migration, in filename (date) order, the way they're pasted into Supabase.
+const dir = new URL('./migrations/', import.meta.url);
+const migrations = readdirSync(dir)
+  .filter((f) => f.endsWith('.sql'))
+  .sort()
+  .map((f) => readFileSync(new URL(f, dir), 'utf8'));
 
 const SLOTS = [
   { slot: 'QB', accepts: ['QB'] },
@@ -12,11 +17,11 @@ const SLOTS = [
   { slot: 'FLEX', accepts: ['RB', 'WR', 'TE'] },
 ];
 const POOL = [
-  { id: 1, pos: 'QB' },
-  { id: 2, pos: 'RB' },
-  { id: 3, pos: 'RB' },
-  { id: 4, pos: 'WR' },
-  { id: 5, pos: 'QB' },
+  { id: 1, pos: 'QB', name: 'Q One', team: 'CLE', projPts: 13.04 },
+  { id: 2, pos: 'RB', name: 'R Two', team: 'PHI', projPts: 8.8 },
+  { id: 3, pos: 'RB', name: 'R Three', team: 'LAC', projPts: 7.9 },
+  { id: 4, pos: 'WR', name: 'W Four', team: 'JAX', projPts: 10.8 },
+  { id: 5, pos: 'QB', name: 'Q Five', team: 'TEN', projPts: 10.9 },
 ];
 const LINEUP = [
   { slot: 'QB', playerId: 1 },
@@ -43,12 +48,12 @@ const enter = (name, lineup = LINEUP, week = 8, team = null) =>
     JSON.stringify(lineup),
   ]);
 
-async function syncWeek(week, lockTime) {
+async function syncWeek(week, lockTime, pool = POOL) {
   return db.query('select sync_week(2026, $1, $2, $3, $4) as status', [
     week,
     lockTime,
     JSON.stringify(SLOTS),
-    JSON.stringify(POOL),
+    JSON.stringify(pool),
   ]);
 }
 
@@ -64,8 +69,8 @@ beforeAll(async () => {
     create role service_role nologin bypassrls;
     grant usage on schema public to anon, authenticated, service_role;
   `);
-  await db.exec(migration);
-  await db.exec(migration); // must be safe to run twice
+  for (const sql of migrations) await db.exec(sql);
+  for (const sql of migrations) await db.exec(sql); // must be safe to run twice
 });
 
 beforeEach(async () => {
@@ -140,5 +145,33 @@ describe('sync_week', () => {
     const { rows } = await syncWeek(8, future());
     expect(rows[0].status).toBe('frozen');
     expect((await db.query('select lock_time < now() as locked from weeks')).rows[0].locked).toBe(true);
+  });
+});
+
+describe('entry_board', () => {
+  const board = () => asAnon('select name, proj_total::float as proj, lineup from entry_board(2026, 8)');
+
+  it('shows names and projected totals before lock, but not lineups', async () => {
+    await enter('Low', [LINEUP[0], { slot: 'RB', playerId: 3 }, LINEUP[2]]);
+    await enter('High');
+    const { rows } = await board();
+    expect(rows).toEqual([
+      { name: 'High', proj: 32.64, lineup: null },
+      { name: 'Low', proj: 31.74, lineup: null },
+    ]);
+  });
+
+  it('reveals lineups with player details once the week locks', async () => {
+    await enter('Gavin');
+    await db.query('update weeks set lock_time = $1', [past()]);
+    const { rows } = await board();
+    expect(rows[0].lineup[0]).toEqual({ slot: 'QB', playerId: 1, name: 'Q One', pos: 'QB', team: 'CLE', proj: 13.04 });
+  });
+
+  it('keeps projections for players claimed after an entry, but blocks new picks of them', async () => {
+    await enter('Early');
+    await syncWeek(8, future(), POOL.filter((p) => p.id !== 4)); // WR 4 got claimed
+    expect((await board()).rows[0].proj).toBe(32.64);
+    await expect(enter('Late')).rejects.toThrow('FLEX: that player is not on the waiver wire.');
   });
 });

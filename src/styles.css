@@ -14,6 +14,7 @@
   --accent-text: #9f2d35; /* accent used as text on bg/panel */
   --austin: #1f5fbf;
   --neutral-bar: #8c93a1;
+  --entry-bar: #c98f94;
   --btn-dark: #14161a;
   --on-btn-dark: #ffffff;
   --focus: #1f5fbf;
@@ -41,6 +42,7 @@
     --accent-text: #f05a5a; /* #9F2D35 is only 2.2:1 as text on the dark panel; this is 4.9:1 */
     --austin: #6fa3f0;
     --neutral-bar: #6b7280;
+    --entry-bar: #b5676d;
     --btn-dark: #edeae2;
     --on-btn-dark: #14161a;
     --focus: #6fa3f0;
@@ -61,6 +63,7 @@
   --accent-text: #f05a5a;
   --austin: #6fa3f0;
   --neutral-bar: #6b7280;
+  --entry-bar: #b5676d;
   --btn-dark: #edeae2;
   --on-btn-dark: #14161a;
   --focus: #6fa3f0;

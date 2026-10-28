@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { DataState } from '../../components/DataState';
 import { supabase } from '../../lib/supabase';
 import { useAsync } from '../../lib/useAsync';
-import { loadDraft, loadEntered, saveEntered } from './draftStore';
+import { loadDraft, loadEntered, saveEntered, type EnteredEntry } from './draftStore';
 import { fmtPts, loadGameData, oppLabel, type GameData } from './gameData';
 import { lineupTotal, reconcile, toPicks, validateLineup, type Lineup } from './lineup';
 import { formatLock } from './PromoCard';
@@ -27,7 +27,7 @@ function LockIn({ data }: { data: GameData }) {
   const picks = toPicks(meta.slots, lineup);
   const now = useNow();
   const locked = meta.lockTime != null && now >= Date.parse(meta.lockTime);
-  const [done, setDone] = useState<{ name: string; teamName: string | null } | null>(null);
+  const [done, setDone] = useState<EnteredEntry | null>(null);
 
   if (done) return <Success data={data} lineup={lineup} entry={done} />;
 
@@ -74,7 +74,7 @@ function EntryForm({
 }: {
   data: GameData;
   picks: NonNullable<ReturnType<typeof toPicks>>;
-  onDone: (entry: { name: string; teamName: string | null }) => void;
+  onDone: (entry: EnteredEntry) => void;
 }) {
   const { meta, pool } = data;
   const id = useId();
@@ -105,7 +105,11 @@ function EntryForm({
       setError(failure);
       return;
     }
-    const entry = { name: name.trim().replace(/\s+/g, ' '), teamName: teamName.trim() || null };
+    const entry: EnteredEntry = {
+      name: name.trim().replace(/\s+/g, ' '),
+      teamName: teamName.trim() || null,
+      lineup: picks.map((p) => p.playerId),
+    };
     saveEntered(meta.season, meta.week, entry);
     onDone(entry);
   }
@@ -213,7 +217,7 @@ function Success({
 }: {
   data: GameData;
   lineup: Lineup;
-  entry: { name: string; teamName: string | null };
+  entry: EnteredEntry;
 }) {
   return (
     <>
@@ -226,7 +230,7 @@ function Success({
       <LineupSummary data={data} lineup={lineup} />
       <div className="actions">
         <Link to="/results" className="btn btn--primary">
-          See results
+          See the board
         </Link>
         <Link to="/" className="btn btn--ghost">
           Back to the front page

@@ -597,3 +597,135 @@
   text-decoration: none;
   cursor: help;
 }
+
+/* Week board */
+.bars__label small {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--muted);
+}
+.bars__row--entry .bars__fill,
+.swatch--entry {
+  background: var(--entry-bar);
+}
+.board-intro {
+  padding-bottom: 8px;
+}
+.stat-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
+  gap: 16px;
+  margin: 24px 0;
+}
+.stat {
+  padding: 16px 20px;
+}
+.stat__value {
+  margin-top: 6px;
+  font-size: 40px;
+  line-height: 1;
+}
+.stat__value--austin {
+  color: var(--austin);
+}
+.your-entry {
+  margin: 24px 0;
+  max-width: 640px;
+}
+.board {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.board__row {
+  border-bottom: 1px solid var(--line);
+}
+.board__row:last-child {
+  border-bottom: 0;
+}
+.board__row.is-mine {
+  background: var(--row-hi);
+}
+.board__summary {
+  display: grid;
+  grid-template-columns: 28px 1fr auto auto;
+  gap: 4px 12px;
+  align-items: center;
+  min-height: 56px;
+  padding: 8px 20px;
+  list-style: none;
+}
+summary.board__summary {
+  cursor: pointer;
+}
+summary.board__summary::-webkit-details-marker {
+  display: none;
+}
+.board__rank {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 20px;
+}
+.board__name {
+  min-width: 0;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+.board__name small {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--muted);
+}
+.board__you {
+  margin-left: 8px;
+  padding: 1px 6px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: var(--accent);
+  color: var(--on-accent);
+}
+.board__pts {
+  font-weight: 700;
+  font-size: 18px;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+.tag {
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.tag--ahead {
+  color: var(--accent-text);
+}
+.tag--behind {
+  color: var(--austin);
+}
+@media (max-width: 479px) {
+  .board__summary {
+    grid-template-columns: 24px 1fr auto;
+  }
+  .board__summary .tag {
+    grid-column: 2 / -1;
+  }
+}
+.board__lineup {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 8px;
+}
+.board__lineup li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 20px 6px 60px;
+}
+@media (max-width: 479px) {
+  .board__lineup li {
+    padding-left: 20px;
+  }
+}
