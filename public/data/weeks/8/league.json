@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T23:26:36.911Z",
+  "updatedAt": "2026-10-28T05:53:12.308Z",
   "week": 8,
   "teams": [
     {
@@ -59,6 +59,14 @@
       "isAustin": false
     },
     {
+      "teamId": 8,
+      "name": "Any Given Sunday",
+      "owner": "Clayton T.",
+      "projTotal": 103.01,
+      "actualTotal": 0,
+      "isAustin": false
+    },
+    {
       "teamId": 4,
       "name": "Burrow it deeper",
       "owner": "Max F.",
@@ -103,14 +111,6 @@
       "name": "Zoey's Grand Canyon Hikers",
       "owner": "Jaylin M.",
       "projTotal": 95.75,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
-      "teamId": 8,
-      "name": "Any Given Sunday",
-      "owner": "Clayton T.",
-      "projTotal": 83.58,
       "actualTotal": 0,
       "isAustin": false
     }
