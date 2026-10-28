@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T00:09:44.853Z",
+  "updatedAt": "2026-10-28T00:19:33.501Z",
   "season": 2026,
   "week": 8,
   "players": [
@@ -10,7 +10,9 @@
       "team": "CLE",
       "injury": null,
       "ownedPct": 14.64,
-      "projPts": 13.04
+      "projPts": 13.04,
+      "opp": "@ PIT",
+      "oppRank": 4
     },
     {
       "id": 4685201,
@@ -19,7 +21,9 @@
       "team": "PHI",
       "injury": null,
       "ownedPct": 5.74,
-      "projPts": 12.38
+      "projPts": 12.38,
+      "opp": "@ WSH",
+      "oppRank": 30
     },
     {
       "id": 4688380,
@@ -28,7 +32,9 @@
       "team": "TEN",
       "injury": null,
       "ownedPct": 4.17,
-      "projPts": 10.86
+      "projPts": 10.86,
+      "opp": "@ CIN",
+      "oppRank": 15
     },
     {
       "id": 3916433,
@@ -37,7 +43,9 @@
       "team": "JAX",
       "injury": null,
       "ownedPct": 66.59,
-      "projPts": 10.77
+      "projPts": 10.77,
+      "opp": "vs IND",
+      "oppRank": 9
     },
     {
       "id": 3917232,
@@ -46,7 +54,9 @@
       "team": "BUF",
       "injury": null,
       "ownedPct": 9.77,
-      "projPts": 10.39
+      "projPts": 10.39,
+      "opp": "vs BAL",
+      "oppRank": 13
     },
     {
       "id": 3124679,
@@ -55,7 +65,9 @@
       "team": "NYJ",
       "injury": null,
       "ownedPct": 1.09,
-      "projPts": 9.43
+      "projPts": 9.43,
+      "opp": "vs LV",
+      "oppRank": 8
     },
     {
       "id": 5083754,
@@ -64,7 +76,9 @@
       "team": "DAL",
       "injury": null,
       "ownedPct": 15.85,
-      "projPts": 9.05
+      "projPts": 9.05,
+      "opp": "vs ARI",
+      "oppRank": 21
     },
     {
       "id": 3055899,
@@ -73,7 +87,9 @@
       "team": "KC",
       "injury": null,
       "ownedPct": 69.49,
-      "projPts": 8.97
+      "projPts": 8.97,
+      "opp": "@ DEN",
+      "oppRank": 15
     },
     {
       "id": 4567156,
@@ -82,7 +98,9 @@
       "team": "WSH",
       "injury": null,
       "ownedPct": 0.52,
-      "projPts": 8.96
+      "projPts": 8.96,
+      "opp": "vs PHI",
+      "oppRank": 31
     },
     {
       "id": 4360238,
@@ -91,7 +109,9 @@
       "team": "PHI",
       "injury": "Q",
       "ownedPct": 41.39,
-      "projPts": 8.84
+      "projPts": 8.84,
+      "opp": "@ WSH",
+      "oppRank": 7
     },
     {
       "id": 3128429,
@@ -100,7 +120,9 @@
       "team": "DEN",
       "injury": null,
       "ownedPct": 64.99,
-      "projPts": 8.77
+      "projPts": 8.77,
+      "opp": "vs KC",
+      "oppRank": 2
     },
     {
       "id": 5081335,
@@ -109,7 +131,9 @@
       "team": "WSH",
       "injury": null,
       "ownedPct": 0.67,
-      "projPts": 8.67
+      "projPts": 8.67,
+      "opp": "vs PHI",
+      "oppRank": 18
     },
     {
       "id": 4808766,
@@ -118,7 +142,9 @@
       "team": "NYJ",
       "injury": null,
       "ownedPct": 0.29,
-      "projPts": 8.67
+      "projPts": 8.67,
+      "opp": "vs LV",
+      "oppRank": 29
     },
     {
       "id": 2985659,
@@ -127,7 +153,9 @@
       "team": "DEN",
       "injury": null,
       "ownedPct": 4.55,
-      "projPts": 8.49
+      "projPts": 8.49,
+      "opp": "vs KC",
+      "oppRank": 17
     },
     {
       "id": 3045523,
@@ -136,7 +164,9 @@
       "team": "ARI",
       "injury": null,
       "ownedPct": 6.87,
-      "projPts": 8.27
+      "projPts": 8.27,
+      "opp": "@ DAL",
+      "oppRank": 24
     },
     {
       "id": 4258620,
@@ -145,7 +175,9 @@
       "team": "CLE",
       "injury": null,
       "ownedPct": 1.37,
-      "projPts": 8.27
+      "projPts": 8.27,
+      "opp": "@ PIT",
+      "oppRank": 31
     },
     {
       "id": 10621,
@@ -154,7 +186,9 @@
       "team": "ATL",
       "injury": null,
       "ownedPct": 5.77,
-      "projPts": 8.23
+      "projPts": 8.23,
+      "opp": "@ TB",
+      "oppRank": 30
     },
     {
       "id": 5081432,
@@ -163,7 +197,9 @@
       "team": "WSH",
       "injury": null,
       "ownedPct": 7.08,
-      "projPts": 8.16
+      "projPts": 8.16,
+      "opp": "vs PHI",
+      "oppRank": 31
     },
     {
       "id": 4428850,
@@ -172,7 +208,9 @@
       "team": "PHI",
       "injury": "Q",
       "ownedPct": 27.56,
-      "projPts": 8.15
+      "projPts": 8.15,
+      "opp": "@ WSH",
+      "oppRank": 27
     },
     {
       "id": 4430968,
@@ -181,7 +219,9 @@
       "team": "LAC",
       "injury": null,
       "ownedPct": 5.59,
-      "projPts": 7.94
+      "projPts": 7.94,
+      "opp": "@ LAR",
+      "oppRank": 14
     },
     {
       "id": 4831959,
@@ -190,7 +230,9 @@
       "team": "NE",
       "injury": null,
       "ownedPct": 0.34,
-      "projPts": 7.85
+      "projPts": 7.85,
+      "opp": "@ MIA",
+      "oppRank": 30
     },
     {
       "id": 4367209,
@@ -199,7 +241,9 @@
       "team": "MIA",
       "injury": null,
       "ownedPct": 0.95,
-      "projPts": 7.8
+      "projPts": 7.8,
+      "opp": "vs NE",
+      "oppRank": 16
     },
     {
       "id": 4371733,
@@ -208,7 +252,9 @@
       "team": "TB",
       "injury": null,
       "ownedPct": 51.04,
-      "projPts": 7.76
+      "projPts": 7.76,
+      "opp": "vs ATL",
+      "oppRank": 28
     },
     {
       "id": 4569923,
@@ -217,7 +263,9 @@
       "team": "NE",
       "injury": null,
       "ownedPct": 1.6,
-      "projPts": 7.55
+      "projPts": 7.55,
+      "opp": "@ MIA",
+      "oppRank": 14
     },
     {
       "id": 16339,
@@ -226,7 +274,9 @@
       "team": "LAR",
       "injury": null,
       "ownedPct": 0.38,
-      "projPts": 7.39
+      "projPts": 7.39,
+      "opp": "vs LAC",
+      "oppRank": 24
     },
     {
       "id": 4568263,
@@ -235,7 +285,9 @@
       "team": "CAR",
       "injury": null,
       "ownedPct": 17.02,
-      "projPts": 7.37
+      "projPts": 7.37,
+      "opp": "@ GB",
+      "oppRank": 1
     },
     {
       "id": 4362081,
@@ -244,7 +296,9 @@
       "team": "LAC",
       "injury": null,
       "ownedPct": 45.76,
-      "projPts": 7.34
+      "projPts": 7.34,
+      "opp": "@ LAR",
+      "oppRank": 26
     },
     {
       "id": 4361409,
@@ -253,7 +307,9 @@
       "team": "ATL",
       "injury": null,
       "ownedPct": 3.29,
-      "projPts": 7.34
+      "projPts": 7.34,
+      "opp": "@ TB",
+      "oppRank": 12
     },
     {
       "id": 4382466,
@@ -262,7 +318,9 @@
       "team": "LV",
       "injury": null,
       "ownedPct": 3.53,
-      "projPts": 7.18
+      "projPts": 7.18,
+      "opp": "@ NYJ",
+      "oppRank": 15
     },
     {
       "id": 4869961,
@@ -271,7 +329,9 @@
       "team": "MIA",
       "injury": null,
       "ownedPct": 1.64,
-      "projPts": 7.09
+      "projPts": 7.09,
+      "opp": "vs NE",
+      "oppRank": 20
     },
     {
       "id": -16028,
@@ -280,7 +340,9 @@
       "team": "WSH",
       "injury": null,
       "ownedPct": 2.62,
-      "projPts": 7.07
+      "projPts": 7.07,
+      "opp": "vs PHI",
+      "oppRank": 21
     },
     {
       "id": 4243331,
@@ -289,7 +351,9 @@
       "team": "TB",
       "injury": null,
       "ownedPct": 3.5,
-      "projPts": 7.06
+      "projPts": 7.06,
+      "opp": "vs ATL",
+      "oppRank": 24
     },
     {
       "id": 5081397,
@@ -298,7 +362,9 @@
       "team": "CLE",
       "injury": null,
       "ownedPct": 8.54,
-      "projPts": 6.8
+      "projPts": 6.8,
+      "opp": "@ PIT",
+      "oppRank": 12
     },
     {
       "id": 4431487,
@@ -307,7 +373,9 @@
       "team": "GB",
       "injury": null,
       "ownedPct": 1.34,
-      "projPts": 6.8
+      "projPts": 6.8,
+      "opp": "vs CAR",
+      "oppRank": 7
     },
     {
       "id": 5220680,
@@ -316,7 +384,9 @@
       "team": "TB",
       "injury": null,
       "ownedPct": 8.03,
-      "projPts": 6.78
+      "projPts": 6.78,
+      "opp": "vs ATL",
+      "oppRank": 22
     },
     {
       "id": 2977187,
@@ -325,7 +395,9 @@
       "team": "SEA",
       "injury": null,
       "ownedPct": 9.06,
-      "projPts": 6.69
+      "projPts": 6.69,
+      "opp": "vs CHI",
+      "oppRank": 10
     },
     {
       "id": 4038441,
@@ -334,7 +406,9 @@
       "team": "BAL",
       "injury": null,
       "ownedPct": 8.08,
-      "projPts": 6.64
+      "projPts": 6.64,
+      "opp": "@ BUF",
+      "oppRank": 30
     },
     {
       "id": 4360939,
@@ -343,7 +417,9 @@
       "team": "BAL",
       "injury": null,
       "ownedPct": 11.71,
-      "projPts": 6.48
+      "projPts": 6.48,
+      "opp": "@ BUF",
+      "oppRank": 32
     },
     {
       "id": 3043234,
@@ -352,7 +428,9 @@
       "team": "MIA",
       "injury": null,
       "ownedPct": 0.06,
-      "projPts": 6.39
+      "projPts": 6.39,
+      "opp": "vs NE",
+      "oppRank": 12
     },
     {
       "id": 4362619,
@@ -361,7 +439,9 @@
       "team": "JAX",
       "injury": null,
       "ownedPct": 11.36,
-      "projPts": 6.21
+      "projPts": 6.21,
+      "opp": "vs IND",
+      "oppRank": 19
     },
     {
       "id": 3124084,
@@ -370,7 +450,9 @@
       "team": "TEN",
       "injury": null,
       "ownedPct": 0.42,
-      "projPts": 6.16
+      "projPts": 6.16,
+      "opp": "@ CIN",
+      "oppRank": 21
     },
     {
       "id": 3915411,
@@ -379,7 +461,9 @@
       "team": "BUF",
       "injury": null,
       "ownedPct": 2.17,
-      "projPts": 6.12
+      "projPts": 6.12,
+      "opp": "vs BAL",
+      "oppRank": 5
     },
     {
       "id": 4384852,
@@ -388,7 +472,9 @@
       "team": "CIN",
       "injury": null,
       "ownedPct": 2.52,
-      "projPts": 5.95
+      "projPts": 5.95,
+      "opp": "vs TEN",
+      "oppRank": 25
     },
     {
       "id": 5123663,
@@ -397,7 +483,9 @@
       "team": "DET",
       "injury": null,
       "ownedPct": 2.12,
-      "projPts": 5.91
+      "projPts": 5.91,
+      "opp": "vs MIN",
+      "oppRank": 4
     },
     {
       "id": 4686612,
@@ -406,7 +494,9 @@
       "team": "LAC",
       "injury": "Q",
       "ownedPct": 2.76,
-      "projPts": 5.9
+      "projPts": 5.9,
+      "opp": "@ LAR",
+      "oppRank": 5
     },
     {
       "id": 4596334,
@@ -415,7 +505,9 @@
       "team": "LAC",
       "injury": null,
       "ownedPct": 13.91,
-      "projPts": 5.86
+      "projPts": 5.86,
+      "opp": "@ LAR",
+      "oppRank": 14
     },
     {
       "id": 4695193,
@@ -424,7 +516,9 @@
       "team": "NE",
       "injury": null,
       "ownedPct": 2.86,
-      "projPts": 5.86
+      "projPts": 5.86,
+      "opp": "@ MIA",
+      "oppRank": 3
     },
     {
       "id": 3127586,
@@ -433,7 +527,9 @@
       "team": "WSH",
       "injury": null,
       "ownedPct": 0.05,
-      "projPts": 5.82
+      "projPts": 5.82,
+      "opp": "vs PHI",
+      "oppRank": 16
     },
     {
       "id": -16008,
@@ -442,7 +538,9 @@
       "team": "DET",
       "injury": null,
       "ownedPct": 22.46,
-      "projPts": 5.63
+      "projPts": 5.63,
+      "opp": "vs MIN",
+      "oppRank": 24
     },
     {
       "id": 3051889,
@@ -451,7 +549,9 @@
       "team": "IND",
       "injury": null,
       "ownedPct": 0.37,
-      "projPts": 5.61
+      "projPts": 5.61,
+      "opp": "@ JAX",
+      "oppRank": 28
     },
     {
       "id": 4879194,
@@ -460,7 +560,9 @@
       "team": "JAX",
       "injury": null,
       "ownedPct": 0.19,
-      "projPts": 5.61
+      "projPts": 5.61,
+      "opp": "vs IND",
+      "oppRank": 9
     },
     {
       "id": 4686472,
@@ -469,7 +571,9 @@
       "team": "DEN",
       "injury": null,
       "ownedPct": 0.62,
-      "projPts": 5.52
+      "projPts": 5.52,
+      "opp": "vs KC",
+      "oppRank": 2
     },
     {
       "id": 4242355,
@@ -478,7 +582,9 @@
       "team": "DAL",
       "injury": null,
       "ownedPct": 53.22,
-      "projPts": 5.46
+      "projPts": 5.46,
+      "opp": "vs ARI",
+      "oppRank": 26
     },
     {
       "id": 4432773,
@@ -487,7 +593,9 @@
       "team": "JAX",
       "injury": null,
       "ownedPct": 43.24,
-      "projPts": 5.4
+      "projPts": 5.4,
+      "opp": "vs IND",
+      "oppRank": 9
     },
     {
       "id": 4361577,
@@ -496,7 +604,9 @@
       "team": "WSH",
       "injury": null,
       "ownedPct": 0.08,
-      "projPts": 5.3
+      "projPts": 5.3,
+      "opp": "vs PHI",
+      "oppRank": 31
     },
     {
       "id": 3051876,
@@ -505,7 +615,9 @@
       "team": "DEN",
       "injury": null,
       "ownedPct": 2.26,
-      "projPts": 5.18
+      "projPts": 5.18,
+      "opp": "vs KC",
+      "oppRank": 28
     },
     {
       "id": -16001,
@@ -514,7 +626,9 @@
       "team": "ATL",
       "injury": null,
       "ownedPct": 2.25,
-      "projPts": 5.15
+      "projPts": 5.15,
+      "opp": "@ TB",
+      "oppRank": 31
     },
     {
       "id": 4608810,
@@ -523,7 +637,9 @@
       "team": "TB",
       "injury": null,
       "ownedPct": 0.53,
-      "projPts": 5.11
+      "projPts": 5.11,
+      "opp": "vs ATL",
+      "oppRank": 22
     },
     {
       "id": 4883647,
@@ -532,7 +648,9 @@
       "team": "TEN",
       "injury": null,
       "ownedPct": 0.13,
-      "projPts": 5.1
+      "projPts": 5.1,
+      "opp": "@ CIN",
+      "oppRank": 16
     },
     {
       "id": 4241463,
@@ -541,7 +659,9 @@
       "team": "CLE",
       "injury": null,
       "ownedPct": 10.28,
-      "projPts": 5.06
+      "projPts": 5.06,
+      "opp": "@ PIT",
+      "oppRank": 14
     },
     {
       "id": 4241983,
@@ -550,7 +670,9 @@
       "team": "LV",
       "injury": null,
       "ownedPct": 0.16,
-      "projPts": 4.96
+      "projPts": 4.96,
+      "opp": "@ NYJ",
+      "oppRank": 15
     },
     {
       "id": 4429676,
@@ -559,7 +681,9 @@
       "team": "DAL",
       "injury": null,
       "ownedPct": 0.54,
-      "projPts": 4.94
+      "projPts": 4.94,
+      "opp": "vs ARI",
+      "oppRank": 20
     },
     {
       "id": 4832955,
@@ -568,7 +692,9 @@
       "team": "KC",
       "injury": null,
       "ownedPct": 13.19,
-      "projPts": 4.8
+      "projPts": 4.8,
+      "opp": "@ DEN",
+      "oppRank": 23
     },
     {
       "id": 4241263,
@@ -577,7 +703,9 @@
       "team": "LAC",
       "injury": null,
       "ownedPct": 0.06,
-      "projPts": 4.67
+      "projPts": 4.67,
+      "opp": "@ LAR",
+      "oppRank": 5
     },
     {
       "id": 4426553,
@@ -586,7 +714,9 @@
       "team": "LAR",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 4.66
+      "projPts": 4.66,
+      "opp": "vs LAC",
+      "oppRank": 10
     },
     {
       "id": 4567096,
@@ -595,7 +725,9 @@
       "team": "CAR",
       "injury": null,
       "ownedPct": 0.09,
-      "projPts": 4.63
+      "projPts": 4.63,
+      "opp": "@ GB",
+      "oppRank": 23
     },
     {
       "id": 4613202,
@@ -604,7 +736,9 @@
       "team": "NE",
       "injury": null,
       "ownedPct": 0.94,
-      "projPts": 4.61
+      "projPts": 4.61,
+      "opp": "@ MIA",
+      "oppRank": 3
     },
     {
       "id": 4427834,
@@ -613,7 +747,9 @@
       "team": "CIN",
       "injury": "IR",
       "ownedPct": 0.13,
-      "projPts": 4.5
+      "projPts": 4.5,
+      "opp": "vs TEN",
+      "oppRank": 8
     },
     {
       "id": 4682745,
@@ -622,7 +758,9 @@
       "team": "MIA",
       "injury": "Q",
       "ownedPct": 3.98,
-      "projPts": 4.41
+      "projPts": 4.41,
+      "opp": "vs NE",
+      "oppRank": 13
     },
     {
       "id": 4426844,
@@ -631,7 +769,9 @@
       "team": "ARI",
       "injury": null,
       "ownedPct": 0.1,
-      "projPts": 4.36
+      "projPts": 4.36,
+      "opp": "@ DAL",
+      "oppRank": 15
     },
     {
       "id": 4372780,
@@ -640,7 +780,9 @@
       "team": "CAR",
       "injury": null,
       "ownedPct": 0.81,
-      "projPts": 4.31
+      "projPts": 4.31,
+      "opp": "@ GB",
+      "oppRank": 2
     },
     {
       "id": 4686728,
@@ -649,7 +791,9 @@
       "team": "TEN",
       "injury": null,
       "ownedPct": 1.89,
-      "projPts": 4.26
+      "projPts": 4.26,
+      "opp": "@ CIN",
+      "oppRank": 22
     },
     {
       "id": 5082630,
@@ -658,7 +802,9 @@
       "team": "KC",
       "injury": null,
       "ownedPct": 0.91,
-      "projPts": 4.16
+      "projPts": 4.16,
+      "opp": "@ DEN",
+      "oppRank": 6
     },
     {
       "id": 4431431,
@@ -667,7 +813,9 @@
       "team": "NE",
       "injury": null,
       "ownedPct": 0.65,
-      "projPts": 3.95
+      "projPts": 3.95,
+      "opp": "@ MIA",
+      "oppRank": 29
     },
     {
       "id": 4595342,
@@ -676,7 +824,9 @@
       "team": "LAC",
       "injury": null,
       "ownedPct": 2.01,
-      "projPts": 3.74
+      "projPts": 3.74,
+      "opp": "@ LAR",
+      "oppRank": 5
     },
     {
       "id": -16021,
@@ -685,7 +835,9 @@
       "team": "PHI",
       "injury": null,
       "ownedPct": 40.67,
-      "projPts": 3.7
+      "projPts": 3.7,
+      "opp": "@ WSH",
+      "oppRank": 13
     },
     {
       "id": 4686468,
@@ -694,7 +846,9 @@
       "team": "IND",
       "injury": null,
       "ownedPct": 4.04,
-      "projPts": 3.69
+      "projPts": 3.69,
+      "opp": "@ JAX",
+      "oppRank": 2
     },
     {
       "id": 4240472,
@@ -703,7 +857,9 @@
       "team": "KC",
       "injury": null,
       "ownedPct": 0.23,
-      "projPts": 3.68
+      "projPts": 3.68,
+      "opp": "@ DEN",
+      "oppRank": 23
     },
     {
       "id": 4431280,
@@ -712,7 +868,9 @@
       "team": "DEN",
       "injury": null,
       "ownedPct": 0.4,
-      "projPts": 3.63
+      "projPts": 3.63,
+      "opp": "vs KC",
+      "oppRank": 2
     },
     {
       "id": 4869132,
@@ -721,7 +879,9 @@
       "team": "ARI",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 3.57
+      "projPts": 3.57,
+      "opp": "@ DAL",
+      "oppRank": 24
     },
     {
       "id": 3930086,
@@ -730,7 +890,9 @@
       "team": "BUF",
       "injury": null,
       "ownedPct": 0.6,
-      "projPts": 3.53
+      "projPts": 3.53,
+      "opp": "vs BAL",
+      "oppRank": 13
     },
     {
       "id": 4240577,
@@ -739,7 +901,9 @@
       "team": "PIT",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 3.49
+      "projPts": 3.49,
+      "opp": "vs CLE",
+      "oppRank": 19
     },
     {
       "id": 4239934,
@@ -748,7 +912,9 @@
       "team": "CAR",
       "injury": null,
       "ownedPct": 0.28,
-      "projPts": 3.39
+      "projPts": 3.39,
+      "opp": "@ GB",
+      "oppRank": 27
     },
     {
       "id": -16015,
@@ -757,7 +923,9 @@
       "team": "MIA",
       "injury": null,
       "ownedPct": 0.85,
-      "projPts": 3.37
+      "projPts": 3.37,
+      "opp": "vs NE",
+      "oppRank": 16
     },
     {
       "id": 3068267,
@@ -766,7 +934,9 @@
       "team": "WSH",
       "injury": null,
       "ownedPct": 2.32,
-      "projPts": 3.36
+      "projPts": 3.36,
+      "opp": "vs PHI",
+      "oppRank": 16
     },
     {
       "id": 4360763,
@@ -775,7 +945,9 @@
       "team": "CAR",
       "injury": null,
       "ownedPct": 0.27,
-      "projPts": 3.34
+      "projPts": 3.34,
+      "opp": "@ GB",
+      "oppRank": 23
     },
     {
       "id": 3917914,
@@ -784,7 +956,9 @@
       "team": "ATL",
       "injury": "Q",
       "ownedPct": 0.07,
-      "projPts": 3.3
+      "projPts": 3.3,
+      "opp": "@ TB",
+      "oppRank": 12
     },
     {
       "id": 4360967,
@@ -793,7 +967,9 @@
       "team": "DAL",
       "injury": null,
       "ownedPct": 0.13,
-      "projPts": 3.23
+      "projPts": 3.23,
+      "opp": "vs ARI",
+      "oppRank": 26
     },
     {
       "id": -16010,
@@ -802,7 +978,9 @@
       "team": "TEN",
       "injury": null,
       "ownedPct": 32.18,
-      "projPts": 3.16
+      "projPts": 3.16,
+      "opp": "@ CIN",
+      "oppRank": 10
     },
     {
       "id": -16002,
@@ -811,7 +989,9 @@
       "team": "BUF",
       "injury": null,
       "ownedPct": 7.27,
-      "projPts": 3.16
+      "projPts": 3.16,
+      "opp": "vs BAL",
+      "oppRank": 12
     },
     {
       "id": 3886598,
@@ -820,7 +1000,9 @@
       "team": "MIN",
       "injury": null,
       "ownedPct": 2.68,
-      "projPts": 3.15
+      "projPts": 3.15,
+      "opp": "@ DET",
+      "oppRank": 29
     },
     {
       "id": 4912274,
@@ -829,7 +1011,9 @@
       "team": "DET",
       "injury": null,
       "ownedPct": 0.59,
-      "projPts": 3.14
+      "projPts": 3.14,
+      "opp": "vs MIN",
+      "oppRank": 1
     },
     {
       "id": 4870612,
@@ -838,7 +1022,9 @@
       "team": "ATL",
       "injury": null,
       "ownedPct": 1.52,
-      "projPts": 3.12
+      "projPts": 3.12,
+      "opp": "@ TB",
+      "oppRank": 12
     },
     {
       "id": 3925357,
@@ -847,7 +1033,9 @@
       "team": "TEN",
       "injury": "Q",
       "ownedPct": 6.29,
-      "projPts": 3.06
+      "projPts": 3.06,
+      "opp": "@ CIN",
+      "oppRank": 16
     },
     {
       "id": -16011,
@@ -856,7 +1044,9 @@
       "team": "IND",
       "injury": null,
       "ownedPct": 5.67,
-      "projPts": 3.02
+      "projPts": 3.02,
+      "opp": "@ JAX",
+      "oppRank": 4
     },
     {
       "id": 4683243,
@@ -865,7 +1055,9 @@
       "team": "CAR",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 2.88
+      "projPts": 2.88,
+      "opp": "@ GB",
+      "oppRank": 2
     },
     {
       "id": 4686248,
@@ -874,7 +1066,9 @@
       "team": "JAX",
       "injury": null,
       "ownedPct": 0.05,
-      "projPts": 2.87
+      "projPts": 2.87,
+      "opp": "vs IND",
+      "oppRank": 20
     },
     {
       "id": 4360797,
@@ -883,7 +1077,9 @@
       "team": "LAR",
       "injury": null,
       "ownedPct": 0.53,
-      "projPts": 2.76
+      "projPts": 2.76,
+      "opp": "vs LAC",
+      "oppRank": 13
     },
     {
       "id": 4242433,
@@ -892,7 +1088,9 @@
       "team": "BUF",
       "injury": null,
       "ownedPct": 0.5,
-      "projPts": 2.67
+      "projPts": 2.67,
+      "opp": "vs BAL",
+      "oppRank": 25
     },
     {
       "id": 4708049,
@@ -901,7 +1099,9 @@
       "team": "MIN",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 2.57
+      "projPts": 2.57,
+      "opp": "@ DET",
+      "oppRank": 32
     },
     {
       "id": 3127310,
@@ -910,7 +1110,9 @@
       "team": "CIN",
       "injury": null,
       "ownedPct": 0.07,
-      "projPts": 2.53
+      "projPts": 2.53,
+      "opp": "vs TEN",
+      "oppRank": 8
     },
     {
       "id": 4361516,
@@ -919,7 +1121,9 @@
       "team": "TEN",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 2.52
+      "projPts": 2.52,
+      "opp": "@ CIN",
+      "oppRank": 22
     },
     {
       "id": 4683151,
@@ -928,7 +1132,9 @@
       "team": "IND",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 2.49
+      "projPts": 2.49,
+      "opp": "@ JAX",
+      "oppRank": 28
     },
     {
       "id": 3676833,
@@ -937,7 +1143,9 @@
       "team": "DAL",
       "injury": "Q",
       "ownedPct": 1.22,
-      "projPts": 2.37
+      "projPts": 2.37,
+      "opp": "vs ARI",
+      "oppRank": 21
     },
     {
       "id": 4360739,
@@ -946,7 +1154,9 @@
       "team": "ARI",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 2.32
+      "projPts": 2.32,
+      "opp": "@ DAL",
+      "oppRank": 24
     },
     {
       "id": -16022,
@@ -955,7 +1165,9 @@
       "team": "ARI",
       "injury": null,
       "ownedPct": 0.83,
-      "projPts": 2.29
+      "projPts": 2.29,
+      "opp": "@ DAL",
+      "oppRank": 5
     },
     {
       "id": 4685307,
@@ -964,7 +1176,9 @@
       "team": "MIA",
       "injury": null,
       "ownedPct": 0.19,
-      "projPts": 2.24
+      "projPts": 2.24,
+      "opp": "vs NE",
+      "oppRank": 20
     },
     {
       "id": 4429501,
@@ -973,7 +1187,9 @@
       "team": "BUF",
       "injury": null,
       "ownedPct": 2.99,
-      "projPts": 2.17
+      "projPts": 2.17,
+      "opp": "vs BAL",
+      "oppRank": 5
     },
     {
       "id": 4259305,
@@ -982,7 +1198,9 @@
       "team": "GB",
       "injury": null,
       "ownedPct": 0.09,
-      "projPts": 2.11
+      "projPts": 2.11,
+      "opp": "vs CAR",
+      "oppRank": 7
     },
     {
       "id": 3043275,
@@ -991,7 +1209,9 @@
       "team": "ATL",
       "injury": null,
       "ownedPct": 0.08,
-      "projPts": 2.11
+      "projPts": 2.11,
+      "opp": "@ TB",
+      "oppRank": 25
     },
     {
       "id": 4880236,
@@ -1000,7 +1220,9 @@
       "team": "MIA",
       "injury": null,
       "ownedPct": 0.05,
-      "projPts": 2.1
+      "projPts": 2.1,
+      "opp": "vs NE",
+      "oppRank": 16
     },
     {
       "id": 4597703,
@@ -1009,7 +1231,9 @@
       "team": "SEA",
       "injury": null,
       "ownedPct": 0.31,
-      "projPts": 2.05
+      "projPts": 2.05,
+      "opp": "vs CHI",
+      "oppRank": 10
     },
     {
       "id": 4869748,
@@ -1018,7 +1242,9 @@
       "team": "CHI",
       "injury": null,
       "ownedPct": 0.48,
-      "projPts": 1.97
+      "projPts": 1.97,
+      "opp": "@ SEA",
+      "oppRank": 1
     },
     {
       "id": 4685504,
@@ -1027,7 +1253,9 @@
       "team": "CHI",
       "injury": null,
       "ownedPct": 0.07,
-      "projPts": 1.95
+      "projPts": 1.95,
+      "opp": "@ SEA",
+      "oppRank": 3
     },
     {
       "id": 5093923,
@@ -1036,7 +1264,9 @@
       "team": "KC",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 1.87
+      "projPts": 1.87,
+      "opp": "@ DEN",
+      "oppRank": 6
     },
     {
       "id": 4696882,
@@ -1045,7 +1275,9 @@
       "team": "BAL",
       "injury": null,
       "ownedPct": 0.1,
-      "projPts": 1.79
+      "projPts": 1.79,
+      "opp": "@ BUF",
+      "oppRank": 32
     },
     {
       "id": 3054212,
@@ -1054,7 +1286,9 @@
       "team": "GB",
       "injury": null,
       "ownedPct": 0.13,
-      "projPts": 1.76
+      "projPts": 1.76,
+      "opp": "vs CAR",
+      "oppRank": 18
     },
     {
       "id": 4430871,
@@ -1063,7 +1297,9 @@
       "team": "TB",
       "injury": null,
       "ownedPct": 0.37,
-      "projPts": 1.75
+      "projPts": 1.75,
+      "opp": "vs ATL",
+      "oppRank": 28
     },
     {
       "id": 4876132,
@@ -1072,7 +1308,9 @@
       "team": "BAL",
       "injury": null,
       "ownedPct": 0.06,
-      "projPts": 1.75
+      "projPts": 1.75,
+      "opp": "@ BUF",
+      "oppRank": 21
     },
     {
       "id": 4432260,
@@ -1081,7 +1319,9 @@
       "team": "BAL",
       "injury": null,
       "ownedPct": 0.07,
-      "projPts": 1.74
+      "projPts": 1.74,
+      "opp": "@ BUF",
+      "oppRank": 21
     },
     {
       "id": 4569382,
@@ -1090,7 +1330,9 @@
       "team": "LAR",
       "injury": null,
       "ownedPct": 0.28,
-      "projPts": 1.73
+      "projPts": 1.73,
+      "opp": "vs LAC",
+      "oppRank": 13
     },
     {
       "id": 4241410,
@@ -1099,7 +1341,9 @@
       "team": "NYJ",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 1.7
+      "projPts": 1.7,
+      "opp": "vs LV",
+      "oppRank": 29
     },
     {
       "id": 4383396,
@@ -1108,7 +1352,9 @@
       "team": "DAL",
       "injury": null,
       "ownedPct": 0.11,
-      "projPts": 1.62
+      "projPts": 1.62,
+      "opp": "vs ARI",
+      "oppRank": 20
     },
     {
       "id": 4426948,
@@ -1117,7 +1363,9 @@
       "team": "WSH",
       "injury": null,
       "ownedPct": 0.12,
-      "projPts": 1.61
+      "projPts": 1.61,
+      "opp": "vs PHI",
+      "oppRank": 31
     },
     {
       "id": 4430681,
@@ -1126,7 +1374,9 @@
       "team": "MIA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 1.61
+      "projPts": 1.61,
+      "opp": "vs NE",
+      "oppRank": 20
     },
     {
       "id": 4048228,
@@ -1135,7 +1385,9 @@
       "team": "WSH",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 1.58
+      "projPts": 1.58,
+      "opp": "vs PHI",
+      "oppRank": 7
     },
     {
       "id": 4569371,
@@ -1144,7 +1396,9 @@
       "team": "NYJ",
       "injury": null,
       "ownedPct": 0.68,
-      "projPts": 1.53
+      "projPts": 1.53,
+      "opp": "vs LV",
+      "oppRank": 18
     },
     {
       "id": 3911853,
@@ -1153,7 +1407,9 @@
       "team": "DEN",
       "injury": null,
       "ownedPct": 0.07,
-      "projPts": 1.48
+      "projPts": 1.48,
+      "opp": "vs KC",
+      "oppRank": 28
     },
     {
       "id": 4362523,
@@ -1162,7 +1418,9 @@
       "team": "IND",
       "injury": null,
       "ownedPct": 0.3,
-      "projPts": 1.44
+      "projPts": 1.44,
+      "opp": "@ JAX",
+      "oppRank": 11
     },
     {
       "id": 4690070,
@@ -1171,7 +1429,9 @@
       "team": "CIN",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 1.33
+      "projPts": 1.33,
+      "opp": "vs TEN",
+      "oppRank": 25
     },
     {
       "id": 5150247,
@@ -1180,7 +1440,9 @@
       "team": "LV",
       "injury": null,
       "ownedPct": 0.07,
-      "projPts": 1.29
+      "projPts": 1.29,
+      "opp": "@ NYJ",
+      "oppRank": 15
     },
     {
       "id": 4045305,
@@ -1189,7 +1451,9 @@
       "team": "LV",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 1.18
+      "projPts": 1.18,
+      "opp": "@ NYJ",
+      "oppRank": 6
     },
     {
       "id": 4431268,
@@ -1198,7 +1462,9 @@
       "team": "TEN",
       "injury": null,
       "ownedPct": 1,
-      "projPts": 1.04
+      "projPts": 1.04,
+      "opp": "@ CIN",
+      "oppRank": 16
     },
     {
       "id": 4383440,
@@ -1207,7 +1473,9 @@
       "team": "DEN",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 1.04
+      "projPts": 1.04,
+      "opp": "vs KC",
+      "oppRank": 28
     },
     {
       "id": 4242392,
@@ -1216,7 +1484,9 @@
       "team": "DET",
       "injury": null,
       "ownedPct": 0.1,
-      "projPts": 1.02
+      "projPts": 1.02,
+      "opp": "vs MIN",
+      "oppRank": 1
     },
     {
       "id": 2975863,
@@ -1225,7 +1495,9 @@
       "team": "SEA",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 1
+      "projPts": 1,
+      "opp": "vs CHI",
+      "oppRank": 17
     },
     {
       "id": 2998565,
@@ -1234,7 +1506,9 @@
       "team": "IND",
       "injury": null,
       "ownedPct": 0.07,
-      "projPts": 0.98
+      "projPts": 0.98,
+      "opp": "@ JAX",
+      "oppRank": 11
     },
     {
       "id": 4565185,
@@ -1243,7 +1517,9 @@
       "team": "MIN",
       "injury": null,
       "ownedPct": 0.07,
-      "projPts": 0.97
+      "projPts": 0.97,
+      "opp": "@ DET",
+      "oppRank": 29
     },
     {
       "id": 4035020,
@@ -1252,7 +1528,9 @@
       "team": "ATL",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0.95
+      "projPts": 0.95,
+      "opp": "@ TB",
+      "oppRank": 25
     },
     {
       "id": 4911851,
@@ -1261,7 +1539,9 @@
       "team": "JAX",
       "injury": null,
       "ownedPct": 0.3,
-      "projPts": 0.93
+      "projPts": 0.93,
+      "opp": "vs IND",
+      "oppRank": 19
     },
     {
       "id": 4039057,
@@ -1270,7 +1550,9 @@
       "team": "DEN",
       "injury": null,
       "ownedPct": 0.09,
-      "projPts": 0.91
+      "projPts": 0.91,
+      "opp": "vs KC",
+      "oppRank": 2
     },
     {
       "id": 4362018,
@@ -1279,7 +1561,9 @@
       "team": "CLE",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0.85
+      "projPts": 0.85,
+      "opp": "@ PIT",
+      "oppRank": 9
     },
     {
       "id": 4430870,
@@ -1288,7 +1572,9 @@
       "team": "LAC",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0.73
+      "projPts": 0.73,
+      "opp": "@ LAR",
+      "oppRank": 5
     },
     {
       "id": 4374045,
@@ -1297,7 +1583,9 @@
       "team": "ARI",
       "injury": null,
       "ownedPct": 0.05,
-      "projPts": 0.63
+      "projPts": 0.63,
+      "opp": "@ DAL",
+      "oppRank": 15
     },
     {
       "id": 4690143,
@@ -1306,7 +1594,9 @@
       "team": "BAL",
       "injury": null,
       "ownedPct": 0.08,
-      "projPts": 0.62
+      "projPts": 0.62,
+      "opp": "@ BUF",
+      "oppRank": 32
     },
     {
       "id": 4212909,
@@ -1315,7 +1605,9 @@
       "team": "CAR",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0.61
+      "projPts": 0.61,
+      "opp": "@ GB",
+      "oppRank": 23
     },
     {
       "id": 4401805,
@@ -1324,7 +1616,9 @@
       "team": "LV",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0.59
+      "projPts": 0.59,
+      "opp": "@ NYJ",
+      "oppRank": 15
     },
     {
       "id": 4372096,
@@ -1333,7 +1627,9 @@
       "team": "DAL",
       "injury": null,
       "ownedPct": 0.11,
-      "projPts": 0.57
+      "projPts": 0.57,
+      "opp": "vs ARI",
+      "oppRank": 26
     },
     {
       "id": 3134353,
@@ -1342,7 +1638,9 @@
       "team": "NYJ",
       "injury": null,
       "ownedPct": 0.07,
-      "projPts": 0.56
+      "projPts": 0.56,
+      "opp": "vs LV",
+      "oppRank": 18
     },
     {
       "id": 4431346,
@@ -1351,7 +1649,9 @@
       "team": "GB",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0.55
+      "projPts": 0.55,
+      "opp": "vs CAR",
+      "oppRank": 18
     },
     {
       "id": 4683153,
@@ -1360,7 +1660,9 @@
       "team": "BUF",
       "injury": null,
       "ownedPct": 0.32,
-      "projPts": 0.54
+      "projPts": 0.54,
+      "opp": "vs BAL",
+      "oppRank": 25
     },
     {
       "id": 4361372,
@@ -1369,7 +1671,9 @@
       "team": "NYJ",
       "injury": null,
       "ownedPct": 0.05,
-      "projPts": 0.54
+      "projPts": 0.54,
+      "opp": "vs LV",
+      "oppRank": 29
     },
     {
       "id": 4426485,
@@ -1378,7 +1682,9 @@
       "team": "DAL",
       "injury": null,
       "ownedPct": 0.09,
-      "projPts": 0.53
+      "projPts": 0.53,
+      "opp": "vs ARI",
+      "oppRank": 21
     },
     {
       "id": 4573699,
@@ -1387,7 +1693,9 @@
       "team": "BUF",
       "injury": null,
       "ownedPct": 0.06,
-      "projPts": 0.53
+      "projPts": 0.53,
+      "opp": "vs BAL",
+      "oppRank": 13
     },
     {
       "id": 4249624,
@@ -1396,7 +1704,9 @@
       "team": "ATL",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0.53
+      "projPts": 0.53,
+      "opp": "@ TB",
+      "oppRank": 25
     },
     {
       "id": 3915486,
@@ -1405,7 +1715,9 @@
       "team": "DET",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0.52
+      "projPts": 0.52,
+      "opp": "vs MIN",
+      "oppRank": 1
     },
     {
       "id": 4431574,
@@ -1414,7 +1726,9 @@
       "team": "PHI",
       "injury": null,
       "ownedPct": 0.27,
-      "projPts": 0.51
+      "projPts": 0.51,
+      "opp": "@ WSH",
+      "oppRank": 31
     },
     {
       "id": 4890373,
@@ -1423,7 +1737,9 @@
       "team": "TB",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0.51
+      "projPts": 0.51,
+      "opp": "vs ATL",
+      "oppRank": 24
     },
     {
       "id": 4433959,
@@ -1432,7 +1748,9 @@
       "team": "MIN",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0.51
+      "projPts": 0.51,
+      "opp": "@ DET",
+      "oppRank": 32
     },
     {
       "id": 4372505,
@@ -1441,7 +1759,9 @@
       "team": "TB",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0.49
+      "projPts": 0.49,
+      "opp": "vs ATL",
+      "oppRank": 24
     },
     {
       "id": 3052096,
@@ -1450,7 +1770,9 @@
       "team": "PHI",
       "injury": null,
       "ownedPct": 0.08,
-      "projPts": 0.47
+      "projPts": 0.47,
+      "opp": "@ WSH",
+      "oppRank": 31
     },
     {
       "id": 4243176,
@@ -1459,7 +1781,9 @@
       "team": "SEA",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0.47
+      "projPts": 0.47,
+      "opp": "vs CHI",
+      "oppRank": 6
     },
     {
       "id": 4878695,
@@ -1468,7 +1792,9 @@
       "team": "MIN",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0.47
+      "projPts": 0.47,
+      "opp": "@ DET",
+      "oppRank": 10
     },
     {
       "id": 4912218,
@@ -1477,7 +1803,9 @@
       "team": "KC",
       "injury": null,
       "ownedPct": 1.02,
-      "projPts": 0.45
+      "projPts": 0.45,
+      "opp": "@ DEN",
+      "oppRank": 6
     },
     {
       "id": 4722908,
@@ -1486,7 +1814,9 @@
       "team": "IND",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0.45
+      "projPts": 0.45,
+      "opp": "@ JAX",
+      "oppRank": 11
     },
     {
       "id": 4428396,
@@ -1495,7 +1825,9 @@
       "team": "LAC",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0.44
+      "projPts": 0.44,
+      "opp": "@ LAR",
+      "oppRank": 5
     },
     {
       "id": 4241424,
@@ -1504,7 +1836,9 @@
       "team": "CLE",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0.43
+      "projPts": 0.43,
+      "opp": "@ PIT",
+      "oppRank": 14
     },
     {
       "id": 4808839,
@@ -1513,7 +1847,9 @@
       "team": "CLE",
       "injury": null,
       "ownedPct": 0.1,
-      "projPts": 0.42
+      "projPts": 0.42,
+      "opp": "@ PIT",
+      "oppRank": 14
     },
     {
       "id": 4714379,
@@ -1522,7 +1858,9 @@
       "team": "MIA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0.42
+      "projPts": 0.42,
+      "opp": "vs NE",
+      "oppRank": 16
     },
     {
       "id": 2515270,
@@ -1531,7 +1869,9 @@
       "team": "CLE",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0.41
+      "projPts": 0.41,
+      "opp": "@ PIT",
+      "oppRank": 12
     },
     {
       "id": 4685553,
@@ -1540,7 +1880,9 @@
       "team": "LAC",
       "injury": "Q",
       "ownedPct": 0.06,
-      "projPts": 0.4
+      "projPts": 0.4,
+      "opp": "@ LAR",
+      "oppRank": 5
     },
     {
       "id": 4241961,
@@ -1549,7 +1891,9 @@
       "team": "LV",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0.28
+      "projPts": 0.28,
+      "opp": "@ NYJ",
+      "oppRank": 17
     },
     {
       "id": 4035537,
@@ -1558,7 +1902,9 @@
       "team": "NYJ",
       "injury": "Q",
       "ownedPct": 0.12,
-      "projPts": 0.25
+      "projPts": 0.25,
+      "opp": "vs LV",
+      "oppRank": 26
     },
     {
       "id": 5081338,
@@ -1567,7 +1913,9 @@
       "team": "PIT",
       "injury": null,
       "ownedPct": 0.23,
-      "projPts": 0.19
+      "projPts": 0.19,
+      "opp": "vs CLE",
+      "oppRank": 19
     },
     {
       "id": 4430656,
@@ -1576,7 +1924,9 @@
       "team": "MIN",
       "injury": null,
       "ownedPct": 0.64,
-      "projPts": 0.17
+      "projPts": 0.17,
+      "opp": "@ DET",
+      "oppRank": 29
     },
     {
       "id": 4372716,
@@ -1585,7 +1935,9 @@
       "team": "KC",
       "injury": null,
       "ownedPct": 0.06,
-      "projPts": 0.13
+      "projPts": 0.13,
+      "opp": "@ DEN",
+      "oppRank": 6
     },
     {
       "id": 3919510,
@@ -1594,7 +1946,9 @@
       "team": "LAR",
       "injury": null,
       "ownedPct": 0.05,
-      "projPts": 0.13
+      "projPts": 0.13,
+      "opp": "vs LAC",
+      "oppRank": 13
     },
     {
       "id": 4362477,
@@ -1603,7 +1957,9 @@
       "team": "LAC",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0.12
+      "projPts": 0.12,
+      "opp": "@ LAR",
+      "oppRank": 5
     },
     {
       "id": 4037235,
@@ -1612,7 +1968,9 @@
       "team": "BUF",
       "injury": null,
       "ownedPct": 0.11,
-      "projPts": 0.1
+      "projPts": 0.1,
+      "opp": "vs BAL",
+      "oppRank": 25
     },
     {
       "id": 4039050,
@@ -1621,7 +1979,9 @@
       "team": "ARI",
       "injury": null,
       "ownedPct": 0.07,
-      "projPts": 0.1
+      "projPts": 0.1,
+      "opp": "@ DAL",
+      "oppRank": 24
     },
     {
       "id": 4685350,
@@ -1630,7 +1990,9 @@
       "team": "CAR",
       "injury": null,
       "ownedPct": 0.31,
-      "projPts": 0.09
+      "projPts": 0.09,
+      "opp": "@ GB",
+      "oppRank": 27
     },
     {
       "id": 2580216,
@@ -1639,7 +2001,9 @@
       "team": "DET",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0.08
+      "projPts": 0.08,
+      "opp": "vs MIN",
+      "oppRank": 4
     },
     {
       "id": 4383429,
@@ -1648,7 +2012,9 @@
       "team": "DET",
       "injury": null,
       "ownedPct": 0.55,
-      "projPts": 0.07
+      "projPts": 0.07,
+      "opp": "vs MIN",
+      "oppRank": 1
     },
     {
       "id": 4578436,
@@ -1657,7 +2023,9 @@
       "team": "GB",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0.07
+      "projPts": 0.07,
+      "opp": "vs CAR",
+      "oppRank": 7
     },
     {
       "id": 4613104,
@@ -1666,7 +2034,9 @@
       "team": "CLE",
       "injury": null,
       "ownedPct": 0.06,
-      "projPts": 0.06
+      "projPts": 0.06,
+      "opp": "@ PIT",
+      "oppRank": 14
     },
     {
       "id": 4429684,
@@ -1675,7 +2045,9 @@
       "team": "IND",
       "injury": "Q",
       "ownedPct": 0.01,
-      "projPts": 0.06
+      "projPts": 0.06,
+      "opp": "@ JAX",
+      "oppRank": 28
     },
     {
       "id": 4366963,
@@ -1684,7 +2056,9 @@
       "team": "LV",
       "injury": null,
       "ownedPct": 0.26,
-      "projPts": 0.04
+      "projPts": 0.04,
+      "opp": "@ NYJ",
+      "oppRank": 17
     },
     {
       "id": 4635009,
@@ -1693,7 +2067,9 @@
       "team": "GB",
       "injury": null,
       "ownedPct": 0.05,
-      "projPts": 0.04
+      "projPts": 0.04,
+      "opp": "vs CAR",
+      "oppRank": 7
     },
     {
       "id": 4690013,
@@ -1702,7 +2078,9 @@
       "team": "BAL",
       "injury": null,
       "ownedPct": 0.14,
-      "projPts": 0.03
+      "projPts": 0.03,
+      "opp": "@ BUF",
+      "oppRank": 30
     },
     {
       "id": 2576336,
@@ -1711,7 +2089,9 @@
       "team": "JAX",
       "injury": null,
       "ownedPct": 0.1,
-      "projPts": 0.03
+      "projPts": 0.03,
+      "opp": "vs IND",
+      "oppRank": 19
     },
     {
       "id": 5097554,
@@ -1720,7 +2100,9 @@
       "team": "TB",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0.02
+      "projPts": 0.02,
+      "opp": "vs ATL",
+      "oppRank": 22
     },
     {
       "id": 4035693,
@@ -1729,7 +2111,9 @@
       "team": "SEA",
       "injury": "Q",
       "ownedPct": 0.03,
-      "projPts": 0.01
+      "projPts": 0.01,
+      "opp": "vs CHI",
+      "oppRank": 6
     },
     {
       "id": 3121422,
@@ -1738,7 +2122,9 @@
       "team": "WSH",
       "injury": "O",
       "ownedPct": 50.58,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs PHI",
+      "oppRank": 31
     },
     {
       "id": 4040715,
@@ -1747,7 +2133,9 @@
       "team": "PHI",
       "injury": "IR",
       "ownedPct": 41.29,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ WSH",
+      "oppRank": 30
     },
     {
       "id": 4429160,
@@ -1756,7 +2144,9 @@
       "team": "MIA",
       "injury": "IR",
       "ownedPct": 32.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs NE",
+      "oppRank": 13
     },
     {
       "id": 4366031,
@@ -1765,7 +2155,9 @@
       "team": "HOU",
       "injury": null,
       "ownedPct": 29.86,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4689114,
@@ -1774,7 +2166,9 @@
       "team": "NYG",
       "injury": "IR",
       "ownedPct": 23.41,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4574716,
@@ -1783,7 +2177,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 21.26,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4362249,
@@ -1792,7 +2188,9 @@
       "team": "GB",
       "injury": "IR",
       "ownedPct": 21.24,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CAR",
+      "oppRank": 7
     },
     {
       "id": 3895856,
@@ -1801,7 +2199,9 @@
       "team": "SF",
       "injury": null,
       "ownedPct": 15.85,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4430834,
@@ -1810,7 +2210,9 @@
       "team": "TB",
       "injury": "IR",
       "ownedPct": 10.29,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs ATL",
+      "oppRank": 22
     },
     {
       "id": 4431492,
@@ -1819,7 +2221,9 @@
       "team": "PIT",
       "injury": "IR",
       "ownedPct": 8.57,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CLE",
+      "oppRank": 19
     },
     {
       "id": 2969939,
@@ -1828,7 +2232,9 @@
       "team": "NYG",
       "injury": null,
       "ownedPct": 8.47,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4429013,
@@ -1837,7 +2243,9 @@
       "team": "PHI",
       "injury": "IR",
       "ownedPct": 6.06,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ WSH",
+      "oppRank": 7
     },
     {
       "id": 4249836,
@@ -1846,7 +2254,9 @@
       "team": "GB",
       "injury": null,
       "ownedPct": 6.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CAR",
+      "oppRank": 31
     },
     {
       "id": -16019,
@@ -1855,7 +2265,9 @@
       "team": "NYG",
       "injury": null,
       "ownedPct": 6,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4431545,
@@ -1864,7 +2276,9 @@
       "team": "PHI",
       "injury": "IR",
       "ownedPct": 5.16,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ WSH",
+      "oppRank": 7
     },
     {
       "id": 4682648,
@@ -1873,7 +2287,9 @@
       "team": "NYG",
       "injury": null,
       "ownedPct": 4.8,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4035671,
@@ -1882,7 +2298,9 @@
       "team": "BAL",
       "injury": null,
       "ownedPct": 4.14,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ BUF",
+      "oppRank": 29
     },
     {
       "id": 4429022,
@@ -1891,7 +2309,9 @@
       "team": "HOU",
       "injury": null,
       "ownedPct": 3.78,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4241457,
@@ -1900,7 +2320,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 3.23,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3045147,
@@ -1909,7 +2331,9 @@
       "team": "ARI",
       "injury": "IR",
       "ownedPct": 3.15,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DAL",
+      "oppRank": 25
     },
     {
       "id": 4837248,
@@ -1918,7 +2342,9 @@
       "team": "LV",
       "injury": null,
       "ownedPct": 3.09,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ NYJ",
+      "oppRank": 16
     },
     {
       "id": -16018,
@@ -1927,7 +2353,9 @@
       "team": "NO",
       "injury": null,
       "ownedPct": 3.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4722893,
@@ -1936,7 +2364,9 @@
       "team": "CLE",
       "injury": null,
       "ownedPct": 2.96,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ PIT",
+      "oppRank": 12
     },
     {
       "id": 3149687,
@@ -1945,7 +2375,9 @@
       "team": "GB",
       "injury": "IR",
       "ownedPct": 2.66,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CAR",
+      "oppRank": 31
     },
     {
       "id": 4695404,
@@ -1954,7 +2386,9 @@
       "team": "NYJ",
       "injury": null,
       "ownedPct": 2.59,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs LV",
+      "oppRank": 26
     },
     {
       "id": 4686422,
@@ -1963,7 +2397,9 @@
       "team": "HOU",
       "injury": null,
       "ownedPct": 2.09,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4428209,
@@ -1972,7 +2408,9 @@
       "team": "SF",
       "injury": "IR",
       "ownedPct": 1.95,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4877706,
@@ -1981,7 +2419,9 @@
       "team": "HOU",
       "injury": "IR",
       "ownedPct": 1.85,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4259619,
@@ -1990,7 +2430,9 @@
       "team": "LAR",
       "injury": "IR",
       "ownedPct": 1.78,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs LAC",
+      "oppRank": 24
     },
     {
       "id": 4040761,
@@ -1999,7 +2441,9 @@
       "team": "NYG",
       "injury": null,
       "ownedPct": 1.73,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3051909,
@@ -2008,7 +2452,9 @@
       "team": "NO",
       "injury": null,
       "ownedPct": 1.73,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 16731,
@@ -2017,7 +2463,9 @@
       "team": "SF",
       "injury": null,
       "ownedPct": 1.67,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 2576980,
@@ -2026,7 +2474,9 @@
       "team": "WSH",
       "injury": "Q",
       "ownedPct": 1.65,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs PHI",
+      "oppRank": 24
     },
     {
       "id": 3123076,
@@ -2035,7 +2485,9 @@
       "team": "LAC",
       "injury": "IR",
       "ownedPct": 1.44,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ LAR",
+      "oppRank": 5
     },
     {
       "id": 4819231,
@@ -2044,7 +2496,9 @@
       "team": "GB",
       "injury": null,
       "ownedPct": 1.38,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CAR",
+      "oppRank": 31
     },
     {
       "id": 3116385,
@@ -2053,7 +2507,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 1.31,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 16733,
@@ -2062,7 +2518,9 @@
       "team": "MIN",
       "injury": null,
       "ownedPct": 1.19,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DET",
+      "oppRank": 29
     },
     {
       "id": 4600981,
@@ -2071,7 +2529,9 @@
       "team": "DEN",
       "injury": "IR",
       "ownedPct": 1.14,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs KC",
+      "oppRank": 2
     },
     {
       "id": 4596472,
@@ -2080,7 +2540,9 @@
       "team": "TB",
       "injury": null,
       "ownedPct": 1.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs ATL",
+      "oppRank": 20
     },
     {
       "id": 4040655,
@@ -2089,7 +2551,9 @@
       "team": "NYG",
       "injury": null,
       "ownedPct": 0.9,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3043116,
@@ -2098,7 +2562,9 @@
       "team": "SF",
       "injury": "IR",
       "ownedPct": 0.85,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4432762,
@@ -2107,7 +2573,9 @@
       "team": "CLE",
       "injury": null,
       "ownedPct": 0.83,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ PIT",
+      "oppRank": 4
     },
     {
       "id": 4431466,
@@ -2116,7 +2584,9 @@
       "team": "SF",
       "injury": null,
       "ownedPct": 0.76,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4430034,
@@ -2125,7 +2595,9 @@
       "team": "CAR",
       "injury": "IR",
       "ownedPct": 0.75,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ GB",
+      "oppRank": 23
     },
     {
       "id": 4434153,
@@ -2134,7 +2606,9 @@
       "team": "CHI",
       "injury": null,
       "ownedPct": 0.66,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ SEA",
+      "oppRank": 2
     },
     {
       "id": 4258595,
@@ -2143,7 +2617,9 @@
       "team": "CHI",
       "injury": "IR",
       "ownedPct": 0.64,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ SEA",
+      "oppRank": 3
     },
     {
       "id": 4685397,
@@ -2152,7 +2628,9 @@
       "team": "SF",
       "injury": null,
       "ownedPct": 0.6,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4240603,
@@ -2161,7 +2639,9 @@
       "team": "DAL",
       "injury": "IR",
       "ownedPct": 0.53,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs ARI",
+      "oppRank": 20
     },
     {
       "id": 15835,
@@ -2170,7 +2650,9 @@
       "team": "PHI",
       "injury": null,
       "ownedPct": 0.5,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ WSH",
+      "oppRank": 31
     },
     {
       "id": 3924327,
@@ -2179,7 +2661,9 @@
       "team": "SEA",
       "injury": "Q",
       "ownedPct": 0.49,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CHI",
+      "oppRank": 23
     },
     {
       "id": 4575665,
@@ -2188,7 +2672,9 @@
       "team": "SF",
       "injury": null,
       "ownedPct": 0.48,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4362921,
@@ -2197,7 +2683,9 @@
       "team": "KC",
       "injury": "IR",
       "ownedPct": 0.48,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DEN",
+      "oppRank": 6
     },
     {
       "id": 15168,
@@ -2206,7 +2694,9 @@
       "team": "CHI",
       "injury": null,
       "ownedPct": 0.48,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ SEA",
+      "oppRank": 2
     },
     {
       "id": 4685555,
@@ -2215,7 +2705,9 @@
       "team": "TEN",
       "injury": null,
       "ownedPct": 0.47,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ CIN",
+      "oppRank": 3
     },
     {
       "id": 4241479,
@@ -2224,7 +2716,9 @@
       "team": "ATL",
       "injury": null,
       "ownedPct": 0.47,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ TB",
+      "oppRank": 6
     },
     {
       "id": 2573079,
@@ -2233,7 +2727,9 @@
       "team": "MIN",
       "injury": null,
       "ownedPct": 0.46,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DET",
+      "oppRank": 32
     },
     {
       "id": 16002,
@@ -2242,7 +2738,9 @@
       "team": "SF",
       "injury": null,
       "ownedPct": 0.43,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 5081508,
@@ -2251,7 +2749,9 @@
       "team": "PIT",
       "injury": null,
       "ownedPct": 0.43,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CLE",
+      "oppRank": 8
     },
     {
       "id": 4601080,
@@ -2260,7 +2760,9 @@
       "team": "CLE",
       "injury": "IR",
       "ownedPct": 0.4,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ PIT",
+      "oppRank": 12
     },
     {
       "id": 4685246,
@@ -2269,7 +2771,9 @@
       "team": "MIA",
       "injury": null,
       "ownedPct": 0.39,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs NE",
+      "oppRank": 13
     },
     {
       "id": 4360698,
@@ -2278,7 +2782,9 @@
       "team": "PHI",
       "injury": null,
       "ownedPct": 0.39,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ WSH",
+      "oppRank": 30
     },
     {
       "id": 4036131,
@@ -2287,7 +2793,9 @@
       "team": "NO",
       "injury": null,
       "ownedPct": 0.37,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4596602,
@@ -2296,7 +2804,9 @@
       "team": "KC",
       "injury": "IR",
       "ownedPct": 0.37,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DEN",
+      "oppRank": 23
     },
     {
       "id": 4832846,
@@ -2305,7 +2815,9 @@
       "team": "MIN",
       "injury": null,
       "ownedPct": 0.35,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DET",
+      "oppRank": 10
     },
     {
       "id": 4603186,
@@ -2314,7 +2826,9 @@
       "team": "LV",
       "injury": "IR",
       "ownedPct": 0.35,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ NYJ",
+      "oppRank": 15
     },
     {
       "id": 4249417,
@@ -2323,7 +2837,9 @@
       "team": "MIA",
       "injury": null,
       "ownedPct": 0.34,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs NE",
+      "oppRank": 20
     },
     {
       "id": 4362478,
@@ -2332,7 +2848,9 @@
       "team": "DAL",
       "injury": null,
       "ownedPct": 0.34,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs ARI",
+      "oppRank": 20
     },
     {
       "id": 2983509,
@@ -2341,7 +2859,9 @@
       "team": "HOU",
       "injury": null,
       "ownedPct": 0.32,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4430841,
@@ -2350,7 +2870,9 @@
       "team": "ARI",
       "injury": "Q",
       "ownedPct": 0.32,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DAL",
+      "oppRank": 27
     },
     {
       "id": 4360438,
@@ -2359,7 +2881,9 @@
       "team": "SF",
       "injury": "O",
       "ownedPct": 0.29,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4685526,
@@ -2368,7 +2892,9 @@
       "team": "BAL",
       "injury": "IR",
       "ownedPct": 0.28,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ BUF",
+      "oppRank": 30
     },
     {
       "id": 4241372,
@@ -2377,7 +2903,9 @@
       "team": "PHI",
       "injury": null,
       "ownedPct": 0.26,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ WSH",
+      "oppRank": 27
     },
     {
       "id": 4368003,
@@ -2386,7 +2914,9 @@
       "team": "CIN",
       "injury": "IR",
       "ownedPct": 0.24,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs TEN",
+      "oppRank": 25
     },
     {
       "id": 4430191,
@@ -2395,7 +2925,9 @@
       "team": "GB",
       "injury": "IR",
       "ownedPct": 0.24,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CAR",
+      "oppRank": 7
     },
     {
       "id": 3916945,
@@ -2404,7 +2936,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.24,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4685522,
@@ -2413,7 +2947,9 @@
       "team": "LAR",
       "injury": null,
       "ownedPct": 0.23,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs LAC",
+      "oppRank": 7
     },
     {
       "id": 4362887,
@@ -2422,7 +2958,9 @@
       "team": "KC",
       "injury": null,
       "ownedPct": 0.23,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DEN",
+      "oppRank": 10
     },
     {
       "id": 4259147,
@@ -2431,7 +2969,9 @@
       "team": "SF",
       "injury": "IR",
       "ownedPct": 0.23,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 15683,
@@ -2440,7 +2980,9 @@
       "team": "BAL",
       "injury": null,
       "ownedPct": 0.23,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ BUF",
+      "oppRank": 10
     },
     {
       "id": 4429939,
@@ -2449,7 +2991,9 @@
       "team": "HOU",
       "injury": "O",
       "ownedPct": 0.19,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4241464,
@@ -2458,7 +3002,9 @@
       "team": "SF",
       "injury": null,
       "ownedPct": 0.19,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 11252,
@@ -2467,7 +3013,9 @@
       "team": "CIN",
       "injury": null,
       "ownedPct": 0.19,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs TEN",
+      "oppRank": 12
     },
     {
       "id": 4429148,
@@ -2476,7 +3024,9 @@
       "team": "NYG",
       "injury": "Q",
       "ownedPct": 0.19,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4678006,
@@ -2485,7 +3035,9 @@
       "team": "SEA",
       "injury": "IR",
       "ownedPct": 0.18,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CHI",
+      "oppRank": 17
     },
     {
       "id": 4874509,
@@ -2494,7 +3046,9 @@
       "team": "IND",
       "injury": null,
       "ownedPct": 0.18,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ JAX",
+      "oppRank": 2
     },
     {
       "id": 4685279,
@@ -2503,7 +3057,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.17,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4429299,
@@ -2512,7 +3068,9 @@
       "team": "CIN",
       "injury": null,
       "ownedPct": 0.17,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs TEN",
+      "oppRank": 18
     },
     {
       "id": 4243371,
@@ -2521,7 +3079,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.17,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4257188,
@@ -2530,7 +3090,9 @@
       "team": "NYG",
       "injury": null,
       "ownedPct": 0.16,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4362748,
@@ -2539,7 +3101,9 @@
       "team": "DEN",
       "injury": "IR",
       "ownedPct": 0.16,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs KC",
+      "oppRank": 9
     },
     {
       "id": 5529,
@@ -2548,7 +3112,9 @@
       "team": "IND",
       "injury": null,
       "ownedPct": 0.15,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ JAX",
+      "oppRank": 13
     },
     {
       "id": 4569682,
@@ -2557,7 +3123,9 @@
       "team": "CLE",
       "injury": null,
       "ownedPct": 0.15,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ PIT",
+      "oppRank": 12
     },
     {
       "id": 4879276,
@@ -2566,7 +3134,9 @@
       "team": "NO",
       "injury": null,
       "ownedPct": 0.15,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4714771,
@@ -2575,7 +3145,9 @@
       "team": "PIT",
       "injury": null,
       "ownedPct": 0.14,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CLE",
+      "oppRank": 8
     },
     {
       "id": 3049899,
@@ -2584,7 +3156,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.14,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4429084,
@@ -2593,7 +3167,9 @@
       "team": "IND",
       "injury": null,
       "ownedPct": 0.14,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ JAX",
+      "oppRank": 13
     },
     {
       "id": 4432775,
@@ -2602,7 +3178,9 @@
       "team": "LV",
       "injury": null,
       "ownedPct": 0.13,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ NYJ",
+      "oppRank": 15
     },
     {
       "id": 5081999,
@@ -2611,7 +3189,9 @@
       "team": "NO",
       "injury": "Q",
       "ownedPct": 0.13,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4566158,
@@ -2620,7 +3200,9 @@
       "team": "NYG",
       "injury": null,
       "ownedPct": 0.13,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4698597,
@@ -2629,7 +3211,9 @@
       "team": "NO",
       "injury": null,
       "ownedPct": 0.12,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 5208518,
@@ -2638,7 +3222,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.11,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4240391,
@@ -2647,7 +3233,9 @@
       "team": "NE",
       "injury": null,
       "ownedPct": 0.11,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ MIA",
+      "oppRank": 26
     },
     {
       "id": 4429275,
@@ -2656,7 +3244,9 @@
       "team": "ARI",
       "injury": "IR",
       "ownedPct": 0.1,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DAL",
+      "oppRank": 25
     },
     {
       "id": 3128720,
@@ -2665,7 +3255,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.1,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4431588,
@@ -2674,7 +3266,9 @@
       "team": "CAR",
       "injury": null,
       "ownedPct": 0.1,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ GB",
+      "oppRank": 2
     },
     {
       "id": 3843945,
@@ -2683,7 +3277,9 @@
       "team": "HOU",
       "injury": null,
       "ownedPct": 0.1,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4692835,
@@ -2692,7 +3288,9 @@
       "team": "ARI",
       "injury": "IR",
       "ownedPct": 0.1,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DAL",
+      "oppRank": 24
     },
     {
       "id": 5160110,
@@ -2701,7 +3299,9 @@
       "team": "CHI",
       "injury": null,
       "ownedPct": 0.1,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ SEA",
+      "oppRank": 1
     },
     {
       "id": 4714365,
@@ -2710,7 +3310,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0.09,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4426875,
@@ -2719,7 +3321,9 @@
       "team": "DAL",
       "injury": null,
       "ownedPct": 0.09,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs ARI",
+      "oppRank": 31
     },
     {
       "id": 3115293,
@@ -2728,7 +3332,9 @@
       "team": "BUF",
       "injury": null,
       "ownedPct": 0.08,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs BAL",
+      "oppRank": 17
     },
     {
       "id": 5091739,
@@ -2737,7 +3343,9 @@
       "team": "CAR",
       "injury": "IR",
       "ownedPct": 0.08,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ GB",
+      "oppRank": 23
     },
     {
       "id": 4061956,
@@ -2746,7 +3354,9 @@
       "team": "IND",
       "injury": null,
       "ownedPct": 0.08,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ JAX",
+      "oppRank": 28
     },
     {
       "id": 5092508,
@@ -2755,7 +3365,9 @@
       "team": "CIN",
       "injury": null,
       "ownedPct": 0.08,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs TEN",
+      "oppRank": 25
     },
     {
       "id": 4685413,
@@ -2764,7 +3376,9 @@
       "team": "NYJ",
       "injury": null,
       "ownedPct": 0.07,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs LV",
+      "oppRank": 28
     },
     {
       "id": 2975417,
@@ -2773,7 +3387,9 @@
       "team": "NYG",
       "injury": null,
       "ownedPct": 0.07,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4833029,
@@ -2782,7 +3398,9 @@
       "team": "LAR",
       "injury": null,
       "ownedPct": 0.07,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs LAC",
+      "oppRank": 10
     },
     {
       "id": 14163,
@@ -2791,7 +3409,9 @@
       "team": "GB",
       "injury": null,
       "ownedPct": 0.07,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CAR",
+      "oppRank": 14
     },
     {
       "id": 3051392,
@@ -2800,7 +3420,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.07,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4372561,
@@ -2809,7 +3431,9 @@
       "team": "SF",
       "injury": "O",
       "ownedPct": 0.07,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4808759,
@@ -2818,7 +3442,9 @@
       "team": "DAL",
       "injury": null,
       "ownedPct": 0.07,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs ARI",
+      "oppRank": 21
     },
     {
       "id": 2576581,
@@ -2827,7 +3453,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.07,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3059915,
@@ -2836,7 +3464,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.07,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4240631,
@@ -2845,7 +3475,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.07,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3044720,
@@ -2854,7 +3486,9 @@
       "team": "DET",
       "injury": null,
       "ownedPct": 0.07,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs MIN",
+      "oppRank": 1
     },
     {
       "id": 4372066,
@@ -2863,7 +3497,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.06,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3892775,
@@ -2872,7 +3508,9 @@
       "team": "DEN",
       "injury": null,
       "ownedPct": 0.06,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs KC",
+      "oppRank": 3
     },
     {
       "id": 3921690,
@@ -2881,7 +3519,9 @@
       "team": "MIN",
       "injury": "IR",
       "ownedPct": 0.06,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DET",
+      "oppRank": 32
     },
     {
       "id": 3123075,
@@ -2890,7 +3530,9 @@
       "team": "NYG",
       "injury": "IR",
       "ownedPct": 0.06,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3926231,
@@ -2899,7 +3541,9 @@
       "team": "PHI",
       "injury": "Q",
       "ownedPct": 0.06,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ WSH",
+      "oppRank": 27
     },
     {
       "id": 4702559,
@@ -2908,7 +3552,9 @@
       "team": "NO",
       "injury": null,
       "ownedPct": 0.06,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4432734,
@@ -2917,7 +3563,9 @@
       "team": "SEA",
       "injury": null,
       "ownedPct": 0.06,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CHI",
+      "oppRank": 23
     },
     {
       "id": 4240703,
@@ -2926,7 +3574,9 @@
       "team": "CAR",
       "injury": null,
       "ownedPct": 0.06,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ GB",
+      "oppRank": 5
     },
     {
       "id": 4259553,
@@ -2935,7 +3585,9 @@
       "team": "LAR",
       "injury": null,
       "ownedPct": 0.05,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs LAC",
+      "oppRank": 7
     },
     {
       "id": 4040612,
@@ -2944,7 +3596,9 @@
       "team": "SF",
       "injury": null,
       "ownedPct": 0.05,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4605951,
@@ -2953,7 +3607,9 @@
       "team": "LAR",
       "injury": null,
       "ownedPct": 0.05,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs LAC",
+      "oppRank": 13
     },
     {
       "id": 4372414,
@@ -2962,7 +3618,9 @@
       "team": "PHI",
       "injury": null,
       "ownedPct": 0.05,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ WSH",
+      "oppRank": 27
     },
     {
       "id": 4243389,
@@ -2971,7 +3629,9 @@
       "team": "NYG",
       "injury": "IR",
       "ownedPct": 0.05,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4429955,
@@ -2980,7 +3640,9 @@
       "team": "PIT",
       "injury": null,
       "ownedPct": 0.05,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CLE",
+      "oppRank": 8
     },
     {
       "id": 4360405,
@@ -2989,7 +3651,9 @@
       "team": "SEA",
       "injury": "IR",
       "ownedPct": 0.05,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CHI",
+      "oppRank": 10
     },
     {
       "id": 4428085,
@@ -2998,7 +3662,9 @@
       "team": "GB",
       "injury": "O",
       "ownedPct": 0.05,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CAR",
+      "oppRank": 18
     },
     {
       "id": 4426339,
@@ -3007,7 +3673,9 @@
       "team": "NO",
       "injury": null,
       "ownedPct": 0.05,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4602667,
@@ -3016,7 +3684,9 @@
       "team": "WSH",
       "injury": "IR",
       "ownedPct": 0.05,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs PHI",
+      "oppRank": 31
     },
     {
       "id": 2972515,
@@ -3025,7 +3695,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.05,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4039505,
@@ -3034,7 +3706,9 @@
       "team": "NE",
       "injury": "IR",
       "ownedPct": 0.05,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ MIA",
+      "oppRank": 29
     },
     {
       "id": 4035656,
@@ -3043,7 +3717,9 @@
       "team": "PIT",
       "injury": "Q",
       "ownedPct": 0.05,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CLE",
+      "oppRank": 19
     },
     {
       "id": 4035886,
@@ -3052,7 +3728,9 @@
       "team": "ATL",
       "injury": null,
       "ownedPct": 0.05,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ TB",
+      "oppRank": 4
     },
     {
       "id": 4693370,
@@ -3061,7 +3739,9 @@
       "team": "PIT",
       "injury": null,
       "ownedPct": 0.05,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CLE",
+      "oppRank": 8
     },
     {
       "id": 3116407,
@@ -3070,7 +3750,9 @@
       "team": "PIT",
       "injury": null,
       "ownedPct": 0.05,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CLE",
+      "oppRank": 8
     },
     {
       "id": 4427238,
@@ -3079,7 +3761,9 @@
       "team": "CLE",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ PIT",
+      "oppRank": 4
     },
     {
       "id": 15795,
@@ -3088,7 +3772,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4429202,
@@ -3097,7 +3783,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4243003,
@@ -3106,7 +3794,9 @@
       "team": "LAR",
       "injury": "IR",
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs LAC",
+      "oppRank": 24
     },
     {
       "id": 4570688,
@@ -3115,7 +3805,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4386544,
@@ -3124,7 +3816,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 14012,
@@ -3133,7 +3827,9 @@
       "team": "ATL",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ TB",
+      "oppRank": 6
     },
     {
       "id": 4245144,
@@ -3142,7 +3838,9 @@
       "team": "DET",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs MIN",
+      "oppRank": 4
     },
     {
       "id": 3118892,
@@ -3151,7 +3849,9 @@
       "team": "KC",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DEN",
+      "oppRank": 6
     },
     {
       "id": 4038524,
@@ -3160,7 +3860,9 @@
       "team": "ARI",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DAL",
+      "oppRank": 27
     },
     {
       "id": 4429805,
@@ -3169,7 +3871,9 @@
       "team": "BUF",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs BAL",
+      "oppRank": 5
     },
     {
       "id": 4241476,
@@ -3178,7 +3882,9 @@
       "team": "BUF",
       "injury": "O",
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs BAL",
+      "oppRank": 25
     },
     {
       "id": 3051738,
@@ -3187,7 +3893,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3039707,
@@ -3196,7 +3904,9 @@
       "team": "TEN",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ CIN",
+      "oppRank": 15
     },
     {
       "id": 4383351,
@@ -3205,7 +3915,9 @@
       "team": "LAC",
       "injury": "IR",
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ LAR",
+      "oppRank": 18
     },
     {
       "id": 4426496,
@@ -3214,7 +3926,9 @@
       "team": "HOU",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4600597,
@@ -3223,7 +3937,9 @@
       "team": "SEA",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CHI",
+      "oppRank": 10
     },
     {
       "id": 11122,
@@ -3232,7 +3948,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4037457,
@@ -3241,7 +3959,9 @@
       "team": "PIT",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CLE",
+      "oppRank": 8
     },
     {
       "id": 4361182,
@@ -3250,7 +3970,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4690923,
@@ -3259,7 +3981,9 @@
       "team": "WSH",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs PHI",
+      "oppRank": 7
     },
     {
       "id": 4426689,
@@ -3268,7 +3992,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4594749,
@@ -3277,7 +4003,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4367567,
@@ -3286,7 +4014,9 @@
       "team": "TEN",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ CIN",
+      "oppRank": 3
     },
     {
       "id": 4240600,
@@ -3295,7 +4025,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3120348,
@@ -3304,7 +4036,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4889929,
@@ -3313,7 +4047,9 @@
       "team": "JAX",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs IND",
+      "oppRank": 21
     },
     {
       "id": 3052897,
@@ -3322,7 +4058,9 @@
       "team": "BAL",
       "injury": "IR",
       "ownedPct": 0.04,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ BUF",
+      "oppRank": 21
     },
     {
       "id": 4036032,
@@ -3331,7 +4069,9 @@
       "team": "CHI",
       "injury": "IR",
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ SEA",
+      "oppRank": 15
     },
     {
       "id": 4431325,
@@ -3340,7 +4080,9 @@
       "team": "CLE",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ PIT",
+      "oppRank": 4
     },
     {
       "id": 3116593,
@@ -3349,7 +4091,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4570738,
@@ -3358,7 +4102,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4374033,
@@ -3367,7 +4113,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 5344782,
@@ -3376,7 +4124,9 @@
       "team": "ATL",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ TB",
+      "oppRank": 6
     },
     {
       "id": 4695705,
@@ -3385,7 +4135,9 @@
       "team": "HOU",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4683423,
@@ -3394,7 +4146,9 @@
       "team": "IND",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ JAX",
+      "oppRank": 13
     },
     {
       "id": 3126997,
@@ -3403,7 +4157,9 @@
       "team": "DET",
       "injury": "IR",
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs MIN",
+      "oppRank": 4
     },
     {
       "id": 4431562,
@@ -3412,7 +4168,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3929914,
@@ -3421,7 +4179,9 @@
       "team": "DEN",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs KC",
+      "oppRank": 9
     },
     {
       "id": 3125107,
@@ -3430,7 +4190,9 @@
       "team": "NYJ",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs LV",
+      "oppRank": 26
     },
     {
       "id": 3917668,
@@ -3439,7 +4201,9 @@
       "team": "LAC",
       "injury": "IR",
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ LAR",
+      "oppRank": 14
     },
     {
       "id": 4360086,
@@ -3448,7 +4212,9 @@
       "team": "GB",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CAR",
+      "oppRank": 18
     },
     {
       "id": 2531358,
@@ -3457,7 +4223,9 @@
       "team": "NYG",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4708486,
@@ -3466,7 +4234,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4433971,
@@ -3475,7 +4245,9 @@
       "team": "MIA",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs NE",
+      "oppRank": 9
     },
     {
       "id": 4573398,
@@ -3484,7 +4256,9 @@
       "team": "MIN",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DET",
+      "oppRank": 32
     },
     {
       "id": 4241555,
@@ -3493,7 +4267,9 @@
       "team": "PHI",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ WSH",
+      "oppRank": 7
     },
     {
       "id": 16728,
@@ -3502,7 +4278,9 @@
       "team": "DET",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs MIN",
+      "oppRank": 1
     },
     {
       "id": 14881,
@@ -3511,7 +4289,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 2976499,
@@ -3520,7 +4300,9 @@
       "team": "LV",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ NYJ",
+      "oppRank": 15
     },
     {
       "id": 2468609,
@@ -3529,7 +4311,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4567747,
@@ -3538,7 +4322,9 @@
       "team": "KC",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DEN",
+      "oppRank": 10
     },
     {
       "id": 4432722,
@@ -3547,7 +4333,9 @@
       "team": "WSH",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs PHI",
+      "oppRank": 24
     },
     {
       "id": 4373273,
@@ -3556,7 +4344,9 @@
       "team": "HOU",
       "injury": "IR",
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4568024,
@@ -3565,7 +4355,9 @@
       "team": "TB",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs ATL",
+      "oppRank": 28
     },
     {
       "id": 4879250,
@@ -3574,7 +4366,9 @@
       "team": "PHI",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ WSH",
+      "oppRank": 30
     },
     {
       "id": 4912052,
@@ -3583,7 +4377,9 @@
       "team": "MIA",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs NE",
+      "oppRank": 16
     },
     {
       "id": 5092436,
@@ -3592,7 +4388,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4242546,
@@ -3601,7 +4399,9 @@
       "team": "HOU",
       "injury": null,
       "ownedPct": 0.03,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4369886,
@@ -3610,7 +4410,9 @@
       "team": "ATL",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ TB",
+      "oppRank": 12
     },
     {
       "id": 4431342,
@@ -3619,7 +4421,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4877824,
@@ -3628,7 +4432,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4683159,
@@ -3637,7 +4443,9 @@
       "team": "HOU",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4361665,
@@ -3646,7 +4454,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4369863,
@@ -3655,7 +4465,9 @@
       "team": "NO",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4257364,
@@ -3664,7 +4476,9 @@
       "team": "CHI",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ SEA",
+      "oppRank": 15
     },
     {
       "id": 4431465,
@@ -3673,7 +4487,9 @@
       "team": "NE",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ MIA",
+      "oppRank": 26
     },
     {
       "id": 4685441,
@@ -3682,7 +4498,9 @@
       "team": "DET",
       "injury": "IR",
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs MIN",
+      "oppRank": 4
     },
     {
       "id": 4429435,
@@ -3691,7 +4509,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 15965,
@@ -3700,7 +4520,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4361765,
@@ -3709,7 +4531,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4372019,
@@ -3718,7 +4542,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4372026,
@@ -3727,7 +4553,9 @@
       "team": "NE",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ MIA",
+      "oppRank": 30
     },
     {
       "id": 4685381,
@@ -3736,7 +4564,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3929785,
@@ -3745,7 +4575,9 @@
       "team": "IND",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ JAX",
+      "oppRank": 28
     },
     {
       "id": 4685540,
@@ -3754,7 +4586,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4429466,
@@ -3763,7 +4597,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4685477,
@@ -3772,7 +4608,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 5085024,
@@ -3781,7 +4619,9 @@
       "team": "JAX",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs IND",
+      "oppRank": 9
     },
     {
       "id": 4429582,
@@ -3790,7 +4630,9 @@
       "team": "BAL",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ BUF",
+      "oppRank": 29
     },
     {
       "id": 3123052,
@@ -3799,7 +4641,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 2975674,
@@ -3808,7 +4652,9 @@
       "team": "PIT",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CLE",
+      "oppRank": 19
     },
     {
       "id": 4241374,
@@ -3817,7 +4663,9 @@
       "team": "PHI",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ WSH",
+      "oppRank": 31
     },
     {
       "id": 4241401,
@@ -3826,7 +4674,9 @@
       "team": "ATL",
       "injury": "IR",
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ TB",
+      "oppRank": 4
     },
     {
       "id": 3930066,
@@ -3835,7 +4685,9 @@
       "team": "WSH",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs PHI",
+      "oppRank": 31
     },
     {
       "id": 16460,
@@ -3844,7 +4696,9 @@
       "team": "PIT",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CLE",
+      "oppRank": 19
     },
     {
       "id": 3821683,
@@ -3853,7 +4707,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 12460,
@@ -3862,7 +4718,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4698253,
@@ -3871,7 +4729,9 @@
       "team": "NE",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ MIA",
+      "oppRank": 29
     },
     {
       "id": 4917427,
@@ -3880,7 +4740,9 @@
       "team": "JAX",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs IND",
+      "oppRank": 20
     },
     {
       "id": 4051167,
@@ -3889,7 +4751,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4034779,
@@ -3898,7 +4762,9 @@
       "team": "TB",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs ATL",
+      "oppRank": 24
     },
     {
       "id": 3932442,
@@ -3907,7 +4773,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 16757,
@@ -3916,7 +4784,9 @@
       "team": "NO",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 16760,
@@ -3925,7 +4795,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4432338,
@@ -3934,7 +4806,9 @@
       "team": "GB",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CAR",
+      "oppRank": 18
     },
     {
       "id": 4035004,
@@ -3943,7 +4817,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4573697,
@@ -3952,7 +4828,9 @@
       "team": "NO",
       "injury": "O",
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4241820,
@@ -3961,7 +4839,9 @@
       "team": "DEN",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs KC",
+      "oppRank": 3
     },
     {
       "id": 4424106,
@@ -3970,7 +4850,9 @@
       "team": "NYG",
       "injury": "IR",
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4360637,
@@ -3979,7 +4861,9 @@
       "team": "MIN",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DET",
+      "oppRank": 29
     },
     {
       "id": 5151317,
@@ -3988,7 +4872,9 @@
       "team": "SEA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CHI",
+      "oppRank": 6
     },
     {
       "id": 4360799,
@@ -3997,7 +4883,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4012556,
@@ -4006,7 +4894,9 @@
       "team": "MIN",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DET",
+      "oppRank": 10
     },
     {
       "id": 4878878,
@@ -4015,7 +4905,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4260394,
@@ -4024,7 +4916,9 @@
       "team": "LV",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ NYJ",
+      "oppRank": 16
     },
     {
       "id": 4430388,
@@ -4033,7 +4927,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3975763,
@@ -4042,7 +4938,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 2980453,
@@ -4051,7 +4949,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4239944,
@@ -4060,7 +4960,9 @@
       "team": "ARI",
       "injury": "IR",
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DAL",
+      "oppRank": 15
     },
     {
       "id": 14993,
@@ -4069,7 +4971,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4428512,
@@ -4078,7 +4982,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4696736,
@@ -4087,7 +4993,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4565859,
@@ -4096,7 +5004,9 @@
       "team": "CLE",
       "injury": "O",
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ PIT",
+      "oppRank": 9
     },
     {
       "id": 4361088,
@@ -4105,7 +5015,9 @@
       "team": "WSH",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs PHI",
+      "oppRank": 7
     },
     {
       "id": 4430723,
@@ -4114,7 +5026,9 @@
       "team": "KC",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DEN",
+      "oppRank": 23
     },
     {
       "id": 3728262,
@@ -4123,7 +5037,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 2976592,
@@ -4132,7 +5048,9 @@
       "team": "NYJ",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs LV",
+      "oppRank": 18
     },
     {
       "id": 2577327,
@@ -4141,7 +5059,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4242431,
@@ -4150,7 +5070,9 @@
       "team": "NO",
       "injury": "IR",
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4682652,
@@ -4159,7 +5081,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4602788,
@@ -4168,7 +5092,9 @@
       "team": "DET",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs MIN",
+      "oppRank": 1
     },
     {
       "id": 4242519,
@@ -4177,7 +5103,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4242536,
@@ -4186,7 +5114,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3128444,
@@ -4195,7 +5125,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4361259,
@@ -4204,7 +5136,9 @@
       "team": "NO",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4369466,
@@ -4213,7 +5147,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 11394,
@@ -4222,7 +5158,9 @@
       "team": "CIN",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs TEN",
+      "oppRank": 12
     },
     {
       "id": 4429053,
@@ -4231,7 +5169,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4428943,
@@ -4240,7 +5180,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4428963,
@@ -4249,7 +5191,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4566192,
@@ -4258,7 +5202,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4373684,
@@ -4267,7 +5213,9 @@
       "team": "LAC",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ LAR",
+      "oppRank": 14
     },
     {
       "id": 4428993,
@@ -4276,7 +5224,9 @@
       "team": "CAR",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ GB",
+      "oppRank": 5
     },
     {
       "id": 4361418,
@@ -4285,7 +5235,9 @@
       "team": "NYJ",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs LV",
+      "oppRank": 28
     },
     {
       "id": 4431196,
@@ -4294,7 +5246,9 @@
       "team": "KC",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DEN",
+      "oppRank": 23
     },
     {
       "id": 4431210,
@@ -4303,7 +5257,9 @@
       "team": "ATL",
       "injury": "IR",
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ TB",
+      "oppRank": 12
     },
     {
       "id": 4240657,
@@ -4312,7 +5268,9 @@
       "team": "TEN",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ CIN",
+      "oppRank": 3
     },
     {
       "id": 4431142,
@@ -4321,7 +5279,9 @@
       "team": "KC",
       "injury": "IR",
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DEN",
+      "oppRank": 6
     },
     {
       "id": 4429105,
@@ -4330,7 +5290,9 @@
       "team": "NYJ",
       "injury": "IR",
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs LV",
+      "oppRank": 18
     },
     {
       "id": 4685110,
@@ -4339,7 +5301,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.02,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4429262,
@@ -4348,7 +5312,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 9614,
@@ -4357,7 +5323,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4050373,
@@ -4366,7 +5334,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4240858,
@@ -4375,7 +5345,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4259308,
@@ -4384,7 +5356,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4431353,
@@ -4393,7 +5367,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 15807,
@@ -4402,7 +5378,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3139033,
@@ -4411,7 +5389,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4361653,
@@ -4420,7 +5400,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3120590,
@@ -4429,7 +5411,9 @@
       "team": "TB",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs ATL",
+      "oppRank": 20
     },
     {
       "id": 4570561,
@@ -4438,7 +5422,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4249030,
@@ -4447,7 +5433,9 @@
       "team": "IND",
       "injury": "IR",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ JAX",
+      "oppRank": 28
     },
     {
       "id": 15880,
@@ -4456,7 +5444,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4431453,
@@ -4465,7 +5455,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4372070,
@@ -4474,7 +5466,9 @@
       "team": "KC",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DEN",
+      "oppRank": 23
     },
     {
       "id": 4372071,
@@ -4483,7 +5477,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 5178972,
@@ -4492,7 +5488,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3929636,
@@ -4501,7 +5499,9 @@
       "team": "SEA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CHI",
+      "oppRank": 10
     },
     {
       "id": 4572786,
@@ -4510,7 +5510,9 @@
       "team": "TB",
       "injury": "IR",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs ATL",
+      "oppRank": 22
     },
     {
       "id": 4427391,
@@ -4519,7 +5521,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4240911,
@@ -4528,7 +5532,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4361777,
@@ -4537,7 +5543,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4683308,
@@ -4546,7 +5554,9 @@
       "team": "NE",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ MIA",
+      "oppRank": 30
     },
     {
       "id": 4243004,
@@ -4555,7 +5565,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4243160,
@@ -4564,7 +5576,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4876006,
@@ -4573,7 +5587,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4691688,
@@ -4582,7 +5598,9 @@
       "team": "SEA",
       "injury": "IR",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CHI",
+      "oppRank": 6
     },
     {
       "id": 4239086,
@@ -4591,7 +5609,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 2971281,
@@ -4600,7 +5620,9 @@
       "team": "IND",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ JAX",
+      "oppRank": 11
     },
     {
       "id": 4259592,
@@ -4609,7 +5631,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4431506,
@@ -4618,7 +5642,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4036335,
@@ -4627,7 +5653,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4431536,
@@ -4636,7 +5664,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3886812,
@@ -4645,7 +5675,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3886818,
@@ -4654,7 +5686,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 16140,
@@ -4663,7 +5697,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4036419,
@@ -4672,7 +5708,9 @@
       "team": "BAL",
       "injury": "IR",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ BUF",
+      "oppRank": 29
     },
     {
       "id": 4427600,
@@ -4681,7 +5719,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3045169,
@@ -4690,7 +5730,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3917612,
@@ -4699,7 +5741,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3045144,
@@ -4708,7 +5752,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4243315,
@@ -4717,7 +5763,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3045138,
@@ -4726,7 +5774,9 @@
       "team": "LAC",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ LAR",
+      "oppRank": 5
     },
     {
       "id": 4274040,
@@ -4735,7 +5785,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4243322,
@@ -4744,7 +5796,9 @@
       "team": "NYG",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3051381,
@@ -4753,7 +5807,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3061612,
@@ -4762,7 +5818,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 2565969,
@@ -4771,7 +5829,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3135321,
@@ -4780,7 +5840,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4390717,
@@ -4789,7 +5851,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4421446,
@@ -4798,7 +5862,9 @@
       "team": "WSH",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs PHI",
+      "oppRank": 16
     },
     {
       "id": 4360175,
@@ -4807,7 +5873,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4429811,
@@ -4816,7 +5884,9 @@
       "team": "LAC",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ LAR",
+      "oppRank": 5
     },
     {
       "id": 5085189,
@@ -4825,7 +5895,9 @@
       "team": "CIN",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs TEN",
+      "oppRank": 8
     },
     {
       "id": 4605841,
@@ -4834,7 +5906,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3127306,
@@ -4843,7 +5917,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3059722,
@@ -4852,7 +5928,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4057082,
@@ -4861,7 +5939,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4892576,
@@ -4870,7 +5950,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4362162,
@@ -4879,7 +5961,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4710341,
@@ -4888,7 +5972,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4698191,
@@ -4897,7 +5983,9 @@
       "team": "LV",
       "injury": "IR",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ NYJ",
+      "oppRank": 17
     },
     {
       "id": 4360290,
@@ -4906,7 +5994,9 @@
       "team": "SF",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4360294,
@@ -4915,7 +6005,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 2576399,
@@ -4924,7 +6016,9 @@
       "team": "BAL",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ BUF",
+      "oppRank": 21
     },
     {
       "id": 3139602,
@@ -4933,7 +6027,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 2576414,
@@ -4942,7 +6038,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4808830,
@@ -4951,7 +6049,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4712579,
@@ -4960,7 +6060,9 @@
       "team": "MIN",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DET",
+      "oppRank": 29
     },
     {
       "id": 4360231,
@@ -4969,7 +6071,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4372526,
@@ -4978,7 +6082,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4567095,
@@ -4987,7 +6093,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4573243,
@@ -4996,7 +6104,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4569156,
@@ -5005,7 +6115,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3119195,
@@ -5014,7 +6126,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 2574511,
@@ -5023,7 +6137,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4427985,
@@ -5032,7 +6148,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 2310331,
@@ -5041,7 +6159,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4034704,
@@ -5050,7 +6170,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4362504,
@@ -5059,7 +6181,9 @@
       "team": "HOU",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4245645,
@@ -5068,7 +6192,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3115255,
@@ -5077,7 +6203,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4245661,
@@ -5086,7 +6214,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3121410,
@@ -5095,7 +6225,9 @@
       "team": "DAL",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs ARI",
+      "oppRank": 21
     },
     {
       "id": 3121409,
@@ -5104,7 +6236,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 5083297,
@@ -5113,7 +6247,9 @@
       "team": "WSH",
       "injury": "IR",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs PHI",
+      "oppRank": 31
     },
     {
       "id": 2511109,
@@ -5122,7 +6258,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4567216,
@@ -5131,7 +6269,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4698301,
@@ -5140,7 +6280,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4432208,
@@ -5149,7 +6291,9 @@
       "team": "DEN",
       "injury": "IR",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs KC",
+      "oppRank": 28
     },
     {
       "id": 4428119,
@@ -5158,7 +6302,9 @@
       "team": "PIT",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CLE",
+      "oppRank": 8
     },
     {
       "id": 4034862,
@@ -5167,7 +6313,9 @@
       "team": "SF",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 2978109,
@@ -5176,7 +6324,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3059989,
@@ -5185,7 +6335,9 @@
       "team": "JAX",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs IND",
+      "oppRank": 21
     },
     {
       "id": 5208436,
@@ -5194,7 +6346,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3121427,
@@ -5203,7 +6357,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3916071,
@@ -5212,7 +6368,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3115306,
@@ -5221,7 +6379,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4362630,
@@ -5230,7 +6390,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 2574630,
@@ -5239,7 +6401,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4241802,
@@ -5248,7 +6412,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4034948,
@@ -5257,7 +6423,9 @@
       "team": "CAR",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ GB",
+      "oppRank": 2
     },
     {
       "id": 3871102,
@@ -5266,7 +6434,9 @@
       "team": "TB",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs ATL",
+      "oppRank": 22
     },
     {
       "id": 4372758,
@@ -5275,7 +6445,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4034946,
@@ -5284,7 +6456,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4686104,
@@ -5293,7 +6467,9 @@
       "team": "PHI",
       "injury": "IR",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ WSH",
+      "oppRank": 27
     },
     {
       "id": 4430104,
@@ -5302,7 +6478,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4039034,
@@ -5311,7 +6489,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4569372,
@@ -5320,7 +6500,9 @@
       "team": "LAC",
       "injury": "IR",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ LAR",
+      "oppRank": 5
     },
     {
       "id": 4045163,
@@ -5329,7 +6511,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3115349,
@@ -5338,7 +6522,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4569547,
@@ -5347,7 +6533,9 @@
       "team": "SEA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CHI",
+      "oppRank": 17
     },
     {
       "id": 16799,
@@ -5356,7 +6544,9 @@
       "team": "DET",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs MIN",
+      "oppRank": 4
     },
     {
       "id": 3047876,
@@ -5365,7 +6555,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3051926,
@@ -5374,7 +6566,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4248068,
@@ -5383,7 +6577,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4569609,
@@ -5392,7 +6588,9 @@
       "team": "ARI",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DAL",
+      "oppRank": 25
     },
     {
       "id": 4039160,
@@ -5401,7 +6599,9 @@
       "team": "TEN",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ CIN",
+      "oppRank": 22
     },
     {
       "id": 2574808,
@@ -5410,7 +6610,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4244049,
@@ -5419,7 +6621,9 @@
       "team": "JAX",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs IND",
+      "oppRank": 20
     },
     {
       "id": 4426335,
@@ -5428,7 +6632,9 @@
       "team": "HOU",
       "injury": "IR",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4430431,
@@ -5437,7 +6643,9 @@
       "team": "SF",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4035115,
@@ -5446,7 +6654,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3052056,
@@ -5455,7 +6665,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4692590,
@@ -5464,7 +6676,9 @@
       "team": "NYG",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4426364,
@@ -5473,7 +6687,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4696700,
@@ -5482,7 +6698,9 @@
       "team": "ARI",
       "injury": "O",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DAL",
+      "oppRank": 15
     },
     {
       "id": 4373030,
@@ -5491,7 +6709,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4039274,
@@ -5500,7 +6720,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4596439,
@@ -5509,7 +6731,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4039358,
@@ -5518,7 +6742,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4590292,
@@ -5527,7 +6753,9 @@
       "team": "NYG",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4877034,
@@ -5536,7 +6764,9 @@
       "team": "TEN",
       "injury": "IR",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ CIN",
+      "oppRank": 22
     },
     {
       "id": 4426479,
@@ -5545,7 +6775,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3052177,
@@ -5554,7 +6786,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3914397,
@@ -5563,7 +6797,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4428532,
@@ -5572,7 +6808,9 @@
       "team": "CAR",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ GB",
+      "oppRank": 23
     },
     {
       "id": 4250360,
@@ -5581,7 +6819,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4035222,
@@ -5590,7 +6830,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4240021,
@@ -5599,7 +6841,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4035312,
@@ -5608,7 +6852,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4688552,
@@ -5617,7 +6863,9 @@
       "team": "BUF",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs BAL",
+      "oppRank": 13
     },
     {
       "id": 3932905,
@@ -5626,7 +6874,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4876995,
@@ -5635,7 +6885,9 @@
       "team": "CAR",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ GB",
+      "oppRank": 23
     },
     {
       "id": 4430684,
@@ -5644,7 +6896,9 @@
       "team": "NO",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4432731,
@@ -5653,7 +6907,9 @@
       "team": "NO",
       "injury": "IR",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4248425,
@@ -5662,7 +6918,9 @@
       "team": "MIA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs NE",
+      "oppRank": 13
     },
     {
       "id": 5159802,
@@ -5671,7 +6929,9 @@
       "team": "DEN",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs KC",
+      "oppRank": 28
     },
     {
       "id": 3916566,
@@ -5680,7 +6940,9 @@
       "team": "TEN",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ CIN",
+      "oppRank": 16
     },
     {
       "id": 4428678,
@@ -5689,7 +6951,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4379405,
@@ -5698,7 +6962,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 5065495,
@@ -5707,7 +6973,9 @@
       "team": "CHI",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ SEA",
+      "oppRank": 1
     },
     {
       "id": 4360978,
@@ -5716,7 +6984,9 @@
       "team": "TEN",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ CIN",
+      "oppRank": 22
     },
     {
       "id": 4682509,
@@ -5725,7 +6995,9 @@
       "team": "NYJ",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs LV",
+      "oppRank": 18
     },
     {
       "id": 4242214,
@@ -5734,7 +7006,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3124092,
@@ -5743,7 +7017,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4426535,
@@ -5752,7 +7028,9 @@
       "team": "LAC",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ LAR",
+      "oppRank": 5
     },
     {
       "id": 4430637,
@@ -5761,7 +7039,9 @@
       "team": "NO",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3928925,
@@ -5770,7 +7050,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4596545,
@@ -5779,7 +7061,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4367178,
@@ -5788,7 +7072,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 5225419,
@@ -5797,7 +7083,9 @@
       "team": "DEN",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs KC",
+      "oppRank": 2
     },
     {
       "id": 4039607,
@@ -5806,7 +7094,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4240350,
@@ -5815,7 +7105,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3115928,
@@ -5824,7 +7116,9 @@
       "team": "SF",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4248557,
@@ -5833,7 +7127,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3910544,
@@ -5842,7 +7138,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4242442,
@@ -5851,7 +7149,9 @@
       "team": "DAL",
       "injury": "IR",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs ARI",
+      "oppRank": 26
     },
     {
       "id": 3050487,
@@ -5860,7 +7160,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3122168,
@@ -5869,7 +7171,9 @@
       "team": "BUF",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs BAL",
+      "oppRank": 25
     },
     {
       "id": 4877203,
@@ -5878,7 +7182,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4361100,
@@ -5887,7 +7193,9 @@
       "team": "WSH",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs PHI",
+      "oppRank": 16
     },
     {
       "id": 3050481,
@@ -5896,7 +7204,9 @@
       "team": "CIN",
       "injury": "IR",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs TEN",
+      "oppRank": 8
     },
     {
       "id": 4391845,
@@ -5905,7 +7215,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4613050,
@@ -5914,7 +7226,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3122154,
@@ -5923,7 +7237,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4686781,
@@ -5932,7 +7248,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4365395,
@@ -5941,7 +7259,9 @@
       "team": "NE",
       "injury": "IR",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ MIA",
+      "oppRank": 30
     },
     {
       "id": 4242526,
@@ -5950,7 +7270,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3128390,
@@ -5959,7 +7281,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4373632,
@@ -5968,7 +7292,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4916349,
@@ -5977,7 +7303,9 @@
       "team": "CHI",
       "injury": "IR",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ SEA",
+      "oppRank": 3
     },
     {
       "id": 4709392,
@@ -5986,7 +7314,9 @@
       "team": "CAR",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ GB",
+      "oppRank": 27
     },
     {
       "id": 4428811,
@@ -5995,7 +7325,9 @@
       "team": "ARI",
       "injury": "Q",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DAL",
+      "oppRank": 24
     },
     {
       "id": 4035676,
@@ -6004,7 +7336,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 2511973,
@@ -6013,7 +7347,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3138744,
@@ -6022,7 +7358,9 @@
       "team": "LV",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ NYJ",
+      "oppRank": 6
     },
     {
       "id": 4244688,
@@ -6031,7 +7369,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4361426,
@@ -6040,7 +7380,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4429012,
@@ -6049,7 +7391,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4685016,
@@ -6058,7 +7402,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4361438,
@@ -6067,7 +7413,9 @@
       "team": "MIA",
       "injury": "IR",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs NE",
+      "oppRank": 16
     },
     {
       "id": 4685039,
@@ -6076,7 +7424,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4685035,
@@ -6085,7 +7435,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 2579604,
@@ -6094,7 +7446,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4250764,
@@ -6103,7 +7457,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4426893,
@@ -6112,7 +7468,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 5082269,
@@ -6121,7 +7479,9 @@
       "team": "LAR",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs LAC",
+      "oppRank": 24
     },
     {
       "id": 4570296,
@@ -6130,7 +7490,9 @@
       "team": "NYG",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4240573,
@@ -6139,7 +7501,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4361417,
@@ -6148,7 +7512,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4248909,
@@ -6157,7 +7523,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4693331,
@@ -6166,7 +7534,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4427105,
@@ -6175,7 +7545,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4240750,
@@ -6184,7 +7556,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4887918,
@@ -6193,7 +7567,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4361604,
@@ -6202,7 +7578,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4048259,
@@ -6211,7 +7589,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4048244,
@@ -6220,7 +7600,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4363554,
@@ -6229,7 +7611,9 @@
       "team": "KC",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DEN",
+      "oppRank": 23
     },
     {
       "id": 4044144,
@@ -6238,7 +7622,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4775196,
@@ -6247,7 +7633,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4570409,
@@ -6256,7 +7644,9 @@
       "team": "CLE",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ PIT",
+      "oppRank": 14
     },
     {
       "id": 4429121,
@@ -6265,7 +7655,9 @@
       "team": "TEN",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ CIN",
+      "oppRank": 3
     },
     {
       "id": 4685116,
@@ -6274,7 +7666,9 @@
       "team": "MIA",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs NE",
+      "oppRank": 13
     },
     {
       "id": 4044111,
@@ -6283,7 +7677,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0.01,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3923392,
@@ -6292,7 +7688,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4036026,
@@ -6301,7 +7699,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4259324,
@@ -6310,7 +7710,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4384171,
@@ -6319,7 +7721,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4027873,
@@ -6328,7 +7732,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4689334,
@@ -6337,7 +7743,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 2508256,
@@ -6346,7 +7754,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4372063,
@@ -6355,7 +7765,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3929637,
@@ -6364,7 +7776,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4431479,
@@ -6373,7 +7787,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4875912,
@@ -6382,7 +7798,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4689546,
@@ -6391,7 +7809,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4427278,
@@ -6400,7 +7820,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4408854,
@@ -6409,7 +7831,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3915381,
@@ -6418,7 +7842,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4036211,
@@ -6427,7 +7853,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4361778,
@@ -6436,7 +7864,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4036275,
@@ -6445,7 +7875,9 @@
       "team": "IND",
       "injury": "Q",
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ JAX",
+      "oppRank": 11
     },
     {
       "id": 4361988,
@@ -6454,7 +7886,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4245131,
@@ -6463,7 +7897,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4431509,
@@ -6472,7 +7908,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3948283,
@@ -6481,7 +7919,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4374187,
@@ -6490,7 +7930,9 @@
       "team": "LV",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ NYJ",
+      "oppRank": 15
     },
     {
       "id": 4589248,
@@ -6499,7 +7941,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3886809,
@@ -6508,7 +7952,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4362087,
@@ -6517,7 +7963,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4243319,
@@ -6526,7 +7974,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3122976,
@@ -6535,7 +7985,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4046715,
@@ -6544,7 +7996,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4362019,
@@ -6553,7 +8007,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3125116,
@@ -6562,7 +8018,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4036448,
@@ -6571,7 +8029,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4411193,
@@ -6580,7 +8040,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4427575,
@@ -6589,7 +8051,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4046676,
@@ -6598,7 +8062,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4036431,
@@ -6607,7 +8073,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4360174,
@@ -6616,7 +8084,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4362227,
@@ -6625,7 +8095,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 2977800,
@@ -6634,7 +8106,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3127292,
@@ -6643,7 +8117,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 2971618,
@@ -6652,7 +8128,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4362186,
@@ -6661,7 +8139,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4040774,
@@ -6670,7 +8150,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4243537,
@@ -6679,7 +8161,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3915821,
@@ -6688,7 +8172,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4360306,
@@ -6697,7 +8183,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3917849,
@@ -6706,7 +8194,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4249616,
@@ -6715,7 +8205,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3917960,
@@ -6724,7 +8216,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4692022,
@@ -6733,7 +8227,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 2578533,
@@ -6742,7 +8238,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4689988,
@@ -6751,7 +8249,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4362452,
@@ -6760,7 +8260,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4362489,
@@ -6769,7 +8271,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4043016,
@@ -6778,7 +8282,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 2574576,
@@ -6787,7 +8293,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4241588,
@@ -6796,7 +8304,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3049698,
@@ -6805,7 +8315,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4428116,
@@ -6814,7 +8326,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4608362,
@@ -6823,7 +8337,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4362603,
@@ -6832,7 +8348,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4243830,
@@ -6841,7 +8359,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4362617,
@@ -6850,7 +8370,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4040980,
@@ -6859,7 +8381,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4039043,
@@ -6868,7 +8392,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3115378,
@@ -6877,7 +8403,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3115394,
@@ -6886,7 +8414,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 2576716,
@@ -6895,7 +8425,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 16763,
@@ -6904,7 +8436,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4567506,
@@ -6913,7 +8447,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3916204,
@@ -6922,7 +8458,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3914151,
@@ -6931,7 +8469,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3912092,
@@ -6940,7 +8480,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3924365,
@@ -6949,7 +8491,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4258248,
@@ -6958,7 +8502,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3914307,
@@ -6967,7 +8513,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4360794,
@@ -6976,7 +8524,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4047422,
@@ -6985,7 +8535,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3910176,
@@ -6994,7 +8546,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4035198,
@@ -7003,7 +8557,9 @@
       "team": "PIT",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs CLE",
+      "oppRank": 19
     },
     {
       "id": 4700712,
@@ -7012,7 +8568,9 @@
       "team": "CIN",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "vs TEN",
+      "oppRank": 8
     },
     {
       "id": 4035170,
@@ -7021,7 +8579,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4366910,
@@ -7030,7 +8590,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4426475,
@@ -7039,7 +8601,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3916430,
@@ -7048,7 +8612,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4379401,
@@ -7057,7 +8623,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4426399,
@@ -7066,7 +8634,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4426407,
@@ -7075,7 +8645,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4426426,
@@ -7084,7 +8656,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4240069,
@@ -7093,7 +8667,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4367186,
@@ -7102,7 +8678,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3916587,
@@ -7111,7 +8689,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4746079,
@@ -7120,7 +8700,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3918639,
@@ -7129,7 +8711,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3916564,
@@ -7138,7 +8722,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4373266,
@@ -7147,7 +8733,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4035426,
@@ -7156,7 +8744,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3126115,
@@ -7165,7 +8755,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 5155825,
@@ -7174,7 +8766,9 @@
       "team": "LV",
       "injury": "IR",
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ NYJ",
+      "oppRank": 6
     },
     {
       "id": 4428796,
@@ -7183,7 +8777,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4565908,
@@ -7192,7 +8788,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4361112,
@@ -7201,7 +8799,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3916749,
@@ -7210,7 +8810,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4242540,
@@ -7219,7 +8821,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4361332,
@@ -7228,7 +8832,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4570242,
@@ -7237,7 +8843,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4242558,
@@ -7246,7 +8854,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4373634,
@@ -7255,7 +8865,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3128452,
@@ -7264,7 +8876,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3722362,
@@ -7273,7 +8887,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4429006,
@@ -7282,7 +8898,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4035776,
@@ -7291,7 +8909,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3120303,
@@ -7300,7 +8920,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4429033,
@@ -7309,7 +8931,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4426990,
@@ -7318,7 +8942,9 @@
       "team": "NO",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4248822,
@@ -7327,7 +8953,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4367510,
@@ -7336,7 +8964,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3931391,
@@ -7345,7 +8975,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4429001,
@@ -7354,7 +8986,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3040569,
@@ -7363,7 +8997,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3046704,
@@ -7372,7 +9008,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4250969,
@@ -7381,7 +9019,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4244856,
@@ -7390,7 +9030,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 3144991,
@@ -7399,7 +9041,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4363551,
@@ -7408,7 +9052,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4879650,
@@ -7417,7 +9063,9 @@
       "team": "FA",
       "injury": "Q",
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4250945,
@@ -7426,7 +9074,9 @@
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4685489,
@@ -7435,7 +9085,9 @@
       "team": "KC",
       "injury": null,
       "ownedPct": 0,
-      "projPts": 0
+      "projPts": 0,
+      "opp": "@ DEN",
+      "oppRank": 23
     }
   ]
 }
