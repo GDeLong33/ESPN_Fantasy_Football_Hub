@@ -1,0 +1,94 @@
+{
+  "updatedAt": "2026-10-28T18:22:06.333Z",
+  "season": 2026,
+  "week": 7,
+  "austin": {
+    "teamName": "Gooners Guild of America",
+    "points": 95.08,
+    "lineup": [
+      {
+        "slot": "QB",
+        "playerId": 4433970,
+        "name": "J.J. McCarthy",
+        "pos": "QB",
+        "team": "NYG",
+        "projPts": 16.4,
+        "actualPts": 10.18
+      },
+      {
+        "slot": "RB",
+        "playerId": 4426385,
+        "name": "Zach Charbonnet",
+        "pos": "RB",
+        "team": "SEA",
+        "projPts": 0,
+        "actualPts": 0
+      },
+      {
+        "slot": "RB",
+        "playerId": 4887558,
+        "name": "Emanuel Wilson",
+        "pos": "RB",
+        "team": "SEA",
+        "projPts": 10.68,
+        "actualPts": 18.5
+      },
+      {
+        "slot": "WR",
+        "playerId": 4685278,
+        "name": "Luther Burden III",
+        "pos": "WR",
+        "team": "CHI",
+        "projPts": 12.66,
+        "actualPts": 23.7
+      },
+      {
+        "slot": "WR",
+        "playerId": 4688813,
+        "name": "Josh Downs",
+        "pos": "WR",
+        "team": "IND",
+        "projPts": 8.37,
+        "actualPts": 3.8
+      },
+      {
+        "slot": "TE",
+        "playerId": 3929645,
+        "name": "Juwan Johnson",
+        "pos": "TE",
+        "team": "NO",
+        "projPts": 8.65,
+        "actualPts": 1.7
+      },
+      {
+        "slot": "FLEX",
+        "playerId": 4870653,
+        "name": "KC Concepcion",
+        "pos": "WR",
+        "team": "CLE",
+        "projPts": 8.88,
+        "actualPts": 23.2
+      },
+      {
+        "slot": "D/ST",
+        "playerId": -16007,
+        "name": "Broncos D/ST",
+        "pos": "D/ST",
+        "team": "DEN",
+        "projPts": 6.36,
+        "actualPts": 3
+      },
+      {
+        "slot": "K",
+        "playerId": 17372,
+        "name": "Chris Boswell",
+        "pos": "K",
+        "team": "PIT",
+        "projPts": 11.36,
+        "actualPts": 11
+      }
+    ]
+  },
+  "winner": null,
+  "entries": []
+}
