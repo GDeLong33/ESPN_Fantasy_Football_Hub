@@ -7,7 +7,7 @@ export type BoardEntry = {
   teamName: string | null;
   createdAt: string;
   projTotal: number;
-  /** null until the week locks. */
+  /** Player details for each pick (null only if the database predates the show-lineups migration). */
   lineup: { slot: string; playerId: number; name: string | null; pos: string | null; team: string | null; proj: number | null }[] | null;
 };
 

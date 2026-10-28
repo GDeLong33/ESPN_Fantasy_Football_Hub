@@ -44,7 +44,7 @@ function WeekBoard({ data }: { data: GameData }) {
           Every waiver-wire lineup locked in so far, against Austin and the rest of the league.{' '}
           {locked
             ? 'Lineups are locked. Final scores arrive after Monday night.'
-            : `Projections update until kickoff${lockAt != null && meta.lockTime ? ` (${formatLock(meta.lockTime)}, ${formatCountdown(lockAt - now)})` : ''}. Lineups are revealed at kickoff.`}
+            : `Projections update until kickoff${lockAt != null && meta.lockTime ? ` (${formatLock(meta.lockTime)}, ${formatCountdown(lockAt - now)})` : ''}. Tap any entry to see its lineup.`}
         </p>
       </div>
 
@@ -54,7 +54,7 @@ function WeekBoard({ data }: { data: GameData }) {
         <div className="panel panel__body notice">Entries aren't open yet. Check back soon.</div>
       ) : (
         <DataState state={board} loading={<div className="panel panel__body">Loading entries…</div>}>
-          {(entries) => <BoardBody data={data} entries={entries ?? []} mine={mine} locked={locked} />}
+          {(entries) => <BoardBody data={data} entries={entries ?? []} mine={mine} />}
         </DataState>
       )}
 
@@ -119,12 +119,10 @@ function BoardBody({
   data,
   entries,
   mine,
-  locked,
 }: {
   data: GameData;
   entries: BoardEntry[];
   mine: EnteredEntry | null;
-  locked: boolean;
 }) {
   const { austin, league, meta } = data;
   const ahead = entries.filter((e) => e.projTotal >= austin.projTotal).length;
@@ -159,7 +157,7 @@ function BoardBody({
           <h2 className="panel__title" id="entries-title">
             Entries
           </h2>
-          <span className="small muted">{locked ? 'Tap a row to see the lineup' : 'Lineups revealed at kickoff'}</span>
+          <span className="small muted">Tap a row to see the lineup</span>
         </div>
         {entries.length === 0 ? (
           <div className="state">

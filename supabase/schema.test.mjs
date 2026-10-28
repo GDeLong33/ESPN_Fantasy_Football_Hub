@@ -151,19 +151,18 @@ describe('sync_week', () => {
 describe('entry_board', () => {
   const board = () => asAnon('select name, proj_total::float as proj, lineup from entry_board(2026, 8)');
 
-  it('shows names and projected totals before lock, but not lineups', async () => {
+  it('ranks entries by projected total', async () => {
     await enter('Low', [LINEUP[0], { slot: 'RB', playerId: 3 }, LINEUP[2]]);
     await enter('High');
     const { rows } = await board();
-    expect(rows).toEqual([
-      { name: 'High', proj: 32.64, lineup: null },
-      { name: 'Low', proj: 31.74, lineup: null },
+    expect(rows.map((r) => [r.name, r.proj])).toEqual([
+      ['High', 32.64],
+      ['Low', 31.74],
     ]);
   });
 
-  it('reveals lineups with player details once the week locks', async () => {
+  it('shows every lineup with player details, even before kickoff', async () => {
     await enter('Gavin');
-    await db.query('update weeks set lock_time = $1', [past()]);
     const { rows } = await board();
     expect(rows[0].lineup[0]).toEqual({ slot: 'QB', playerId: 1, name: 'Q One', pos: 'QB', team: 'CLE', proj: 13.04 });
   });

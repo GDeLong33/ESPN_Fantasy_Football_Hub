@@ -135,7 +135,14 @@ test.describe('week board', () => {
         contentType: 'application/json',
         body: JSON.stringify([
           { entry_id: 'a', name: 'Test Player', team_name: 'Waiver Kings', created_at: '2026-10-28T00:00:00Z', proj_total: austin.projTotal + 5, lineup: null },
-          { entry_id: 'b', name: 'Someone Else', team_name: null, created_at: '2026-10-28T00:00:00Z', proj_total: austin.projTotal - 10, lineup: null },
+          {
+            entry_id: 'b',
+            name: 'Someone Else',
+            team_name: null,
+            created_at: '2026-10-28T00:00:00Z',
+            proj_total: austin.projTotal - 10,
+            lineup: [{ slot: 'QB', playerId: 1, name: 'Friend QB', pos: 'QB', team: 'CLE', proj: 13 }],
+          },
         ]),
       }),
     );
@@ -150,6 +157,11 @@ test.describe('week board', () => {
     await expect(page.locator('.bars__row--austin')).toContainText('(Austin)');
     await expect(page.locator('.bars__row--you')).toHaveCount(1);
     await expect(page.locator('.bars__row--entry')).toHaveCount(1);
+
+    // A friend's lineup opens with a tap, before kickoff.
+    await expect(page.getByText('Friend QB')).toBeHidden();
+    await board.locator('.board__row').nth(1).locator('summary').click();
+    await expect(page.getByText('Friend QB')).toBeVisible();
     await expectNoOverflow(page);
   });
 });
