@@ -66,17 +66,36 @@ Supabase is a free hosted database. GitHub Pages can't save anything, so entries
 2. Open `supabase/migrations/20261027000000_game_schema.sql` from this repo, copy the whole file, and paste it into the editor.
 3. Click **Run**. You should see "Success. No rows returned." It's safe to run again if you're unsure.
 
-### 3. Copy the keys into GitHub
+### 3. Copy 3 things from Supabase into GitHub
 
-In Supabase, open **Project Settings → API Keys** (or **Settings → API** on older layouts). Then in GitHub, open the repo's **Settings → Secrets and variables → Actions**.
+You're copying three values from Supabase and pasting each one into GitHub, so the site can talk to the database.
 
-| Supabase value | GitHub tab | Name |
-| --- | --- | --- |
-| Project URL (looks like `https://abcd1234.supabase.co`, under **Settings → Data API** if it isn't on the keys page) | **Variables** | `SUPABASE_URL` |
-| **Publishable** key (`sb_publishable_…`), or the legacy **anon** key | **Variables** | `SUPABASE_ANON_KEY` |
-| **Secret** key (`sb_secret_…`), or the legacy **service_role** key | **Secrets** | `SUPABASE_SERVICE_ROLE_KEY` |
+**First, open both pages in two browser tabs:**
 
-The publishable/anon key is meant to be public; the database rules decide what it can do. The secret/service_role key can do anything, so it only goes in **Secrets**, never in code or a variable.
+- **Supabase tab:** in your project, click the **gear icon (Project Settings)** at the bottom of the left sidebar, then click **API Keys**.
+- **GitHub tab:** go to the repo, click the **Settings** tab at the top, then in the left sidebar click **Secrets and variables → Actions**.
+
+**Copy #1: the project address**
+
+1. In Supabase, find **Project URL**. It starts with `https://` and ends with `.supabase.co`. (If it's not on the API Keys page, click **Data API** in the same settings menu.) Copy it.
+2. In GitHub, click the **Variables** tab, then **New repository variable**.
+3. Name: `SUPABASE_URL`. Value: paste. Click **Add variable**.
+
+**Copy #2: the public key**
+
+1. In Supabase, copy the **Publishable key** (starts with `sb_publishable_`). If you only see one labeled **anon / public**, copy that instead.
+2. In GitHub, still on the **Variables** tab, click **New repository variable**.
+3. Name: `SUPABASE_ANON_KEY`. Value: paste. Click **Add variable**.
+
+**Copy #3: the private key**
+
+1. In Supabase, copy the **Secret key** (starts with `sb_secret_`; you may need to click the eye icon to reveal it). If you only see one labeled **service_role**, copy that instead.
+2. In GitHub, switch to the **Secrets** tab this time, and click **New repository secret**.
+3. Name: `SUPABASE_SERVICE_ROLE_KEY`. Value: paste. Click **Add secret**.
+
+Why the last one is different: the public key is safe for anyone to see, because the database rules limit what it can do. The secret key is a master key that can change anything, so it goes in **Secrets**, where GitHub hides it.
+
+When you're done, the **Variables** tab should list `SUPABASE_URL` and `SUPABASE_ANON_KEY`, and the **Secrets** tab should list `SUPABASE_SERVICE_ROLE_KEY`.
 
 ### 4. Turn it on
 
