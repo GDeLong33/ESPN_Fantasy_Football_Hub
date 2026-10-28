@@ -1,0 +1,2332 @@
+{
+  "snapshotAt": "2026-10-28T02:11:57.298Z",
+  "rosters": {
+    "1": [
+      {
+        "id": 4426515,
+        "name": "Puka Nacua",
+        "pos": "WR",
+        "nfl": "LAR",
+        "status": "ACTIVE",
+        "owned": 100,
+        "seasonPts": 113.6,
+        "starter": true
+      },
+      {
+        "id": 4432665,
+        "name": "Brock Bowers",
+        "pos": "TE",
+        "nfl": "LV",
+        "status": "ACTIVE",
+        "owned": 100,
+        "seasonPts": 95.5,
+        "starter": true
+      },
+      {
+        "id": 4361579,
+        "name": "Javonte Williams",
+        "pos": "RB",
+        "nfl": "DAL",
+        "status": "ACTIVE",
+        "owned": 99,
+        "seasonPts": 130.5,
+        "starter": true
+      },
+      {
+        "id": 4361741,
+        "name": "Brock Purdy",
+        "pos": "QB",
+        "nfl": "SF",
+        "status": "ACTIVE",
+        "owned": 99,
+        "seasonPts": 146,
+        "starter": false
+      },
+      {
+        "id": 4568490,
+        "name": "RJ Harvey",
+        "pos": "RB",
+        "nfl": "DEN",
+        "status": "ACTIVE",
+        "owned": 77,
+        "seasonPts": 67.4,
+        "starter": false
+      },
+      {
+        "id": 4038815,
+        "name": "Rico Dowdle",
+        "pos": "RB",
+        "nfl": "PIT",
+        "status": "ACTIVE",
+        "owned": 56,
+        "seasonPts": 33,
+        "starter": false
+      },
+      {
+        "id": 4695883,
+        "name": "Jalen Coker",
+        "pos": "WR",
+        "nfl": "CAR",
+        "status": "ACTIVE",
+        "owned": 91,
+        "seasonPts": 69.8,
+        "starter": true
+      },
+      {
+        "id": 4361529,
+        "name": "Isiah Pacheco",
+        "pos": "RB",
+        "nfl": "DET",
+        "status": "INJURY_RESERVE",
+        "owned": 16,
+        "seasonPts": 0,
+        "starter": false
+      },
+      {
+        "id": 2971573,
+        "name": "Ka'imi Fairbairn",
+        "pos": "K",
+        "nfl": "HOU",
+        "status": "ACTIVE",
+        "owned": 93,
+        "seasonPts": 75,
+        "starter": true
+      },
+      {
+        "id": 4429086,
+        "name": "Michael Mayer",
+        "pos": "TE",
+        "nfl": "LV",
+        "status": "ACTIVE",
+        "owned": 28,
+        "seasonPts": 66.8,
+        "starter": true
+      },
+      {
+        "id": 4696044,
+        "name": "Kaelon Black",
+        "pos": "RB",
+        "nfl": "SF",
+        "status": "ACTIVE",
+        "owned": 22,
+        "seasonPts": 30.7,
+        "starter": false
+      },
+      {
+        "id": 3116406,
+        "name": "Tyreek Hill",
+        "pos": "WR",
+        "nfl": "FA",
+        "status": "QUESTIONABLE",
+        "owned": 29,
+        "seasonPts": 0,
+        "starter": false
+      },
+      {
+        "id": 4595348,
+        "name": "Malik Nabers",
+        "pos": "WR",
+        "nfl": "NYG",
+        "status": "ACTIVE",
+        "owned": 99,
+        "seasonPts": 120.5,
+        "starter": false
+      },
+      {
+        "id": -16020,
+        "name": "Jets D/ST",
+        "pos": "D/ST",
+        "nfl": "NYJ",
+        "status": null,
+        "owned": 66,
+        "seasonPts": 40,
+        "starter": true
+      },
+      {
+        "id": 4702555,
+        "name": "Jonah Coleman",
+        "pos": "RB",
+        "nfl": "DEN",
+        "status": "ACTIVE",
+        "owned": 24,
+        "seasonPts": 23.7,
+        "starter": true
+      },
+      {
+        "id": 2578570,
+        "name": "Jacoby Brissett",
+        "pos": "QB",
+        "nfl": "ARI",
+        "status": "ACTIVE",
+        "owned": 20,
+        "seasonPts": 107.7,
+        "starter": true
+      },
+      {
+        "id": 4710855,
+        "name": "Konata Mumpfield",
+        "pos": "WR",
+        "nfl": "LAR",
+        "status": "ACTIVE",
+        "owned": 9,
+        "seasonPts": 29.2,
+        "starter": false
+      }
+    ],
+    "2": [
+      {
+        "id": 4429795,
+        "name": "Jahmyr Gibbs",
+        "pos": "RB",
+        "nfl": "DET",
+        "status": "ACTIVE",
+        "owned": 100,
+        "seasonPts": 171,
+        "starter": true
+      },
+      {
+        "id": 4569618,
+        "name": "Garrett Wilson",
+        "pos": "WR",
+        "nfl": "NYJ",
+        "status": "ACTIVE",
+        "owned": 99,
+        "seasonPts": 99.4,
+        "starter": true
+      },
+      {
+        "id": 4361370,
+        "name": "Chris Olave",
+        "pos": "WR",
+        "nfl": "NO",
+        "status": "ACTIVE",
+        "owned": 99,
+        "seasonPts": 124.6,
+        "starter": true
+      },
+      {
+        "id": 4723086,
+        "name": "Colston Loveland",
+        "pos": "TE",
+        "nfl": "CHI",
+        "status": "ACTIVE",
+        "owned": 92,
+        "seasonPts": 62.4,
+        "starter": true
+      },
+      {
+        "id": 4431459,
+        "name": "Tyler Warren",
+        "pos": "TE",
+        "nfl": "IND",
+        "status": "QUESTIONABLE",
+        "owned": 96,
+        "seasonPts": 69.9,
+        "starter": false
+      },
+      {
+        "id": 4360310,
+        "name": "Trevor Lawrence",
+        "pos": "QB",
+        "nfl": "JAX",
+        "status": "ACTIVE",
+        "owned": 88,
+        "seasonPts": 114.2,
+        "starter": false
+      },
+      {
+        "id": 4569987,
+        "name": "Jaylen Warren",
+        "pos": "RB",
+        "nfl": "PIT",
+        "status": "ACTIVE",
+        "owned": 96,
+        "seasonPts": 119.5,
+        "starter": true
+      },
+      {
+        "id": 4685415,
+        "name": "Travis Hunter",
+        "pos": "WR",
+        "nfl": "JAX",
+        "status": "ACTIVE",
+        "owned": 28,
+        "seasonPts": 19.9,
+        "starter": false
+      },
+      {
+        "id": 3139477,
+        "name": "Patrick Mahomes",
+        "pos": "QB",
+        "nfl": "KC",
+        "status": "ACTIVE",
+        "owned": 93,
+        "seasonPts": 100.1,
+        "starter": true
+      },
+      {
+        "id": 3046439,
+        "name": "Hunter Henry",
+        "pos": "TE",
+        "nfl": "NE",
+        "status": "ACTIVE",
+        "owned": 47,
+        "seasonPts": 67.6,
+        "starter": false
+      },
+      {
+        "id": 3917792,
+        "name": "Daniel Jones",
+        "pos": "QB",
+        "nfl": "IND",
+        "status": "ACTIVE",
+        "owned": 13,
+        "seasonPts": 64.7,
+        "starter": false
+      },
+      {
+        "id": -16005,
+        "name": "Browns D/ST",
+        "pos": "D/ST",
+        "nfl": "CLE",
+        "status": null,
+        "owned": 61,
+        "seasonPts": 42,
+        "starter": true
+      },
+      {
+        "id": 4710714,
+        "name": "De'Zhaun Stribling",
+        "pos": "WR",
+        "nfl": "SF",
+        "status": "INJURY_RESERVE",
+        "owned": 21,
+        "seasonPts": 0,
+        "starter": false
+      },
+      {
+        "id": -16024,
+        "name": "Chargers D/ST",
+        "pos": "D/ST",
+        "nfl": "LAC",
+        "status": null,
+        "owned": 10,
+        "seasonPts": 29,
+        "starter": false
+      },
+      {
+        "id": 4599739,
+        "name": "Kendre Miller",
+        "pos": "RB",
+        "nfl": "NO",
+        "status": "ACTIVE",
+        "owned": 41,
+        "seasonPts": 38.6,
+        "starter": true
+      },
+      {
+        "id": 4869461,
+        "name": "Trey Smack",
+        "pos": "K",
+        "nfl": "GB",
+        "status": "ACTIVE",
+        "owned": 14,
+        "seasonPts": 48,
+        "starter": true
+      }
+    ],
+    "3": [
+      {
+        "id": 4567048,
+        "name": "Kenneth Walker III",
+        "pos": "RB",
+        "nfl": "KC",
+        "status": "ACTIVE",
+        "owned": 100,
+        "seasonPts": 147.7,
+        "starter": true
+      },
+      {
+        "id": 4372016,
+        "name": "Jaylen Waddle",
+        "pos": "WR",
+        "nfl": "DEN",
+        "status": "QUESTIONABLE",
+        "owned": 90,
+        "seasonPts": 63.9,
+        "starter": true
+      },
+      {
+        "id": 3916387,
+        "name": "Lamar Jackson",
+        "pos": "QB",
+        "nfl": "BAL",
+        "status": "QUESTIONABLE",
+        "owned": 98,
+        "seasonPts": 79.1,
+        "starter": true
+      },
+      {
+        "id": 4432708,
+        "name": "Marvin Harrison Jr.",
+        "pos": "WR",
+        "nfl": "HOU",
+        "status": "ACTIVE",
+        "owned": 73,
+        "seasonPts": 33.5,
+        "starter": false
+      },
+      {
+        "id": 4430027,
+        "name": "Sam LaPorta",
+        "pos": "TE",
+        "nfl": "DET",
+        "status": "ACTIVE",
+        "owned": 96,
+        "seasonPts": 79.4,
+        "starter": true
+      },
+      {
+        "id": -16014,
+        "name": "Rams D/ST",
+        "pos": "D/ST",
+        "nfl": "LAR",
+        "status": null,
+        "owned": 72,
+        "seasonPts": 26,
+        "starter": false
+      },
+      {
+        "id": 3953687,
+        "name": "Brandon Aubrey",
+        "pos": "K",
+        "nfl": "DAL",
+        "status": "ACTIVE",
+        "owned": 94,
+        "seasonPts": 59,
+        "starter": true
+      },
+      {
+        "id": 4569559,
+        "name": "Devaughn Vele",
+        "pos": "WR",
+        "nfl": "NO",
+        "status": "ACTIVE",
+        "owned": 63,
+        "seasonPts": 85.8,
+        "starter": false
+      },
+      {
+        "id": -16016,
+        "name": "Vikings D/ST",
+        "pos": "D/ST",
+        "nfl": "MIN",
+        "status": null,
+        "owned": 93,
+        "seasonPts": 74,
+        "starter": true
+      },
+      {
+        "id": 4685472,
+        "name": "Tetairoa McMillan",
+        "pos": "WR",
+        "nfl": "CAR",
+        "status": "ACTIVE",
+        "owned": 99,
+        "seasonPts": 97.1,
+        "starter": true
+      },
+      {
+        "id": 4685702,
+        "name": "Quinshon Judkins",
+        "pos": "RB",
+        "nfl": "CLE",
+        "status": "ACTIVE",
+        "owned": 94,
+        "seasonPts": 79.7,
+        "starter": true
+      },
+      {
+        "id": 8439,
+        "name": "Aaron Rodgers",
+        "pos": "QB",
+        "nfl": "PIT",
+        "status": "ACTIVE",
+        "owned": 55,
+        "seasonPts": 112.3,
+        "starter": false
+      },
+      {
+        "id": 4880281,
+        "name": "Jordyn Tyson",
+        "pos": "WR",
+        "nfl": "NO",
+        "status": "INJURY_RESERVE",
+        "owned": 34,
+        "seasonPts": 0,
+        "starter": false
+      },
+      {
+        "id": 4430802,
+        "name": "Darnell Washington",
+        "pos": "TE",
+        "nfl": "PIT",
+        "status": "ACTIVE",
+        "owned": 6,
+        "seasonPts": 50,
+        "starter": false
+      },
+      {
+        "id": 4723820,
+        "name": "Omar Cooper Jr.",
+        "pos": "WR",
+        "nfl": "NYJ",
+        "status": "ACTIVE",
+        "owned": 35,
+        "seasonPts": 48.8,
+        "starter": true
+      },
+      {
+        "id": 4373626,
+        "name": "Tyler Allgeier",
+        "pos": "RB",
+        "nfl": "ARI",
+        "status": "ACTIVE",
+        "owned": 56,
+        "seasonPts": 48,
+        "starter": false
+      }
+    ],
+    "4": [
+      {
+        "id": 3043078,
+        "name": "Derrick Henry",
+        "pos": "RB",
+        "nfl": "BAL",
+        "status": "ACTIVE",
+        "owned": 100,
+        "seasonPts": 122.7,
+        "starter": true
+      },
+      {
+        "id": 4612826,
+        "name": "Ladd McConkey",
+        "pos": "WR",
+        "nfl": "LAC",
+        "status": "QUESTIONABLE",
+        "owned": 85,
+        "seasonPts": 39,
+        "starter": false
+      },
+      {
+        "id": 4596448,
+        "name": "Bucky Irving",
+        "pos": "RB",
+        "nfl": "TB",
+        "status": "ACTIVE",
+        "owned": 97,
+        "seasonPts": 109.6,
+        "starter": true
+      },
+      {
+        "id": 3915511,
+        "name": "Joe Burrow",
+        "pos": "QB",
+        "nfl": "CIN",
+        "status": "ACTIVE",
+        "owned": 98,
+        "seasonPts": 130.1,
+        "starter": true
+      },
+      {
+        "id": 3126486,
+        "name": "Deebo Samuel Sr.",
+        "pos": "WR",
+        "nfl": "SF",
+        "status": "QUESTIONABLE",
+        "owned": 72,
+        "seasonPts": 60.4,
+        "starter": false
+      },
+      {
+        "id": 4036133,
+        "name": "T.J. Hockenson",
+        "pos": "TE",
+        "nfl": "MIN",
+        "status": "ACTIVE",
+        "owned": 64,
+        "seasonPts": 62.7,
+        "starter": true
+      },
+      {
+        "id": -16025,
+        "name": "49ers D/ST",
+        "pos": "D/ST",
+        "nfl": "SF",
+        "status": null,
+        "owned": 55,
+        "seasonPts": 49,
+        "starter": true
+      },
+      {
+        "id": 4034949,
+        "name": "Eddy Pineiro",
+        "pos": "K",
+        "nfl": "SF",
+        "status": "ACTIVE",
+        "owned": 61,
+        "seasonPts": 41,
+        "starter": false
+      },
+      {
+        "id": 4428557,
+        "name": "Tyjae Spears",
+        "pos": "RB",
+        "nfl": "TEN",
+        "status": "QUESTIONABLE",
+        "owned": 28,
+        "seasonPts": 27.1,
+        "starter": false
+      },
+      {
+        "id": 2576925,
+        "name": "Darren Waller",
+        "pos": "TE",
+        "nfl": "CAR",
+        "status": "ACTIVE",
+        "owned": 10,
+        "seasonPts": 51.8,
+        "starter": false
+      },
+      {
+        "id": 4635008,
+        "name": "Keon Coleman",
+        "pos": "WR",
+        "nfl": "BUF",
+        "status": "ACTIVE",
+        "owned": 29,
+        "seasonPts": 65.3,
+        "starter": true
+      },
+      {
+        "id": 4569587,
+        "name": "Wan'Dale Robinson",
+        "pos": "WR",
+        "nfl": "TEN",
+        "status": "ACTIVE",
+        "owned": 58,
+        "seasonPts": 61.6,
+        "starter": false
+      },
+      {
+        "id": 15818,
+        "name": "Keenan Allen",
+        "pos": "WR",
+        "nfl": "IND",
+        "status": "ACTIVE",
+        "owned": 43,
+        "seasonPts": 60.8,
+        "starter": true
+      },
+      {
+        "id": 3116389,
+        "name": "Samaje Perine",
+        "pos": "RB",
+        "nfl": "CIN",
+        "status": "ACTIVE",
+        "owned": 11,
+        "seasonPts": 37.7,
+        "starter": false
+      },
+      {
+        "id": 4427095,
+        "name": "DeMario Douglas",
+        "pos": "WR",
+        "nfl": "NE",
+        "status": "ACTIVE",
+        "owned": 47,
+        "seasonPts": 64.6,
+        "starter": true
+      },
+      {
+        "id": 3050478,
+        "name": "Jake Elliott",
+        "pos": "K",
+        "nfl": "PHI",
+        "status": "ACTIVE",
+        "owned": 6,
+        "seasonPts": 36,
+        "starter": true
+      }
+    ],
+    "5": [
+      {
+        "id": 4262921,
+        "name": "Justin Jefferson",
+        "pos": "WR",
+        "nfl": "MIN",
+        "status": "ACTIVE",
+        "owned": 100,
+        "seasonPts": 72.1,
+        "starter": false
+      },
+      {
+        "id": 4362238,
+        "name": "Chase Brown",
+        "pos": "RB",
+        "nfl": "CIN",
+        "status": "ACTIVE",
+        "owned": 99,
+        "seasonPts": 74.8,
+        "starter": true
+      },
+      {
+        "id": 4427366,
+        "name": "Breece Hall",
+        "pos": "RB",
+        "nfl": "NYJ",
+        "status": "QUESTIONABLE",
+        "owned": 96,
+        "seasonPts": 42.5,
+        "starter": true
+      },
+      {
+        "id": 4426388,
+        "name": "Jameson Williams",
+        "pos": "WR",
+        "nfl": "DET",
+        "status": "ACTIVE",
+        "owned": 90,
+        "seasonPts": 83.7,
+        "starter": true
+      },
+      {
+        "id": 12483,
+        "name": "Matthew Stafford",
+        "pos": "QB",
+        "nfl": "LAR",
+        "status": "ACTIVE",
+        "owned": 93,
+        "seasonPts": 123.4,
+        "starter": false
+      },
+      {
+        "id": 4360248,
+        "name": "Kyle Pitts Sr.",
+        "pos": "TE",
+        "nfl": "ATL",
+        "status": "ACTIVE",
+        "owned": 82,
+        "seasonPts": 63.1,
+        "starter": false
+      },
+      {
+        "id": 4360761,
+        "name": "Michael Wilson",
+        "pos": "WR",
+        "nfl": "ARI",
+        "status": "ACTIVE",
+        "owned": 90,
+        "seasonPts": 81.9,
+        "starter": true
+      },
+      {
+        "id": 15847,
+        "name": "Travis Kelce",
+        "pos": "TE",
+        "nfl": "KC",
+        "status": "ACTIVE",
+        "owned": 93,
+        "seasonPts": 70.3,
+        "starter": true
+      },
+      {
+        "id": 2976212,
+        "name": "Stefon Diggs",
+        "pos": "WR",
+        "nfl": "WSH",
+        "status": "ACTIVE",
+        "owned": 80,
+        "seasonPts": 69.4,
+        "starter": true
+      },
+      {
+        "id": 3046779,
+        "name": "Jared Goff",
+        "pos": "QB",
+        "nfl": "DET",
+        "status": "ACTIVE",
+        "owned": 91,
+        "seasonPts": 133,
+        "starter": true
+      },
+      {
+        "id": 4689936,
+        "name": "Jake Bates",
+        "pos": "K",
+        "nfl": "DET",
+        "status": "ACTIVE",
+        "owned": 41,
+        "seasonPts": 58,
+        "starter": true
+      },
+      {
+        "id": -16030,
+        "name": "Jaguars D/ST",
+        "pos": "D/ST",
+        "nfl": "JAX",
+        "status": null,
+        "owned": 28,
+        "seasonPts": 34,
+        "starter": true
+      },
+      {
+        "id": 3117256,
+        "name": "Dalton Schultz",
+        "pos": "TE",
+        "nfl": "HOU",
+        "status": "ACTIVE",
+        "owned": 30,
+        "seasonPts": 65.2,
+        "starter": false
+      },
+      {
+        "id": 4429835,
+        "name": "George Holani",
+        "pos": "RB",
+        "nfl": "SEA",
+        "status": "ACTIVE",
+        "owned": 7,
+        "seasonPts": 35.6,
+        "starter": false
+      },
+      {
+        "id": -16003,
+        "name": "Bears D/ST",
+        "pos": "D/ST",
+        "nfl": "CHI",
+        "status": null,
+        "owned": 18,
+        "seasonPts": 46,
+        "starter": false
+      },
+      {
+        "id": -16027,
+        "name": "Buccaneers D/ST",
+        "pos": "D/ST",
+        "nfl": "TB",
+        "status": null,
+        "owned": 18,
+        "seasonPts": 67,
+        "starter": false
+      }
+    ],
+    "6": [
+      {
+        "id": 4430807,
+        "name": "Bijan Robinson",
+        "pos": "RB",
+        "nfl": "ATL",
+        "status": "ACTIVE",
+        "owned": 100,
+        "seasonPts": 145.7,
+        "starter": true
+      },
+      {
+        "id": 4047646,
+        "name": "A.J. Brown",
+        "pos": "WR",
+        "nfl": "NE",
+        "status": "ACTIVE",
+        "owned": 96,
+        "seasonPts": 19.1,
+        "starter": true
+      },
+      {
+        "id": 4567750,
+        "name": "Emeka Egbuka",
+        "pos": "WR",
+        "nfl": "TB",
+        "status": "QUESTIONABLE",
+        "owned": 94,
+        "seasonPts": 71.1,
+        "starter": false
+      },
+      {
+        "id": 4239993,
+        "name": "Tee Higgins",
+        "pos": "WR",
+        "nfl": "CIN",
+        "status": "ACTIVE",
+        "owned": 96,
+        "seasonPts": 102.1,
+        "starter": true
+      },
+      {
+        "id": 4259545,
+        "name": "D'Andre Swift",
+        "pos": "RB",
+        "nfl": "CHI",
+        "status": "ACTIVE",
+        "owned": 97,
+        "seasonPts": 122.8,
+        "starter": true
+      },
+      {
+        "id": 4038941,
+        "name": "Justin Herbert",
+        "pos": "QB",
+        "nfl": "LAC",
+        "status": "ACTIVE",
+        "owned": 38,
+        "seasonPts": 62.4,
+        "starter": false
+      },
+      {
+        "id": 3121023,
+        "name": "Dallas Goedert",
+        "pos": "TE",
+        "nfl": "PHI",
+        "status": "ACTIVE",
+        "owned": 85,
+        "seasonPts": 56.8,
+        "starter": true
+      },
+      {
+        "id": 4429025,
+        "name": "Quentin Johnston",
+        "pos": "WR",
+        "nfl": "LAC",
+        "status": "ACTIVE",
+        "owned": 28,
+        "seasonPts": 24.8,
+        "starter": false
+      },
+      {
+        "id": 4575131,
+        "name": "Jacory Croskey-Merritt",
+        "pos": "RB",
+        "nfl": "WSH",
+        "status": "INJURY_RESERVE",
+        "owned": 47,
+        "seasonPts": 44.9,
+        "starter": false
+      },
+      {
+        "id": 4832800,
+        "name": "Denzel Boston",
+        "pos": "WR",
+        "nfl": "CLE",
+        "status": "ACTIVE",
+        "owned": 80,
+        "seasonPts": 77.2,
+        "starter": false
+      },
+      {
+        "id": 2473037,
+        "name": "Jason Myers",
+        "pos": "K",
+        "nfl": "SEA",
+        "status": "ACTIVE",
+        "owned": 88,
+        "seasonPts": 67,
+        "starter": true
+      },
+      {
+        "id": 4685247,
+        "name": "Braelon Allen",
+        "pos": "RB",
+        "nfl": "NYJ",
+        "status": "ACTIVE",
+        "owned": 81,
+        "seasonPts": 76.3,
+        "starter": false
+      },
+      {
+        "id": 4360689,
+        "name": "Tyler Shough",
+        "pos": "QB",
+        "nfl": "NO",
+        "status": "ACTIVE",
+        "owned": 73,
+        "seasonPts": 125.9,
+        "starter": true
+      },
+      {
+        "id": 2573401,
+        "name": "Tyler Higbee",
+        "pos": "TE",
+        "nfl": "LAR",
+        "status": "ACTIVE",
+        "owned": 22,
+        "seasonPts": 54,
+        "starter": false
+      },
+      {
+        "id": 4685261,
+        "name": "Germie Bernard",
+        "pos": "WR",
+        "nfl": "PIT",
+        "status": "ACTIVE",
+        "owned": 80,
+        "seasonPts": 58.8,
+        "starter": true
+      },
+      {
+        "id": 4360516,
+        "name": "Tyrone Tracy Jr.",
+        "pos": "RB",
+        "nfl": "NYG",
+        "status": "INJURY_RESERVE",
+        "owned": 13,
+        "seasonPts": 31.9,
+        "starter": false
+      },
+      {
+        "id": -16006,
+        "name": "Cowboys D/ST",
+        "pos": "D/ST",
+        "nfl": "DAL",
+        "status": null,
+        "owned": 18,
+        "seasonPts": 8,
+        "starter": true
+      }
+    ],
+    "8": [
+      {
+        "id": 4430878,
+        "name": "Jaxon Smith-Njigba",
+        "pos": "WR",
+        "nfl": "SEA",
+        "status": "ACTIVE",
+        "owned": 100,
+        "seasonPts": 196.2,
+        "starter": true
+      },
+      {
+        "id": 4239996,
+        "name": "Travis Etienne Jr.",
+        "pos": "RB",
+        "nfl": "NO",
+        "status": "INJURY_RESERVE",
+        "owned": 81,
+        "seasonPts": 30.9,
+        "starter": false
+      },
+      {
+        "id": 5083076,
+        "name": "Harold Fannin Jr.",
+        "pos": "TE",
+        "nfl": "CLE",
+        "status": "ACTIVE",
+        "owned": 85,
+        "seasonPts": 66.7,
+        "starter": true
+      },
+      {
+        "id": 2577417,
+        "name": "Dak Prescott",
+        "pos": "QB",
+        "nfl": "DAL",
+        "status": "ACTIVE",
+        "owned": 90,
+        "seasonPts": 128.1,
+        "starter": true
+      },
+      {
+        "id": 5083315,
+        "name": "Kenyon Sadiq",
+        "pos": "TE",
+        "nfl": "NYJ",
+        "status": "ACTIVE",
+        "owned": 27,
+        "seasonPts": 42.7,
+        "starter": true
+      },
+      {
+        "id": -16023,
+        "name": "Steelers D/ST",
+        "pos": "D/ST",
+        "nfl": "PIT",
+        "status": null,
+        "owned": 93,
+        "seasonPts": 57,
+        "starter": true
+      },
+      {
+        "id": 4241474,
+        "name": "Brian Robinson Jr.",
+        "pos": "RB",
+        "nfl": "ATL",
+        "status": "QUESTIONABLE",
+        "owned": 34,
+        "seasonPts": 53.1,
+        "starter": true
+      },
+      {
+        "id": 15864,
+        "name": "Geno Smith",
+        "pos": "QB",
+        "nfl": "NYJ",
+        "status": "ACTIVE",
+        "owned": 13,
+        "seasonPts": 105.1,
+        "starter": false
+      },
+      {
+        "id": 4608686,
+        "name": "Kyle Monangai",
+        "pos": "RB",
+        "nfl": "CHI",
+        "status": "QUESTIONABLE",
+        "owned": 77,
+        "seasonPts": 59.3,
+        "starter": true
+      },
+      {
+        "id": 16737,
+        "name": "Mike Evans",
+        "pos": "WR",
+        "nfl": "SF",
+        "status": "QUESTIONABLE",
+        "owned": 93,
+        "seasonPts": 89,
+        "starter": false
+      },
+      {
+        "id": 2973405,
+        "name": "Kalif Raymond",
+        "pos": "WR",
+        "nfl": "CHI",
+        "status": "ACTIVE",
+        "owned": 15,
+        "seasonPts": 56.2,
+        "starter": false
+      },
+      {
+        "id": -16013,
+        "name": "Raiders D/ST",
+        "pos": "D/ST",
+        "nfl": "LV",
+        "status": null,
+        "owned": 5,
+        "seasonPts": 33,
+        "starter": false
+      },
+      {
+        "id": 4249087,
+        "name": "Matt Gay",
+        "pos": "K",
+        "nfl": "LV",
+        "status": "ACTIVE",
+        "owned": 47,
+        "seasonPts": 71,
+        "starter": true
+      },
+      {
+        "id": 4426386,
+        "name": "Roschon Johnson",
+        "pos": "RB",
+        "nfl": "CHI",
+        "status": "ACTIVE",
+        "owned": 21,
+        "seasonPts": 28.1,
+        "starter": false
+      },
+      {
+        "id": 4701936,
+        "name": "Matthew Golden",
+        "pos": "WR",
+        "nfl": "GB",
+        "status": "QUESTIONABLE",
+        "owned": 94,
+        "seasonPts": 110.6,
+        "starter": true
+      },
+      {
+        "id": 4586312,
+        "name": "Jaylin Noel",
+        "pos": "WR",
+        "nfl": "HOU",
+        "status": "QUESTIONABLE",
+        "owned": 23,
+        "seasonPts": 66.7,
+        "starter": false
+      },
+      {
+        "id": 4427728,
+        "name": "Bam Knight",
+        "pos": "RB",
+        "nfl": "ARI",
+        "status": "ACTIVE",
+        "owned": 16,
+        "seasonPts": 24.3,
+        "starter": false
+      }
+    ],
+    "9": [
+      {
+        "id": 4870808,
+        "name": "Jeremiyah Love",
+        "pos": "RB",
+        "nfl": "ARI",
+        "status": "QUESTIONABLE",
+        "owned": 95,
+        "seasonPts": 51.1,
+        "starter": true
+      },
+      {
+        "id": 4870653,
+        "name": "KC Concepcion",
+        "pos": "WR",
+        "nfl": "CLE",
+        "status": "ACTIVE",
+        "owned": 43,
+        "seasonPts": 62.9,
+        "starter": true
+      },
+      {
+        "id": 4032473,
+        "name": "Rashid Shaheed",
+        "pos": "WR",
+        "nfl": "SEA",
+        "status": "QUESTIONABLE",
+        "owned": 29,
+        "seasonPts": 42.2,
+        "starter": false
+      },
+      {
+        "id": -16007,
+        "name": "Broncos D/ST",
+        "pos": "D/ST",
+        "nfl": "DEN",
+        "status": null,
+        "owned": 90,
+        "seasonPts": 49,
+        "starter": true
+      },
+      {
+        "id": 17372,
+        "name": "Chris Boswell",
+        "pos": "K",
+        "nfl": "PIT",
+        "status": "ACTIVE",
+        "owned": 69,
+        "seasonPts": 69,
+        "starter": true
+      },
+      {
+        "id": 4685512,
+        "name": "Jadarian Price",
+        "pos": "RB",
+        "nfl": "SEA",
+        "status": "INJURY_RESERVE",
+        "owned": 65,
+        "seasonPts": 14,
+        "starter": false
+      },
+      {
+        "id": 2991662,
+        "name": "Mack Hollins",
+        "pos": "WR",
+        "nfl": "NE",
+        "status": "INJURY_RESERVE",
+        "owned": 3,
+        "seasonPts": 35.9,
+        "starter": false
+      },
+      {
+        "id": 3912547,
+        "name": "Sam Darnold",
+        "pos": "QB",
+        "nfl": "SEA",
+        "status": "ACTIVE",
+        "owned": 31,
+        "seasonPts": 74.8,
+        "starter": true
+      },
+      {
+        "id": 4685278,
+        "name": "Luther Burden III",
+        "pos": "WR",
+        "nfl": "CHI",
+        "status": "ACTIVE",
+        "owned": 90,
+        "seasonPts": 97,
+        "starter": true
+      },
+      {
+        "id": 4363538,
+        "name": "Chad Ryland",
+        "pos": "K",
+        "nfl": "ARI",
+        "status": "ACTIVE",
+        "owned": 9,
+        "seasonPts": 71,
+        "starter": false
+      },
+      {
+        "id": 4035538,
+        "name": "David Montgomery",
+        "pos": "RB",
+        "nfl": "HOU",
+        "status": "QUESTIONABLE",
+        "owned": 82,
+        "seasonPts": 45.5,
+        "starter": false
+      },
+      {
+        "id": 4688813,
+        "name": "Josh Downs",
+        "pos": "WR",
+        "nfl": "IND",
+        "status": "ACTIVE",
+        "owned": 67,
+        "seasonPts": 57.4,
+        "starter": false
+      },
+      {
+        "id": 3929645,
+        "name": "Juwan Johnson",
+        "pos": "TE",
+        "nfl": "NO",
+        "status": "ACTIVE",
+        "owned": 68,
+        "seasonPts": 67.5,
+        "starter": true
+      },
+      {
+        "id": 4379399,
+        "name": "James Cook III",
+        "pos": "RB",
+        "nfl": "BUF",
+        "status": "ACTIVE",
+        "owned": 100,
+        "seasonPts": 113.6,
+        "starter": true
+      },
+      {
+        "id": 4426385,
+        "name": "Zach Charbonnet",
+        "pos": "RB",
+        "nfl": "SEA",
+        "status": "QUESTIONABLE",
+        "owned": 66,
+        "seasonPts": 0,
+        "starter": true
+      },
+      {
+        "id": 4433970,
+        "name": "J.J. McCarthy",
+        "pos": "QB",
+        "nfl": "NYG",
+        "status": "ACTIVE",
+        "owned": 21,
+        "seasonPts": 26.7,
+        "starter": false
+      },
+      {
+        "id": 4887558,
+        "name": "Emanuel Wilson",
+        "pos": "RB",
+        "nfl": "SEA",
+        "status": "ACTIVE",
+        "owned": 70,
+        "seasonPts": 74.8,
+        "starter": false
+      }
+    ],
+    "10": [
+      {
+        "id": 3117251,
+        "name": "Christian McCaffrey",
+        "pos": "RB",
+        "nfl": "SF",
+        "status": "QUESTIONABLE",
+        "owned": 100,
+        "seasonPts": 144,
+        "starter": false
+      },
+      {
+        "id": 4241478,
+        "name": "DeVonta Smith",
+        "pos": "WR",
+        "nfl": "PHI",
+        "status": "QUESTIONABLE",
+        "owned": 97,
+        "seasonPts": 69,
+        "starter": true
+      },
+      {
+        "id": 4431611,
+        "name": "Caleb Williams",
+        "pos": "QB",
+        "nfl": "CHI",
+        "status": "ACTIVE",
+        "owned": 89,
+        "seasonPts": 83.6,
+        "starter": false
+      },
+      {
+        "id": 4678008,
+        "name": "Jonathon Brooks",
+        "pos": "RB",
+        "nfl": "CAR",
+        "status": "INJURY_RESERVE",
+        "owned": 36,
+        "seasonPts": 9.3,
+        "starter": false
+      },
+      {
+        "id": 4429096,
+        "name": "Blake Corum",
+        "pos": "RB",
+        "nfl": "LAR",
+        "status": "ACTIVE",
+        "owned": 74,
+        "seasonPts": 69.5,
+        "starter": true
+      },
+      {
+        "id": -16033,
+        "name": "Ravens D/ST",
+        "pos": "D/ST",
+        "nfl": "BAL",
+        "status": null,
+        "owned": 71,
+        "seasonPts": 33,
+        "starter": true
+      },
+      {
+        "id": 4685720,
+        "name": "Bryce Young",
+        "pos": "QB",
+        "nfl": "CAR",
+        "status": "ACTIVE",
+        "owned": 86,
+        "seasonPts": 115.9,
+        "starter": true
+      },
+      {
+        "id": 4571557,
+        "name": "Spencer Shrader",
+        "pos": "K",
+        "nfl": "IND",
+        "status": "ACTIVE",
+        "owned": 86,
+        "seasonPts": 87,
+        "starter": true
+      },
+      {
+        "id": 4711533,
+        "name": "Ollie Gordon II",
+        "pos": "RB",
+        "nfl": "MIA",
+        "status": "ACTIVE",
+        "owned": 80,
+        "seasonPts": 65.3,
+        "starter": true
+      },
+      {
+        "id": 4426354,
+        "name": "George Pickens",
+        "pos": "WR",
+        "nfl": "DAL",
+        "status": "ACTIVE",
+        "owned": 99,
+        "seasonPts": 97.5,
+        "starter": true
+      },
+      {
+        "id": 4242335,
+        "name": "Jonathan Taylor",
+        "pos": "RB",
+        "nfl": "IND",
+        "status": "ACTIVE",
+        "owned": 100,
+        "seasonPts": 137.5,
+        "starter": true
+      },
+      {
+        "id": 4360078,
+        "name": "Alec Pierce",
+        "pos": "WR",
+        "nfl": "IND",
+        "status": "INJURY_RESERVE",
+        "owned": 52,
+        "seasonPts": 12.2,
+        "starter": false
+      },
+      {
+        "id": 4870847,
+        "name": "Ja'Kobi Lane",
+        "pos": "WR",
+        "nfl": "BAL",
+        "status": "ACTIVE",
+        "owned": 12,
+        "seasonPts": 15.6,
+        "starter": false
+      },
+      {
+        "id": 4869645,
+        "name": "Caleb Douglas",
+        "pos": "WR",
+        "nfl": "MIA",
+        "status": "ACTIVE",
+        "owned": 10,
+        "seasonPts": 39.3,
+        "starter": false
+      },
+      {
+        "id": 4360635,
+        "name": "Chig Okonkwo",
+        "pos": "TE",
+        "nfl": "WSH",
+        "status": "ACTIVE",
+        "owned": 5,
+        "seasonPts": 30,
+        "starter": true
+      },
+      {
+        "id": 4870795,
+        "name": "Makai Lemon",
+        "pos": "WR",
+        "nfl": "PHI",
+        "status": "ACTIVE",
+        "owned": 37,
+        "seasonPts": 49.9,
+        "starter": false
+      }
+    ],
+    "11": [
+      {
+        "id": 4361307,
+        "name": "Trey McBride",
+        "pos": "TE",
+        "nfl": "ARI",
+        "status": "ACTIVE",
+        "owned": 100,
+        "seasonPts": 130.2,
+        "starter": true
+      },
+      {
+        "id": 4685382,
+        "name": "Omarion Hampton",
+        "pos": "RB",
+        "nfl": "LAC",
+        "status": "ACTIVE",
+        "owned": 91,
+        "seasonPts": 57.5,
+        "starter": false
+      },
+      {
+        "id": 4431299,
+        "name": "Rome Odunze",
+        "pos": "WR",
+        "nfl": "CHI",
+        "status": "ACTIVE",
+        "owned": 85,
+        "seasonPts": 60.1,
+        "starter": true
+      },
+      {
+        "id": 3915416,
+        "name": "DJ Moore",
+        "pos": "WR",
+        "nfl": "BUF",
+        "status": "QUESTIONABLE",
+        "owned": 89,
+        "seasonPts": 36.3,
+        "starter": false
+      },
+      {
+        "id": 4426338,
+        "name": "Bo Nix",
+        "pos": "QB",
+        "nfl": "DEN",
+        "status": "ACTIVE",
+        "owned": 59,
+        "seasonPts": 95.8,
+        "starter": false
+      },
+      {
+        "id": 4241416,
+        "name": "Chuba Hubbard",
+        "pos": "RB",
+        "nfl": "CAR",
+        "status": "ACTIVE",
+        "owned": 95,
+        "seasonPts": 108.1,
+        "starter": true
+      },
+      {
+        "id": 4248528,
+        "name": "Christian Watson",
+        "pos": "WR",
+        "nfl": "GB",
+        "status": "ACTIVE",
+        "owned": 97,
+        "seasonPts": 129.5,
+        "starter": true
+      },
+      {
+        "id": 4569173,
+        "name": "Rhamondre Stevenson",
+        "pos": "RB",
+        "nfl": "NE",
+        "status": "ACTIVE",
+        "owned": 92,
+        "seasonPts": 86.9,
+        "starter": true
+      },
+      {
+        "id": 4373678,
+        "name": "Khalil Shakir",
+        "pos": "WR",
+        "nfl": "BUF",
+        "status": "ACTIVE",
+        "owned": 58,
+        "seasonPts": 55,
+        "starter": false
+      },
+      {
+        "id": 4683062,
+        "name": "Xavier Worthy",
+        "pos": "WR",
+        "nfl": "KC",
+        "status": "ACTIVE",
+        "owned": 79,
+        "seasonPts": 51.7,
+        "starter": true
+      },
+      {
+        "id": 4036378,
+        "name": "Jordan Love",
+        "pos": "QB",
+        "nfl": "GB",
+        "status": "ACTIVE",
+        "owned": 91,
+        "seasonPts": 127.3,
+        "starter": true
+      },
+      {
+        "id": -16034,
+        "name": "Texans D/ST",
+        "pos": "D/ST",
+        "nfl": "HOU",
+        "status": null,
+        "owned": 90,
+        "seasonPts": 29,
+        "starter": true
+      },
+      {
+        "id": 4576297,
+        "name": "AJ Barner",
+        "pos": "TE",
+        "nfl": "SEA",
+        "status": "ACTIVE",
+        "owned": 6,
+        "seasonPts": 43.5,
+        "starter": false
+      },
+      {
+        "id": 17427,
+        "name": "Cairo Santos",
+        "pos": "K",
+        "nfl": "CHI",
+        "status": "ACTIVE",
+        "owned": 25,
+        "seasonPts": 59,
+        "starter": true
+      },
+      {
+        "id": 4686658,
+        "name": "Mike Washington Jr.",
+        "pos": "RB",
+        "nfl": "LV",
+        "status": "ACTIVE",
+        "owned": 18,
+        "seasonPts": 29.6,
+        "starter": false
+      },
+      {
+        "id": 5088338,
+        "name": "Elijah Sarratt",
+        "pos": "WR",
+        "nfl": "BAL",
+        "status": "ACTIVE",
+        "owned": 0,
+        "seasonPts": 2.3,
+        "starter": false
+      }
+    ],
+    "12": [
+      {
+        "id": 4374302,
+        "name": "Amon-Ra St. Brown",
+        "pos": "WR",
+        "nfl": "DET",
+        "status": "QUESTIONABLE",
+        "owned": 100,
+        "seasonPts": 128.4,
+        "starter": true
+      },
+      {
+        "id": 4047365,
+        "name": "Josh Jacobs",
+        "pos": "RB",
+        "nfl": "GB",
+        "status": "ACTIVE",
+        "owned": 90,
+        "seasonPts": 20.1,
+        "starter": true
+      },
+      {
+        "id": 4429615,
+        "name": "Zay Flowers",
+        "pos": "WR",
+        "nfl": "BAL",
+        "status": "ACTIVE",
+        "owned": 99,
+        "seasonPts": 122.2,
+        "starter": true
+      },
+      {
+        "id": 4696981,
+        "name": "Cam Skattebo",
+        "pos": "RB",
+        "nfl": "NYG",
+        "status": "QUESTIONABLE",
+        "owned": 91,
+        "seasonPts": 70.4,
+        "starter": false
+      },
+      {
+        "id": 4432620,
+        "name": "Parker Washington",
+        "pos": "WR",
+        "nfl": "JAX",
+        "status": "ACTIVE",
+        "owned": 95,
+        "seasonPts": 91.9,
+        "starter": false
+      },
+      {
+        "id": 4361050,
+        "name": "Isaiah Likely",
+        "pos": "TE",
+        "nfl": "NYG",
+        "status": "ACTIVE",
+        "owned": 96,
+        "seasonPts": 112.5,
+        "starter": true
+      },
+      {
+        "id": 4429059,
+        "name": "Woody Marks",
+        "pos": "RB",
+        "nfl": "HOU",
+        "status": "ACTIVE",
+        "owned": 79,
+        "seasonPts": 62.5,
+        "starter": true
+      },
+      {
+        "id": 4360569,
+        "name": "Jordan Mason",
+        "pos": "RB",
+        "nfl": "MIN",
+        "status": "ACTIVE",
+        "owned": 66,
+        "seasonPts": 18.7,
+        "starter": false
+      },
+      {
+        "id": 3917315,
+        "name": "Kyler Murray",
+        "pos": "QB",
+        "nfl": "MIN",
+        "status": "ACTIVE",
+        "owned": 61,
+        "seasonPts": 53.7,
+        "starter": true
+      },
+      {
+        "id": 4570037,
+        "name": "Terrance Ferguson",
+        "pos": "TE",
+        "nfl": "LAR",
+        "status": "INJURY_RESERVE",
+        "owned": 12,
+        "seasonPts": 19.3,
+        "starter": false
+      },
+      {
+        "id": -16017,
+        "name": "Patriots D/ST",
+        "pos": "D/ST",
+        "nfl": "NE",
+        "status": null,
+        "owned": 60,
+        "seasonPts": 42,
+        "starter": true
+      },
+      {
+        "id": 4697745,
+        "name": "Tyler Loop",
+        "pos": "K",
+        "nfl": "BAL",
+        "status": "ACTIVE",
+        "owned": 61,
+        "seasonPts": 63,
+        "starter": true
+      },
+      {
+        "id": 4429023,
+        "name": "MarShawn Lloyd",
+        "pos": "RB",
+        "nfl": "GB",
+        "status": "ACTIVE",
+        "owned": 44,
+        "seasonPts": 49.2,
+        "starter": false
+      },
+      {
+        "id": 4428718,
+        "name": "Tre Tucker",
+        "pos": "WR",
+        "nfl": "LV",
+        "status": "ACTIVE",
+        "owned": 61,
+        "seasonPts": 99.8,
+        "starter": true
+      },
+      {
+        "id": 4715355,
+        "name": "Darius Cooper",
+        "pos": "WR",
+        "nfl": "PHI",
+        "status": "ACTIVE",
+        "owned": 14,
+        "seasonPts": 48.6,
+        "starter": false
+      },
+      {
+        "id": 4360423,
+        "name": "Michael Penix Jr.",
+        "pos": "QB",
+        "nfl": "ATL",
+        "status": "ACTIVE",
+        "owned": 13,
+        "seasonPts": 84.7,
+        "starter": false
+      }
+    ],
+    "13": [
+      {
+        "id": 4241389,
+        "name": "CeeDee Lamb",
+        "pos": "WR",
+        "nfl": "DAL",
+        "status": "ACTIVE",
+        "owned": 100,
+        "seasonPts": 155.5,
+        "starter": true
+      },
+      {
+        "id": 4426502,
+        "name": "Drake London",
+        "pos": "WR",
+        "nfl": "ATL",
+        "status": "ACTIVE",
+        "owned": 100,
+        "seasonPts": 108,
+        "starter": true
+      },
+      {
+        "id": 4432710,
+        "name": "TreVeyon Henderson",
+        "pos": "RB",
+        "nfl": "NE",
+        "status": "ACTIVE",
+        "owned": 76,
+        "seasonPts": 33.8,
+        "starter": false
+      },
+      {
+        "id": 4426348,
+        "name": "Jayden Daniels",
+        "pos": "QB",
+        "nfl": "WSH",
+        "status": "ACTIVE",
+        "owned": 92,
+        "seasonPts": 85.7,
+        "starter": true
+      },
+      {
+        "id": 3916148,
+        "name": "Tony Pollard",
+        "pos": "RB",
+        "nfl": "TEN",
+        "status": "ACTIVE",
+        "owned": 88,
+        "seasonPts": 87.8,
+        "starter": true
+      },
+      {
+        "id": 4572680,
+        "name": "Tucker Kraft",
+        "pos": "TE",
+        "nfl": "GB",
+        "status": "ACTIVE",
+        "owned": 92,
+        "seasonPts": 71.2,
+        "starter": true
+      },
+      {
+        "id": 4361432,
+        "name": "Romeo Doubs",
+        "pos": "WR",
+        "nfl": "NE",
+        "status": "INJURY_RESERVE",
+        "owned": 55,
+        "seasonPts": 58.1,
+        "starter": false
+      },
+      {
+        "id": 4697815,
+        "name": "Rachaad White",
+        "pos": "RB",
+        "nfl": "WSH",
+        "status": "ACTIVE",
+        "owned": 56,
+        "seasonPts": 48.8,
+        "starter": true
+      },
+      {
+        "id": 4430539,
+        "name": "Brenton Strange",
+        "pos": "TE",
+        "nfl": "JAX",
+        "status": "ACTIVE",
+        "owned": 36,
+        "seasonPts": 59.9,
+        "starter": true
+      },
+      {
+        "id": 4432577,
+        "name": "C.J. Stroud",
+        "pos": "QB",
+        "nfl": "HOU",
+        "status": "ACTIVE",
+        "owned": 78,
+        "seasonPts": 128.7,
+        "starter": false
+      },
+      {
+        "id": -16009,
+        "name": "Packers D/ST",
+        "pos": "D/ST",
+        "nfl": "GB",
+        "status": null,
+        "owned": 11,
+        "seasonPts": 44,
+        "starter": false
+      },
+      {
+        "id": 4360234,
+        "name": "Evan McPherson",
+        "pos": "K",
+        "nfl": "CIN",
+        "status": "ACTIVE",
+        "owned": 21,
+        "seasonPts": 59,
+        "starter": false
+      },
+      {
+        "id": -16004,
+        "name": "Bengals D/ST",
+        "pos": "D/ST",
+        "nfl": "CIN",
+        "status": null,
+        "owned": 16,
+        "seasonPts": 48,
+        "starter": true
+      },
+      {
+        "id": 3150744,
+        "name": "Chase McLaughlin",
+        "pos": "K",
+        "nfl": "TB",
+        "status": "ACTIVE",
+        "owned": 25,
+        "seasonPts": 77,
+        "starter": true
+      },
+      {
+        "id": -16029,
+        "name": "Panthers D/ST",
+        "pos": "D/ST",
+        "nfl": "CAR",
+        "status": null,
+        "owned": 27,
+        "seasonPts": 21,
+        "starter": false
+      },
+      {
+        "id": 4242557,
+        "name": "Colby Parkinson",
+        "pos": "TE",
+        "nfl": "LAR",
+        "status": "ACTIVE",
+        "owned": 6,
+        "seasonPts": 30.3,
+        "starter": false
+      }
+    ],
+    "14": [
+      {
+        "id": 4362628,
+        "name": "Ja'Marr Chase",
+        "pos": "WR",
+        "nfl": "CIN",
+        "status": "ACTIVE",
+        "owned": 100,
+        "seasonPts": 97.1,
+        "starter": true
+      },
+      {
+        "id": 4258173,
+        "name": "Nico Collins",
+        "pos": "WR",
+        "nfl": "HOU",
+        "status": "ACTIVE",
+        "owned": 99,
+        "seasonPts": 76.1,
+        "starter": true
+      },
+      {
+        "id": 4430737,
+        "name": "Kyren Williams",
+        "pos": "RB",
+        "nfl": "LAR",
+        "status": "ACTIVE",
+        "owned": 100,
+        "seasonPts": 137.1,
+        "starter": true
+      },
+      {
+        "id": 4431452,
+        "name": "Drake Maye",
+        "pos": "QB",
+        "nfl": "NE",
+        "status": "ACTIVE",
+        "owned": 98,
+        "seasonPts": 138.5,
+        "starter": true
+      },
+      {
+        "id": 4882093,
+        "name": "Bhayshul Tuten",
+        "pos": "RB",
+        "nfl": "JAX",
+        "status": "ACTIVE",
+        "owned": 93,
+        "seasonPts": 88.4,
+        "starter": false
+      },
+      {
+        "id": 4035687,
+        "name": "Michael Pittman Jr.",
+        "pos": "WR",
+        "nfl": "PIT",
+        "status": "INJURY_RESERVE",
+        "owned": 45,
+        "seasonPts": 15.9,
+        "starter": false
+      },
+      {
+        "id": 3040151,
+        "name": "George Kittle",
+        "pos": "TE",
+        "nfl": "SF",
+        "status": "ACTIVE",
+        "owned": 98,
+        "seasonPts": 104.5,
+        "starter": true
+      },
+      {
+        "id": 4429205,
+        "name": "Jordan Addison",
+        "pos": "WR",
+        "nfl": "MIN",
+        "status": "ACTIVE",
+        "owned": 75,
+        "seasonPts": 37.5,
+        "starter": false
+      },
+      {
+        "id": 3042519,
+        "name": "Aaron Jones Sr.",
+        "pos": "RB",
+        "nfl": "MIN",
+        "status": "QUESTIONABLE",
+        "owned": 93,
+        "seasonPts": 73.8,
+        "starter": true
+      },
+      {
+        "id": 3116165,
+        "name": "Chris Godwin Jr.",
+        "pos": "WR",
+        "nfl": "TB",
+        "status": "ACTIVE",
+        "owned": 57,
+        "seasonPts": 53.1,
+        "starter": true
+      },
+      {
+        "id": 3054850,
+        "name": "Alvin Kamara",
+        "pos": "RB",
+        "nfl": "NO",
+        "status": "ACTIVE",
+        "owned": 61,
+        "seasonPts": 65.8,
+        "starter": false
+      },
+      {
+        "id": -16026,
+        "name": "Seahawks D/ST",
+        "pos": "D/ST",
+        "nfl": "SEA",
+        "status": null,
+        "owned": 92,
+        "seasonPts": 66,
+        "starter": true
+      },
+      {
+        "id": 4597500,
+        "name": "Adonai Mitchell",
+        "pos": "WR",
+        "nfl": "NYJ",
+        "status": "ACTIVE",
+        "owned": 14,
+        "seasonPts": 21.3,
+        "starter": false
+      },
+      {
+        "id": 4567104,
+        "name": "Will Reichard",
+        "pos": "K",
+        "nfl": "MIN",
+        "status": "ACTIVE",
+        "owned": 89,
+        "seasonPts": 80,
+        "starter": true
+      },
+      {
+        "id": 4242512,
+        "name": "Malik Willis",
+        "pos": "QB",
+        "nfl": "MIA",
+        "status": "ACTIVE",
+        "owned": 6,
+        "seasonPts": 86.6,
+        "starter": false
+      },
+      {
+        "id": 3116164,
+        "name": "Mike Gesicki",
+        "pos": "TE",
+        "nfl": "CIN",
+        "status": "ACTIVE",
+        "owned": 14,
+        "seasonPts": 59.5,
+        "starter": false
+      },
+      {
+        "id": 5082424,
+        "name": "Dominic Zvada",
+        "pos": "K",
+        "nfl": "NYG",
+        "status": "ACTIVE",
+        "owned": 53,
+        "seasonPts": 57,
+        "starter": false
+      }
+    ],
+    "15": [
+      {
+        "id": 4890973,
+        "name": "Ashton Jeanty",
+        "pos": "RB",
+        "nfl": "LV",
+        "status": "ACTIVE",
+        "owned": 100,
+        "seasonPts": 122,
+        "starter": true
+      },
+      {
+        "id": 3929630,
+        "name": "Saquon Barkley",
+        "pos": "RB",
+        "nfl": "PHI",
+        "status": "QUESTIONABLE",
+        "owned": 98,
+        "seasonPts": 38.1,
+        "starter": true
+      },
+      {
+        "id": 3918298,
+        "name": "Josh Allen",
+        "pos": "QB",
+        "nfl": "BUF",
+        "status": "ACTIVE",
+        "owned": 100,
+        "seasonPts": 161.3,
+        "starter": true
+      },
+      {
+        "id": 16800,
+        "name": "Davante Adams",
+        "pos": "WR",
+        "nfl": "LAR",
+        "status": "INJURY_RESERVE",
+        "owned": 92,
+        "seasonPts": 102,
+        "starter": false
+      },
+      {
+        "id": 4871023,
+        "name": "Carnell Tate",
+        "pos": "WR",
+        "nfl": "TEN",
+        "status": "ACTIVE",
+        "owned": 87,
+        "seasonPts": 77.3,
+        "starter": true
+      },
+      {
+        "id": 4047650,
+        "name": "DK Metcalf",
+        "pos": "WR",
+        "nfl": "PIT",
+        "status": "ACTIVE",
+        "owned": 91,
+        "seasonPts": 76.5,
+        "starter": true
+      },
+      {
+        "id": 4241985,
+        "name": "J.K. Dobbins",
+        "pos": "RB",
+        "nfl": "DEN",
+        "status": "ACTIVE",
+        "owned": 84,
+        "seasonPts": 58,
+        "starter": false
+      },
+      {
+        "id": 4385690,
+        "name": "Dalton Kincaid",
+        "pos": "TE",
+        "nfl": "BUF",
+        "status": "ACTIVE",
+        "owned": 78,
+        "seasonPts": 60.5,
+        "starter": true
+      },
+      {
+        "id": 4686361,
+        "name": "Cam Little",
+        "pos": "K",
+        "nfl": "JAX",
+        "status": "ACTIVE",
+        "owned": 59,
+        "seasonPts": 56,
+        "starter": true
+      },
+      {
+        "id": 4361411,
+        "name": "Pat Freiermuth",
+        "pos": "TE",
+        "nfl": "PIT",
+        "status": "ACTIVE",
+        "owned": 60,
+        "seasonPts": 67.4,
+        "starter": false
+      },
+      {
+        "id": 4569603,
+        "name": "Malik Washington",
+        "pos": "WR",
+        "nfl": "MIA",
+        "status": "ACTIVE",
+        "owned": 40,
+        "seasonPts": 56.7,
+        "starter": false
+      },
+      {
+        "id": 14880,
+        "name": "Kirk Cousins",
+        "pos": "QB",
+        "nfl": "LV",
+        "status": "ACTIVE",
+        "owned": 57,
+        "seasonPts": 131.5,
+        "starter": false
+      },
+      {
+        "id": 4428331,
+        "name": "Rashee Rice",
+        "pos": "WR",
+        "nfl": "KC",
+        "status": "QUESTIONABLE",
+        "owned": 94,
+        "seasonPts": 38,
+        "starter": true
+      },
+      {
+        "id": 3116365,
+        "name": "Mark Andrews",
+        "pos": "TE",
+        "nfl": "BAL",
+        "status": "ACTIVE",
+        "owned": 68,
+        "seasonPts": 50.4,
+        "starter": false
+      },
+      {
+        "id": -16012,
+        "name": "Chiefs D/ST",
+        "pos": "D/ST",
+        "nfl": "KC",
+        "status": null,
+        "owned": 70,
+        "seasonPts": 36,
+        "starter": true
+      },
+      {
+        "id": 3052587,
+        "name": "Baker Mayfield",
+        "pos": "QB",
+        "nfl": "TB",
+        "status": "ACTIVE",
+        "owned": 25,
+        "seasonPts": 41.8,
+        "starter": false
+      }
+    ]
+  },
+  "recapped": [
+    7
+  ],
+  "cybaWeeks": [],
+  "lastRumorAt": null,
+  "covered": [
+    "recap:2026:7"
+  ],
+  "pending": []
+}
