@@ -22,6 +22,7 @@ import {
   matchupPeriodFor,
   ownerLookup,
   proTeamAbbrevs,
+  weekMatchups,
   startingSlots,
   weekIsFinal,
 } from './espn-transform.mjs';
@@ -145,7 +146,7 @@ async function main() {
         },
       },
     });
-    freeagents = buildFreeAgents(kona, ctx);
+    freeagents = buildFreeAgents(kona, { ...ctx, matchups: weekMatchups(proTeams, week) });
     console.log(`  ${freeagents.players.length} free agents`);
   }
 

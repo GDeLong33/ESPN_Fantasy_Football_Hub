@@ -255,7 +255,7 @@
 }
 .wire__table {
   width: 100%;
-  min-width: 540px;
+  min-width: 680px;
   border-collapse: collapse;
   font-size: 14px;
 }
@@ -569,4 +569,31 @@
   flex-wrap: wrap;
   gap: 12px;
   margin: 8px 0 16px;
+}
+
+/* Matchup rank: the word carries the meaning, colour only reinforces it. */
+.opp-rank {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.opp-rank__tag {
+  margin-left: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.opp-rank--easy {
+  font-weight: 700;
+  color: var(--ink);
+}
+.opp-rank--easy .opp-rank__tag {
+  color: var(--accent-text);
+}
+.opp-rank--tough {
+  color: var(--muted);
+}
+.wire__table abbr[title] {
+  text-decoration: none;
+  cursor: help;
 }

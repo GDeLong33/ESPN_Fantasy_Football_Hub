@@ -43,4 +43,20 @@ export const INJURY_LABELS: Record<string, string> = {
   DTD: 'Day to day',
 };
 
-export const fmtPts = (n: number | null | undefined) => (n == null ? '--' : n.toFixed(1));
+/** "@ PIT", or "BYE" when a player's team has no game this week. "--" if the data predates matchups. */
+export const oppLabel = (p: PoolPlayer) => (p.opp === undefined ? '--' : (p.opp ?? (p.team ? 'BYE' : '--')));
+
+export function ordinal(n: number) {
+  const s = n % 100 >= 11 && n % 100 <= 13 ? 'th' : (['th', 'st', 'nd', 'rd'][n % 10] ?? 'th');
+  return `${n}${s}`;
+}
+
+/** Ranks 1-8 are tough matchups, 25-32 easy ones. */
+export function matchupTone(rank: number | null | undefined): 'tough' | 'easy' | null {
+  if (rank == null) return null;
+  if (rank <= 8) return 'tough';
+  if (rank >= 25) return 'easy';
+  return null;
+}
+
+export const fmtPts =(n: number | null | undefined) => (n == null ? '--' : n.toFixed(1));

@@ -34,7 +34,7 @@ export function createClient({ season, leagueId, espnS2, swid }) {
       }
       if (res.status === 401 || res.status === 403) {
         throw new Error(
-          `${label}: HTTP ${res.status}. The league looks private: set ESPN_S2 and ESPN_SWID (see docs/SETUP.md).`,
+          `${label}: HTTP ${res.status}. The league looks private: copy the espn_s2 and SWID cookies from fantasy.espn.com (browser dev tools, Application, Cookies) into repo secrets ESPN_S2 and ESPN_SWID.`,
         );
       }
       if (!res.ok) throw new Error(`${label}: HTTP ${res.status} ${res.statusText}`);

@@ -4,7 +4,7 @@ import { DataState } from '../../components/DataState';
 import { supabase } from '../../lib/supabase';
 import { useAsync } from '../../lib/useAsync';
 import { loadDraft, loadEntered, saveEntered } from './draftStore';
-import { fmtPts, loadGameData, type GameData } from './gameData';
+import { fmtPts, loadGameData, oppLabel, type GameData } from './gameData';
 import { lineupTotal, reconcile, toPicks, validateLineup, type Lineup } from './lineup';
 import { formatLock } from './PromoCard';
 import { nameProblem, submitEntry } from './submit';
@@ -186,7 +186,7 @@ function LineupSummary({ data, lineup }: { data: GameData; lineup: Lineup }) {
                   <>
                     {p.name}
                     <small>
-                      {p.pos} · {p.team ?? 'FA'}
+                      {p.pos} · {p.team ?? 'FA'} {oppLabel(p)}
                     </small>
                   </>
                 ) : (

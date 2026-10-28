@@ -5,7 +5,7 @@ import { formatUpdated } from '../../lib/data';
 import { useAsync } from '../../lib/useAsync';
 import { LEAGUE_NAME } from '../../site';
 import { loadDraft, useDraft } from './draftStore';
-import { INJURY_LABELS, fmtPts, loadGameData, type GameData } from './gameData';
+import { INJURY_LABELS, fmtPts, loadGameData, matchupTone, oppLabel, ordinal, type GameData } from './gameData';
 import { LeagueBars, rankAmong, type BarItem } from './LeagueBars';
 import {
   addPlayer,
@@ -158,7 +158,7 @@ function LineupPanel({
                   <span className="lineup__name">
                     {p.name}
                     <small>
-                      {p.pos} · {p.team ?? 'FA'}
+                      {p.pos} · {p.team ?? 'FA'} {oppLabel(p)}
                       {p.injury && <> · {INJURY_LABELS[p.injury] ?? p.injury}</>}
                     </small>
                   </span>
@@ -297,6 +297,12 @@ function WaiverWire({
               <th scope="col" className="hide-sm">
                 Team
               </th>
+              <th scope="col" className="hide-sm">
+                Opp
+              </th>
+              <th scope="col" className="num hide-sm">
+                <abbr title="Opponent's rank against this position: 1st = toughest, 32nd = easiest">Opp rank</abbr>
+              </th>
               <th scope="col" className="num">
                 Proj
               </th>
@@ -322,11 +328,19 @@ function WaiverWire({
                       </abbr>
                     )}
                     <small className="wire__sub">
-                      {p.team ?? 'FA'} · {Math.round(p.ownedPct)}% rostered
+                      {p.team ?? 'FA'} {oppLabel(p)}
+                      {p.oppRank != null && (
+                        <>
+                          {' · '}
+                          <MatchupRank rank={p.oppRank} />
+                        </>
+                      )}
                     </small>
                   </td>
                   <td className="wire__pos">{p.pos}</td>
                   <td className="muted hide-sm">{p.team ?? 'FA'}</td>
+                  <td className="hide-sm">{oppLabel(p)}</td>
+                  <td className="num hide-sm">{p.oppRank != null ? <MatchupRank rank={p.oppRank} /> : '--'}</td>
                   <td className="num strong">{fmtPts(p.projPts)}</td>
                   <td className="num muted hide-sm">{Math.round(p.ownedPct)}%</td>
                   <td>
@@ -356,6 +370,9 @@ function WaiverWire({
       <div className="panel__foot wire__foot">
         <span>
           Showing {Math.min(limit, shown.length)} of {shown.length}. Data last updated {formatUpdated(updatedAt)}.
+          <br />
+          Opp rank: how this week's opponent ranks against that position. 1st allows the fewest points (toughest),
+          32nd the most (easiest).
         </span>
         {shown.length > limit && (
           <button type="button" className="btn btn--ghost" onClick={() => setLimit((l) => l + PAGE)}>
@@ -364,6 +381,16 @@ function WaiverWire({
         )}
       </div>
     </section>
+  );
+}
+
+function MatchupRank({ rank }: { rank: number }) {
+  const tone = matchupTone(rank);
+  return (
+    <span className={tone ? `opp-rank opp-rank--${tone}` : 'opp-rank'}>
+      {ordinal(rank)}
+      {tone && <span className="opp-rank__tag">{tone}</span>}
+    </span>
   );
 }
 

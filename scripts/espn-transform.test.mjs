@@ -8,6 +8,7 @@ import {
   startingSlots,
   teamLineup,
   weekIsFinal,
+  weekMatchups,
 } from './espn-transform.mjs';
 
 const season = 2026;
@@ -62,7 +63,7 @@ describe('teamLineup', () => {
 });
 
 describe('buildFreeAgents', () => {
-  it('keeps usable positions, maps injuries, and sorts by projection', () => {
+  it('keeps usable positions, maps injuries, adds matchups, and sorts by projection', () => {
     const fa = buildFreeAgents(
       {
         players: [
@@ -71,12 +72,24 @@ describe('buildFreeAgents', () => {
           { onTeamId: 0, player: player(3, 9, [stat(1, 30)]) }, // not a fantasy position
           { onTeamId: 4, player: player(4, 2, [stat(1, 40)]) }, // rostered
         ],
+        positionAgainstOpponent: {
+          positionalRatings: {
+            3: { ratingsByOpponent: { 7: { average: 38.9, rank: 30 } } },
+            16: { ratingsByOpponent: { 2: { average: -0.3, rank: 1 } } },
+          },
+        },
       },
-      { season, week, abbrevs },
+      {
+        season,
+        week,
+        abbrevs,
+        // BUF (2) away at DEN (7)
+        matchups: weekMatchups([{ id: 2, proGamesByScoringPeriod: { 8: [{ homeProTeamId: 7, awayProTeamId: 2 }] } }, { id: 7, proGamesByScoringPeriod: { 8: [{ homeProTeamId: 7, awayProTeamId: 2 }] } }], 8),
+      },
     );
     expect(fa.players).toEqual([
-      { id: 2, name: 'P2', pos: 'D/ST', team: 'DEN', injury: null, ownedPct: 0, projPts: 9 },
-      { id: 1, name: 'P1', pos: 'WR', team: 'BUF', injury: 'Q', ownedPct: 12.35, projPts: 5 },
+      { id: 2, name: 'P2', pos: 'D/ST', team: 'DEN', injury: null, ownedPct: 0, projPts: 9, opp: 'vs BUF', oppRank: 1 },
+      { id: 1, name: 'P1', pos: 'WR', team: 'BUF', injury: 'Q', ownedPct: 12.35, projPts: 5, opp: '@ DEN', oppRank: 30 },
     ]);
   });
 });
@@ -120,5 +133,12 @@ describe('misc', () => {
     expect(weekIsFinal(sb('AWAY'), 8)).toBe(true);
     expect(weekIsFinal(sb('UNDECIDED'), 8)).toBe(false);
     expect(weekIsFinal(sb('AWAY'), 9)).toBe(false);
+  });
+});
+
+describe('weekMatchups', () => {
+  it('leaves teams on bye out', () => {
+    const m = weekMatchups([{ id: 2, proGamesByScoringPeriod: { 9: [] } }], 8);
+    expect(m.has(2)).toBe(false);
   });
 });

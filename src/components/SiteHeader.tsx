@@ -10,7 +10,7 @@ export function SiteHeader() {
   return (
     <header className="site-header">
       <div className="container site-header__inner">
-        <Link to={current.to} className="brand" aria-label={`${brand.title}, ${current.label}`}>
+        <Link to="/" className="brand" aria-label={`${brand.title}, home page`}>
           <span className="brand__mark" aria-hidden="true">
             {brand.mark}
           </span>

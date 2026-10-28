@@ -164,7 +164,28 @@ export function buildStandings(league, { season, week, austinTeamId, ownerOf }) 
   return { season, week, teams: teams.map(({ seed: _seed, ...t }) => t) };
 }
 
-export function buildFreeAgents(konaResp, { season, week, abbrevs }) {
+/** proTeamId -> { oppId, home } for one week. Teams on bye are absent. */
+export function weekMatchups(proTeams, week) {
+  const out = new Map();
+  for (const t of proTeams ?? []) {
+    const g = t.proGamesByScoringPeriod?.[String(week)]?.[0];
+    if (!g) continue;
+    const home = g.homeProTeamId === t.id;
+    out.set(t.id, { oppId: home ? g.awayProTeamId : g.homeProTeamId, home });
+  }
+  return out;
+}
+
+/**
+ * How the opponent ranks against this position, from kona_player_info's
+ * positionAgainstOpponent: 1 = allows the fewest points (toughest), 32 = the most (easiest).
+ */
+export function opponentRank(konaResp, positionId, oppId) {
+  const r = konaResp?.positionAgainstOpponent?.positionalRatings?.[positionId]?.ratingsByOpponent?.[oppId]?.rank;
+  return Number.isInteger(r) && r > 0 ? r : null;
+}
+
+export function buildFreeAgents(konaResp, { season, week, abbrevs, matchups = new Map() }) {
   const players = konaResp?.players;
   assert(Array.isArray(players), 'kona_player_info: players array missing');
   const out = [];
@@ -174,6 +195,7 @@ export function buildFreeAgents(konaResp, { season, week, abbrevs }) {
     const pos = POSITIONS[p.defaultPositionId];
     if (!pos) continue; // positions the game cannot use
     if (entry.onTeamId && entry.onTeamId !== 0) continue; // rostered, defensive
+    const game = matchups.get(p.proTeamId);
     out.push({
       id: p.id,
       name: p.fullName,
@@ -182,6 +204,9 @@ export function buildFreeAgents(konaResp, { season, week, abbrevs }) {
       injury: p.injuryStatus in INJURY ? INJURY[p.injuryStatus] : (p.injuryStatus ?? null),
       ownedPct: round(p.ownership?.percentOwned ?? 0),
       projPts: weekPoints(p, season, week, STAT_SOURCE.PROJECTED) ?? 0,
+      // "@ DAL" (away), "vs DAL" (home), or null on a bye / free agent with no team.
+      opp: game ? `${game.home ? 'vs' : '@'} ${abbrevs.get(game.oppId) ?? '?'}` : null,
+      oppRank: game ? opponentRank(konaResp, p.defaultPositionId, game.oppId) : null,
     });
   }
   assert(out.length > 0, 'kona_player_info: no usable free agents returned');

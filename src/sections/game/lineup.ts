@@ -12,6 +12,10 @@ export type PoolPlayer = {
   injury: string | null;
   ownedPct: number;
   projPts: number;
+  /** "@ DAL" / "vs DAL"; null on a bye or with no NFL team. */
+  opp?: string | null;
+  /** Opponent's rank against this position: 1 = toughest, 32 = easiest. */
+  oppRank?: number | null;
 };
 
 /** Player id per slot, aligned by index with the slot list. */
