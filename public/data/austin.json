@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T20:21:44.115Z",
+  "updatedAt": "2026-10-29T01:02:20.070Z",
   "week": 8,
   "teamId": 9,
   "teamName": "Gooners Guild of America",
@@ -51,11 +51,11 @@
     },
     {
       "slot": "TE",
-      "playerId": 3929645,
-      "name": "Juwan Johnson",
+      "playerId": 4808766,
+      "name": "Mason Taylor",
       "pos": "TE",
-      "team": "NO",
-      "projPts": 0,
+      "team": "NYJ",
+      "projPts": 8.67,
       "actualPts": null
     },
     {
@@ -64,7 +64,7 @@
       "name": "Zach Charbonnet",
       "pos": "RB",
       "team": "SEA",
-      "projPts": 11.36,
+      "projPts": 10.71,
       "actualPts": null
     },
     {
@@ -86,6 +86,6 @@
       "actualPts": null
     }
   ],
-  "projTotal": 95.68,
+  "projTotal": 103.7,
   "actualTotal": 0
 }

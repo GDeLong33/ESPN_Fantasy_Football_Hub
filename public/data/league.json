@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T20:21:44.115Z",
+  "updatedAt": "2026-10-29T01:02:20.070Z",
   "week": 8,
   "teams": [
     {
@@ -14,7 +14,7 @@
       "teamId": 14,
       "name": "Its gonna be Maye",
       "owner": "Jaxson C.",
-      "projTotal": 122.99,
+      "projTotal": 123,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -30,7 +30,7 @@
       "teamId": 15,
       "name": "The Juice",
       "owner": "Sam C.",
-      "projTotal": 112.08,
+      "projTotal": 115.16,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -38,7 +38,7 @@
       "teamId": 6,
       "name": "North Atlantic 1912 Swim Team",
       "owner": "Cole K.",
-      "projTotal": 112.07,
+      "projTotal": 112.03,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -62,7 +62,7 @@
       "teamId": 5,
       "name": "Antonio's Team",
       "owner": "Antonio G.",
-      "projTotal": 109.72,
+      "projTotal": 109.71,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -70,7 +70,7 @@
       "teamId": 10,
       "name": "Doug's coin eaters",
       "owner": "Gavin D.",
-      "projTotal": 109.27,
+      "projTotal": 109.18,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -86,23 +86,7 @@
       "teamId": 11,
       "name": "Professional Cowgirls",
       "owner": "Jaycey M.",
-      "projTotal": 103.77,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
-      "teamId": 2,
-      "name": "Pickle Runners",
-      "owner": "Patience U.",
-      "projTotal": 95.96,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
-      "teamId": 12,
-      "name": "Zoey's Grand Canyon Hikers",
-      "owner": "Jaylin M.",
-      "projTotal": 95.75,
+      "projTotal": 103.79,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -110,9 +94,25 @@
       "teamId": 9,
       "name": "Gooners Guild of America",
       "owner": "Austin G.",
-      "projTotal": 95.68,
+      "projTotal": 103.7,
       "actualTotal": 0,
       "isAustin": true
+    },
+    {
+      "teamId": 2,
+      "name": "Pickle Runners",
+      "owner": "Patience U.",
+      "projTotal": 95.97,
+      "actualTotal": 0,
+      "isAustin": false
+    },
+    {
+      "teamId": 12,
+      "name": "Zoey's Grand Canyon Hikers",
+      "owner": "Jaylin M.",
+      "projTotal": 95.76,
+      "actualTotal": 0,
+      "isAustin": false
     }
   ]
 }
