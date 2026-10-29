@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T01:02:20.070Z",
+  "updatedAt": "2026-10-29T10:09:29.035Z",
   "week": 8,
   "teams": [
     {
@@ -46,7 +46,7 @@
       "teamId": 4,
       "name": "Burrow it deeper",
       "owner": "Max F.",
-      "projTotal": 111.91,
+      "projTotal": 111.74,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -59,18 +59,18 @@
       "isAustin": false
     },
     {
-      "teamId": 5,
-      "name": "Antonio's Team",
-      "owner": "Antonio G.",
-      "projTotal": 109.71,
+      "teamId": 10,
+      "name": "Doug's coin eaters",
+      "owner": "Gavin D.",
+      "projTotal": 110.35,
       "actualTotal": 0,
       "isAustin": false
     },
     {
-      "teamId": 10,
-      "name": "Doug's coin eaters",
-      "owner": "Gavin D.",
-      "projTotal": 109.18,
+      "teamId": 5,
+      "name": "Antonio's Team",
+      "owner": "Antonio G.",
+      "projTotal": 109.71,
       "actualTotal": 0,
       "isAustin": false
     },
