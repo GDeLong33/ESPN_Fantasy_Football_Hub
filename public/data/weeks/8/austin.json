@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T01:02:20.070Z",
+  "updatedAt": "2026-10-30T01:07:38.211Z",
   "week": 8,
   "teamId": 9,
   "teamName": "Gooners Guild of America",
@@ -10,7 +10,7 @@
       "name": "Sam Darnold",
       "pos": "QB",
       "team": "SEA",
-      "projPts": 14.77,
+      "projPts": 14.48,
       "actualPts": null
     },
     {
@@ -46,7 +46,7 @@
       "name": "Luther Burden III",
       "pos": "WR",
       "team": "CHI",
-      "projPts": 13.46,
+      "projPts": 13.43,
       "actualPts": null
     },
     {
@@ -64,7 +64,7 @@
       "name": "Zach Charbonnet",
       "pos": "RB",
       "team": "SEA",
-      "projPts": 10.71,
+      "projPts": 10.52,
       "actualPts": null
     },
     {
@@ -86,6 +86,6 @@
       "actualPts": null
     }
   ],
-  "projTotal": 103.7,
+  "projTotal": 103.19,
   "actualTotal": 0
 }
