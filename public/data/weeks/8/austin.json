@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T10:11:19.659Z",
+  "updatedAt": "2026-10-30T22:27:41.181Z",
   "week": 8,
   "teamId": 9,
   "teamName": "Gooners Guild of America",
@@ -19,7 +19,7 @@
       "name": "Luther Burden III",
       "pos": "WR",
       "team": "CHI",
-      "projPts": 13.43,
+      "projPts": 13.4,
       "actualPts": null
     },
     {
@@ -32,6 +32,6 @@
       "actualPts": null
     }
   ],
-  "projTotal": 38.34,
+  "projTotal": 38.31,
   "actualTotal": 0
 }
