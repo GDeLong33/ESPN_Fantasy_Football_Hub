@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T01:07:38.211Z",
+  "updatedAt": "2026-10-30T10:11:19.659Z",
   "week": 8,
   "teams": [
     {
@@ -15,7 +15,7 @@
       "name": "No Diddy Giddy",
       "owner": "Jaiden A.",
       "projTotal": 123.28,
-      "actualTotal": 8.2,
+      "actualTotal": 17.3,
       "isAustin": false
     },
     {
@@ -23,7 +23,7 @@
       "name": "Skatt on My Dihggs",
       "owner": "Jared G.",
       "projTotal": 120.06,
-      "actualTotal": 0,
+      "actualTotal": 9.6,
       "isAustin": false
     },
     {
@@ -31,15 +31,7 @@
       "name": "Pickle Runners",
       "owner": "Patience U.",
       "projTotal": 116.48,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
-      "teamId": 3,
-      "name": "JehOda's Witness",
-      "owner": "Dylan E.",
-      "projTotal": 115.31,
-      "actualTotal": 2,
+      "actualTotal": 3,
       "isAustin": false
     },
     {
@@ -71,7 +63,7 @@
       "name": "Zoey's Grand Canyon Hikers",
       "owner": "Jaylin M.",
       "projTotal": 113.09,
-      "actualTotal": 3.3,
+      "actualTotal": 23.2,
       "isAustin": false
     },
     {
@@ -87,7 +79,7 @@
       "name": "Any Given Sunday",
       "owner": "Clayton T.",
       "projTotal": 110.7,
-      "actualTotal": 0,
+      "actualTotal": 20.9,
       "isAustin": false
     },
     {
@@ -95,7 +87,7 @@
       "name": "Professional Cowgirls",
       "owner": "Jaycey M.",
       "projTotal": 110.6,
-      "actualTotal": 28.04,
+      "actualTotal": 63.72,
       "isAustin": false
     },
     {
@@ -103,14 +95,22 @@
       "name": "Doug's coin eaters",
       "owner": "Gavin D.",
       "projTotal": 110.36,
-      "actualTotal": 2.12,
+      "actualTotal": 10.36,
+      "isAustin": false
+    },
+    {
+      "teamId": 3,
+      "name": "JehOda's Witness",
+      "owner": "Dylan E.",
+      "projTotal": 53.43,
+      "actualTotal": 11.8,
       "isAustin": false
     },
     {
       "teamId": 9,
       "name": "Gooners Guild of America",
       "owner": "Austin G.",
-      "projTotal": 103.19,
+      "projTotal": 38.34,
       "actualTotal": 0,
       "isAustin": true
     }
