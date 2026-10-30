@@ -1,5 +1,5 @@
 {
-  "snapshotAt": "2026-10-29T19:06:27.359Z",
+  "snapshotAt": "2026-10-30T02:46:29.046Z",
   "rosters": {
     "1": [
       {
@@ -17,7 +17,7 @@
         "name": "Brock Bowers",
         "pos": "TE",
         "nfl": "LV",
-        "status": "QUESTIONABLE",
+        "status": "ACTIVE",
         "owned": 100,
         "seasonPts": 95.5,
         "starter": true
@@ -47,7 +47,7 @@
         "name": "RJ Harvey",
         "pos": "RB",
         "nfl": "DEN",
-        "status": "ACTIVE",
+        "status": "QUESTIONABLE",
         "owned": 76,
         "seasonPts": 67.4,
         "starter": false
@@ -58,7 +58,7 @@
         "pos": "RB",
         "nfl": "PIT",
         "status": "ACTIVE",
-        "owned": 63,
+        "owned": 64,
         "seasonPts": 33,
         "starter": true
       },
@@ -88,7 +88,7 @@
         "pos": "K",
         "nfl": "HOU",
         "status": "ACTIVE",
-        "owned": 80,
+        "owned": 77,
         "seasonPts": 75,
         "starter": false
       },
@@ -138,7 +138,7 @@
         "pos": "D/ST",
         "nfl": "NYJ",
         "status": null,
-        "owned": 36,
+        "owned": 33,
         "seasonPts": 40,
         "starter": true
       },
@@ -148,7 +148,7 @@
         "pos": "RB",
         "nfl": "DEN",
         "status": "ACTIVE",
-        "owned": 42,
+        "owned": 43,
         "seasonPts": 23.7,
         "starter": true
       },
@@ -168,7 +168,7 @@
         "pos": "K",
         "nfl": "ARI",
         "status": "ACTIVE",
-        "owned": 20,
+        "owned": 23,
         "seasonPts": 71,
         "starter": true
       }
@@ -179,7 +179,7 @@
         "name": "Jahmyr Gibbs",
         "pos": "RB",
         "nfl": "DET",
-        "status": "QUESTIONABLE",
+        "status": "ACTIVE",
         "owned": 100,
         "seasonPts": 171,
         "starter": true
@@ -202,7 +202,7 @@
         "status": "ACTIVE",
         "owned": 99,
         "seasonPts": 124.6,
-        "starter": true
+        "starter": false
       },
       {
         "id": 4723086,
@@ -210,7 +210,7 @@
         "pos": "TE",
         "nfl": "CHI",
         "status": "ACTIVE",
-        "owned": 95,
+        "owned": 96,
         "seasonPts": 62.4,
         "starter": true
       },
@@ -222,7 +222,7 @@
         "status": "QUESTIONABLE",
         "owned": 96,
         "seasonPts": 69.9,
-        "starter": false
+        "starter": true
       },
       {
         "id": 4360310,
@@ -232,7 +232,7 @@
         "status": "ACTIVE",
         "owned": 91,
         "seasonPts": 114.2,
-        "starter": false
+        "starter": true
       },
       {
         "id": 4569987,
@@ -252,7 +252,7 @@
         "status": "ACTIVE",
         "owned": 28,
         "seasonPts": 19.9,
-        "starter": false
+        "starter": true
       },
       {
         "id": 3139477,
@@ -262,7 +262,7 @@
         "status": "ACTIVE",
         "owned": 90,
         "seasonPts": 100.1,
-        "starter": true
+        "starter": false
       },
       {
         "id": 3046439,
@@ -270,7 +270,7 @@
         "pos": "TE",
         "nfl": "NE",
         "status": "ACTIVE",
-        "owned": 67,
+        "owned": 70,
         "seasonPts": 67.6,
         "starter": false
       },
@@ -280,7 +280,7 @@
         "pos": "QB",
         "nfl": "IND",
         "status": "ACTIVE",
-        "owned": 13,
+        "owned": 12,
         "seasonPts": 64.7,
         "starter": false
       },
@@ -290,7 +290,7 @@
         "pos": "D/ST",
         "nfl": "CLE",
         "status": null,
-        "owned": 56,
+        "owned": 57,
         "seasonPts": 42,
         "starter": true
       },
@@ -320,9 +320,9 @@
         "pos": "RB",
         "nfl": "NO",
         "status": "ACTIVE",
-        "owned": 31,
+        "owned": 30,
         "seasonPts": 38.6,
-        "starter": true
+        "starter": false
       },
       {
         "id": 4869461,
@@ -331,7 +331,7 @@
         "nfl": "GB",
         "status": "ACTIVE",
         "owned": 13,
-        "seasonPts": 48,
+        "seasonPts": 51,
         "starter": true
       }
     ],
@@ -344,7 +344,7 @@
         "status": "ACTIVE",
         "owned": 100,
         "seasonPts": 147.7,
-        "starter": true
+        "starter": false
       },
       {
         "id": 4372016,
@@ -352,9 +352,9 @@
         "pos": "WR",
         "nfl": "DEN",
         "status": "QUESTIONABLE",
-        "owned": 87,
+        "owned": 86,
         "seasonPts": 63.9,
-        "starter": true
+        "starter": false
       },
       {
         "id": 3916387,
@@ -384,7 +384,7 @@
         "status": "ACTIVE",
         "owned": 96,
         "seasonPts": 79.4,
-        "starter": true
+        "starter": false
       },
       {
         "id": -16014,
@@ -392,7 +392,7 @@
         "pos": "D/ST",
         "nfl": "LAR",
         "status": null,
-        "owned": 90,
+        "owned": 92,
         "seasonPts": 26,
         "starter": false
       },
@@ -422,9 +422,9 @@
         "pos": "D/ST",
         "nfl": "MIN",
         "status": null,
-        "owned": 89,
+        "owned": 88,
         "seasonPts": 74,
-        "starter": true
+        "starter": false
       },
       {
         "id": 4685472,
@@ -433,7 +433,7 @@
         "nfl": "CAR",
         "status": "ACTIVE",
         "owned": 99,
-        "seasonPts": 97.1,
+        "seasonPts": 105.6,
         "starter": true
       },
       {
@@ -444,7 +444,7 @@
         "status": "ACTIVE",
         "owned": 94,
         "seasonPts": 79.7,
-        "starter": true
+        "starter": false
       },
       {
         "id": 8439,
@@ -452,7 +452,7 @@
         "pos": "QB",
         "nfl": "PIT",
         "status": "ACTIVE",
-        "owned": 46,
+        "owned": 45,
         "seasonPts": 112.3,
         "starter": false
       },
@@ -482,9 +482,9 @@
         "pos": "WR",
         "nfl": "NYJ",
         "status": "ACTIVE",
-        "owned": 64,
+        "owned": 66,
         "seasonPts": 48.8,
-        "starter": true
+        "starter": false
       },
       {
         "id": 4373626,
@@ -492,7 +492,7 @@
         "pos": "RB",
         "nfl": "ARI",
         "status": "QUESTIONABLE",
-        "owned": 49,
+        "owned": 48,
         "seasonPts": 48,
         "starter": false
       },
@@ -502,7 +502,7 @@
         "pos": "WR",
         "nfl": "WSH",
         "status": "ACTIVE",
-        "owned": 14,
+        "owned": 15,
         "seasonPts": 44.5,
         "starter": false
       }
@@ -564,7 +564,7 @@
         "pos": "TE",
         "nfl": "MIN",
         "status": "ACTIVE",
-        "owned": 76,
+        "owned": 78,
         "seasonPts": 62.7,
         "starter": true
       },
@@ -574,7 +574,7 @@
         "pos": "D/ST",
         "nfl": "SF",
         "status": null,
-        "owned": 41,
+        "owned": 39,
         "seasonPts": 49,
         "starter": false
       },
@@ -584,7 +584,7 @@
         "pos": "K",
         "nfl": "SF",
         "status": "ACTIVE",
-        "owned": 47,
+        "owned": 43,
         "seasonPts": 41,
         "starter": false
       },
@@ -644,7 +644,7 @@
         "pos": "RB",
         "nfl": "CIN",
         "status": "ACTIVE",
-        "owned": 12,
+        "owned": 13,
         "seasonPts": 37.7,
         "starter": false
       },
@@ -654,7 +654,7 @@
         "pos": "WR",
         "nfl": "NE",
         "status": "ACTIVE",
-        "owned": 43,
+        "owned": 44,
         "seasonPts": 64.6,
         "starter": true
       },
@@ -664,7 +664,7 @@
         "pos": "K",
         "nfl": "BUF",
         "status": "ACTIVE",
-        "owned": 52,
+        "owned": 59,
         "seasonPts": 62,
         "starter": true
       },
@@ -674,7 +674,7 @@
         "pos": "D/ST",
         "nfl": "CHI",
         "status": null,
-        "owned": 20,
+        "owned": 23,
         "seasonPts": 46,
         "starter": true
       }
@@ -736,7 +736,7 @@
         "pos": "TE",
         "nfl": "ATL",
         "status": "ACTIVE",
-        "owned": 85,
+        "owned": 86,
         "seasonPts": 63.1,
         "starter": false
       },
@@ -746,7 +746,7 @@
         "pos": "WR",
         "nfl": "ARI",
         "status": "QUESTIONABLE",
-        "owned": 90,
+        "owned": 89,
         "seasonPts": 81.9,
         "starter": false
       },
@@ -755,8 +755,8 @@
         "name": "Travis Kelce",
         "pos": "TE",
         "nfl": "KC",
-        "status": "ACTIVE",
-        "owned": 93,
+        "status": "QUESTIONABLE",
+        "owned": 92,
         "seasonPts": 70.3,
         "starter": true
       },
@@ -765,7 +765,7 @@
         "name": "Stefon Diggs",
         "pos": "WR",
         "nfl": "WSH",
-        "status": "QUESTIONABLE",
+        "status": "ACTIVE",
         "owned": 84,
         "seasonPts": 69.4,
         "starter": true
@@ -796,7 +796,7 @@
         "pos": "D/ST",
         "nfl": "JAX",
         "status": null,
-        "owned": 72,
+        "owned": 77,
         "seasonPts": 34,
         "starter": true
       },
@@ -806,7 +806,7 @@
         "pos": "TE",
         "nfl": "HOU",
         "status": "ACTIVE",
-        "owned": 27,
+        "owned": 26,
         "seasonPts": 65.2,
         "starter": false
       },
@@ -826,7 +826,7 @@
         "pos": "D/ST",
         "nfl": "TB",
         "status": null,
-        "owned": 27,
+        "owned": 28,
         "seasonPts": 67,
         "starter": false
       },
@@ -836,7 +836,7 @@
         "pos": "RB",
         "nfl": "LAC",
         "status": "ACTIVE",
-        "owned": 11,
+        "owned": 13,
         "seasonPts": 34.2,
         "starter": false
       }
@@ -898,7 +898,7 @@
         "pos": "QB",
         "nfl": "LAC",
         "status": "ACTIVE",
-        "owned": 36,
+        "owned": 35,
         "seasonPts": 62.4,
         "starter": true
       },
@@ -928,7 +928,7 @@
         "pos": "RB",
         "nfl": "WSH",
         "status": "INJURY_RESERVE",
-        "owned": 45,
+        "owned": 44,
         "seasonPts": 44.9,
         "starter": false
       },
@@ -957,7 +957,7 @@
         "name": "Braelon Allen",
         "pos": "RB",
         "nfl": "NYJ",
-        "status": "QUESTIONABLE",
+        "status": "ACTIVE",
         "owned": 80,
         "seasonPts": 76.3,
         "starter": false
@@ -968,7 +968,7 @@
         "pos": "QB",
         "nfl": "NO",
         "status": "ACTIVE",
-        "owned": 69,
+        "owned": 68,
         "seasonPts": 125.9,
         "starter": false
       },
@@ -997,8 +997,8 @@
         "name": "Dylan Sampson",
         "pos": "RB",
         "nfl": "CLE",
-        "status": "QUESTIONABLE",
-        "owned": 10,
+        "status": "ACTIVE",
+        "owned": 11,
         "seasonPts": 10.7,
         "starter": false
       },
@@ -1008,7 +1008,7 @@
         "pos": "D/ST",
         "nfl": "ATL",
         "status": null,
-        "owned": 6,
+        "owned": 7,
         "seasonPts": 39,
         "starter": true
       }
@@ -1060,7 +1060,7 @@
         "pos": "TE",
         "nfl": "NYJ",
         "status": "ACTIVE",
-        "owned": 24,
+        "owned": 23,
         "seasonPts": 42.7,
         "starter": false
       },
@@ -1070,7 +1070,7 @@
         "pos": "D/ST",
         "nfl": "PIT",
         "status": null,
-        "owned": 96,
+        "owned": 97,
         "seasonPts": 57,
         "starter": true
       },
@@ -1080,7 +1080,7 @@
         "pos": "RB",
         "nfl": "ATL",
         "status": "QUESTIONABLE",
-        "owned": 31,
+        "owned": 30,
         "seasonPts": 53.1,
         "starter": false
       },
@@ -1090,7 +1090,7 @@
         "pos": "QB",
         "nfl": "NYJ",
         "status": "ACTIVE",
-        "owned": 26,
+        "owned": 29,
         "seasonPts": 105.1,
         "starter": false
       },
@@ -1120,7 +1120,7 @@
         "pos": "K",
         "nfl": "LV",
         "status": "ACTIVE",
-        "owned": 53,
+        "owned": 55,
         "seasonPts": 71,
         "starter": true
       },
@@ -1130,7 +1130,7 @@
         "pos": "RB",
         "nfl": "CHI",
         "status": "ACTIVE",
-        "owned": 13,
+        "owned": 12,
         "seasonPts": 28.1,
         "starter": false
       },
@@ -1139,20 +1139,10 @@
         "name": "Matthew Golden",
         "pos": "WR",
         "nfl": "GB",
-        "status": "QUESTIONABLE",
+        "status": "ACTIVE",
         "owned": 94,
-        "seasonPts": 110.6,
+        "seasonPts": 131.5,
         "starter": true
-      },
-      {
-        "id": 4586312,
-        "name": "Jaylin Noel",
-        "pos": "WR",
-        "nfl": "HOU",
-        "status": "INJURY_RESERVE",
-        "owned": 14,
-        "seasonPts": 66.7,
-        "starter": false
       },
       {
         "id": 3916433,
@@ -1173,6 +1163,26 @@
         "owned": 51,
         "seasonPts": 39,
         "starter": true
+      },
+      {
+        "id": 4427728,
+        "name": "Bam Knight",
+        "pos": "RB",
+        "nfl": "ARI",
+        "status": "ACTIVE",
+        "owned": 12,
+        "seasonPts": 24.3,
+        "starter": false
+      },
+      {
+        "id": 4428850,
+        "name": "Dontayvion Wicks",
+        "pos": "WR",
+        "nfl": "PHI",
+        "status": "QUESTIONABLE",
+        "owned": 23,
+        "seasonPts": 53.4,
+        "starter": false
       }
     ],
     "9": [
@@ -1184,7 +1194,7 @@
         "status": "QUESTIONABLE",
         "owned": 95,
         "seasonPts": 51.1,
-        "starter": true
+        "starter": false
       },
       {
         "id": 4870653,
@@ -1192,9 +1202,9 @@
         "pos": "WR",
         "nfl": "CLE",
         "status": "ACTIVE",
-        "owned": 57,
+        "owned": 58,
         "seasonPts": 62.9,
-        "starter": true
+        "starter": false
       },
       {
         "id": 4032473,
@@ -1214,7 +1224,7 @@
         "status": null,
         "owned": 85,
         "seasonPts": 49,
-        "starter": true
+        "starter": false
       },
       {
         "id": 17372,
@@ -1222,7 +1232,7 @@
         "pos": "K",
         "nfl": "PIT",
         "status": "ACTIVE",
-        "owned": 76,
+        "owned": 78,
         "seasonPts": 69,
         "starter": true
       },
@@ -1252,7 +1262,7 @@
         "pos": "RB",
         "nfl": "HOU",
         "status": "QUESTIONABLE",
-        "owned": 80,
+        "owned": 79,
         "seasonPts": 45.5,
         "starter": false
       },
@@ -1272,7 +1282,7 @@
         "pos": "TE",
         "nfl": "NO",
         "status": "ACTIVE",
-        "owned": 55,
+        "owned": 54,
         "seasonPts": 67.5,
         "starter": false
       },
@@ -1284,7 +1294,7 @@
         "status": "ACTIVE",
         "owned": 100,
         "seasonPts": 113.6,
-        "starter": true
+        "starter": false
       },
       {
         "id": 4426385,
@@ -1292,9 +1302,9 @@
         "pos": "RB",
         "nfl": "SEA",
         "status": "QUESTIONABLE",
-        "owned": 70,
+        "owned": 71,
         "seasonPts": 0,
-        "starter": true
+        "starter": false
       },
       {
         "id": 4887558,
@@ -1312,7 +1322,7 @@
         "pos": "QB",
         "nfl": "CLE",
         "status": "ACTIVE",
-        "owned": 14,
+        "owned": 13,
         "seasonPts": 106.8,
         "starter": false
       },
@@ -1322,7 +1332,7 @@
         "pos": "WR",
         "nfl": "DAL",
         "status": "ACTIVE",
-        "owned": 20,
+        "owned": 21,
         "seasonPts": 63.4,
         "starter": false
       },
@@ -1332,9 +1342,9 @@
         "pos": "TE",
         "nfl": "NYJ",
         "status": "ACTIVE",
-        "owned": 8,
+        "owned": 10,
         "seasonPts": 39.7,
-        "starter": true
+        "starter": false
       }
     ],
     "10": [
@@ -1384,7 +1394,7 @@
         "pos": "RB",
         "nfl": "LAR",
         "status": "ACTIVE",
-        "owned": 78,
+        "owned": 79,
         "seasonPts": 69.5,
         "starter": true
       },
@@ -1394,8 +1404,8 @@
         "pos": "QB",
         "nfl": "CAR",
         "status": "ACTIVE",
-        "owned": 82,
-        "seasonPts": 115.9,
+        "owned": 81,
+        "seasonPts": 118.6,
         "starter": true
       },
       {
@@ -1414,7 +1424,7 @@
         "pos": "RB",
         "nfl": "MIA",
         "status": "ACTIVE",
-        "owned": 84,
+        "owned": 85,
         "seasonPts": 65.3,
         "starter": true
       },
@@ -1464,7 +1474,7 @@
         "pos": "WR",
         "nfl": "MIA",
         "status": "ACTIVE",
-        "owned": 26,
+        "owned": 28,
         "seasonPts": 39.3,
         "starter": false
       },
@@ -1474,7 +1484,7 @@
         "pos": "TE",
         "nfl": "WSH",
         "status": "ACTIVE",
-        "owned": 12,
+        "owned": 13,
         "seasonPts": 30,
         "starter": true
       },
@@ -1567,7 +1577,7 @@
         "nfl": "CAR",
         "status": "ACTIVE",
         "owned": 95,
-        "seasonPts": 108.1,
+        "seasonPts": 128.6,
         "starter": true
       },
       {
@@ -1577,7 +1587,7 @@
         "nfl": "GB",
         "status": "ACTIVE",
         "owned": 97,
-        "seasonPts": 129.5,
+        "seasonPts": 145.1,
         "starter": true
       },
       {
@@ -1596,7 +1606,7 @@
         "pos": "WR",
         "nfl": "BUF",
         "status": "ACTIVE",
-        "owned": 59,
+        "owned": 60,
         "seasonPts": 55,
         "starter": true
       },
@@ -1606,7 +1616,7 @@
         "pos": "WR",
         "nfl": "KC",
         "status": "ACTIVE",
-        "owned": 75,
+        "owned": 74,
         "seasonPts": 51.7,
         "starter": false
       },
@@ -1617,7 +1627,7 @@
         "nfl": "GB",
         "status": "ACTIVE",
         "owned": 89,
-        "seasonPts": 127.3,
+        "seasonPts": 148.4,
         "starter": true
       },
       {
@@ -1626,7 +1636,7 @@
         "pos": "D/ST",
         "nfl": "HOU",
         "status": null,
-        "owned": 72,
+        "owned": 68,
         "seasonPts": 29,
         "starter": false
       },
@@ -1677,7 +1687,7 @@
         "name": "Amon-Ra St. Brown",
         "pos": "WR",
         "nfl": "DET",
-        "status": "QUESTIONABLE",
+        "status": "ACTIVE",
         "owned": 100,
         "seasonPts": 128.4,
         "starter": true
@@ -1689,7 +1699,7 @@
         "nfl": "GB",
         "status": "ACTIVE",
         "owned": 93,
-        "seasonPts": 20.1,
+        "seasonPts": 41.2,
         "starter": true
       },
       {
@@ -1738,7 +1748,7 @@
         "pos": "RB",
         "nfl": "HOU",
         "status": "ACTIVE",
-        "owned": 73,
+        "owned": 72,
         "seasonPts": 62.5,
         "starter": false
       },
@@ -1778,7 +1788,7 @@
         "pos": "D/ST",
         "nfl": "NE",
         "status": null,
-        "owned": 69,
+        "owned": 70,
         "seasonPts": 42,
         "starter": true
       },
@@ -1788,7 +1798,7 @@
         "pos": "K",
         "nfl": "BAL",
         "status": "ACTIVE",
-        "owned": 59,
+        "owned": 58,
         "seasonPts": 63,
         "starter": true
       },
@@ -1798,8 +1808,8 @@
         "pos": "RB",
         "nfl": "GB",
         "status": "ACTIVE",
-        "owned": 39,
-        "seasonPts": 49.2,
+        "owned": 38,
+        "seasonPts": 51.8,
         "starter": false
       },
       {
@@ -1808,7 +1818,7 @@
         "pos": "WR",
         "nfl": "LV",
         "status": "ACTIVE",
-        "owned": 71,
+        "owned": 72,
         "seasonPts": 99.8,
         "starter": true
       },
@@ -1818,7 +1828,7 @@
         "pos": "WR",
         "nfl": "PHI",
         "status": "ACTIVE",
-        "owned": 11,
+        "owned": 10,
         "seasonPts": 48.6,
         "starter": false
       },
@@ -1828,7 +1838,7 @@
         "pos": "QB",
         "nfl": "ATL",
         "status": "ACTIVE",
-        "owned": 17,
+        "owned": 18,
         "seasonPts": 84.7,
         "starter": false
       },
@@ -1870,7 +1880,7 @@
         "pos": "RB",
         "nfl": "NE",
         "status": "QUESTIONABLE",
-        "owned": 72,
+        "owned": 71,
         "seasonPts": 33.8,
         "starter": false
       },
@@ -1901,7 +1911,7 @@
         "nfl": "GB",
         "status": "ACTIVE",
         "owned": 92,
-        "seasonPts": 71.2,
+        "seasonPts": 88.5,
         "starter": true
       },
       {
@@ -1910,7 +1920,7 @@
         "pos": "WR",
         "nfl": "NE",
         "status": "INJURY_RESERVE",
-        "owned": 52,
+        "owned": 51,
         "seasonPts": 58.1,
         "starter": false
       },
@@ -1920,7 +1930,7 @@
         "pos": "RB",
         "nfl": "WSH",
         "status": "ACTIVE",
-        "owned": 72,
+        "owned": 74,
         "seasonPts": 48.8,
         "starter": true
       },
@@ -1930,7 +1940,7 @@
         "pos": "TE",
         "nfl": "JAX",
         "status": "ACTIVE",
-        "owned": 46,
+        "owned": 47,
         "seasonPts": 59.9,
         "starter": true
       },
@@ -1940,7 +1950,7 @@
         "pos": "QB",
         "nfl": "HOU",
         "status": "ACTIVE",
-        "owned": 71,
+        "owned": 70,
         "seasonPts": 128.7,
         "starter": false
       },
@@ -1950,8 +1960,8 @@
         "pos": "D/ST",
         "nfl": "GB",
         "status": null,
-        "owned": 17,
-        "seasonPts": 44,
+        "owned": 18,
+        "seasonPts": 57,
         "starter": false
       },
       {
@@ -1970,7 +1980,7 @@
         "pos": "D/ST",
         "nfl": "CIN",
         "status": null,
-        "owned": 53,
+        "owned": 58,
         "seasonPts": 48,
         "starter": true
       },
@@ -1980,7 +1990,7 @@
         "pos": "K",
         "nfl": "TB",
         "status": "ACTIVE",
-        "owned": 37,
+        "owned": 39,
         "seasonPts": 77,
         "starter": true
       },
@@ -1990,8 +2000,8 @@
         "pos": "D/ST",
         "nfl": "CAR",
         "status": null,
-        "owned": 15,
-        "seasonPts": 21,
+        "owned": 13,
+        "seasonPts": 27,
         "starter": false
       },
       {
@@ -2011,7 +2021,7 @@
         "name": "Ja'Marr Chase",
         "pos": "WR",
         "nfl": "CIN",
-        "status": "QUESTIONABLE",
+        "status": "ACTIVE",
         "owned": 100,
         "seasonPts": 97.1,
         "starter": true
@@ -2062,7 +2072,7 @@
         "pos": "WR",
         "nfl": "PIT",
         "status": "INJURY_RESERVE",
-        "owned": 44,
+        "owned": 43,
         "seasonPts": 15.9,
         "starter": false
       },
@@ -2142,7 +2152,7 @@
         "pos": "K",
         "nfl": "MIN",
         "status": "ACTIVE",
-        "owned": 92,
+        "owned": 93,
         "seasonPts": 80,
         "starter": true
       },
@@ -2152,7 +2162,7 @@
         "pos": "QB",
         "nfl": "MIA",
         "status": "ACTIVE",
-        "owned": 9,
+        "owned": 10,
         "seasonPts": 86.6,
         "starter": false
       },
@@ -2162,7 +2172,7 @@
         "pos": "TE",
         "nfl": "CIN",
         "status": "ACTIVE",
-        "owned": 14,
+        "owned": 15,
         "seasonPts": 59.5,
         "starter": true
       },
@@ -2172,7 +2182,7 @@
         "pos": "K",
         "nfl": "NYG",
         "status": "ACTIVE",
-        "owned": 28,
+        "owned": 22,
         "seasonPts": 57,
         "starter": false
       }
@@ -2214,7 +2224,7 @@
         "pos": "WR",
         "nfl": "LAR",
         "status": "INJURY_RESERVE",
-        "owned": 92,
+        "owned": 91,
         "seasonPts": 102,
         "starter": false
       },
@@ -2244,7 +2254,7 @@
         "pos": "RB",
         "nfl": "DEN",
         "status": "ACTIVE",
-        "owned": 78,
+        "owned": 77,
         "seasonPts": 58,
         "starter": false
       },
@@ -2264,7 +2274,7 @@
         "pos": "K",
         "nfl": "JAX",
         "status": "ACTIVE",
-        "owned": 65,
+        "owned": 66,
         "seasonPts": 56,
         "starter": true
       },
@@ -2274,7 +2284,7 @@
         "pos": "TE",
         "nfl": "PIT",
         "status": "ACTIVE",
-        "owned": 51,
+        "owned": 50,
         "seasonPts": 67.4,
         "starter": false
       },
@@ -2294,7 +2304,7 @@
         "pos": "QB",
         "nfl": "LV",
         "status": "ACTIVE",
-        "owned": 59,
+        "owned": 60,
         "seasonPts": 131.5,
         "starter": false
       },
@@ -2324,7 +2334,7 @@
         "pos": "D/ST",
         "nfl": "KC",
         "status": null,
-        "owned": 57,
+        "owned": 55,
         "seasonPts": 36,
         "starter": true
       },
@@ -2336,6 +2346,16 @@
         "status": "ACTIVE",
         "owned": 26,
         "seasonPts": 41.8,
+        "starter": false
+      },
+      {
+        "id": 4038441,
+        "name": "Justice Hill",
+        "pos": "RB",
+        "nfl": "BAL",
+        "status": "ACTIVE",
+        "owned": 8,
+        "seasonPts": 35.4,
         "starter": false
       }
     ]
