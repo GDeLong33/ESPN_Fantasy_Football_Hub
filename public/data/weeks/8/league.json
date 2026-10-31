@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-30T22:27:41.181Z",
+  "updatedAt": "2026-10-31T05:54:37.543Z",
   "week": 8,
   "teams": [
     {
       "teamId": 13,
       "name": "No Diddy Giddy",
       "owner": "Jaiden A.",
-      "projTotal": 124.55,
+      "projTotal": 124.56,
       "actualTotal": 17.3,
       "isAustin": false
     },
@@ -22,7 +22,7 @@
       "teamId": 1,
       "name": "Skatt on My Dihggs",
       "owner": "Jared G.",
-      "projTotal": 122.21,
+      "projTotal": 122.22,
       "actualTotal": 9.6,
       "isAustin": false
     },
@@ -62,7 +62,7 @@
       "teamId": 15,
       "name": "The Juice",
       "owner": "Sam C.",
-      "projTotal": 112.28,
+      "projTotal": 113.1,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -70,7 +70,7 @@
       "teamId": 11,
       "name": "Professional Cowgirls",
       "owner": "Jaycey M.",
-      "projTotal": 111.19,
+      "projTotal": 111.2,
       "actualTotal": 63.72,
       "isAustin": false
     },
@@ -86,7 +86,7 @@
       "teamId": 10,
       "name": "Doug's coin eaters",
       "owner": "Gavin D.",
-      "projTotal": 105.66,
+      "projTotal": 105.67,
       "actualTotal": 10.36,
       "isAustin": false
     },
@@ -102,7 +102,7 @@
       "teamId": 3,
       "name": "JehOda's Witness",
       "owner": "Dylan E.",
-      "projTotal": 47.8,
+      "projTotal": 47.79,
       "actualTotal": 11.8,
       "isAustin": false
     },
