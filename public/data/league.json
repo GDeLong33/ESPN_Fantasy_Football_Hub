@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T05:54:37.543Z",
+  "updatedAt": "2026-10-31T19:21:26.736Z",
   "week": 8,
   "teams": [
     {
@@ -11,26 +11,26 @@
       "isAustin": false
     },
     {
-      "teamId": 14,
-      "name": "Its gonna be Maye",
-      "owner": "Jaxson C.",
-      "projTotal": 122.33,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
       "teamId": 1,
       "name": "Skatt on My Dihggs",
       "owner": "Jared G.",
-      "projTotal": 122.22,
+      "projTotal": 122.6,
       "actualTotal": 9.6,
+      "isAustin": false
+    },
+    {
+      "teamId": 14,
+      "name": "Its gonna be Maye",
+      "owner": "Jaxson C.",
+      "projTotal": 122.4,
+      "actualTotal": 0,
       "isAustin": false
     },
     {
       "teamId": 12,
       "name": "Zoey's Grand Canyon Hikers",
       "owner": "Jaylin M.",
-      "projTotal": 118.59,
+      "projTotal": 118.56,
       "actualTotal": 23.2,
       "isAustin": false
     },
@@ -54,15 +54,7 @@
       "teamId": 4,
       "name": "Burrow it deeper",
       "owner": "Max F.",
-      "projTotal": 113.34,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
-      "teamId": 15,
-      "name": "The Juice",
-      "owner": "Sam C.",
-      "projTotal": 113.1,
+      "projTotal": 113.29,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -70,15 +62,23 @@
       "teamId": 11,
       "name": "Professional Cowgirls",
       "owner": "Jaycey M.",
-      "projTotal": 111.2,
+      "projTotal": 113.23,
       "actualTotal": 63.72,
+      "isAustin": false
+    },
+    {
+      "teamId": 15,
+      "name": "The Juice",
+      "owner": "Sam C.",
+      "projTotal": 113.11,
+      "actualTotal": 0,
       "isAustin": false
     },
     {
       "teamId": 6,
       "name": "North Atlantic 1912 Swim Team",
       "owner": "Cole K.",
-      "projTotal": 109.17,
+      "projTotal": 109.18,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -86,7 +86,7 @@
       "teamId": 10,
       "name": "Doug's coin eaters",
       "owner": "Gavin D.",
-      "projTotal": 105.67,
+      "projTotal": 105.71,
       "actualTotal": 10.36,
       "isAustin": false
     },
