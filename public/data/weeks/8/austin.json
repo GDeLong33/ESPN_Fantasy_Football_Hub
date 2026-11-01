@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T00:11:27.454Z",
+  "updatedAt": "2026-11-01T22:09:48.695Z",
   "week": 8,
   "teamId": 9,
   "teamName": "Gooners Guild of America",
@@ -29,9 +29,9 @@
       "pos": "K",
       "team": "PIT",
       "projPts": 10.43,
-      "actualPts": null
+      "actualPts": 8
     }
   ],
   "projTotal": 38.32,
-  "actualTotal": 0
+  "actualTotal": 8
 }
