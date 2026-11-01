@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T06:20:52.898Z",
+  "updatedAt": "2026-11-01T16:06:39.112Z",
   "week": 8,
   "teams": [
     {
@@ -22,7 +22,7 @@
       "teamId": 1,
       "name": "Skatt on My Dihggs",
       "owner": "Jared G.",
-      "projTotal": 122.2,
+      "projTotal": 122.19,
       "actualTotal": 9.6,
       "isAustin": false
     },
@@ -38,15 +38,15 @@
       "teamId": 2,
       "name": "Pickle Runners",
       "owner": "Patience U.",
-      "projTotal": 116.47,
+      "projTotal": 116.57,
       "actualTotal": 3,
       "isAustin": false
     },
     {
-      "teamId": 5,
-      "name": "Antonio's Team",
-      "owner": "Antonio G.",
-      "projTotal": 114.33,
+      "teamId": 6,
+      "name": "North Atlantic 1912 Swim Team",
+      "owner": "Cole K.",
+      "projTotal": 114.98,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -70,15 +70,7 @@
       "teamId": 15,
       "name": "The Juice",
       "owner": "Sam C.",
-      "projTotal": 112.29,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
-      "teamId": 6,
-      "name": "North Atlantic 1912 Swim Team",
-      "owner": "Cole K.",
-      "projTotal": 109.17,
+      "projTotal": 112.28,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -86,7 +78,7 @@
       "teamId": 8,
       "name": "Any Given Sunday",
       "owner": "Clayton T.",
-      "projTotal": 108.58,
+      "projTotal": 108.55,
       "actualTotal": 20.9,
       "isAustin": false
     },
@@ -96,6 +88,14 @@
       "owner": "Gavin D.",
       "projTotal": 105.71,
       "actualTotal": 10.36,
+      "isAustin": false
+    },
+    {
+      "teamId": 5,
+      "name": "Antonio's Team",
+      "owner": "Antonio G.",
+      "projTotal": 99.83,
+      "actualTotal": 0,
       "isAustin": false
     },
     {
