@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T19:21:26.736Z",
+  "updatedAt": "2026-11-01T00:11:27.454Z",
   "week": 8,
   "teams": [
     {
@@ -11,19 +11,19 @@
       "isAustin": false
     },
     {
-      "teamId": 1,
-      "name": "Skatt on My Dihggs",
-      "owner": "Jared G.",
-      "projTotal": 122.6,
-      "actualTotal": 9.6,
-      "isAustin": false
-    },
-    {
       "teamId": 14,
       "name": "Its gonna be Maye",
       "owner": "Jaxson C.",
-      "projTotal": 122.4,
+      "projTotal": 122.37,
       "actualTotal": 0,
+      "isAustin": false
+    },
+    {
+      "teamId": 1,
+      "name": "Skatt on My Dihggs",
+      "owner": "Jared G.",
+      "projTotal": 122.2,
+      "actualTotal": 9.6,
       "isAustin": false
     },
     {
@@ -70,7 +70,7 @@
       "teamId": 15,
       "name": "The Juice",
       "owner": "Sam C.",
-      "projTotal": 113.11,
+      "projTotal": 112.29,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -94,7 +94,7 @@
       "teamId": 8,
       "name": "Any Given Sunday",
       "owner": "Clayton T.",
-      "projTotal": 102.07,
+      "projTotal": 101.76,
       "actualTotal": 20.9,
       "isAustin": false
     },
@@ -110,7 +110,7 @@
       "teamId": 9,
       "name": "Gooners Guild of America",
       "owner": "Austin G.",
-      "projTotal": 38.31,
+      "projTotal": 38.32,
       "actualTotal": 0,
       "isAustin": true
     }

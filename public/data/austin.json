@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T22:27:41.181Z",
+  "updatedAt": "2026-11-01T00:11:27.454Z",
   "week": 8,
   "teamId": 9,
   "teamName": "Gooners Guild of America",
@@ -10,7 +10,7 @@
       "name": "Sam Darnold",
       "pos": "QB",
       "team": "SEA",
-      "projPts": 14.48,
+      "projPts": 14.49,
       "actualPts": null
     },
     {
@@ -32,6 +32,6 @@
       "actualPts": null
     }
   ],
-  "projTotal": 38.31,
+  "projTotal": 38.32,
   "actualTotal": 0
 }
