@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-01T00:11:27.454Z",
+  "updatedAt": "2026-11-01T06:20:52.898Z",
   "week": 8,
   "teams": [
     {
       "teamId": 13,
       "name": "No Diddy Giddy",
       "owner": "Jaiden A.",
-      "projTotal": 124.56,
+      "projTotal": 124.57,
       "actualTotal": 17.3,
       "isAustin": false
     },
@@ -54,7 +54,7 @@
       "teamId": 4,
       "name": "Burrow it deeper",
       "owner": "Max F.",
-      "projTotal": 113.29,
+      "projTotal": 113.3,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -78,8 +78,16 @@
       "teamId": 6,
       "name": "North Atlantic 1912 Swim Team",
       "owner": "Cole K.",
-      "projTotal": 109.18,
+      "projTotal": 109.17,
       "actualTotal": 0,
+      "isAustin": false
+    },
+    {
+      "teamId": 8,
+      "name": "Any Given Sunday",
+      "owner": "Clayton T.",
+      "projTotal": 108.58,
+      "actualTotal": 20.9,
       "isAustin": false
     },
     {
@@ -88,14 +96,6 @@
       "owner": "Gavin D.",
       "projTotal": 105.71,
       "actualTotal": 10.36,
-      "isAustin": false
-    },
-    {
-      "teamId": 8,
-      "name": "Any Given Sunday",
-      "owner": "Clayton T.",
-      "projTotal": 101.76,
-      "actualTotal": 20.9,
       "isAustin": false
     },
     {
