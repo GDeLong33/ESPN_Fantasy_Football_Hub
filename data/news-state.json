@@ -1,5 +1,5 @@
 {
-  "snapshotAt": "2026-11-02T02:44:40.178Z",
+  "snapshotAt": "2026-11-02T22:24:56.394Z",
   "rosters": {
     "1": [
       {
@@ -382,7 +382,7 @@
         "pos": "TE",
         "nfl": "DET",
         "status": "ACTIVE",
-        "owned": 97,
+        "owned": 96,
         "seasonPts": 85.9,
         "starter": false
       },
@@ -483,7 +483,7 @@
         "nfl": "WSH",
         "status": "ACTIVE",
         "owned": 16,
-        "seasonPts": 50.9,
+        "seasonPts": 54.9,
         "starter": false
       },
       {
@@ -501,7 +501,7 @@
         "name": "Jadarian Price",
         "pos": "RB",
         "nfl": "SEA",
-        "status": "INJURY_RESERVE",
+        "status": "ACTIVE",
         "owned": 66,
         "seasonPts": 14,
         "starter": false
@@ -664,7 +664,7 @@
         "pos": "K",
         "nfl": "BUF",
         "status": "ACTIVE",
-        "owned": 65,
+        "owned": 66,
         "seasonPts": 78,
         "starter": true
       },
@@ -767,7 +767,7 @@
         "nfl": "WSH",
         "status": "ACTIVE",
         "owned": 86,
-        "seasonPts": 77.2,
+        "seasonPts": 82.2,
         "starter": true
       },
       {
@@ -909,7 +909,7 @@
         "nfl": "PHI",
         "status": "ACTIVE",
         "owned": 85,
-        "seasonPts": 56.8,
+        "seasonPts": 64,
         "starter": true
       },
       {
@@ -968,7 +968,7 @@
         "pos": "QB",
         "nfl": "NO",
         "status": "ACTIVE",
-        "owned": 67,
+        "owned": 66,
         "seasonPts": 125.9,
         "starter": false
       },
@@ -988,7 +988,7 @@
         "pos": "WR",
         "nfl": "PIT",
         "status": "ACTIVE",
-        "owned": 75,
+        "owned": 74,
         "seasonPts": 66.8,
         "starter": true
       },
@@ -1100,7 +1100,7 @@
         "pos": "RB",
         "nfl": "CHI",
         "status": "OUT",
-        "owned": 76,
+        "owned": 75,
         "seasonPts": 59.3,
         "starter": false
       },
@@ -1150,7 +1150,7 @@
         "pos": "WR",
         "nfl": "JAX",
         "status": "ACTIVE",
-        "owned": 70,
+        "owned": 69,
         "seasonPts": 65.1,
         "starter": true
       },
@@ -1485,7 +1485,7 @@
         "nfl": "WSH",
         "status": "ACTIVE",
         "owned": 15,
-        "seasonPts": 30.1,
+        "seasonPts": 33.2,
         "starter": true
       },
       {
@@ -1495,7 +1495,7 @@
         "nfl": "PHI",
         "status": "ACTIVE",
         "owned": 52,
-        "seasonPts": 54.6,
+        "seasonPts": 61.6,
         "starter": true
       },
       {
@@ -1656,7 +1656,7 @@
         "pos": "K",
         "nfl": "CHI",
         "status": "ACTIVE",
-        "owned": 26,
+        "owned": 27,
         "seasonPts": 59,
         "starter": true
       },
@@ -1891,7 +1891,7 @@
         "nfl": "WSH",
         "status": "ACTIVE",
         "owned": 95,
-        "seasonPts": 94.1,
+        "seasonPts": 100.6,
         "starter": true
       },
       {
@@ -1931,7 +1931,7 @@
         "nfl": "WSH",
         "status": "ACTIVE",
         "owned": 77,
-        "seasonPts": 51.7,
+        "seasonPts": 62.8,
         "starter": true
       },
       {
@@ -2092,7 +2092,7 @@
         "pos": "WR",
         "nfl": "MIN",
         "status": "ACTIVE",
-        "owned": 72,
+        "owned": 71,
         "seasonPts": 49.1,
         "starter": true
       },
@@ -2122,7 +2122,7 @@
         "pos": "RB",
         "nfl": "NO",
         "status": "ACTIVE",
-        "owned": 58,
+        "owned": 57,
         "seasonPts": 65.8,
         "starter": false
       },
@@ -2205,7 +2205,7 @@
         "nfl": "PHI",
         "status": "ACTIVE",
         "owned": 98,
-        "seasonPts": 48.7,
+        "seasonPts": 50.5,
         "starter": true
       },
       {
