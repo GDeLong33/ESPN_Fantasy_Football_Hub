@@ -1,9 +1,18 @@
 {
-  "updatedAt": "2026-10-28T18:22:06.333Z",
+  "updatedAt": "2026-11-03T19:30:45.085Z",
   "season": 2026,
   "tally": {
     "austin": 0,
-    "field": 0
+    "field": 1
   },
-  "weeks": []
+  "weeks": [
+    {
+      "week": 8,
+      "austinPoints": 44.12,
+      "topEntryName": "1-7 incoming",
+      "topEntryPoints": 91.86,
+      "entryCount": 4,
+      "winner": "field"
+    }
+  ]
 }

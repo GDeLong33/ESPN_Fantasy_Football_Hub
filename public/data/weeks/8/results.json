@@ -1,0 +1,365 @@
+{
+  "updatedAt": "2026-11-03T19:30:45.085Z",
+  "season": 2026,
+  "week": 8,
+  "austin": {
+    "teamName": "Gooners Guild of America",
+    "points": 44.12,
+    "lineup": [
+      {
+        "slot": "QB",
+        "playerId": 3912547,
+        "name": "Sam Darnold",
+        "pos": "QB",
+        "team": "SEA",
+        "projPts": 14.49,
+        "actualPts": 17.52
+      },
+      {
+        "slot": "WR",
+        "playerId": 4685278,
+        "name": "Luther Burden III",
+        "pos": "WR",
+        "team": "CHI",
+        "projPts": 13.4,
+        "actualPts": 18.6
+      },
+      {
+        "slot": "K",
+        "playerId": 17372,
+        "name": "Chris Boswell",
+        "pos": "K",
+        "team": "PIT",
+        "projPts": 10.43,
+        "actualPts": 8
+      }
+    ]
+  },
+  "winner": "field",
+  "entries": [
+    {
+      "entryId": "130f3db7-5ef7-4ebb-88ce-518252148eb9",
+      "name": "1-7 incoming",
+      "teamName": null,
+      "points": 91.86,
+      "lineup": [
+        {
+          "slot": "QB",
+          "playerId": 4688380,
+          "name": "Cam Ward",
+          "pos": "QB",
+          "team": "TEN",
+          "points": 26.26
+        },
+        {
+          "slot": "RB",
+          "playerId": 4362619,
+          "name": "Chris Rodriguez Jr.",
+          "pos": "RB",
+          "team": "JAX",
+          "points": 12.8
+        },
+        {
+          "slot": "RB",
+          "playerId": 4038441,
+          "name": "Justice Hill",
+          "pos": "RB",
+          "team": "BAL",
+          "points": 7.5
+        },
+        {
+          "slot": "WR",
+          "playerId": 3128429,
+          "name": "Courtland Sutton",
+          "pos": "WR",
+          "team": "DEN",
+          "points": 9.3
+        },
+        {
+          "slot": "WR",
+          "playerId": 3045523,
+          "name": "Kendrick Bourne",
+          "pos": "WR",
+          "team": "ARI",
+          "points": 3.9
+        },
+        {
+          "slot": "TE",
+          "playerId": 4243331,
+          "name": "Cade Otton",
+          "pos": "TE",
+          "team": "TB",
+          "points": 0
+        },
+        {
+          "slot": "FLEX",
+          "playerId": 4567156,
+          "name": "Treylon Burks",
+          "pos": "WR",
+          "team": "WSH",
+          "points": 11.1
+        },
+        {
+          "slot": "D/ST",
+          "playerId": -16013,
+          "name": "Raiders D/ST",
+          "pos": "D/ST",
+          "team": "LV",
+          "points": 6
+        },
+        {
+          "slot": "K",
+          "playerId": 5081335,
+          "name": "Drew Stevens",
+          "pos": "K",
+          "team": "WSH",
+          "points": 15
+        }
+      ],
+      "beatAustin": true
+    },
+    {
+      "entryId": "0e7e7f1b-6ebe-4872-9ff8-6388b5ddbde1",
+      "name": "Gavin",
+      "teamName": null,
+      "points": 85.38,
+      "lineup": [
+        {
+          "slot": "QB",
+          "playerId": 4685201,
+          "name": "Tanner McKee",
+          "pos": "QB",
+          "team": "PHI",
+          "points": 6.98
+        },
+        {
+          "slot": "RB",
+          "playerId": 4371733,
+          "name": "Kenny Gainwell",
+          "pos": "RB",
+          "team": "TB",
+          "points": 14
+        },
+        {
+          "slot": "RB",
+          "playerId": 5081397,
+          "name": "Dylan Sampson",
+          "pos": "RB",
+          "team": "CLE",
+          "points": 12.9
+        },
+        {
+          "slot": "WR",
+          "playerId": 3916433,
+          "name": "Jakobi Meyers",
+          "pos": "WR",
+          "team": "JAX",
+          "points": 4.4
+        },
+        {
+          "slot": "WR",
+          "playerId": 4567156,
+          "name": "Treylon Burks",
+          "pos": "WR",
+          "team": "WSH",
+          "points": 11.1
+        },
+        {
+          "slot": "TE",
+          "playerId": 4808766,
+          "name": "Mason Taylor",
+          "pos": "TE",
+          "team": "NYJ",
+          "points": 4.9
+        },
+        {
+          "slot": "FLEX",
+          "playerId": 5083754,
+          "name": "Ryan Flournoy",
+          "pos": "WR",
+          "team": "DAL",
+          "points": 13.1
+        },
+        {
+          "slot": "D/ST",
+          "playerId": -16001,
+          "name": "Falcons D/ST",
+          "pos": "D/ST",
+          "team": "ATL",
+          "points": 2
+        },
+        {
+          "slot": "K",
+          "playerId": 3917232,
+          "name": "Tyler Bass",
+          "pos": "K",
+          "team": "BUF",
+          "points": 16
+        }
+      ],
+      "beatAustin": true
+    },
+    {
+      "entryId": "7d3c4685-2acd-4bb7-a19a-af65c473687e",
+      "name": "Sammy",
+      "teamName": "juiced",
+      "points": 67.98,
+      "lineup": [
+        {
+          "slot": "QB",
+          "playerId": 4685201,
+          "name": "Tanner McKee",
+          "pos": "QB",
+          "team": "PHI",
+          "points": 6.98
+        },
+        {
+          "slot": "RB",
+          "playerId": 4038441,
+          "name": "Justice Hill",
+          "pos": "RB",
+          "team": "BAL",
+          "points": 7.5
+        },
+        {
+          "slot": "RB",
+          "playerId": 4596334,
+          "name": "Keaton Mitchell",
+          "pos": "RB",
+          "team": "LAC",
+          "points": 5.3
+        },
+        {
+          "slot": "WR",
+          "playerId": 5083754,
+          "name": "Ryan Flournoy",
+          "pos": "WR",
+          "team": "DAL",
+          "points": 13.1
+        },
+        {
+          "slot": "WR",
+          "playerId": 3045523,
+          "name": "Kendrick Bourne",
+          "pos": "WR",
+          "team": "ARI",
+          "points": 3.9
+        },
+        {
+          "slot": "TE",
+          "playerId": 4808766,
+          "name": "Mason Taylor",
+          "pos": "TE",
+          "team": "NYJ",
+          "points": 4.9
+        },
+        {
+          "slot": "FLEX",
+          "playerId": 3128429,
+          "name": "Courtland Sutton",
+          "pos": "WR",
+          "team": "DEN",
+          "points": 9.3
+        },
+        {
+          "slot": "D/ST",
+          "playerId": -16008,
+          "name": "Lions D/ST",
+          "pos": "D/ST",
+          "team": "DET",
+          "points": 8
+        },
+        {
+          "slot": "K",
+          "playerId": 2985659,
+          "name": "Wil Lutz",
+          "pos": "K",
+          "team": "DEN",
+          "points": 9
+        }
+      ],
+      "beatAustin": true
+    },
+    {
+      "entryId": "28f59db8-cd46-4075-931b-59e2c37f9899",
+      "name": "Cole Kamendat",
+      "teamName": "IP Grabber",
+      "points": 63.76,
+      "lineup": [
+        {
+          "slot": "QB",
+          "playerId": 3122840,
+          "name": "Deshaun Watson",
+          "pos": "QB",
+          "team": "CLE",
+          "points": 11.16
+        },
+        {
+          "slot": "RB",
+          "playerId": 4371733,
+          "name": "Kenny Gainwell",
+          "pos": "RB",
+          "team": "TB",
+          "points": 14
+        },
+        {
+          "slot": "RB",
+          "playerId": 5081397,
+          "name": "Dylan Sampson",
+          "pos": "RB",
+          "team": "CLE",
+          "points": 12.9
+        },
+        {
+          "slot": "WR",
+          "playerId": 3916433,
+          "name": "Jakobi Meyers",
+          "pos": "WR",
+          "team": "JAX",
+          "points": 4.4
+        },
+        {
+          "slot": "WR",
+          "playerId": 4567156,
+          "name": "Treylon Burks",
+          "pos": "WR",
+          "team": "WSH",
+          "points": 11.1
+        },
+        {
+          "slot": "TE",
+          "playerId": 4242355,
+          "name": "Jake Ferguson",
+          "pos": "TE",
+          "team": "DAL",
+          "points": 0
+        },
+        {
+          "slot": "FLEX",
+          "playerId": 4360939,
+          "name": "Rashod Bateman",
+          "pos": "WR",
+          "team": "BAL",
+          "points": 3.2
+        },
+        {
+          "slot": "D/ST",
+          "playerId": -16008,
+          "name": "Lions D/ST",
+          "pos": "D/ST",
+          "team": "DET",
+          "points": 8
+        },
+        {
+          "slot": "K",
+          "playerId": 10621,
+          "name": "Nick Folk",
+          "pos": "K",
+          "team": "ATL",
+          "points": -1
+        }
+      ],
+      "beatAustin": true
+    }
+  ]
+}
