@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T22:09:48.695Z",
+  "updatedAt": "2026-11-03T02:57:03.737Z",
   "week": 8,
   "teamId": 9,
   "teamName": "Gooners Guild of America",
@@ -11,7 +11,7 @@
       "pos": "QB",
       "team": "SEA",
       "projPts": 14.49,
-      "actualPts": null
+      "actualPts": 8.36
     },
     {
       "slot": "WR",
@@ -20,7 +20,7 @@
       "pos": "WR",
       "team": "CHI",
       "projPts": 13.4,
-      "actualPts": null
+      "actualPts": 17.3
     },
     {
       "slot": "K",
@@ -33,5 +33,5 @@
     }
   ],
   "projTotal": 38.32,
-  "actualTotal": 8
+  "actualTotal": 33.66
 }
