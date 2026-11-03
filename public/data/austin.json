@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-03T02:57:03.737Z",
-  "week": 8,
+  "updatedAt": "2026-11-03T11:00:10.471Z",
+  "week": 9,
   "teamId": 9,
   "teamName": "Gooners Guild of America",
   "lineup": [
@@ -10,8 +10,8 @@
       "name": "Sam Darnold",
       "pos": "QB",
       "team": "SEA",
-      "projPts": 14.49,
-      "actualPts": 8.36
+      "projPts": 15.66,
+      "actualPts": null
     },
     {
       "slot": "WR",
@@ -20,7 +20,7 @@
       "pos": "WR",
       "team": "CHI",
       "projPts": 13.4,
-      "actualPts": 17.3
+      "actualPts": null
     },
     {
       "slot": "K",
@@ -28,10 +28,10 @@
       "name": "Chris Boswell",
       "pos": "K",
       "team": "PIT",
-      "projPts": 10.43,
-      "actualPts": 8
+      "projPts": 0,
+      "actualPts": null
     }
   ],
-  "projTotal": 38.32,
-  "actualTotal": 33.66
+  "projTotal": 29.06,
+  "actualTotal": 0
 }

@@ -1,0 +1,37 @@
+{
+  "updatedAt": "2026-11-03T11:00:10.471Z",
+  "week": 9,
+  "teamId": 9,
+  "teamName": "Gooners Guild of America",
+  "lineup": [
+    {
+      "slot": "QB",
+      "playerId": 3912547,
+      "name": "Sam Darnold",
+      "pos": "QB",
+      "team": "SEA",
+      "projPts": 15.66,
+      "actualPts": null
+    },
+    {
+      "slot": "WR",
+      "playerId": 4685278,
+      "name": "Luther Burden III",
+      "pos": "WR",
+      "team": "CHI",
+      "projPts": 13.4,
+      "actualPts": null
+    },
+    {
+      "slot": "K",
+      "playerId": 17372,
+      "name": "Chris Boswell",
+      "pos": "K",
+      "team": "PIT",
+      "projPts": 0,
+      "actualPts": null
+    }
+  ],
+  "projTotal": 29.06,
+  "actualTotal": 0
+}
