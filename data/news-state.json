@@ -1,5 +1,5 @@
 {
-  "snapshotAt": "2026-11-02T22:24:56.394Z",
+  "snapshotAt": "2026-11-03T03:58:47.073Z",
   "rosters": {
     "1": [
       {
@@ -167,7 +167,7 @@
         "name": "Chris Rodriguez Jr.",
         "pos": "RB",
         "nfl": "JAX",
-        "status": "ACTIVE",
+        "status": "QUESTIONABLE",
         "owned": 13,
         "seasonPts": 43.2,
         "starter": false
@@ -211,7 +211,7 @@
         "nfl": "CHI",
         "status": "ACTIVE",
         "owned": 96,
-        "seasonPts": 62.4,
+        "seasonPts": 73.9,
         "starter": true
       },
       {
@@ -503,7 +503,7 @@
         "nfl": "SEA",
         "status": "ACTIVE",
         "owned": 66,
-        "seasonPts": 14,
+        "seasonPts": 19.4,
         "starter": false
       }
     ],
@@ -604,7 +604,7 @@
         "pos": "TE",
         "nfl": "CAR",
         "status": "ACTIVE",
-        "owned": 10,
+        "owned": 9,
         "seasonPts": 53.9,
         "starter": false
       },
@@ -675,7 +675,7 @@
         "nfl": "CHI",
         "status": null,
         "owned": 29,
-        "seasonPts": 46,
+        "seasonPts": 55,
         "starter": true
       }
     ],
@@ -725,7 +725,7 @@
         "name": "Matthew Stafford",
         "pos": "QB",
         "nfl": "LAR",
-        "status": "ACTIVE",
+        "status": "QUESTIONABLE",
         "owned": 92,
         "seasonPts": 131.6,
         "starter": false
@@ -817,7 +817,7 @@
         "nfl": "SEA",
         "status": "ACTIVE",
         "owned": 5,
-        "seasonPts": 35.6,
+        "seasonPts": 36.5,
         "starter": false
       },
       {
@@ -889,7 +889,7 @@
         "nfl": "CHI",
         "status": "ACTIVE",
         "owned": 97,
-        "seasonPts": 122.8,
+        "seasonPts": 142.7,
         "starter": true
       },
       {
@@ -949,7 +949,7 @@
         "nfl": "SEA",
         "status": "ACTIVE",
         "owned": 90,
-        "seasonPts": 67,
+        "seasonPts": 69,
         "starter": true
       },
       {
@@ -1021,7 +1021,7 @@
         "nfl": "SEA",
         "status": "ACTIVE",
         "owned": 100,
-        "seasonPts": 196.2,
+        "seasonPts": 215.4,
         "starter": true
       },
       {
@@ -1131,7 +1131,7 @@
         "nfl": "CHI",
         "status": "ACTIVE",
         "owned": 10,
-        "seasonPts": 28.1,
+        "seasonPts": 31.9,
         "starter": true
       },
       {
@@ -1149,7 +1149,7 @@
         "name": "Jakobi Meyers",
         "pos": "WR",
         "nfl": "JAX",
-        "status": "ACTIVE",
+        "status": "QUESTIONABLE",
         "owned": 69,
         "seasonPts": 65.1,
         "starter": true
@@ -1243,7 +1243,7 @@
         "nfl": "SEA",
         "status": "ACTIVE",
         "owned": 31,
-        "seasonPts": 74.8,
+        "seasonPts": 91.1,
         "starter": true
       },
       {
@@ -1253,7 +1253,7 @@
         "nfl": "CHI",
         "status": "ACTIVE",
         "owned": 92,
-        "seasonPts": 97,
+        "seasonPts": 115.6,
         "starter": true
       },
       {
@@ -1303,7 +1303,7 @@
         "nfl": "SEA",
         "status": "ACTIVE",
         "owned": 73,
-        "seasonPts": 0,
+        "seasonPts": 5.9,
         "starter": false
       },
       {
@@ -1312,7 +1312,7 @@
         "pos": "RB",
         "nfl": "SEA",
         "status": "ACTIVE",
-        "owned": 66,
+        "owned": 65,
         "seasonPts": 74.8,
         "starter": false
       },
@@ -1375,7 +1375,7 @@
         "nfl": "CHI",
         "status": "ACTIVE",
         "owned": 90,
-        "seasonPts": 83.6,
+        "seasonPts": 97.7,
         "starter": false
       },
       {
@@ -1547,7 +1547,7 @@
         "nfl": "CHI",
         "status": "ACTIVE",
         "owned": 83,
-        "seasonPts": 60.1,
+        "seasonPts": 72.8,
         "starter": true
       },
       {
@@ -1647,7 +1647,7 @@
         "nfl": "SEA",
         "status": "ACTIVE",
         "owned": 8,
-        "seasonPts": 43.5,
+        "seasonPts": 46.2,
         "starter": false
       },
       {
@@ -1657,7 +1657,7 @@
         "nfl": "CHI",
         "status": "ACTIVE",
         "owned": 27,
-        "seasonPts": 59,
+        "seasonPts": 69,
         "starter": true
       },
       {
@@ -1797,7 +1797,7 @@
         "name": "Tyler Loop",
         "pos": "K",
         "nfl": "BAL",
-        "status": "ACTIVE",
+        "status": "QUESTIONABLE",
         "owned": 57,
         "seasonPts": 66,
         "starter": true
@@ -2061,7 +2061,7 @@
         "name": "Bhayshul Tuten",
         "pos": "RB",
         "nfl": "JAX",
-        "status": "ACTIVE",
+        "status": "QUESTIONABLE",
         "owned": 94,
         "seasonPts": 118.3,
         "starter": true
@@ -2133,7 +2133,7 @@
         "nfl": "SEA",
         "status": null,
         "owned": 94,
-        "seasonPts": 66,
+        "seasonPts": 69,
         "starter": true
       },
       {
@@ -2353,7 +2353,7 @@
         "name": "Justice Hill",
         "pos": "RB",
         "nfl": "BAL",
-        "status": "ACTIVE",
+        "status": "QUESTIONABLE",
         "owned": 8,
         "seasonPts": 42.9,
         "starter": false
