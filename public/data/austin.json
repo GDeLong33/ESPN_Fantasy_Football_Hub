@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T11:07:27.422Z",
+  "updatedAt": "2026-11-04T19:51:49.496Z",
   "week": 9,
   "teamId": 9,
   "teamName": "Gooners Guild of America",
@@ -10,7 +10,7 @@
       "name": "Deshaun Watson",
       "pos": "QB",
       "team": "CLE",
-      "projPts": 16.2,
+      "projPts": 0,
       "actualPts": null
     },
     {
@@ -19,7 +19,7 @@
       "name": "David Montgomery",
       "pos": "RB",
       "team": "HOU",
-      "projPts": 11.87,
+      "projPts": 0,
       "actualPts": null
     },
     {
@@ -28,7 +28,7 @@
       "name": "Zach Charbonnet",
       "pos": "RB",
       "team": "SEA",
-      "projPts": 10.93,
+      "projPts": 10.76,
       "actualPts": null
     },
     {
@@ -37,7 +37,7 @@
       "name": "KC Concepcion",
       "pos": "WR",
       "team": "CLE",
-      "projPts": 10.94,
+      "projPts": 11.15,
       "actualPts": null
     },
     {
@@ -86,6 +86,6 @@
       "actualPts": null
     }
   ],
-  "projTotal": 97.3,
+  "projTotal": 69.27,
   "actualTotal": 0
 }
