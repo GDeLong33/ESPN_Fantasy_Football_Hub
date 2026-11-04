@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T19:34:48.259Z",
+  "updatedAt": "2026-11-04T01:27:51.186Z",
   "week": 9,
   "teams": [
     {
@@ -7,6 +7,14 @@
       "name": "Skatt on My Dihggs",
       "owner": "Jared G.",
       "projTotal": 139,
+      "actualTotal": 0,
+      "isAustin": false
+    },
+    {
+      "teamId": 14,
+      "name": "Its gonna be Maye",
+      "owner": "Jaxson C.",
+      "projTotal": 132.61,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -19,18 +27,18 @@
       "isAustin": false
     },
     {
-      "teamId": 14,
-      "name": "Its gonna be Maye",
-      "owner": "Jaxson C.",
-      "projTotal": 121.85,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
       "teamId": 5,
       "name": "Antonio's Team",
       "owner": "Antonio G.",
       "projTotal": 120.1,
+      "actualTotal": 0,
+      "isAustin": false
+    },
+    {
+      "teamId": 8,
+      "name": "Any Given Sunday",
+      "owner": "Clayton T.",
+      "projTotal": 112.15,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -67,6 +75,14 @@
       "isAustin": false
     },
     {
+      "teamId": 15,
+      "name": "The Juice",
+      "owner": "Sam C.",
+      "projTotal": 102.41,
+      "actualTotal": 0,
+      "isAustin": false
+    },
+    {
       "teamId": 2,
       "name": "Pickle Runners",
       "owner": "Patience U.",
@@ -91,28 +107,12 @@
       "isAustin": false
     },
     {
-      "teamId": 8,
-      "name": "Any Given Sunday",
-      "owner": "Clayton T.",
-      "projTotal": 98.5,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
       "teamId": 9,
       "name": "Gooners Guild of America",
       "owner": "Austin G.",
       "projTotal": 97.38,
       "actualTotal": 0,
       "isAustin": true
-    },
-    {
-      "teamId": 15,
-      "name": "The Juice",
-      "owner": "Sam C.",
-      "projTotal": 94.2,
-      "actualTotal": 0,
-      "isAustin": false
     }
   ]
 }
