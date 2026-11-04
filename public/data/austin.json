@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T19:34:48.259Z",
+  "updatedAt": "2026-11-04T11:07:27.422Z",
   "week": 9,
   "teamId": 9,
   "teamName": "Gooners Guild of America",
@@ -73,7 +73,7 @@
       "name": "Broncos D/ST",
       "pos": "D/ST",
       "team": "DEN",
-      "projPts": 6.62,
+      "projPts": 6.54,
       "actualPts": null
     },
     {
@@ -86,6 +86,6 @@
       "actualPts": null
     }
   ],
-  "projTotal": 97.38,
+  "projTotal": 97.3,
   "actualTotal": 0
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T01:27:51.186Z",
+  "updatedAt": "2026-11-04T11:07:27.422Z",
   "week": 9,
   "teams": [
     {
@@ -14,7 +14,7 @@
       "teamId": 14,
       "name": "Its gonna be Maye",
       "owner": "Jaxson C.",
-      "projTotal": 132.61,
+      "projTotal": 132.62,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -30,7 +30,15 @@
       "teamId": 5,
       "name": "Antonio's Team",
       "owner": "Antonio G.",
-      "projTotal": 120.1,
+      "projTotal": 120.11,
+      "actualTotal": 0,
+      "isAustin": false
+    },
+    {
+      "teamId": 6,
+      "name": "North Atlantic 1912 Swim Team",
+      "owner": "Cole K.",
+      "projTotal": 113.07,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -43,14 +51,6 @@
       "isAustin": false
     },
     {
-      "teamId": 6,
-      "name": "North Atlantic 1912 Swim Team",
-      "owner": "Cole K.",
-      "projTotal": 111.46,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
       "teamId": 11,
       "name": "Professional Cowgirls",
       "owner": "Jaycey M.",
@@ -59,18 +59,10 @@
       "isAustin": false
     },
     {
-      "teamId": 12,
-      "name": "Zoey's Grand Canyon Hikers",
-      "owner": "Jaylin M.",
-      "projTotal": 109.18,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
       "teamId": 4,
       "name": "Burrow it deeper",
       "owner": "Max F.",
-      "projTotal": 102.7,
+      "projTotal": 102.69,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -86,7 +78,15 @@
       "teamId": 2,
       "name": "Pickle Runners",
       "owner": "Patience U.",
-      "projTotal": 101.68,
+      "projTotal": 101.76,
+      "actualTotal": 0,
+      "isAustin": false
+    },
+    {
+      "teamId": 12,
+      "name": "Zoey's Grand Canyon Hikers",
+      "owner": "Jaylin M.",
+      "projTotal": 101.7,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -102,7 +102,7 @@
       "teamId": 3,
       "name": "JehOda's Witness",
       "owner": "Dylan E.",
-      "projTotal": 101.05,
+      "projTotal": 101.04,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -110,7 +110,7 @@
       "teamId": 9,
       "name": "Gooners Guild of America",
       "owner": "Austin G.",
-      "projTotal": 97.38,
+      "projTotal": 97.3,
       "actualTotal": 0,
       "isAustin": true
     }
