@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T11:08:20.383Z",
+  "updatedAt": "2026-11-05T20:04:07.208Z",
   "season": 2026,
   "week": 9,
   "players": [
@@ -9,10 +9,21 @@
       "pos": "QB",
       "team": "SEA",
       "injury": "Q",
-      "ownedPct": 3.19,
+      "ownedPct": 4.13,
       "projPts": 16.88,
       "opp": "vs ARI",
       "oppRank": 31
+    },
+    {
+      "id": 2573079,
+      "name": "Carson Wentz",
+      "pos": "QB",
+      "team": "MIN",
+      "injury": null,
+      "ownedPct": 1.49,
+      "projPts": 15.67,
+      "opp": "vs BUF",
+      "oppRank": 23
     },
     {
       "id": 4432762,
@@ -20,7 +31,7 @@
       "pos": "QB",
       "team": "CLE",
       "injury": null,
-      "ownedPct": 1.72,
+      "ownedPct": 1.96,
       "projPts": 15.01,
       "opp": "@ NO",
       "oppRank": 16
@@ -31,7 +42,7 @@
       "pos": "QB",
       "team": "PHI",
       "injury": null,
-      "ownedPct": 2.79,
+      "ownedPct": 3.28,
       "projPts": 13.71,
       "opp": "vs NYG",
       "oppRank": 26
@@ -42,7 +53,7 @@
       "pos": "QB",
       "team": "TB",
       "injury": null,
-      "ownedPct": 23.97,
+      "ownedPct": 23.71,
       "projPts": 12.64,
       "opp": "@ CHI",
       "oppRank": 25
@@ -53,7 +64,7 @@
       "pos": "QB",
       "team": "LAC",
       "injury": null,
-      "ownedPct": 33.18,
+      "ownedPct": 32.97,
       "projPts": 12.5,
       "opp": "vs HOU",
       "oppRank": 21
@@ -64,7 +75,7 @@
       "pos": "QB",
       "team": "ARI",
       "injury": null,
-      "ownedPct": 2.95,
+      "ownedPct": 3.05,
       "projPts": 11.7,
       "opp": "@ SEA",
       "oppRank": 2
@@ -75,10 +86,21 @@
       "pos": "WR",
       "team": "WSH",
       "injury": "Q",
-      "ownedPct": 10.73,
+      "ownedPct": 11.16,
       "projPts": 10.07,
       "opp": "vs LAR",
       "oppRank": 5
+    },
+    {
+      "id": 3043116,
+      "name": "Demarcus Robinson",
+      "pos": "WR",
+      "team": "SF",
+      "injury": "IR",
+      "ownedPct": 1.37,
+      "projPts": 9.68,
+      "opp": "vs LV",
+      "oppRank": 22
     },
     {
       "id": 3055899,
@@ -86,7 +108,7 @@
       "pos": "K",
       "team": "KC",
       "injury": null,
-      "ownedPct": 57.88,
+      "ownedPct": 57.67,
       "projPts": 9.24,
       "opp": "vs NYJ",
       "oppRank": 9
@@ -97,7 +119,7 @@
       "pos": "WR",
       "team": "ATL",
       "injury": null,
-      "ownedPct": 3.79,
+      "ownedPct": 4.04,
       "projPts": 9.07,
       "opp": "vs CIN",
       "oppRank": 19
@@ -108,7 +130,7 @@
       "pos": "K",
       "team": "CLE",
       "injury": null,
-      "ownedPct": 3.1,
+      "ownedPct": 3.34,
       "projPts": 9.06,
       "opp": "@ NO",
       "oppRank": 27
@@ -119,7 +141,7 @@
       "pos": "K",
       "team": "DEN",
       "injury": null,
-      "ownedPct": 6.41,
+      "ownedPct": 6.62,
       "projPts": 8.94,
       "opp": "@ CAR",
       "oppRank": 15
@@ -130,7 +152,7 @@
       "pos": "K",
       "team": "LAC",
       "injury": null,
-      "ownedPct": 42.36,
+      "ownedPct": 42.28,
       "projPts": 8.86,
       "opp": "vs HOU",
       "oppRank": 23
@@ -141,7 +163,7 @@
       "pos": "K",
       "team": "WSH",
       "injury": null,
-      "ownedPct": 2.35,
+      "ownedPct": 2.38,
       "projPts": 8.84,
       "opp": "vs LAR",
       "oppRank": 28
@@ -152,7 +174,7 @@
       "pos": "QB",
       "team": "BAL",
       "injury": null,
-      "ownedPct": 0.33,
+      "ownedPct": 0.38,
       "projPts": 8.81,
       "opp": "vs JAX",
       "oppRank": 9
@@ -163,7 +185,7 @@
       "pos": "TE",
       "team": "MIA",
       "injury": null,
-      "ownedPct": 3.5,
+      "ownedPct": 3.99,
       "projPts": 8.76,
       "opp": "vs DET",
       "oppRank": 32
@@ -174,7 +196,7 @@
       "pos": "K",
       "team": "NYJ",
       "injury": null,
-      "ownedPct": 3.48,
+      "ownedPct": 3.47,
       "projPts": 8.68,
       "opp": "@ KC",
       "oppRank": 16
@@ -185,7 +207,7 @@
       "pos": "WR",
       "team": "NYG",
       "injury": null,
-      "ownedPct": 5.51,
+      "ownedPct": 5.69,
       "projPts": 8.46,
       "opp": "@ PHI",
       "oppRank": 31
@@ -196,7 +218,7 @@
       "pos": "RB",
       "team": "NYG",
       "injury": null,
-      "ownedPct": 11.34,
+      "ownedPct": 12.49,
       "projPts": 8.39,
       "opp": "@ PHI",
       "oppRank": 16
@@ -207,8 +229,8 @@
       "pos": "WR",
       "team": "NE",
       "injury": null,
-      "ownedPct": 2.38,
-      "projPts": 8.16,
+      "ownedPct": 2.36,
+      "projPts": 8.17,
       "opp": "vs GB",
       "oppRank": 24
     },
@@ -218,7 +240,7 @@
       "pos": "RB",
       "team": "ARI",
       "injury": "Q",
-      "ownedPct": 8.53,
+      "ownedPct": 8.5,
       "projPts": 7.97,
       "opp": "@ SEA",
       "oppRank": 19
@@ -229,7 +251,7 @@
       "pos": "WR",
       "team": "LV",
       "injury": null,
-      "ownedPct": 3.4,
+      "ownedPct": 3.42,
       "projPts": 7.5,
       "opp": "@ SF",
       "oppRank": 11
@@ -251,7 +273,7 @@
       "pos": "K",
       "team": "ATL",
       "injury": null,
-      "ownedPct": 5.08,
+      "ownedPct": 5.02,
       "projPts": 7.48,
       "opp": "vs CIN",
       "oppRank": 21
@@ -262,7 +284,7 @@
       "pos": "WR",
       "team": "MIA",
       "injury": null,
-      "ownedPct": 1.53,
+      "ownedPct": 1.54,
       "projPts": 7.39,
       "opp": "vs DET",
       "oppRank": 29
@@ -284,7 +306,7 @@
       "pos": "K",
       "team": "CAR",
       "injury": null,
-      "ownedPct": 9.07,
+      "ownedPct": 8.88,
       "projPts": 7.29,
       "opp": "vs DEN",
       "oppRank": 13
@@ -295,7 +317,7 @@
       "pos": "K",
       "team": "NE",
       "injury": null,
-      "ownedPct": 1.58,
+      "ownedPct": 1.57,
       "projPts": 7.23,
       "opp": "vs GB",
       "oppRank": 3
@@ -328,7 +350,7 @@
       "pos": "WR",
       "team": "HOU",
       "injury": null,
-      "ownedPct": 1.91,
+      "ownedPct": 1.93,
       "projPts": 6.89,
       "opp": "@ LAC",
       "oppRank": 16
@@ -339,7 +361,7 @@
       "pos": "RB",
       "team": "WSH",
       "injury": null,
-      "ownedPct": 1.91,
+      "ownedPct": 1.99,
       "projPts": 6.77,
       "opp": "vs LAR",
       "oppRank": 11
@@ -350,7 +372,7 @@
       "pos": "WR",
       "team": "JAX",
       "injury": null,
-      "ownedPct": 40.12,
+      "ownedPct": 40.15,
       "projPts": 6.65,
       "opp": "@ BAL",
       "oppRank": 25
@@ -361,7 +383,7 @@
       "pos": "RB",
       "team": "LAC",
       "injury": null,
-      "ownedPct": 10.7,
+      "ownedPct": 10.6,
       "projPts": 6.48,
       "opp": "vs HOU",
       "oppRank": 20
@@ -372,21 +394,21 @@
       "pos": "WR",
       "team": "LAC",
       "injury": null,
-      "ownedPct": 2.23,
+      "ownedPct": 2.22,
       "projPts": 6.45,
       "opp": "vs HOU",
       "oppRank": 30
     },
     {
-      "id": 4686472,
-      "name": "Marvin Mims Jr.",
+      "id": 4431466,
+      "name": "Jordan Watkins",
       "pos": "WR",
-      "team": "DEN",
+      "team": "SF",
       "injury": null,
-      "ownedPct": 0.77,
+      "ownedPct": 0.43,
       "projPts": 6.28,
-      "opp": "@ CAR",
-      "oppRank": 13
+      "opp": "vs LV",
+      "oppRank": 22
     },
     {
       "id": 3050478,
@@ -394,7 +416,7 @@
       "pos": "K",
       "team": "PHI",
       "injury": "Q",
-      "ownedPct": 5.6,
+      "ownedPct": 5.51,
       "projPts": 6.1,
       "opp": "vs NYG",
       "oppRank": 7
@@ -405,7 +427,7 @@
       "pos": "TE",
       "team": "TB",
       "injury": null,
-      "ownedPct": 2.54,
+      "ownedPct": 2.5,
       "projPts": 6.05,
       "opp": "@ CHI",
       "oppRank": 11
@@ -416,7 +438,7 @@
       "pos": "WR",
       "team": "GB",
       "injury": null,
-      "ownedPct": 1.16,
+      "ownedPct": 1.13,
       "projPts": 5.95,
       "opp": "@ NE",
       "oppRank": 23
@@ -438,7 +460,7 @@
       "pos": "D/ST",
       "team": "NO",
       "injury": null,
-      "ownedPct": 10.16,
+      "ownedPct": 10.91,
       "projPts": 5.82,
       "opp": "vs CLE",
       "oppRank": 30
@@ -449,7 +471,7 @@
       "pos": "RB",
       "team": "BAL",
       "injury": null,
-      "ownedPct": 7.46,
+      "ownedPct": 7.42,
       "projPts": 5.72,
       "opp": "vs JAX",
       "oppRank": 2
@@ -482,10 +504,21 @@
       "pos": "WR",
       "team": "TB",
       "injury": null,
-      "ownedPct": 4.77,
+      "ownedPct": 4.61,
       "projPts": 5.67,
       "opp": "@ CHI",
       "oppRank": 17
+    },
+    {
+      "id": 16731,
+      "name": "Brandin Cooks",
+      "pos": "WR",
+      "team": "SF",
+      "injury": null,
+      "ownedPct": 0.59,
+      "projPts": 5.66,
+      "opp": "vs LV",
+      "oppRank": 22
     },
     {
       "id": 4608810,
@@ -493,7 +526,7 @@
       "pos": "WR",
       "team": "TB",
       "injury": null,
-      "ownedPct": 5.53,
+      "ownedPct": 5.26,
       "projPts": 5.65,
       "opp": "@ CHI",
       "oppRank": 17
@@ -504,7 +537,7 @@
       "pos": "RB",
       "team": "BUF",
       "injury": null,
-      "ownedPct": 2.16,
+      "ownedPct": 2.14,
       "projPts": 5.53,
       "opp": "@ MIN",
       "oppRank": 5
@@ -526,7 +559,7 @@
       "pos": "WR",
       "team": "SEA",
       "injury": null,
-      "ownedPct": 9.22,
+      "ownedPct": 9.17,
       "projPts": 5.36,
       "opp": "vs ARI",
       "oppRank": 20
@@ -548,7 +581,7 @@
       "pos": "TE",
       "team": "DAL",
       "injury": "Q",
-      "ownedPct": 43.8,
+      "ownedPct": 43.38,
       "projPts": 5.3,
       "opp": "@ IND",
       "oppRank": 21
@@ -559,10 +592,21 @@
       "pos": "WR",
       "team": "CIN",
       "injury": null,
-      "ownedPct": 2.06,
+      "ownedPct": 2.05,
       "projPts": 5.29,
       "opp": "@ ATL",
       "oppRank": 15
+    },
+    {
+      "id": 4600981,
+      "name": "Pat Bryant",
+      "pos": "WR",
+      "team": "DEN",
+      "injury": "IR",
+      "ownedPct": 1.08,
+      "projPts": 5.26,
+      "opp": "@ CAR",
+      "oppRank": 13
     },
     {
       "id": 4429676,
@@ -581,7 +625,7 @@
       "pos": "RB",
       "team": "MIA",
       "injury": "Q",
-      "ownedPct": 2.94,
+      "ownedPct": 2.92,
       "projPts": 5.1,
       "opp": "vs DET",
       "oppRank": 4
@@ -614,7 +658,7 @@
       "pos": "D/ST",
       "team": "PHI",
       "injury": null,
-      "ownedPct": 34.49,
+      "ownedPct": 34.32,
       "projPts": 5.03,
       "opp": "vs NYG",
       "oppRank": 18
@@ -625,10 +669,21 @@
       "pos": "WR",
       "team": "HOU",
       "injury": null,
-      "ownedPct": 24.38,
+      "ownedPct": 24.21,
       "projPts": 4.99,
       "opp": "@ LAC",
       "oppRank": 16
+    },
+    {
+      "id": 3895856,
+      "name": "Christian Kirk",
+      "pos": "WR",
+      "team": "SF",
+      "injury": "Q",
+      "ownedPct": 4.9,
+      "projPts": 4.95,
+      "opp": "vs LV",
+      "oppRank": 22
     },
     {
       "id": 4879194,
@@ -642,28 +697,6 @@
       "oppRank": 25
     },
     {
-      "id": -16029,
-      "name": "Panthers D/ST",
-      "pos": "D/ST",
-      "team": "CAR",
-      "injury": null,
-      "ownedPct": 11.11,
-      "projPts": 4.87,
-      "opp": "vs DEN",
-      "oppRank": 13
-    },
-    {
-      "id": 4431280,
-      "name": "Troy Franklin",
-      "pos": "WR",
-      "team": "DEN",
-      "injury": null,
-      "ownedPct": 0.35,
-      "projPts": 4.84,
-      "opp": "@ CAR",
-      "oppRank": 13
-    },
-    {
       "id": 4040655,
       "name": "Darnell Mooney",
       "pos": "WR",
@@ -675,26 +708,26 @@
       "oppRank": 31
     },
     {
+      "id": -16029,
+      "name": "Panthers D/ST",
+      "pos": "D/ST",
+      "team": "CAR",
+      "injury": null,
+      "ownedPct": 10.64,
+      "projPts": 4.79,
+      "opp": "vs DEN",
+      "oppRank": 13
+    },
+    {
       "id": 4241463,
       "name": "Jerry Jeudy",
       "pos": "WR",
       "team": "CLE",
       "injury": null,
-      "ownedPct": 8.9,
+      "ownedPct": 8.84,
       "projPts": 4.79,
       "opp": "@ NO",
       "oppRank": 14
-    },
-    {
-      "id": 2973405,
-      "name": "Kalif Raymond",
-      "pos": "WR",
-      "team": "CHI",
-      "injury": null,
-      "ownedPct": 8.79,
-      "projPts": 4.73,
-      "opp": "vs TB",
-      "oppRank": 8
     },
     {
       "id": 4426844,
@@ -708,15 +741,37 @@
       "oppRank": 5
     },
     {
+      "id": 2973405,
+      "name": "Kalif Raymond",
+      "pos": "WR",
+      "team": "CHI",
+      "injury": null,
+      "ownedPct": 8.64,
+      "projPts": 4.72,
+      "opp": "vs TB",
+      "oppRank": 8
+    },
+    {
       "id": 5123663,
       "name": "Isaac TeSlaa",
       "pos": "WR",
       "team": "DET",
       "injury": null,
-      "ownedPct": 1.72,
+      "ownedPct": 1.71,
       "projPts": 4.71,
       "opp": "@ MIA",
       "oppRank": 3
+    },
+    {
+      "id": 4686472,
+      "name": "Marvin Mims Jr.",
+      "pos": "WR",
+      "team": "DEN",
+      "injury": null,
+      "ownedPct": 0.78,
+      "projPts": 4.71,
+      "opp": "@ CAR",
+      "oppRank": 13
     },
     {
       "id": 4869132,
@@ -746,8 +801,8 @@
       "pos": "TE",
       "team": "DEN",
       "injury": null,
-      "ownedPct": 1.9,
-      "projPts": 4.62,
+      "ownedPct": 1.88,
+      "projPts": 4.66,
       "opp": "@ CAR",
       "oppRank": 18
     },
@@ -757,7 +812,7 @@
       "pos": "WR",
       "team": "LAR",
       "injury": null,
-      "ownedPct": 0.26,
+      "ownedPct": 0.25,
       "projPts": 4.6,
       "opp": "@ WSH",
       "oppRank": 21
@@ -768,7 +823,7 @@
       "pos": "WR",
       "team": "HOU",
       "injury": null,
-      "ownedPct": 3.01,
+      "ownedPct": 2.99,
       "projPts": 4.55,
       "opp": "@ LAC",
       "oppRank": 16
@@ -779,7 +834,7 @@
       "pos": "WR",
       "team": "LAR",
       "injury": null,
-      "ownedPct": 2.09,
+      "ownedPct": 1.99,
       "projPts": 4.55,
       "opp": "@ WSH",
       "oppRank": 21
@@ -790,10 +845,21 @@
       "pos": "WR",
       "team": "ATL",
       "injury": null,
-      "ownedPct": 0.22,
+      "ownedPct": 0.26,
       "projPts": 4.54,
       "opp": "vs CIN",
       "oppRank": 19
+    },
+    {
+      "id": 4575665,
+      "name": "Jacob Cowing",
+      "pos": "WR",
+      "team": "SF",
+      "injury": null,
+      "ownedPct": 0.28,
+      "projPts": 4.4,
+      "opp": "vs LV",
+      "oppRank": 22
     },
     {
       "id": 4912274,
@@ -801,7 +867,7 @@
       "pos": "RB",
       "team": "DET",
       "injury": null,
-      "ownedPct": 1.21,
+      "ownedPct": 1.28,
       "projPts": 4.37,
       "opp": "@ MIA",
       "oppRank": 28
@@ -812,10 +878,21 @@
       "pos": "D/ST",
       "team": "ATL",
       "injury": null,
-      "ownedPct": 5.47,
+      "ownedPct": 5.11,
       "projPts": 4.35,
       "opp": "vs CIN",
       "oppRank": 9
+    },
+    {
+      "id": 4613202,
+      "name": "Kyle Williams",
+      "pos": "WR",
+      "team": "NE",
+      "injury": null,
+      "ownedPct": 0.88,
+      "projPts": 4.34,
+      "opp": "vs GB",
+      "oppRank": 24
     },
     {
       "id": 4360939,
@@ -823,7 +900,7 @@
       "pos": "WR",
       "team": "BAL",
       "injury": null,
-      "ownedPct": 9.59,
+      "ownedPct": 9.47,
       "projPts": 4.32,
       "opp": "vs JAX",
       "oppRank": 27
@@ -834,8 +911,8 @@
       "pos": "WR",
       "team": "MIN",
       "injury": null,
-      "ownedPct": 2.28,
-      "projPts": 4.08,
+      "ownedPct": 2.27,
+      "projPts": 4.1,
       "opp": "vs BUF",
       "oppRank": 28
     },
@@ -917,15 +994,15 @@
       "oppRank": 6
     },
     {
-      "id": 4613202,
-      "name": "Kyle Williams",
-      "pos": "WR",
-      "team": "NE",
+      "id": -16033,
+      "name": "Ravens D/ST",
+      "pos": "D/ST",
+      "team": "BAL",
       "injury": null,
-      "ownedPct": 0.89,
-      "projPts": 3.72,
-      "opp": "vs GB",
-      "oppRank": 24
+      "ownedPct": 48.74,
+      "projPts": 3.5,
+      "opp": "vs JAX",
+      "oppRank": 4
     },
     {
       "id": 2983509,
@@ -933,21 +1010,10 @@
       "pos": "RB",
       "team": "HOU",
       "injury": null,
-      "ownedPct": 0.17,
+      "ownedPct": 0.16,
       "projPts": 3.49,
       "opp": "@ LAC",
       "oppRank": 22
-    },
-    {
-      "id": -16033,
-      "name": "Ravens D/ST",
-      "pos": "D/ST",
-      "team": "BAL",
-      "injury": null,
-      "ownedPct": 49.71,
-      "projPts": 3.44,
-      "opp": "vs JAX",
-      "oppRank": 4
     },
     {
       "id": 4431431,
@@ -955,7 +1021,7 @@
       "pos": "RB",
       "team": "NE",
       "injury": null,
-      "ownedPct": 6.52,
+      "ownedPct": 6.16,
       "projPts": 3.4,
       "opp": "vs GB",
       "oppRank": 26
@@ -966,10 +1032,21 @@
       "pos": "WR",
       "team": "SEA",
       "injury": null,
-      "ownedPct": 0.66,
+      "ownedPct": 0.64,
       "projPts": 3.37,
       "opp": "vs ARI",
       "oppRank": 20
+    },
+    {
+      "id": 16002,
+      "name": "Kyle Juszczyk",
+      "pos": "RB",
+      "team": "SF",
+      "injury": null,
+      "ownedPct": 0.4,
+      "projPts": 3.29,
+      "opp": "vs LV",
+      "oppRank": 24
     },
     {
       "id": 4603186,
@@ -981,17 +1058,6 @@
       "projPts": 3.27,
       "opp": "@ SF",
       "oppRank": 11
-    },
-    {
-      "id": 16002,
-      "name": "Kyle Juszczyk",
-      "pos": "RB",
-      "team": "SF",
-      "injury": null,
-      "ownedPct": 0.4,
-      "projPts": 3.22,
-      "opp": "vs LV",
-      "oppRank": 24
     },
     {
       "id": 4360967,
@@ -1038,17 +1104,6 @@
       "oppRank": 12
     },
     {
-      "id": 4686248,
-      "name": "Nate Boerkircher",
-      "pos": "TE",
-      "team": "JAX",
-      "injury": null,
-      "ownedPct": 0.06,
-      "projPts": 2.89,
-      "opp": "@ BAL",
-      "oppRank": 15
-    },
-    {
       "id": 4685350,
       "name": "Trevor Etienne",
       "pos": "RB",
@@ -1058,6 +1113,17 @@
       "projPts": 2.88,
       "opp": "vs DEN",
       "oppRank": 25
+    },
+    {
+      "id": 4686248,
+      "name": "Nate Boerkircher",
+      "pos": "TE",
+      "team": "JAX",
+      "injury": null,
+      "ownedPct": 0.06,
+      "projPts": 2.88,
+      "opp": "@ BAL",
+      "oppRank": 15
     },
     {
       "id": 4683243,
@@ -1076,7 +1142,7 @@
       "pos": "D/ST",
       "team": "LV",
       "injury": null,
-      "ownedPct": 4.83,
+      "ownedPct": 4.65,
       "projPts": 2.75,
       "opp": "@ SF",
       "oppRank": 5
@@ -1087,7 +1153,7 @@
       "pos": "WR",
       "team": "CAR",
       "injury": null,
-      "ownedPct": 0.22,
+      "ownedPct": 0.21,
       "projPts": 2.69,
       "opp": "vs DEN",
       "oppRank": 7
@@ -1109,7 +1175,7 @@
       "pos": "TE",
       "team": "NO",
       "injury": null,
-      "ownedPct": 0.26,
+      "ownedPct": 0.25,
       "projPts": 2.64,
       "opp": "vs CLE",
       "oppRank": 23
@@ -1120,7 +1186,7 @@
       "pos": "WR",
       "team": "ARI",
       "injury": null,
-      "ownedPct": 0.23,
+      "ownedPct": 0.24,
       "projPts": 2.63,
       "opp": "@ SEA",
       "oppRank": 1
@@ -1154,7 +1220,7 @@
       "team": "MIN",
       "injury": null,
       "ownedPct": 0.01,
-      "projPts": 2.55,
+      "projPts": 2.54,
       "opp": "vs BUF",
       "oppRank": 20
     },
@@ -1230,7 +1296,7 @@
       "pos": "D/ST",
       "team": "IND",
       "injury": null,
-      "ownedPct": 2.74,
+      "ownedPct": 2.66,
       "projPts": 2.29,
       "opp": "vs DAL",
       "oppRank": 7
@@ -1245,6 +1311,17 @@
       "projPts": 2.21,
       "opp": "vs DET",
       "oppRank": 1
+    },
+    {
+      "id": 4431280,
+      "name": "Troy Franklin",
+      "pos": "WR",
+      "team": "DEN",
+      "injury": null,
+      "ownedPct": 0.35,
+      "projPts": 2.15,
+      "opp": "@ CAR",
+      "oppRank": 13
     },
     {
       "id": 3043275,
@@ -1264,7 +1341,7 @@
       "team": "MIN",
       "injury": null,
       "ownedPct": 0.07,
-      "projPts": 1.98,
+      "projPts": 1.97,
       "opp": "vs BUF",
       "oppRank": 30
     },
@@ -1278,28 +1355,6 @@
       "projPts": 1.97,
       "opp": "vs CIN",
       "oppRank": 19
-    },
-    {
-      "id": 4431466,
-      "name": "Jordan Watkins",
-      "pos": "WR",
-      "team": "SF",
-      "injury": null,
-      "ownedPct": 0.42,
-      "projPts": 1.84,
-      "opp": "vs LV",
-      "oppRank": 22
-    },
-    {
-      "id": 16731,
-      "name": "Brandin Cooks",
-      "pos": "WR",
-      "team": "SF",
-      "injury": null,
-      "ownedPct": 0.61,
-      "projPts": 1.81,
-      "opp": "vs LV",
-      "oppRank": 22
     },
     {
       "id": 4431346,
@@ -1318,7 +1373,7 @@
       "pos": "RB",
       "team": "BUF",
       "injury": null,
-      "ownedPct": 2.75,
+      "ownedPct": 2.74,
       "projPts": 1.76,
       "opp": "@ MIN",
       "oppRank": 5
@@ -1363,7 +1418,7 @@
       "team": "DEN",
       "injury": null,
       "ownedPct": 0.04,
-      "projPts": 1.66,
+      "projPts": 1.69,
       "opp": "@ CAR",
       "oppRank": 18
     },
@@ -1373,7 +1428,7 @@
       "pos": "RB",
       "team": "PHI",
       "injury": null,
-      "ownedPct": 1.66,
+      "ownedPct": 1.5,
       "projPts": 1.65,
       "opp": "vs NYG",
       "oppRank": 10
@@ -1395,7 +1450,7 @@
       "pos": "WR",
       "team": "KC",
       "injury": null,
-      "ownedPct": 0.48,
+      "ownedPct": 0.47,
       "projPts": 1.62,
       "opp": "vs NYJ",
       "oppRank": 9
@@ -1418,7 +1473,7 @@
       "team": "DEN",
       "injury": null,
       "ownedPct": 0.07,
-      "projPts": 1.53,
+      "projPts": 1.55,
       "opp": "@ CAR",
       "oppRank": 18
     },
@@ -1439,7 +1494,7 @@
       "pos": "WR",
       "team": "DEN",
       "injury": null,
-      "ownedPct": 0.09,
+      "ownedPct": 0.08,
       "projPts": 1.41,
       "opp": "@ CAR",
       "oppRank": 13
@@ -1489,17 +1544,6 @@
       "oppRank": 15
     },
     {
-      "id": 3895856,
-      "name": "Christian Kirk",
-      "pos": "WR",
-      "team": "SF",
-      "injury": "Q",
-      "ownedPct": 5.12,
-      "projPts": 1.2,
-      "opp": "vs LV",
-      "oppRank": 22
-    },
-    {
       "id": 4242392,
       "name": "Brock Wright",
       "pos": "TE",
@@ -1528,7 +1572,7 @@
       "team": "SF",
       "injury": null,
       "ownedPct": 0.05,
-      "projPts": 1.14,
+      "projPts": 1.16,
       "opp": "vs LV",
       "oppRank": 29
     },
@@ -1549,7 +1593,7 @@
       "pos": "WR",
       "team": "IND",
       "injury": null,
-      "ownedPct": 0.07,
+      "ownedPct": 0.06,
       "projPts": 1.12,
       "opp": "vs DAL",
       "oppRank": 26
@@ -1571,7 +1615,7 @@
       "pos": "TE",
       "team": "IND",
       "injury": null,
-      "ownedPct": 0.12,
+      "ownedPct": 0.11,
       "projPts": 1.02,
       "opp": "vs DAL",
       "oppRank": 16
@@ -1626,7 +1670,7 @@
       "pos": "TE",
       "team": "CHI",
       "injury": null,
-      "ownedPct": 0.11,
+      "ownedPct": 0.1,
       "projPts": 0.97,
       "opp": "vs TB",
       "oppRank": 22
@@ -1643,6 +1687,17 @@
       "oppRank": 14
     },
     {
+      "id": 4391845,
+      "name": "Cody Schrader",
+      "pos": "RB",
+      "team": "DEN",
+      "injury": null,
+      "ownedPct": 0.02,
+      "projPts": 0.97,
+      "opp": "@ CAR",
+      "oppRank": 31
+    },
+    {
       "id": 4362018,
       "name": "Blake Whiteheart",
       "pos": "TE",
@@ -1652,17 +1707,6 @@
       "projPts": 0.96,
       "opp": "@ NO",
       "oppRank": 27
-    },
-    {
-      "id": 4391845,
-      "name": "Cody Schrader",
-      "pos": "RB",
-      "team": "DEN",
-      "injury": null,
-      "ownedPct": 0.02,
-      "projPts": 0.96,
-      "opp": "@ CAR",
-      "oppRank": 31
     },
     {
       "id": 4249417,
@@ -1703,7 +1747,7 @@
       "pos": "QB",
       "team": "NYG",
       "injury": null,
-      "ownedPct": 4.7,
+      "ownedPct": 4.53,
       "projPts": 0.8,
       "opp": "@ PHI",
       "oppRank": 24
@@ -1736,7 +1780,7 @@
       "pos": "RB",
       "team": "TB",
       "injury": null,
-      "ownedPct": 0.42,
+      "ownedPct": 0.41,
       "projPts": 0.57,
       "opp": "@ CHI",
       "oppRank": 3
@@ -1923,7 +1967,7 @@
       "pos": "RB",
       "team": "GB",
       "injury": null,
-      "ownedPct": 3.37,
+      "ownedPct": 3.24,
       "projPts": 0.34,
       "opp": "@ NE",
       "oppRank": 6
@@ -1956,7 +2000,7 @@
       "pos": "WR",
       "team": "LAC",
       "injury": null,
-      "ownedPct": 0.03,
+      "ownedPct": 0.04,
       "projPts": 0.16,
       "opp": "vs HOU",
       "oppRank": 30
@@ -1978,7 +2022,7 @@
       "pos": "RB",
       "team": "LV",
       "injury": null,
-      "ownedPct": 0.26,
+      "ownedPct": 0.27,
       "projPts": 0.13,
       "opp": "@ SF",
       "oppRank": 21
@@ -2061,17 +2105,6 @@
       "oppRank": 3
     },
     {
-      "id": 4575665,
-      "name": "Jacob Cowing",
-      "pos": "WR",
-      "team": "SF",
-      "injury": null,
-      "ownedPct": 0.29,
-      "projPts": 0.09,
-      "opp": "vs LV",
-      "oppRank": 22
-    },
-    {
       "id": 5150247,
       "name": "Malik Benson",
       "pos": "WR",
@@ -2081,6 +2114,17 @@
       "projPts": 0.06,
       "opp": "@ SF",
       "oppRank": 11
+    },
+    {
+      "id": 4685397,
+      "name": "Jordan James",
+      "pos": "RB",
+      "team": "SF",
+      "injury": null,
+      "ownedPct": 0.54,
+      "projPts": 0.05,
+      "opp": "vs LV",
+      "oppRank": 24
     },
     {
       "id": 4429684,
@@ -2110,7 +2154,7 @@
       "pos": "RB",
       "team": "DET",
       "injury": "Q",
-      "ownedPct": 0.45,
+      "ownedPct": 0.44,
       "projPts": 0.03,
       "opp": "@ MIA",
       "oppRank": 28
@@ -2147,17 +2191,6 @@
       "projPts": 0.02,
       "opp": "@ CHI",
       "oppRank": 17
-    },
-    {
-      "id": 4685397,
-      "name": "Jordan James",
-      "pos": "RB",
-      "team": "SF",
-      "injury": null,
-      "ownedPct": 0.54,
-      "projPts": 0.01,
-      "opp": "vs LV",
-      "oppRank": 24
     },
     {
       "id": 4429299,
@@ -2198,7 +2231,7 @@
       "pos": "WR",
       "team": "WSH",
       "injury": "IR",
-      "ownedPct": 38.08,
+      "ownedPct": 37.65,
       "projPts": 0,
       "opp": "vs LAR",
       "oppRank": 5
@@ -2209,7 +2242,7 @@
       "pos": "QB",
       "team": "PHI",
       "injury": "IR",
-      "ownedPct": 32.51,
+      "ownedPct": 32.18,
       "projPts": 0,
       "opp": "vs NYG",
       "oppRank": 26
@@ -2220,7 +2253,7 @@
       "pos": "RB",
       "team": "MIA",
       "injury": "IR",
-      "ownedPct": 29.44,
+      "ownedPct": 29.26,
       "projPts": 0,
       "opp": "vs DET",
       "oppRank": 4
@@ -2231,7 +2264,7 @@
       "pos": "RB",
       "team": "TEN",
       "injury": "O",
-      "ownedPct": 22.75,
+      "ownedPct": 22.53,
       "projPts": 0,
       "opp": null,
       "oppRank": null
@@ -2242,7 +2275,7 @@
       "pos": "QB",
       "team": "NYG",
       "injury": "IR",
-      "ownedPct": 21.59,
+      "ownedPct": 21.5,
       "projPts": 0,
       "opp": "@ PHI",
       "oppRank": 24
@@ -2253,7 +2286,7 @@
       "pos": "WR",
       "team": "GB",
       "injury": "IR",
-      "ownedPct": 19.81,
+      "ownedPct": 19.71,
       "projPts": 0,
       "opp": "@ NE",
       "oppRank": 23
@@ -2264,7 +2297,7 @@
       "pos": "WR",
       "team": "PHI",
       "injury": "Q",
-      "ownedPct": 18.77,
+      "ownedPct": 18.45,
       "projPts": 0,
       "opp": "vs NYG",
       "oppRank": 18
@@ -2275,7 +2308,7 @@
       "pos": "K",
       "team": "FA",
       "injury": null,
-      "ownedPct": 18.16,
+      "ownedPct": 18.02,
       "projPts": 0,
       "opp": null,
       "oppRank": null
@@ -2286,21 +2319,10 @@
       "pos": "RB",
       "team": "PHI",
       "injury": "IR",
-      "ownedPct": 17.07,
+      "ownedPct": 16.53,
       "projPts": 0,
       "opp": "vs NYG",
       "oppRank": 10
-    },
-    {
-      "id": 2578570,
-      "name": "Jacoby Brissett",
-      "pos": "QB",
-      "team": "ARI",
-      "injury": null,
-      "ownedPct": 14.94,
-      "projPts": 0,
-      "opp": "@ SEA",
-      "oppRank": 2
     },
     {
       "id": 4361529,
@@ -2308,10 +2330,21 @@
       "pos": "RB",
       "team": "DET",
       "injury": "IR",
-      "ownedPct": 14.71,
+      "ownedPct": 14.65,
       "projPts": 0,
       "opp": "@ MIA",
       "oppRank": 28
+    },
+    {
+      "id": 2578570,
+      "name": "Jacoby Brissett",
+      "pos": "QB",
+      "team": "ARI",
+      "injury": null,
+      "ownedPct": 14.38,
+      "projPts": 0,
+      "opp": "@ SEA",
+      "oppRank": 2
     },
     {
       "id": 4430834,
@@ -2319,21 +2352,10 @@
       "pos": "WR",
       "team": "TB",
       "injury": "IR",
-      "ownedPct": 9.25,
+      "ownedPct": 9.21,
       "projPts": 0,
       "opp": "@ CHI",
       "oppRank": 17
-    },
-    {
-      "id": 4586312,
-      "name": "Jaylin Noel",
-      "pos": "WR",
-      "team": "HOU",
-      "injury": "IR",
-      "ownedPct": 6.94,
-      "projPts": 0,
-      "opp": "@ LAC",
-      "oppRank": 16
     },
     {
       "id": 4431492,
@@ -2341,10 +2363,21 @@
       "pos": "WR",
       "team": "PIT",
       "injury": "IR",
-      "ownedPct": 6.81,
+      "ownedPct": 6.75,
       "projPts": 0,
       "opp": null,
       "oppRank": null
+    },
+    {
+      "id": 4586312,
+      "name": "Jaylin Noel",
+      "pos": "WR",
+      "team": "HOU",
+      "injury": "IR",
+      "ownedPct": 6.68,
+      "projPts": 0,
+      "opp": "@ LAC",
+      "oppRank": 16
     },
     {
       "id": 4429013,
@@ -2352,21 +2385,10 @@
       "pos": "RB",
       "team": "PHI",
       "injury": "IR",
-      "ownedPct": 5.66,
+      "ownedPct": 5.64,
       "projPts": 0,
       "opp": "vs NYG",
       "oppRank": 10
-    },
-    {
-      "id": -16010,
-      "name": "Titans D/ST",
-      "pos": "D/ST",
-      "team": "TEN",
-      "injury": null,
-      "ownedPct": 5.6,
-      "projPts": 0,
-      "opp": null,
-      "oppRank": null
     },
     {
       "id": 3925357,
@@ -2374,7 +2396,18 @@
       "pos": "WR",
       "team": "TEN",
       "injury": null,
-      "ownedPct": 5.45,
+      "ownedPct": 5.42,
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
+    },
+    {
+      "id": -16010,
+      "name": "Titans D/ST",
+      "pos": "D/ST",
+      "team": "TEN",
+      "injury": null,
+      "ownedPct": 5.22,
       "projPts": 0,
       "opp": null,
       "oppRank": null
@@ -2385,7 +2418,7 @@
       "pos": "RB",
       "team": "NYG",
       "injury": "IR",
-      "ownedPct": 4.74,
+      "ownedPct": 4.62,
       "projPts": 0,
       "opp": "@ PHI",
       "oppRank": 16
@@ -2396,7 +2429,7 @@
       "pos": "TE",
       "team": "PIT",
       "injury": null,
-      "ownedPct": 4.54,
+      "ownedPct": 4.51,
       "projPts": 0,
       "opp": null,
       "oppRank": null
@@ -2407,7 +2440,7 @@
       "pos": "QB",
       "team": "TEN",
       "injury": null,
-      "ownedPct": 4.05,
+      "ownedPct": 4.04,
       "projPts": 0,
       "opp": null,
       "oppRank": null
@@ -2418,7 +2451,7 @@
       "pos": "RB",
       "team": "PHI",
       "injury": "IR",
-      "ownedPct": 3.5,
+      "ownedPct": 3.44,
       "projPts": 0,
       "opp": "vs NYG",
       "oppRank": 10
@@ -2429,21 +2462,10 @@
       "pos": "RB",
       "team": "ARI",
       "injury": "IR",
-      "ownedPct": 3.21,
+      "ownedPct": 3.24,
       "projPts": 0,
       "opp": "@ SEA",
       "oppRank": 19
-    },
-    {
-      "id": 4685201,
-      "name": "Tanner McKee",
-      "pos": "QB",
-      "team": "PHI",
-      "injury": null,
-      "ownedPct": 3.09,
-      "projPts": 0,
-      "opp": "vs NYG",
-      "oppRank": 26
     },
     {
       "id": 4837248,
@@ -2451,10 +2473,21 @@
       "pos": "QB",
       "team": "LV",
       "injury": null,
-      "ownedPct": 2.98,
+      "ownedPct": 2.95,
       "projPts": 0,
       "opp": "@ SF",
       "oppRank": 11
+    },
+    {
+      "id": 4685201,
+      "name": "Tanner McKee",
+      "pos": "QB",
+      "team": "PHI",
+      "injury": null,
+      "ownedPct": 2.83,
+      "projPts": 0,
+      "opp": "vs NYG",
+      "oppRank": 26
     },
     {
       "id": 3045523,
@@ -2462,7 +2495,7 @@
       "pos": "WR",
       "team": "ARI",
       "injury": "IR",
-      "ownedPct": 2.8,
+      "ownedPct": 2.54,
       "projPts": 0,
       "opp": "@ SEA",
       "oppRank": 1
@@ -2473,7 +2506,7 @@
       "pos": "RB",
       "team": "GB",
       "injury": "IR",
-      "ownedPct": 2.31,
+      "ownedPct": 2.29,
       "projPts": 0,
       "opp": "@ NE",
       "oppRank": 6
@@ -2484,7 +2517,7 @@
       "pos": "RB",
       "team": "FA",
       "injury": null,
-      "ownedPct": 2.08,
+      "ownedPct": 2.05,
       "projPts": 0,
       "opp": null,
       "oppRank": null
@@ -2501,17 +2534,6 @@
       "oppRank": 22
     },
     {
-      "id": 4695404,
-      "name": "Isaiah Davis",
-      "pos": "RB",
-      "team": "NYJ",
-      "injury": null,
-      "ownedPct": 1.79,
-      "projPts": 0,
-      "opp": "@ KC",
-      "oppRank": 13
-    },
-    {
       "id": 4877706,
       "name": "Jayden Higgins",
       "pos": "WR",
@@ -2521,6 +2543,17 @@
       "projPts": 0,
       "opp": "@ LAC",
       "oppRank": 16
+    },
+    {
+      "id": 4695404,
+      "name": "Isaiah Davis",
+      "pos": "RB",
+      "team": "NYJ",
+      "injury": null,
+      "ownedPct": 1.74,
+      "projPts": 0,
+      "opp": "@ KC",
+      "oppRank": 13
     },
     {
       "id": 4686728,
@@ -2539,7 +2572,7 @@
       "pos": "QB",
       "team": "BAL",
       "injury": "O",
-      "ownedPct": 1.69,
+      "ownedPct": 1.51,
       "projPts": 0,
       "opp": "vs JAX",
       "oppRank": 9
@@ -2550,7 +2583,7 @@
       "pos": "WR",
       "team": "ATL",
       "injury": "O",
-      "ownedPct": 1.33,
+      "ownedPct": 1.32,
       "projPts": 0,
       "opp": "vs CIN",
       "oppRank": 19
@@ -2572,7 +2605,7 @@
       "pos": "RB",
       "team": "CLE",
       "injury": null,
-      "ownedPct": 1.24,
+      "ownedPct": 1.2,
       "projPts": 0,
       "opp": "@ NO",
       "oppRank": 32
@@ -2583,32 +2616,10 @@
       "pos": "QB",
       "team": "WSH",
       "injury": null,
-      "ownedPct": 1.18,
+      "ownedPct": 1.16,
       "projPts": 0,
       "opp": "vs LAR",
       "oppRank": 13
-    },
-    {
-      "id": 4600981,
-      "name": "Pat Bryant",
-      "pos": "WR",
-      "team": "DEN",
-      "injury": "IR",
-      "ownedPct": 1.07,
-      "projPts": 0,
-      "opp": "@ CAR",
-      "oppRank": 13
-    },
-    {
-      "id": 4819231,
-      "name": "Kaleb Johnson",
-      "pos": "RB",
-      "team": "GB",
-      "injury": null,
-      "ownedPct": 1.05,
-      "projPts": 0,
-      "opp": "@ NE",
-      "oppRank": 6
     },
     {
       "id": 4431268,
@@ -2616,10 +2627,21 @@
       "pos": "WR",
       "team": "TEN",
       "injury": null,
-      "ownedPct": 1.04,
+      "ownedPct": 1.06,
       "projPts": 0,
       "opp": null,
       "oppRank": null
+    },
+    {
+      "id": 4819231,
+      "name": "Kaleb Johnson",
+      "pos": "RB",
+      "team": "GB",
+      "injury": null,
+      "ownedPct": 1.04,
+      "projPts": 0,
+      "opp": "@ NE",
+      "oppRank": 6
     },
     {
       "id": 4259619,
@@ -2627,7 +2649,7 @@
       "pos": "K",
       "team": "LAR",
       "injury": "IR",
-      "ownedPct": 1.01,
+      "ownedPct": 0.99,
       "projPts": 0,
       "opp": "@ WSH",
       "oppRank": 24
@@ -2638,21 +2660,10 @@
       "pos": "WR",
       "team": "MIN",
       "injury": null,
-      "ownedPct": 0.96,
+      "ownedPct": 0.95,
       "projPts": 0,
       "opp": "vs BUF",
       "oppRank": 28
-    },
-    {
-      "id": 3043116,
-      "name": "Demarcus Robinson",
-      "pos": "WR",
-      "team": "SF",
-      "injury": "IR",
-      "ownedPct": 0.91,
-      "projPts": 0,
-      "opp": "vs LV",
-      "oppRank": 22
     },
     {
       "id": 3051909,
@@ -2660,7 +2671,7 @@
       "pos": "K",
       "team": "FA",
       "injury": null,
-      "ownedPct": 0.85,
+      "ownedPct": 0.82,
       "projPts": 0,
       "opp": null,
       "oppRank": null
@@ -2671,7 +2682,7 @@
       "pos": "RB",
       "team": "FA",
       "injury": "Q",
-      "ownedPct": 0.78,
+      "ownedPct": 0.77,
       "projPts": 0,
       "opp": null,
       "oppRank": null
@@ -2693,7 +2704,7 @@
       "pos": "QB",
       "team": "TB",
       "injury": null,
-      "ownedPct": 0.58,
+      "ownedPct": 0.56,
       "projPts": 0,
       "opp": "@ CHI",
       "oppRank": 25
@@ -2704,21 +2715,10 @@
       "pos": "K",
       "team": "BAL",
       "injury": null,
-      "ownedPct": 0.57,
+      "ownedPct": 0.55,
       "projPts": 0,
       "opp": "vs JAX",
       "oppRank": 4
-    },
-    {
-      "id": 2573079,
-      "name": "Carson Wentz",
-      "pos": "QB",
-      "team": "MIN",
-      "injury": null,
-      "ownedPct": 0.55,
-      "projPts": 0,
-      "opp": "vs BUF",
-      "oppRank": 23
     },
     {
       "id": 4685555,
@@ -2748,21 +2748,10 @@
       "pos": "QB",
       "team": "CHI",
       "injury": null,
-      "ownedPct": 0.46,
+      "ownedPct": 0.45,
       "projPts": 0,
       "opp": "vs TB",
       "oppRank": 3
-    },
-    {
-      "id": 4362921,
-      "name": "Tyquan Thornton",
-      "pos": "WR",
-      "team": "KC",
-      "injury": "IR",
-      "ownedPct": 0.45,
-      "projPts": 0,
-      "opp": "vs NYJ",
-      "oppRank": 9
     },
     {
       "id": 4258595,
@@ -2776,6 +2765,17 @@
       "oppRank": 22
     },
     {
+      "id": 4362921,
+      "name": "Tyquan Thornton",
+      "pos": "WR",
+      "team": "KC",
+      "injury": "IR",
+      "ownedPct": 0.44,
+      "projPts": 0,
+      "opp": "vs NYJ",
+      "oppRank": 9
+    },
+    {
       "id": 4241479,
       "name": "Tua Tagovailoa",
       "pos": "QB",
@@ -2787,26 +2787,26 @@
       "oppRank": 17
     },
     {
+      "id": 4430841,
+      "name": "Carson Beck",
+      "pos": "QB",
+      "team": "ARI",
+      "injury": null,
+      "ownedPct": 0.37,
+      "projPts": 0,
+      "opp": "@ SEA",
+      "oppRank": 2
+    },
+    {
       "id": 15835,
       "name": "Zach Ertz",
       "pos": "TE",
       "team": "PHI",
       "injury": null,
-      "ownedPct": 0.36,
+      "ownedPct": 0.35,
       "projPts": 0,
       "opp": "vs NYG",
       "oppRank": 12
-    },
-    {
-      "id": 3127586,
-      "name": "Jeremy McNichols",
-      "pos": "RB",
-      "team": "WSH",
-      "injury": "IR",
-      "ownedPct": 0.36,
-      "projPts": 0,
-      "opp": "vs LAR",
-      "oppRank": 11
     },
     {
       "id": 3124084,
@@ -2814,21 +2814,10 @@
       "pos": "K",
       "team": "TEN",
       "injury": null,
-      "ownedPct": 0.36,
+      "ownedPct": 0.35,
       "projPts": 0,
       "opp": null,
       "oppRank": null
-    },
-    {
-      "id": 4430841,
-      "name": "Carson Beck",
-      "pos": "QB",
-      "team": "ARI",
-      "injury": null,
-      "ownedPct": 0.36,
-      "projPts": 0,
-      "opp": "@ SEA",
-      "oppRank": 2
     },
     {
       "id": 4883647,
@@ -2836,7 +2825,7 @@
       "pos": "WR",
       "team": "TEN",
       "injury": null,
-      "ownedPct": 0.36,
+      "ownedPct": 0.35,
       "projPts": 0,
       "opp": null,
       "oppRank": null
@@ -2875,6 +2864,17 @@
       "oppRank": 4
     },
     {
+      "id": 3127586,
+      "name": "Jeremy McNichols",
+      "pos": "RB",
+      "team": "WSH",
+      "injury": "IR",
+      "ownedPct": 0.33,
+      "projPts": 0,
+      "opp": "vs LAR",
+      "oppRank": 11
+    },
+    {
       "id": 5081508,
       "name": "Eli Heidenreich",
       "pos": "RB",
@@ -2897,6 +2897,17 @@
       "oppRank": 32
     },
     {
+      "id": 4874509,
+      "name": "DJ Giddens",
+      "pos": "RB",
+      "team": "IND",
+      "injury": null,
+      "ownedPct": 0.31,
+      "projPts": 0,
+      "opp": "vs DAL",
+      "oppRank": 27
+    },
+    {
       "id": 4832846,
       "name": "Demond Claiborne",
       "pos": "RB",
@@ -2906,17 +2917,6 @@
       "projPts": 0,
       "opp": "vs BUF",
       "oppRank": 30
-    },
-    {
-      "id": 4874509,
-      "name": "DJ Giddens",
-      "pos": "RB",
-      "team": "IND",
-      "injury": null,
-      "ownedPct": 0.29,
-      "projPts": 0,
-      "opp": "vs DAL",
-      "oppRank": 27
     },
     {
       "id": 4685526,
@@ -2946,7 +2946,7 @@
       "pos": "WR",
       "team": "BUF",
       "injury": null,
-      "ownedPct": 0.27,
+      "ownedPct": 0.26,
       "projPts": 0,
       "opp": "@ MIN",
       "oppRank": 4
@@ -2985,17 +2985,6 @@
       "oppRank": 29
     },
     {
-      "id": 4239934,
-      "name": "AJ Dillon",
-      "pos": "RB",
-      "team": "CAR",
-      "injury": null,
-      "ownedPct": 0.22,
-      "projPts": 0,
-      "opp": "vs DEN",
-      "oppRank": 25
-    },
-    {
       "id": 5081338,
       "name": "Kaden Wetjen",
       "pos": "WR",
@@ -3029,15 +3018,15 @@
       "oppRank": 18
     },
     {
-      "id": 3916945,
-      "name": "Darius Slayton",
-      "pos": "WR",
-      "team": "FA",
+      "id": 4239934,
+      "name": "AJ Dillon",
+      "pos": "RB",
+      "team": "CAR",
       "injury": null,
       "ownedPct": 0.21,
       "projPts": 0,
-      "opp": null,
-      "oppRank": null
+      "opp": "vs DEN",
+      "oppRank": 25
     },
     {
       "id": 4259147,
@@ -3049,6 +3038,17 @@
       "projPts": 0,
       "opp": "vs LV",
       "oppRank": 29
+    },
+    {
+      "id": 3916945,
+      "name": "Darius Slayton",
+      "pos": "WR",
+      "team": "FA",
+      "injury": null,
+      "ownedPct": 0.2,
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 11252,
@@ -3095,17 +3095,6 @@
       "oppRank": 30
     },
     {
-      "id": 4243371,
-      "name": "Riley Patterson",
-      "pos": "K",
-      "team": "FA",
-      "injury": null,
-      "ownedPct": 0.14,
-      "projPts": 0,
-      "opp": null,
-      "oppRank": null
-    },
-    {
       "id": 4714771,
       "name": "Drew Allar",
       "pos": "QB",
@@ -3115,17 +3104,6 @@
       "projPts": 0,
       "opp": null,
       "oppRank": null
-    },
-    {
-      "id": 4362748,
-      "name": "Tyler Badie",
-      "pos": "RB",
-      "team": "DEN",
-      "injury": "IR",
-      "ownedPct": 0.14,
-      "projPts": 0,
-      "opp": "@ CAR",
-      "oppRank": 31
     },
     {
       "id": 4432775,
@@ -3139,6 +3117,17 @@
       "oppRank": 11
     },
     {
+      "id": 4243371,
+      "name": "Riley Patterson",
+      "pos": "K",
+      "team": "FA",
+      "injury": null,
+      "ownedPct": 0.13,
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
+    },
+    {
       "id": 3049899,
       "name": "Younghoe Koo",
       "pos": "K",
@@ -3148,6 +3137,17 @@
       "projPts": 0,
       "opp": null,
       "oppRank": null
+    },
+    {
+      "id": 4362748,
+      "name": "Tyler Badie",
+      "pos": "RB",
+      "team": "DEN",
+      "injury": "IR",
+      "ownedPct": 0.13,
+      "projPts": 0,
+      "opp": "@ CAR",
+      "oppRank": 31
     },
     {
       "id": 4566158,
@@ -3194,17 +3194,6 @@
       "oppRank": 10
     },
     {
-      "id": 4241983,
-      "name": "Cody White",
-      "pos": "WR",
-      "team": "FA",
-      "injury": null,
-      "ownedPct": 0.11,
-      "projPts": 0,
-      "opp": null,
-      "oppRank": null
-    },
-    {
       "id": 5088338,
       "name": "Elijah Sarratt",
       "pos": "WR",
@@ -3241,6 +3230,17 @@
       "id": 4569682,
       "name": "Audric Estime",
       "pos": "RB",
+      "team": "FA",
+      "injury": null,
+      "ownedPct": 0.1,
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
+    },
+    {
+      "id": 4241983,
+      "name": "Cody White",
+      "pos": "WR",
       "team": "FA",
       "injury": null,
       "ownedPct": 0.1,
@@ -3480,17 +3480,6 @@
       "oppRank": 1
     },
     {
-      "id": 4035886,
-      "name": "Khalil Herbert",
-      "pos": "RB",
-      "team": "ATL",
-      "injury": null,
-      "ownedPct": 0.06,
-      "projPts": 0,
-      "opp": "vs CIN",
-      "oppRank": 7
-    },
-    {
       "id": 4240703,
       "name": "Kenny Pickett",
       "pos": "QB",
@@ -3634,6 +3623,17 @@
       "oppRank": null
     },
     {
+      "id": 4035886,
+      "name": "Khalil Herbert",
+      "pos": "RB",
+      "team": "ATL",
+      "injury": null,
+      "ownedPct": 0.05,
+      "projPts": 0,
+      "opp": "vs CIN",
+      "oppRank": 7
+    },
+    {
       "id": 4693370,
       "name": "Riley Nowakowski",
       "pos": "RB",
@@ -3713,17 +3713,6 @@
     {
       "id": 4386544,
       "name": "Xavier Smith",
-      "pos": "WR",
-      "team": "FA",
-      "injury": null,
-      "ownedPct": 0.04,
-      "projPts": 0,
-      "opp": null,
-      "oppRank": null
-    },
-    {
-      "id": 3919510,
-      "name": "Alex Bachman",
       "pos": "WR",
       "team": "FA",
       "injury": null,
@@ -3830,17 +3819,6 @@
       "projPts": 0,
       "opp": null,
       "oppRank": null
-    },
-    {
-      "id": 4690923,
-      "name": "Ben Sinnott",
-      "pos": "TE",
-      "team": "WSH",
-      "injury": null,
-      "ownedPct": 0.04,
-      "projPts": 0,
-      "opp": "vs LAR",
-      "oppRank": 7
     },
     {
       "id": 4426689,
@@ -4001,7 +3979,7 @@
       "name": "Zavier Scott",
       "pos": "RB",
       "team": "CHI",
-      "injury": "Q",
+      "injury": "IR",
       "ownedPct": 0.03,
       "projPts": 0,
       "opp": "vs TB",
@@ -4022,6 +4000,17 @@
       "id": 4374033,
       "name": "Jermar Jefferson",
       "pos": "RB",
+      "team": "FA",
+      "injury": null,
+      "ownedPct": 0.03,
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
+    },
+    {
+      "id": 3919510,
+      "name": "Alex Bachman",
+      "pos": "WR",
       "team": "FA",
       "injury": null,
       "ownedPct": 0.03,
@@ -4294,6 +4283,17 @@
       "oppRank": 3
     },
     {
+      "id": 4690923,
+      "name": "Ben Sinnott",
+      "pos": "TE",
+      "team": "WSH",
+      "injury": null,
+      "ownedPct": 0.03,
+      "projPts": 0,
+      "opp": "vs LAR",
+      "oppRank": 7
+    },
+    {
       "id": 4912052,
       "name": "Justin Joly",
       "pos": "TE",
@@ -4336,6 +4336,17 @@
       "projPts": 0,
       "opp": "vs JAX",
       "oppRank": 8
+    },
+    {
+      "id": 4431342,
+      "name": "Brennan Presley",
+      "pos": "WR",
+      "team": "FA",
+      "injury": null,
+      "ownedPct": 0.02,
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
     },
     {
       "id": 4683159,
@@ -4657,17 +4668,6 @@
       "oppRank": 11
     },
     {
-      "id": 3059989,
-      "name": "Nick Mullens",
-      "pos": "QB",
-      "team": "JAX",
-      "injury": null,
-      "ownedPct": 0.02,
-      "projPts": 0,
-      "opp": "@ BAL",
-      "oppRank": 20
-    },
-    {
       "id": 3932442,
       "name": "Equanimeous St. Brown",
       "pos": "WR",
@@ -4754,17 +4754,6 @@
       "projPts": 0,
       "opp": "vs LAR",
       "oppRank": 11
-    },
-    {
-      "id": 4360799,
-      "name": "Jordan Travis",
-      "pos": "QB",
-      "team": "FA",
-      "injury": null,
-      "ownedPct": 0.02,
-      "projPts": 0,
-      "opp": null,
-      "oppRank": null
     },
     {
       "id": 4012556,
@@ -4941,17 +4930,6 @@
       "projPts": 0,
       "opp": null,
       "oppRank": null
-    },
-    {
-      "id": 4242431,
-      "name": "Ty Chandler",
-      "pos": "RB",
-      "team": "NO",
-      "injury": "IR",
-      "ownedPct": 0.02,
-      "projPts": 0,
-      "opp": "vs CLE",
-      "oppRank": 15
     },
     {
       "id": 4879250,
@@ -5262,17 +5240,6 @@
       "oppRank": null
     },
     {
-      "id": 4431342,
-      "name": "Brennan Presley",
-      "pos": "WR",
-      "team": "FA",
-      "injury": null,
-      "ownedPct": 0.01,
-      "projPts": 0,
-      "opp": null,
-      "oppRank": null
-    },
-    {
       "id": 4431353,
       "name": "Xavier Restrepo",
       "pos": "WR",
@@ -5493,17 +5460,6 @@
       "oppRank": null
     },
     {
-      "id": 4243160,
-      "name": "Laviska Shenault Jr.",
-      "pos": "WR",
-      "team": "FA",
-      "injury": null,
-      "ownedPct": 0.01,
-      "projPts": 0,
-      "opp": null,
-      "oppRank": null
-    },
-    {
       "id": 4876006,
       "name": "Zaire Mitchell-Paden",
       "pos": "TE",
@@ -5636,17 +5592,6 @@
       "oppRank": null
     },
     {
-      "id": 16140,
-      "name": "Ryan Griffin",
-      "pos": "QB",
-      "team": "FA",
-      "injury": null,
-      "ownedPct": 0.01,
-      "projPts": 0,
-      "opp": null,
-      "oppRank": null
-    },
-    {
       "id": 4036419,
       "name": "Skylar Thompson",
       "pos": "QB",
@@ -5672,17 +5617,6 @@
       "id": 3045169,
       "name": "Tim Boyle",
       "pos": "QB",
-      "team": "FA",
-      "injury": null,
-      "ownedPct": 0.01,
-      "projPts": 0,
-      "opp": null,
-      "oppRank": null
-    },
-    {
-      "id": 3917612,
-      "name": "Ke'Shawn Vaughn",
-      "pos": "RB",
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
@@ -5892,6 +5826,17 @@
       "id": 4362162,
       "name": "SaRodorick Thompson Jr.",
       "pos": "RB",
+      "team": "FA",
+      "injury": null,
+      "ownedPct": 0.01,
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
+    },
+    {
+      "id": 2971618,
+      "name": "Nelson Agholor",
+      "pos": "WR",
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
@@ -6263,6 +6208,17 @@
       "oppRank": null
     },
     {
+      "id": 3059989,
+      "name": "Nick Mullens",
+      "pos": "QB",
+      "team": "JAX",
+      "injury": null,
+      "ownedPct": 0.01,
+      "projPts": 0,
+      "opp": "@ BAL",
+      "oppRank": 20
+    },
+    {
       "id": 5208436,
       "name": "Louis Rees-Zammit",
       "pos": "RB",
@@ -6428,17 +6384,6 @@
       "oppRank": null
     },
     {
-      "id": 3115349,
-      "name": "Jakob Johnson",
-      "pos": "RB",
-      "team": "FA",
-      "injury": null,
-      "ownedPct": 0.01,
-      "projPts": 0,
-      "opp": null,
-      "oppRank": null
-    },
-    {
       "id": 4569547,
       "name": "Nick Kallerup",
       "pos": "TE",
@@ -6560,6 +6505,17 @@
       "oppRank": 15
     },
     {
+      "id": 4360799,
+      "name": "Jordan Travis",
+      "pos": "QB",
+      "team": "FA",
+      "injury": null,
+      "ownedPct": 0.01,
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
+    },
+    {
       "id": 4426335,
       "name": "Graham Mertz",
       "pos": "QB",
@@ -6670,6 +6626,17 @@
       "oppRank": 17
     },
     {
+      "id": 4039274,
+      "name": "Jonathan Ward",
+      "pos": "RB",
+      "team": "FA",
+      "injury": null,
+      "ownedPct": 0.01,
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
+    },
+    {
       "id": 2980453,
       "name": "Jamaal Williams",
       "pos": "RB",
@@ -6736,17 +6703,6 @@
       "oppRank": null
     },
     {
-      "id": 4426475,
-      "name": "Tyrion Davis-Price",
-      "pos": "RB",
-      "team": "FA",
-      "injury": null,
-      "ownedPct": 0.01,
-      "projPts": 0,
-      "opp": null,
-      "oppRank": null
-    },
-    {
       "id": 4426479,
       "name": "Cornelius Johnson",
       "pos": "WR",
@@ -6804,17 +6760,6 @@
     {
       "id": 4035222,
       "name": "Trayveon Williams",
-      "pos": "RB",
-      "team": "FA",
-      "injury": null,
-      "ownedPct": 0.01,
-      "projPts": 0,
-      "opp": null,
-      "oppRank": null
-    },
-    {
-      "id": 3916430,
-      "name": "Nyheim Hines",
       "pos": "RB",
       "team": "FA",
       "injury": null,
@@ -7121,6 +7066,28 @@
       "oppRank": null
     },
     {
+      "id": 5155825,
+      "name": "Carter Runyon",
+      "pos": "TE",
+      "team": "LV",
+      "injury": null,
+      "ownedPct": 0.01,
+      "projPts": 0,
+      "opp": "@ SF",
+      "oppRank": 9
+    },
+    {
+      "id": 4242431,
+      "name": "Ty Chandler",
+      "pos": "RB",
+      "team": "NO",
+      "injury": "IR",
+      "ownedPct": 0.01,
+      "projPts": 0,
+      "opp": "vs CLE",
+      "oppRank": 15
+    },
+    {
       "id": 3910544,
       "name": "Joshua Kelley",
       "pos": "RB",
@@ -7418,31 +7385,9 @@
       "oppRank": null
     },
     {
-      "id": 4250764,
-      "name": "Stone Smartt",
-      "pos": "TE",
-      "team": "FA",
-      "injury": null,
-      "ownedPct": 0.01,
-      "projPts": 0,
-      "opp": null,
-      "oppRank": null
-    },
-    {
       "id": 4426893,
       "name": "Joshua Cephus",
       "pos": "WR",
-      "team": "FA",
-      "injury": null,
-      "ownedPct": 0.01,
-      "projPts": 0,
-      "opp": null,
-      "oppRank": null
-    },
-    {
-      "id": 4367510,
-      "name": "Dante Miller",
-      "pos": "RB",
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
@@ -7487,6 +7432,17 @@
       "id": 4361417,
       "name": "Zack Kuntz",
       "pos": "TE",
+      "team": "FA",
+      "injury": null,
+      "ownedPct": 0.01,
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
+    },
+    {
+      "id": 4429001,
+      "name": "Jase McClellan",
+      "pos": "RB",
       "team": "FA",
       "injury": null,
       "ownedPct": 0.01,
@@ -7552,17 +7508,6 @@
     {
       "id": 4361604,
       "name": "Blake Watson",
-      "pos": "RB",
-      "team": "FA",
-      "injury": null,
-      "ownedPct": 0.01,
-      "projPts": 0,
-      "opp": null,
-      "oppRank": null
-    },
-    {
-      "id": 4048259,
-      "name": "Avery Williams",
       "pos": "RB",
       "team": "FA",
       "injury": null,
@@ -7825,6 +7770,17 @@
       "oppRank": null
     },
     {
+      "id": 4243160,
+      "name": "Laviska Shenault Jr.",
+      "pos": "WR",
+      "team": "FA",
+      "injury": null,
+      "ownedPct": 0,
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
+    },
+    {
       "id": 4036275,
       "name": "Sean McKeon",
       "pos": "TE",
@@ -7907,6 +7863,28 @@
       "pos": "WR",
       "team": "FA",
       "injury": "Q",
+      "ownedPct": 0,
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
+    },
+    {
+      "id": 16140,
+      "name": "Ryan Griffin",
+      "pos": "QB",
+      "team": "FA",
+      "injury": null,
+      "ownedPct": 0,
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
+    },
+    {
+      "id": 3917612,
+      "name": "Ke'Shawn Vaughn",
+      "pos": "RB",
+      "team": "FA",
+      "injury": null,
       "ownedPct": 0,
       "projPts": 0,
       "opp": null,
@@ -8083,17 +8061,6 @@
       "pos": "TE",
       "team": "FA",
       "injury": "Q",
-      "ownedPct": 0,
-      "projPts": 0,
-      "opp": null,
-      "oppRank": null
-    },
-    {
-      "id": 2971618,
-      "name": "Nelson Agholor",
-      "pos": "WR",
-      "team": "FA",
-      "injury": null,
       "ownedPct": 0,
       "projPts": 0,
       "opp": null,
@@ -8408,6 +8375,17 @@
       "oppRank": null
     },
     {
+      "id": 3115349,
+      "name": "Jakob Johnson",
+      "pos": "RB",
+      "team": "FA",
+      "injury": null,
+      "ownedPct": 0,
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
+    },
+    {
       "id": 2576716,
       "name": "Jamison Crowder",
       "pos": "WR",
@@ -8551,17 +8529,6 @@
       "oppRank": null
     },
     {
-      "id": 4039274,
-      "name": "Jonathan Ward",
-      "pos": "RB",
-      "team": "FA",
-      "injury": null,
-      "ownedPct": 0,
-      "projPts": 0,
-      "opp": null,
-      "oppRank": null
-    },
-    {
       "id": 4035170,
       "name": "Marquez Callaway",
       "pos": "WR",
@@ -8576,6 +8543,28 @@
       "id": 4366910,
       "name": "Shawn Bowman",
       "pos": "TE",
+      "team": "FA",
+      "injury": null,
+      "ownedPct": 0,
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
+    },
+    {
+      "id": 4426475,
+      "name": "Tyrion Davis-Price",
+      "pos": "RB",
+      "team": "FA",
+      "injury": null,
+      "ownedPct": 0,
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
+    },
+    {
+      "id": 3916430,
+      "name": "Nyheim Hines",
+      "pos": "RB",
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
@@ -8725,17 +8714,6 @@
       "projPts": 0,
       "opp": null,
       "oppRank": null
-    },
-    {
-      "id": 5155825,
-      "name": "Carter Runyon",
-      "pos": "TE",
-      "team": "LV",
-      "injury": null,
-      "ownedPct": 0,
-      "projPts": 0,
-      "opp": "@ SF",
-      "oppRank": 9
     },
     {
       "id": 4428796,
@@ -8925,9 +8903,9 @@
       "oppRank": null
     },
     {
-      "id": 3931391,
-      "name": "Trenton Irwin",
-      "pos": "WR",
+      "id": 4250764,
+      "name": "Stone Smartt",
+      "pos": "TE",
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
@@ -8936,9 +8914,20 @@
       "oppRank": null
     },
     {
-      "id": 4429001,
-      "name": "Jase McClellan",
+      "id": 4367510,
+      "name": "Dante Miller",
       "pos": "RB",
+      "team": "FA",
+      "injury": null,
+      "ownedPct": 0,
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
+    },
+    {
+      "id": 3931391,
+      "name": "Trenton Irwin",
+      "pos": "WR",
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
@@ -8994,6 +8983,17 @@
       "id": 3144991,
       "name": "Parker Hesse",
       "pos": "TE",
+      "team": "FA",
+      "injury": null,
+      "ownedPct": 0,
+      "projPts": 0,
+      "opp": null,
+      "oppRank": null
+    },
+    {
+      "id": 4048259,
+      "name": "Avery Williams",
+      "pos": "RB",
       "team": "FA",
       "injury": null,
       "ownedPct": 0,
