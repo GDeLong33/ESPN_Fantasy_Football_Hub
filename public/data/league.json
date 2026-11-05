@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T19:51:49.496Z",
+  "updatedAt": "2026-11-05T01:29:45.766Z",
   "week": 9,
   "teams": [
     {
@@ -27,6 +27,14 @@
       "isAustin": false
     },
     {
+      "teamId": 8,
+      "name": "Any Given Sunday",
+      "owner": "Clayton T.",
+      "projTotal": 116.52,
+      "actualTotal": 0,
+      "isAustin": false
+    },
+    {
       "teamId": 6,
       "name": "North Atlantic 1912 Swim Team",
       "owner": "Cole K.",
@@ -39,14 +47,6 @@
       "name": "Antonio's Team",
       "owner": "Antonio G.",
       "projTotal": 112.07,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
-      "teamId": 8,
-      "name": "Any Given Sunday",
-      "owner": "Clayton T.",
-      "projTotal": 111.99,
       "actualTotal": 0,
       "isAustin": false
     },
