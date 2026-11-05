@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T01:29:45.766Z",
+  "updatedAt": "2026-11-05T11:08:20.383Z",
   "week": 9,
   "teams": [
     {
@@ -27,6 +27,14 @@
       "isAustin": false
     },
     {
+      "teamId": 2,
+      "name": "Pickle Runners",
+      "owner": "Patience U.",
+      "projTotal": 121.06,
+      "actualTotal": 0,
+      "isAustin": false
+    },
+    {
       "teamId": 8,
       "name": "Any Given Sunday",
       "owner": "Clayton T.",
@@ -39,6 +47,14 @@
       "name": "North Atlantic 1912 Swim Team",
       "owner": "Cole K.",
       "projTotal": 113.01,
+      "actualTotal": 0,
+      "isAustin": false
+    },
+    {
+      "teamId": 4,
+      "name": "Burrow it deeper",
+      "owner": "Max F.",
+      "projTotal": 112.07,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -67,26 +83,10 @@
       "isAustin": false
     },
     {
-      "teamId": 4,
-      "name": "Burrow it deeper",
-      "owner": "Max F.",
-      "projTotal": 104.62,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
       "teamId": 15,
       "name": "The Juice",
       "owner": "Sam C.",
       "projTotal": 102.94,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
-      "teamId": 2,
-      "name": "Pickle Runners",
-      "owner": "Patience U.",
-      "projTotal": 101.76,
       "actualTotal": 0,
       "isAustin": false
     },
