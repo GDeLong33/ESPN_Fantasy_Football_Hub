@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-11-05T20:04:07.208Z",
+  "updatedAt": "2026-11-06T19:30:05.988Z",
   "week": 9,
   "teamId": 9,
   "teamName": "Gooners Guild of America",
   "lineup": [
     {
       "slot": "QB",
-      "playerId": 3122840,
-      "name": "Deshaun Watson",
+      "playerId": 4432762,
+      "name": "Shedeur Sanders",
       "pos": "QB",
       "team": "CLE",
-      "projPts": 0,
+      "projPts": 15.01,
       "actualPts": null
     },
     {
       "slot": "RB",
-      "playerId": 4035538,
-      "name": "David Montgomery",
+      "playerId": 4379399,
+      "name": "James Cook III",
       "pos": "RB",
-      "team": "HOU",
-      "projPts": 0,
+      "team": "BUF",
+      "projPts": 18.49,
       "actualPts": null
     },
     {
@@ -42,29 +42,29 @@
     },
     {
       "slot": "WR",
+      "playerId": 5083754,
+      "name": "Ryan Flournoy",
+      "pos": "WR",
+      "team": "DAL",
+      "projPts": 8.99,
+      "actualPts": null
+    },
+    {
+      "slot": "TE",
+      "playerId": 3929645,
+      "name": "Juwan Johnson",
+      "pos": "TE",
+      "team": "NO",
+      "projPts": 7.27,
+      "actualPts": null
+    },
+    {
+      "slot": "FLEX",
       "playerId": 4685278,
       "name": "Luther Burden III",
       "pos": "WR",
       "team": "CHI",
       "projPts": 13.89,
-      "actualPts": null
-    },
-    {
-      "slot": "TE",
-      "playerId": 4808766,
-      "name": "Mason Taylor",
-      "pos": "TE",
-      "team": "NYJ",
-      "projPts": 8.41,
-      "actualPts": null
-    },
-    {
-      "slot": "FLEX",
-      "playerId": 4379399,
-      "name": "James Cook III",
-      "pos": "RB",
-      "team": "BUF",
-      "projPts": 18.49,
       "actualPts": null
     },
     {
@@ -86,6 +86,6 @@
       "actualPts": null
     }
   ],
-  "projTotal": 69.24,
+  "projTotal": 92.1,
   "actualTotal": 0
 }
