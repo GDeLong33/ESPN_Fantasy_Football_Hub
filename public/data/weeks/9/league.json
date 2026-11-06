@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T01:36:47.959Z",
+  "updatedAt": "2026-11-06T11:05:35.403Z",
   "week": 9,
   "teams": [
     {
@@ -15,7 +15,7 @@
       "name": "Its gonna be Maye",
       "owner": "Jaxson C.",
       "projTotal": 132.99,
-      "actualTotal": 6.5,
+      "actualTotal": 8.9,
       "isAustin": false
     },
     {
@@ -31,7 +31,7 @@
       "name": "Pickle Runners",
       "owner": "Patience U.",
       "projTotal": 121.02,
-      "actualTotal": 2.88,
+      "actualTotal": 13.58,
       "isAustin": false
     },
     {
@@ -63,7 +63,7 @@
       "name": "No Diddy Giddy",
       "owner": "Jaiden A.",
       "projTotal": 110.28,
-      "actualTotal": 0,
+      "actualTotal": 4.2,
       "isAustin": false
     },
     {
@@ -71,7 +71,23 @@
       "name": "Antonio's Team",
       "owner": "Antonio G.",
       "projTotal": 109.99,
-      "actualTotal": 9,
+      "actualTotal": 12,
+      "isAustin": false
+    },
+    {
+      "teamId": 12,
+      "name": "Zoey's Grand Canyon Hikers",
+      "owner": "Jaylin M.",
+      "projTotal": 108.47,
+      "actualTotal": 19.4,
+      "isAustin": false
+    },
+    {
+      "teamId": 8,
+      "name": "Any Given Sunday",
+      "owner": "Clayton T.",
+      "projTotal": 105.15,
+      "actualTotal": 0,
       "isAustin": false
     },
     {
@@ -79,7 +95,7 @@
       "name": "The Juice",
       "owner": "Sam C.",
       "projTotal": 102.98,
-      "actualTotal": 1,
+      "actualTotal": 17,
       "isAustin": false
     },
     {
@@ -87,23 +103,7 @@
       "name": "Burrow it deeper",
       "owner": "Max F.",
       "projTotal": 99.79,
-      "actualTotal": 2.08,
-      "isAustin": false
-    },
-    {
-      "teamId": 8,
-      "name": "Any Given Sunday",
-      "owner": "Clayton T.",
-      "projTotal": 92.18,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
-      "teamId": 12,
-      "name": "Zoey's Grand Canyon Hikers",
-      "owner": "Jaylin M.",
-      "projTotal": 86.18,
-      "actualTotal": 1.6,
+      "actualTotal": 5.58,
       "isAustin": false
     },
     {
