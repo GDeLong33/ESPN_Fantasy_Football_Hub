@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-06T19:30:05.988Z",
+  "updatedAt": "2026-11-07T00:58:16.082Z",
   "week": 9,
   "teams": [
     {
       "teamId": 1,
       "name": "Skatt on My Dihggs",
       "owner": "Jared G.",
-      "projTotal": 142.73,
+      "projTotal": 142.82,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -22,7 +22,7 @@
       "teamId": 10,
       "name": "Doug's coin eaters",
       "owner": "Gavin D.",
-      "projTotal": 123.94,
+      "projTotal": 124.06,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -30,7 +30,7 @@
       "teamId": 3,
       "name": "JehOda's Witness",
       "owner": "Dylan E.",
-      "projTotal": 121.45,
+      "projTotal": 121.44,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -38,7 +38,7 @@
       "teamId": 6,
       "name": "North Atlantic 1912 Swim Team",
       "owner": "Cole K.",
-      "projTotal": 118.17,
+      "projTotal": 116.51,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -46,7 +46,7 @@
       "teamId": 11,
       "name": "Professional Cowgirls",
       "owner": "Jaycey M.",
-      "projTotal": 114.29,
+      "projTotal": 114.27,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -62,7 +62,7 @@
       "teamId": 13,
       "name": "No Diddy Giddy",
       "owner": "Jaiden A.",
-      "projTotal": 110.5,
+      "projTotal": 110.61,
       "actualTotal": 4.2,
       "isAustin": false
     },
@@ -78,23 +78,15 @@
       "teamId": 2,
       "name": "Pickle Runners",
       "owner": "Patience U.",
-      "projTotal": 108.28,
+      "projTotal": 107.56,
       "actualTotal": 13.58,
-      "isAustin": false
-    },
-    {
-      "teamId": 8,
-      "name": "Any Given Sunday",
-      "owner": "Clayton T.",
-      "projTotal": 105.15,
-      "actualTotal": 0,
       "isAustin": false
     },
     {
       "teamId": 15,
       "name": "The Juice",
       "owner": "Sam C.",
-      "projTotal": 103.62,
+      "projTotal": 107.36,
       "actualTotal": 17,
       "isAustin": false
     },
@@ -107,10 +99,18 @@
       "isAustin": false
     },
     {
+      "teamId": 8,
+      "name": "Any Given Sunday",
+      "owner": "Clayton T.",
+      "projTotal": 99.7,
+      "actualTotal": 0,
+      "isAustin": false
+    },
+    {
       "teamId": 9,
       "name": "Gooners Guild of America",
       "owner": "Austin G.",
-      "projTotal": 92.1,
+      "projTotal": 92.39,
       "actualTotal": 0,
       "isAustin": true
     }
