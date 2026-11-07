@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T17:46:10.746Z",
+  "updatedAt": "2026-11-07T21:57:52.626Z",
   "week": 9,
   "teams": [
     {
@@ -14,7 +14,7 @@
       "teamId": 14,
       "name": "Its gonna be Maye",
       "owner": "Jaxson C.",
-      "projTotal": 132.96,
+      "projTotal": 132.97,
       "actualTotal": 8.9,
       "isAustin": false
     },
@@ -35,10 +35,18 @@
       "isAustin": false
     },
     {
+      "teamId": 5,
+      "name": "Antonio's Team",
+      "owner": "Antonio G.",
+      "projTotal": 118.44,
+      "actualTotal": 12,
+      "isAustin": false
+    },
+    {
       "teamId": 6,
       "name": "North Atlantic 1912 Swim Team",
       "owner": "Cole K.",
-      "projTotal": 118.09,
+      "projTotal": 118.14,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -59,18 +67,10 @@
       "isAustin": false
     },
     {
-      "teamId": 5,
-      "name": "Antonio's Team",
-      "owner": "Antonio G.",
-      "projTotal": 111.2,
-      "actualTotal": 12,
-      "isAustin": false
-    },
-    {
       "teamId": 13,
       "name": "No Diddy Giddy",
       "owner": "Jaiden A.",
-      "projTotal": 110.59,
+      "projTotal": 110.6,
       "actualTotal": 4.2,
       "isAustin": false
     },
@@ -78,7 +78,7 @@
       "teamId": 2,
       "name": "Pickle Runners",
       "owner": "Patience U.",
-      "projTotal": 107.45,
+      "projTotal": 107.22,
       "actualTotal": 13.58,
       "isAustin": false
     },
@@ -102,7 +102,7 @@
       "teamId": 4,
       "name": "Burrow it deeper",
       "owner": "Max F.",
-      "projTotal": 99.83,
+      "projTotal": 99.86,
       "actualTotal": 5.58,
       "isAustin": false
     },
@@ -110,7 +110,7 @@
       "teamId": 9,
       "name": "Gooners Guild of America",
       "owner": "Austin G.",
-      "projTotal": 92.36,
+      "projTotal": 92.35,
       "actualTotal": 0,
       "isAustin": true
     }
