@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T21:57:52.626Z",
+  "updatedAt": "2026-11-08T19:45:12.316Z",
   "week": 9,
   "teamId": 9,
   "teamName": "Gooners Guild of America",
@@ -11,7 +11,7 @@
       "pos": "QB",
       "team": "CLE",
       "projPts": 15.01,
-      "actualPts": null
+      "actualPts": 3.72
     },
     {
       "slot": "RB",
@@ -38,7 +38,7 @@
       "pos": "WR",
       "team": "CLE",
       "projPts": 11.15,
-      "actualPts": null
+      "actualPts": 3.4
     },
     {
       "slot": "WR",
@@ -46,8 +46,8 @@
       "name": "Ryan Flournoy",
       "pos": "WR",
       "team": "DAL",
-      "projPts": 9.26,
-      "actualPts": null
+      "projPts": 12.38,
+      "actualPts": 1.7
     },
     {
       "slot": "TE",
@@ -56,7 +56,7 @@
       "pos": "TE",
       "team": "NO",
       "projPts": 7.18,
-      "actualPts": null
+      "actualPts": 2.9
     },
     {
       "slot": "FLEX",
@@ -73,8 +73,8 @@
       "name": "Broncos D/ST",
       "pos": "D/ST",
       "team": "DEN",
-      "projPts": 6.61,
-      "actualPts": null
+      "projPts": 6.51,
+      "actualPts": 6
     },
     {
       "slot": "K",
@@ -86,6 +86,6 @@
       "actualPts": null
     }
   ],
-  "projTotal": 92.35,
-  "actualTotal": 0
+  "projTotal": 95.37,
+  "actualTotal": 17.72
 }
