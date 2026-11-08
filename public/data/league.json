@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-07T21:57:52.626Z",
+  "updatedAt": "2026-11-08T06:15:14.687Z",
   "week": 9,
   "teams": [
     {
       "teamId": 1,
       "name": "Skatt on My Dihggs",
       "owner": "Jared G.",
-      "projTotal": 142.84,
+      "projTotal": 142.83,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -22,7 +22,7 @@
       "teamId": 10,
       "name": "Doug's coin eaters",
       "owner": "Gavin D.",
-      "projTotal": 123.98,
+      "projTotal": 124,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -30,7 +30,7 @@
       "teamId": 3,
       "name": "JehOda's Witness",
       "owner": "Dylan E.",
-      "projTotal": 121.3,
+      "projTotal": 121.29,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -75,14 +75,6 @@
       "isAustin": false
     },
     {
-      "teamId": 2,
-      "name": "Pickle Runners",
-      "owner": "Patience U.",
-      "projTotal": 107.22,
-      "actualTotal": 13.58,
-      "isAustin": false
-    },
-    {
       "teamId": 15,
       "name": "The Juice",
       "owner": "Sam C.",
@@ -104,6 +96,14 @@
       "owner": "Max F.",
       "projTotal": 99.86,
       "actualTotal": 5.58,
+      "isAustin": false
+    },
+    {
+      "teamId": 2,
+      "name": "Pickle Runners",
+      "owner": "Patience U.",
+      "projTotal": 98.59,
+      "actualTotal": 13.58,
       "isAustin": false
     },
     {
