@@ -1,5 +1,5 @@
 {
-  "snapshotAt": "2026-11-09T02:55:18.250Z",
+  "snapshotAt": "2026-11-09T23:19:17.182Z",
   "rosters": {
     "1": [
       {
@@ -7,7 +7,7 @@
         "name": "Puka Nacua",
         "pos": "WR",
         "nfl": "LAR",
-        "status": "QUESTIONABLE",
+        "status": "DOUBTFUL",
         "owned": 100,
         "seasonPts": 173.6,
         "starter": true
@@ -211,7 +211,7 @@
         "nfl": "CHI",
         "status": "ACTIVE",
         "owned": 96,
-        "seasonPts": 76.9,
+        "seasonPts": 83.3,
         "starter": true
       },
       {
@@ -220,7 +220,7 @@
         "pos": "TE",
         "nfl": "IND",
         "status": "ACTIVE",
-        "owned": 97,
+        "owned": 96,
         "seasonPts": 84.1,
         "starter": true
       },
@@ -501,7 +501,7 @@
         "name": "J.J. McCarthy",
         "pos": "QB",
         "nfl": "NYG",
-        "status": "ACTIVE",
+        "status": "QUESTIONABLE",
         "owned": 34,
         "seasonPts": 34,
         "starter": true
@@ -535,7 +535,7 @@
         "nfl": "TB",
         "status": "ACTIVE",
         "owned": 98,
-        "seasonPts": 137.1,
+        "seasonPts": 159.1,
         "starter": true
       },
       {
@@ -665,7 +665,7 @@
         "nfl": "CHI",
         "status": null,
         "owned": 65,
-        "seasonPts": 65,
+        "seasonPts": 69,
         "starter": true
       },
       {
@@ -745,7 +745,7 @@
         "name": "Michael Wilson",
         "pos": "WR",
         "nfl": "ARI",
-        "status": "ACTIVE",
+        "status": "OUT",
         "owned": 90,
         "seasonPts": 120.7,
         "starter": false
@@ -827,7 +827,7 @@
         "nfl": "TB",
         "status": null,
         "owned": 32,
-        "seasonPts": 91,
+        "seasonPts": 93,
         "starter": false
       },
       {
@@ -869,7 +869,7 @@
         "nfl": "TB",
         "status": "ACTIVE",
         "owned": 94,
-        "seasonPts": 77.9,
+        "seasonPts": 78,
         "starter": false
       },
       {
@@ -889,7 +889,7 @@
         "nfl": "CHI",
         "status": "ACTIVE",
         "owned": 98,
-        "seasonPts": 153.1,
+        "seasonPts": 153.8,
         "starter": true
       },
       {
@@ -948,7 +948,7 @@
         "pos": "RB",
         "nfl": "NYJ",
         "status": "ACTIVE",
-        "owned": 83,
+        "owned": 82,
         "seasonPts": 105,
         "starter": true
       },
@@ -968,7 +968,7 @@
         "pos": "WR",
         "nfl": "PIT",
         "status": "ACTIVE",
-        "owned": 63,
+        "owned": 62,
         "seasonPts": 66.8,
         "starter": false
       },
@@ -1080,7 +1080,7 @@
         "pos": "RB",
         "nfl": "ATL",
         "status": "INJURY_RESERVE",
-        "owned": 25,
+        "owned": 24,
         "seasonPts": 53.1,
         "starter": false
       },
@@ -1161,7 +1161,7 @@
         "nfl": "TB",
         "status": "ACTIVE",
         "owned": 52,
-        "seasonPts": 59,
+        "seasonPts": 63.6,
         "starter": true
       },
       {
@@ -1251,9 +1251,9 @@
         "name": "Luther Burden III",
         "pos": "WR",
         "nfl": "CHI",
-        "status": "ACTIVE",
+        "status": "QUESTIONABLE",
         "owned": 93,
-        "seasonPts": 132.7,
+        "seasonPts": 136.3,
         "starter": true
       },
       {
@@ -1375,7 +1375,7 @@
         "nfl": "CHI",
         "status": "ACTIVE",
         "owned": 91,
-        "seasonPts": 108.4,
+        "seasonPts": 110.3,
         "starter": true
       },
       {
@@ -1483,7 +1483,7 @@
         "name": "Chig Okonkwo",
         "pos": "TE",
         "nfl": "WSH",
-        "status": "ACTIVE",
+        "status": "QUESTIONABLE",
         "owned": 14,
         "seasonPts": 44.9,
         "starter": true
@@ -1657,7 +1657,7 @@
         "nfl": "CHI",
         "status": "ACTIVE",
         "owned": 39,
-        "seasonPts": 75,
+        "seasonPts": 79,
         "starter": true
       },
       {
@@ -1697,7 +1697,7 @@
         "name": "Josh Jacobs",
         "pos": "RB",
         "nfl": "GB",
-        "status": "QUESTIONABLE",
+        "status": "OUT",
         "owned": 95,
         "seasonPts": 43.8,
         "starter": true
@@ -1991,7 +1991,7 @@
         "nfl": "TB",
         "status": "ACTIVE",
         "owned": 46,
-        "seasonPts": 92,
+        "seasonPts": 99,
         "starter": true
       },
       {
@@ -2113,7 +2113,7 @@
         "nfl": "TB",
         "status": "ACTIVE",
         "owned": 49,
-        "seasonPts": 56.2,
+        "seasonPts": 57.9,
         "starter": false
       },
       {
@@ -2161,7 +2161,7 @@
         "name": "Malik Willis",
         "pos": "QB",
         "nfl": "MIA",
-        "status": "ACTIVE",
+        "status": "QUESTIONABLE",
         "owned": 24,
         "seasonPts": 105,
         "starter": false
@@ -2393,7 +2393,10 @@
     "injury:4241478:OUT:9",
     "injury:4696981:DOUBTFUL:9",
     "injury:4426354:OUT:9",
-    "injury:4608686:OUT:9"
+    "injury:4608686:OUT:9",
+    "injury:4426515:DOUBTFUL:9",
+    "injury:4360761:OUT:9",
+    "injury:4047365:OUT:9"
   ],
   "pending": []
 }
