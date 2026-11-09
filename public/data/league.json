@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T00:58:52.860Z",
+  "updatedAt": "2026-11-09T11:46:46.532Z",
   "week": 9,
   "teams": [
     {
@@ -31,7 +31,7 @@
       "name": "Doug's coin eaters",
       "owner": "Gavin D.",
       "projTotal": 120.2,
-      "actualTotal": 103.3,
+      "actualTotal": 116.06,
       "isAustin": false
     },
     {
@@ -47,7 +47,7 @@
       "name": "North Atlantic 1912 Swim Team",
       "owner": "Cole K.",
       "projTotal": 117.72,
-      "actualTotal": 97.2,
+      "actualTotal": 100.3,
       "isAustin": false
     },
     {
@@ -55,7 +55,7 @@
       "name": "Professional Cowgirls",
       "owner": "Jaycey M.",
       "projTotal": 116.14,
-      "actualTotal": 119.08,
+      "actualTotal": 144.08,
       "isAustin": false
     },
     {
@@ -63,7 +63,7 @@
       "name": "No Diddy Giddy",
       "owner": "Jaiden A.",
       "projTotal": 111.38,
-      "actualTotal": 81.46,
+      "actualTotal": 91.46,
       "isAustin": false
     },
     {
@@ -79,7 +79,7 @@
       "name": "Burrow it deeper",
       "owner": "Max F.",
       "projTotal": 110.48,
-      "actualTotal": 56.92,
+      "actualTotal": 98.42,
       "isAustin": false
     },
     {
@@ -95,7 +95,7 @@
       "name": "Any Given Sunday",
       "owner": "Clayton T.",
       "projTotal": 105.55,
-      "actualTotal": 97.6,
+      "actualTotal": 108.2,
       "isAustin": false
     },
     {
@@ -103,7 +103,7 @@
       "name": "Pickle Runners",
       "owner": "Patience U.",
       "projTotal": 98.28,
-      "actualTotal": 76.18,
+      "actualTotal": 85.58,
       "isAustin": false
     },
     {
@@ -111,7 +111,7 @@
       "name": "Gooners Guild of America",
       "owner": "Austin G.",
       "projTotal": 95.32,
-      "actualTotal": 75.78,
+      "actualTotal": 96.48,
       "isAustin": true
     }
   ]
