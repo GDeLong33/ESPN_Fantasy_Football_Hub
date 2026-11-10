@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-11-10T07:27:49.560Z",
-  "week": 9,
+  "updatedAt": "2026-11-10T17:07:36.321Z",
+  "week": 10,
   "teamId": 9,
   "teamName": "Gooners Guild of America",
   "lineup": [
     {
       "slot": "QB",
-      "playerId": 4432762,
-      "name": "Shedeur Sanders",
+      "playerId": 3912547,
+      "name": "Sam Darnold",
       "pos": "QB",
-      "team": "CLE",
-      "projPts": 15.01,
-      "actualPts": 22.68
+      "team": "SEA",
+      "projPts": 0,
+      "actualPts": null
     },
     {
       "slot": "RB",
@@ -19,8 +19,8 @@
       "name": "James Cook III",
       "pos": "RB",
       "team": "BUF",
-      "projPts": 18.49,
-      "actualPts": 16.7
+      "projPts": 20.54,
+      "actualPts": null
     },
     {
       "slot": "RB",
@@ -28,8 +28,8 @@
       "name": "Zach Charbonnet",
       "pos": "RB",
       "team": "SEA",
-      "projPts": 10.76,
-      "actualPts": 9.6
+      "projPts": 14.43,
+      "actualPts": null
     },
     {
       "slot": "WR",
@@ -37,17 +37,17 @@
       "name": "KC Concepcion",
       "pos": "WR",
       "team": "CLE",
-      "projPts": 11.15,
-      "actualPts": 18.8
+      "projPts": 10.61,
+      "actualPts": null
     },
     {
       "slot": "WR",
-      "playerId": 5083754,
-      "name": "Ryan Flournoy",
+      "playerId": 4688813,
+      "name": "Josh Downs",
       "pos": "WR",
-      "team": "DAL",
-      "projPts": 12.39,
-      "actualPts": 7.3
+      "team": "IND",
+      "projPts": 8.66,
+      "actualPts": null
     },
     {
       "slot": "TE",
@@ -55,17 +55,17 @@
       "name": "Juwan Johnson",
       "pos": "TE",
       "team": "NO",
-      "projPts": 7.18,
-      "actualPts": 11.4
+      "projPts": 7.3,
+      "actualPts": null
     },
     {
       "slot": "FLEX",
-      "playerId": 4685278,
-      "name": "Luther Burden III",
+      "playerId": 5083754,
+      "name": "Ryan Flournoy",
       "pos": "WR",
-      "team": "CHI",
-      "projPts": 13.89,
-      "actualPts": 20.7
+      "team": "DAL",
+      "projPts": 8.39,
+      "actualPts": null
     },
     {
       "slot": "D/ST",
@@ -73,8 +73,8 @@
       "name": "Broncos D/ST",
       "pos": "D/ST",
       "team": "DEN",
-      "projPts": 6.45,
-      "actualPts": 6
+      "projPts": 0,
+      "actualPts": null
     },
     {
       "slot": "K",
@@ -82,10 +82,10 @@
       "name": "Chris Boswell",
       "pos": "K",
       "team": "PIT",
-      "projPts": 0,
+      "projPts": 10.5,
       "actualPts": null
     }
   ],
-  "projTotal": 95.32,
-  "actualTotal": 113.18
+  "projTotal": 80.43,
+  "actualTotal": 0
 }
