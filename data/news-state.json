@@ -1,5 +1,5 @@
 {
-  "snapshotAt": "2026-11-09T23:19:17.182Z",
+  "snapshotAt": "2026-11-10T04:43:45.255Z",
   "rosters": {
     "1": [
       {
@@ -403,7 +403,7 @@
         "nfl": "MIN",
         "status": null,
         "owned": 84,
-        "seasonPts": 79,
+        "seasonPts": 85,
         "starter": false
       },
       {
@@ -565,7 +565,7 @@
         "nfl": "MIN",
         "status": "ACTIVE",
         "owned": 81,
-        "seasonPts": 78.5,
+        "seasonPts": 85.8,
         "starter": true
       },
       {
@@ -605,7 +605,7 @@
         "nfl": "BUF",
         "status": "ACTIVE",
         "owned": 21,
-        "seasonPts": 66.7,
+        "seasonPts": 71.4,
         "starter": false
       },
       {
@@ -655,7 +655,7 @@
         "nfl": "BUF",
         "status": "ACTIVE",
         "owned": 77,
-        "seasonPts": 78,
+        "seasonPts": 91,
         "starter": true
       },
       {
@@ -687,7 +687,7 @@
         "nfl": "MIN",
         "status": "ACTIVE",
         "owned": 100,
-        "seasonPts": 86.4,
+        "seasonPts": 95.2,
         "starter": true
       },
       {
@@ -988,8 +988,8 @@
         "pos": "D/ST",
         "nfl": "BUF",
         "status": null,
-        "owned": 33,
-        "seasonPts": 26,
+        "owned": 34,
+        "seasonPts": 41,
         "starter": true
       },
       {
@@ -1293,7 +1293,7 @@
         "nfl": "BUF",
         "status": "ACTIVE",
         "owned": 100,
-        "seasonPts": 131.7,
+        "seasonPts": 148.4,
         "starter": true
       },
       {
@@ -1557,7 +1557,7 @@
         "nfl": "BUF",
         "status": "ACTIVE",
         "owned": 92,
-        "seasonPts": 52.9,
+        "seasonPts": 59.5,
         "starter": false
       },
       {
@@ -1607,7 +1607,7 @@
         "nfl": "BUF",
         "status": "ACTIVE",
         "owned": 60,
-        "seasonPts": 66.4,
+        "seasonPts": 76.2,
         "starter": true
       },
       {
@@ -1759,7 +1759,7 @@
         "nfl": "MIN",
         "status": "ACTIVE",
         "owned": 58,
-        "seasonPts": 20.7,
+        "seasonPts": 26.9,
         "starter": false
       },
       {
@@ -2093,7 +2093,7 @@
         "nfl": "MIN",
         "status": "ACTIVE",
         "owned": 73,
-        "seasonPts": 49.1,
+        "seasonPts": 53.9,
         "starter": false
       },
       {
@@ -2103,7 +2103,7 @@
         "nfl": "MIN",
         "status": "ACTIVE",
         "owned": 86,
-        "seasonPts": 79.8,
+        "seasonPts": 82.9,
         "starter": true
       },
       {
@@ -2153,7 +2153,7 @@
         "nfl": "MIN",
         "status": "ACTIVE",
         "owned": 92,
-        "seasonPts": 80,
+        "seasonPts": 89,
         "starter": true
       },
       {
@@ -2215,7 +2215,7 @@
         "nfl": "BUF",
         "status": "ACTIVE",
         "owned": 100,
-        "seasonPts": 187.8,
+        "seasonPts": 200.7,
         "starter": true
       },
       {
@@ -2255,7 +2255,7 @@
         "nfl": "BUF",
         "status": "ACTIVE",
         "owned": 77,
-        "seasonPts": 79.1,
+        "seasonPts": 84.9,
         "starter": true
       },
       {
