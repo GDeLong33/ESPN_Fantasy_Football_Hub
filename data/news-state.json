@@ -1,5 +1,5 @@
 {
-  "snapshotAt": "2026-11-10T20:48:02.990Z",
+  "snapshotAt": "2026-11-11T02:59:26.673Z",
   "rosters": {
     "1": [
       {
@@ -48,7 +48,7 @@
         "pos": "RB",
         "nfl": "DEN",
         "status": "INJURY_RESERVE",
-        "owned": 59,
+        "owned": 58,
         "seasonPts": 67.4,
         "starter": false
       },
@@ -716,7 +716,7 @@
         "pos": "TE",
         "nfl": "ATL",
         "status": "ACTIVE",
-        "owned": 85,
+        "owned": 84,
         "seasonPts": 71,
         "starter": false
       },
@@ -725,8 +725,8 @@
         "name": "Michael Wilson",
         "pos": "WR",
         "nfl": "ARI",
-        "status": "OUT",
-        "owned": 82,
+        "status": "INJURY_RESERVE",
+        "owned": 79,
         "seasonPts": 120.7,
         "starter": false
       },
@@ -766,7 +766,7 @@
         "pos": "K",
         "nfl": "DET",
         "status": "ACTIVE",
-        "owned": 53,
+        "owned": 52,
         "seasonPts": 79,
         "starter": true
       },
@@ -776,7 +776,7 @@
         "pos": "D/ST",
         "nfl": "JAX",
         "status": null,
-        "owned": 89,
+        "owned": 88,
         "seasonPts": 67,
         "starter": true
       },
@@ -988,7 +988,7 @@
         "pos": "TE",
         "nfl": "MIA",
         "status": "ACTIVE",
-        "owned": 6,
+        "owned": 5,
         "seasonPts": 53,
         "starter": true
       }
@@ -1132,7 +1132,7 @@
         "status": "ACTIVE",
         "owned": 69,
         "seasonPts": 75.6,
-        "starter": false
+        "starter": true
       },
       {
         "id": 4371733,
@@ -1142,7 +1142,7 @@
         "status": "ACTIVE",
         "owned": 52,
         "seasonPts": 63.6,
-        "starter": true
+        "starter": false
       },
       {
         "id": -16028,
@@ -1222,7 +1222,7 @@
         "pos": "QB",
         "nfl": "SEA",
         "status": "OUT",
-        "owned": 27,
+        "owned": 26,
         "seasonPts": 92.3,
         "starter": true
       },
@@ -1250,7 +1250,7 @@
         "id": 4688813,
         "name": "Josh Downs",
         "pos": "WR",
-        "nfl": "IND",
+        "nfl": "KC",
         "status": "ACTIVE",
         "owned": 61,
         "seasonPts": 75.1,
@@ -1354,7 +1354,7 @@
         "pos": "RB",
         "nfl": "CAR",
         "status": "INJURY_RESERVE",
-        "owned": 34,
+        "owned": 33,
         "seasonPts": 9.3,
         "starter": false
       },
@@ -1453,7 +1453,7 @@
         "name": "Chig Okonkwo",
         "pos": "TE",
         "nfl": "WSH",
-        "status": "QUESTIONABLE",
+        "status": "ACTIVE",
         "owned": 14,
         "seasonPts": 44.9,
         "starter": true
@@ -1474,7 +1474,7 @@
         "pos": "D/ST",
         "nfl": "LAR",
         "status": null,
-        "owned": 80,
+        "owned": 81,
         "seasonPts": 48,
         "starter": true
       },
@@ -1566,7 +1566,7 @@
         "pos": "RB",
         "nfl": "NE",
         "status": "DOUBTFUL",
-        "owned": 93,
+        "owned": 92,
         "seasonPts": 113.7,
         "starter": true
       },
@@ -1626,7 +1626,7 @@
         "pos": "K",
         "nfl": "CHI",
         "status": "ACTIVE",
-        "owned": 39,
+        "owned": 38,
         "seasonPts": 79,
         "starter": true
       },
@@ -1687,7 +1687,7 @@
         "name": "Cam Skattebo",
         "pos": "RB",
         "nfl": "NYG",
-        "status": "QUESTIONABLE",
+        "status": "OUT",
         "owned": 92,
         "seasonPts": 70.4,
         "starter": false
@@ -1737,7 +1737,7 @@
         "name": "Kyler Murray",
         "pos": "QB",
         "nfl": "MIN",
-        "status": "OUT",
+        "status": "DOUBTFUL",
         "owned": 49,
         "seasonPts": 73.6,
         "starter": false
@@ -1758,7 +1758,7 @@
         "pos": "D/ST",
         "nfl": "NE",
         "status": null,
-        "owned": 59,
+        "owned": 58,
         "seasonPts": 46,
         "starter": true
       },
@@ -1840,7 +1840,7 @@
         "pos": "WR",
         "nfl": "ATL",
         "status": "ACTIVE",
-        "owned": 100,
+        "owned": 99,
         "seasonPts": 121.6,
         "starter": true
       },
@@ -2092,7 +2092,7 @@
         "pos": "RB",
         "nfl": "NO",
         "status": "ACTIVE",
-        "owned": 64,
+        "owned": 63,
         "seasonPts": 73.7,
         "starter": false
       },
@@ -2131,8 +2131,8 @@
         "name": "Malik Willis",
         "pos": "QB",
         "nfl": "MIA",
-        "status": "QUESTIONABLE",
-        "owned": 23,
+        "status": "INJURY_RESERVE",
+        "owned": 21,
         "seasonPts": 105,
         "starter": false
       },
@@ -2324,7 +2324,7 @@
         "pos": "RB",
         "nfl": "NYG",
         "status": "ACTIVE",
-        "owned": 44,
+        "owned": 43,
         "seasonPts": 39.4,
         "starter": true
       }
@@ -2369,7 +2369,8 @@
     "injury:4360761:OUT:9",
     "injury:4047365:OUT:9",
     "injury:4569173:DOUBTFUL:10",
-    "recap:2026:9"
+    "recap:2026:9",
+    "injury:4696981:OUT:10"
   ],
   "pending": []
 }
