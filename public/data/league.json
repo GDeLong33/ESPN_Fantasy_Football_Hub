@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T06:40:53.999Z",
+  "updatedAt": "2026-11-11T17:15:13.769Z",
   "week": 10,
   "teams": [
     {
@@ -22,7 +22,7 @@
       "teamId": 3,
       "name": "JehOda's Witness",
       "owner": "Dylan E.",
-      "projTotal": 118,
+      "projTotal": 115.9,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -30,7 +30,23 @@
       "teamId": 1,
       "name": "Skatt on My Dihggs",
       "owner": "Jared G.",
-      "projTotal": 111.32,
+      "projTotal": 114.33,
+      "actualTotal": 0,
+      "isAustin": false
+    },
+    {
+      "teamId": 15,
+      "name": "The Juice",
+      "owner": "Sam C.",
+      "projTotal": 108.01,
+      "actualTotal": 0,
+      "isAustin": false
+    },
+    {
+      "teamId": 6,
+      "name": "North Atlantic 1912 Swim Team",
+      "owner": "Cole K.",
+      "projTotal": 106.91,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -43,10 +59,10 @@
       "isAustin": false
     },
     {
-      "teamId": 15,
-      "name": "The Juice",
-      "owner": "Sam C.",
-      "projTotal": 105.15,
+      "teamId": 4,
+      "name": "Burrow it deeper",
+      "owner": "Max F.",
+      "projTotal": 103.98,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -71,22 +87,6 @@
       "name": "Pickle Runners",
       "owner": "Patience U.",
       "projTotal": 97.11,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
-      "teamId": 6,
-      "name": "North Atlantic 1912 Swim Team",
-      "owner": "Cole K.",
-      "projTotal": 95.98,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
-      "teamId": 4,
-      "name": "Burrow it deeper",
-      "owner": "Max F.",
-      "projTotal": 93.65,
       "actualTotal": 0,
       "isAustin": false
     },
