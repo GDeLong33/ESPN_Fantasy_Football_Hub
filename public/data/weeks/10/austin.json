@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-11-10T23:29:10.603Z",
+  "updatedAt": "2026-11-12T00:49:33.696Z",
   "week": 10,
   "teamId": 9,
   "teamName": "Gooners Guild of America",
   "lineup": [
     {
       "slot": "QB",
-      "playerId": 3912547,
-      "name": "Sam Darnold",
+      "playerId": 3122840,
+      "name": "Deshaun Watson",
       "pos": "QB",
-      "team": "SEA",
-      "projPts": 0,
+      "team": "CLE",
+      "projPts": 15.15,
       "actualPts": null
     },
     {
@@ -69,11 +69,11 @@
     },
     {
       "slot": "D/ST",
-      "playerId": -16007,
-      "name": "Broncos D/ST",
+      "playerId": -16029,
+      "name": "Panthers D/ST",
       "pos": "D/ST",
-      "team": "DEN",
-      "projPts": 0,
+      "team": "CAR",
+      "projPts": 4.67,
       "actualPts": null
     },
     {
@@ -86,6 +86,6 @@
       "actualPts": null
     }
   ],
-  "projTotal": 81.01,
+  "projTotal": 100.83,
   "actualTotal": 0
 }
