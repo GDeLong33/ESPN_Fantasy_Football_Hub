@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T00:49:33.696Z",
+  "updatedAt": "2026-11-12T11:28:16.545Z",
   "week": 10,
   "teams": [
     {
@@ -31,6 +31,14 @@
       "name": "Skatt on My Dihggs",
       "owner": "Jared G.",
       "projTotal": 116.91,
+      "actualTotal": 0,
+      "isAustin": false
+    },
+    {
+      "teamId": 13,
+      "name": "No Diddy Giddy",
+      "owner": "Jaiden A.",
+      "projTotal": 111.06,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -71,14 +79,6 @@
       "name": "Burrow it deeper",
       "owner": "Max F.",
       "projTotal": 103.99,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
-      "teamId": 13,
-      "name": "No Diddy Giddy",
-      "owner": "Jaiden A.",
-      "projTotal": 103.26,
       "actualTotal": 0,
       "isAustin": false
     },
