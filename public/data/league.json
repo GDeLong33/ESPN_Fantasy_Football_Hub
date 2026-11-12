@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T11:28:16.545Z",
+  "updatedAt": "2026-11-12T20:04:03.009Z",
   "week": 10,
   "teams": [
     {
@@ -31,6 +31,14 @@
       "name": "Skatt on My Dihggs",
       "owner": "Jared G.",
       "projTotal": 116.91,
+      "actualTotal": 0,
+      "isAustin": false
+    },
+    {
+      "teamId": 12,
+      "name": "Zoey's Grand Canyon Hikers",
+      "owner": "Jaylin M.",
+      "projTotal": 113.57,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -95,14 +103,6 @@
       "name": "Pickle Runners",
       "owner": "Patience U.",
       "projTotal": 100.74,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
-      "teamId": 12,
-      "name": "Zoey's Grand Canyon Hikers",
-      "owner": "Jaylin M.",
-      "projTotal": 92.09,
       "actualTotal": 0,
       "isAustin": false
     },
