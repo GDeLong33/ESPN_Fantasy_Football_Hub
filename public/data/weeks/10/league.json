@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T01:54:58.113Z",
+  "updatedAt": "2026-11-13T11:11:38.543Z",
   "week": 10,
   "teams": [
     {
@@ -7,7 +7,7 @@
       "name": "Its gonna be Maye",
       "owner": "Jaxson C.",
       "projTotal": 133.01,
-      "actualTotal": -1,
+      "actualTotal": 2,
       "isAustin": false
     },
     {
@@ -15,7 +15,7 @@
       "name": "Doug's coin eaters",
       "owner": "Gavin D.",
       "projTotal": 121.94,
-      "actualTotal": 3.7,
+      "actualTotal": 6.4,
       "isAustin": false
     },
     {
@@ -31,7 +31,7 @@
       "name": "Skatt on My Dihggs",
       "owner": "Jared G.",
       "projTotal": 115.19,
-      "actualTotal": 2.3,
+      "actualTotal": 7.4,
       "isAustin": false
     },
     {
@@ -39,7 +39,7 @@
       "name": "Zoey's Grand Canyon Hikers",
       "owner": "Jaylin M.",
       "projTotal": 113.3,
-      "actualTotal": 11.5,
+      "actualTotal": 54.9,
       "isAustin": false
     },
     {
@@ -47,7 +47,7 @@
       "name": "No Diddy Giddy",
       "owner": "Jaiden A.",
       "projTotal": 110.67,
-      "actualTotal": 0.6,
+      "actualTotal": 6.2,
       "isAustin": false
     },
     {
@@ -55,7 +55,7 @@
       "name": "Antonio's Team",
       "owner": "Antonio G.",
       "projTotal": 109.68,
-      "actualTotal": 1.4,
+      "actualTotal": 20.3,
       "isAustin": false
     },
     {
@@ -71,7 +71,7 @@
       "name": "Any Given Sunday",
       "owner": "Clayton T.",
       "projTotal": 106.63,
-      "actualTotal": 10,
+      "actualTotal": 4,
       "isAustin": false
     },
     {
