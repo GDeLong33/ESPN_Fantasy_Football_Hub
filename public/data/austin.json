@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T00:49:33.696Z",
+  "updatedAt": "2026-11-13T01:54:58.113Z",
   "week": 10,
   "teamId": 9,
   "teamName": "Gooners Guild of America",
@@ -46,7 +46,7 @@
       "name": "Josh Downs",
       "pos": "WR",
       "team": "KC",
-      "projPts": 9.14,
+      "projPts": 9.16,
       "actualPts": null
     },
     {
@@ -55,7 +55,7 @@
       "name": "Juwan Johnson",
       "pos": "TE",
       "team": "NO",
-      "projPts": 7.3,
+      "projPts": 7.31,
       "actualPts": null
     },
     {
@@ -64,7 +64,7 @@
       "name": "Ryan Flournoy",
       "pos": "WR",
       "team": "DAL",
-      "projPts": 8.39,
+      "projPts": 8.41,
       "actualPts": null
     },
     {
@@ -73,7 +73,7 @@
       "name": "Panthers D/ST",
       "pos": "D/ST",
       "team": "CAR",
-      "projPts": 4.67,
+      "projPts": 4.44,
       "actualPts": null
     },
     {
@@ -86,6 +86,6 @@
       "actualPts": null
     }
   ],
-  "projTotal": 100.83,
+  "projTotal": 100.65,
   "actualTotal": 0
 }
