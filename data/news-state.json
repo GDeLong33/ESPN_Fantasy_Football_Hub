@@ -1,5 +1,5 @@
 {
-  "snapshotAt": "2026-11-13T20:37:42.699Z",
+  "snapshotAt": "2026-11-14T03:37:11.576Z",
   "rosters": {
     "1": [
       {
@@ -147,7 +147,7 @@
         "name": "Chris Rodriguez Jr.",
         "pos": "RB",
         "nfl": "JAX",
-        "status": "QUESTIONABLE",
+        "status": "ACTIVE",
         "owned": 19,
         "seasonPts": 54.4,
         "starter": false
@@ -158,7 +158,7 @@
         "pos": "WR",
         "nfl": "NE",
         "status": "ACTIVE",
-        "owned": 25,
+        "owned": 26,
         "seasonPts": 48.5,
         "starter": true
       },
@@ -352,7 +352,7 @@
         "pos": "WR",
         "nfl": "DEN",
         "status": "QUESTIONABLE",
-        "owned": 84,
+        "owned": 83,
         "seasonPts": 82,
         "starter": false
       },
@@ -361,7 +361,7 @@
         "name": "Marvin Harrison Jr.",
         "pos": "WR",
         "nfl": "HOU",
-        "status": "QUESTIONABLE",
+        "status": "OUT",
         "owned": 57,
         "seasonPts": 37.5,
         "starter": false
@@ -441,7 +441,7 @@
         "name": "Omar Cooper Jr.",
         "pos": "WR",
         "nfl": "NYJ",
-        "status": "ACTIVE",
+        "status": "QUESTIONABLE",
         "owned": 57,
         "seasonPts": 62.6,
         "starter": true
@@ -452,7 +452,7 @@
         "pos": "RB",
         "nfl": "ARI",
         "status": "ACTIVE",
-        "owned": 67,
+        "owned": 66,
         "seasonPts": 90.7,
         "starter": false
       },
@@ -482,7 +482,7 @@
         "pos": "RB",
         "nfl": "SEA",
         "status": "ACTIVE",
-        "owned": 80,
+        "owned": 81,
         "seasonPts": 31.5,
         "starter": true
       },
@@ -543,20 +543,20 @@
         "name": "Deebo Samuel Sr.",
         "pos": "WR",
         "nfl": "SF",
-        "status": "QUESTIONABLE",
+        "status": "ACTIVE",
         "owned": 78,
         "seasonPts": 60.4,
-        "starter": false
+        "starter": true
       },
       {
         "id": 4036133,
         "name": "T.J. Hockenson",
         "pos": "TE",
         "nfl": "MIN",
-        "status": "QUESTIONABLE",
-        "owned": 82,
+        "status": "OUT",
+        "owned": 81,
         "seasonPts": 85.8,
-        "starter": true
+        "starter": false
       },
       {
         "id": -16025,
@@ -574,7 +574,7 @@
         "pos": "TE",
         "nfl": "CAR",
         "status": "ACTIVE",
-        "owned": 27,
+        "owned": 28,
         "seasonPts": 76.9,
         "starter": true
       },
@@ -639,22 +639,12 @@
         "starter": false
       },
       {
-        "id": 4360438,
-        "name": "Brandon Aiyuk",
-        "pos": "WR",
-        "nfl": "SF",
-        "status": "OUT",
-        "owned": 9,
-        "seasonPts": 0,
-        "starter": false
-      },
-      {
         "id": 4569682,
         "name": "Audric Estime",
         "pos": "RB",
         "nfl": "NO",
         "status": "ACTIVE",
-        "owned": 55,
+        "owned": 54,
         "seasonPts": 22.6,
         "starter": true
       },
@@ -888,7 +878,7 @@
         "pos": "TE",
         "nfl": "PHI",
         "status": "ACTIVE",
-        "owned": 76,
+        "owned": 75,
         "seasonPts": 74,
         "starter": false
       },
@@ -997,7 +987,7 @@
         "name": "Tyler Higbee",
         "pos": "TE",
         "nfl": "LAR",
-        "status": "QUESTIONABLE",
+        "status": "ACTIVE",
         "owned": 10,
         "seasonPts": 58.7,
         "starter": true
@@ -1029,7 +1019,7 @@
         "name": "Harold Fannin Jr.",
         "pos": "TE",
         "nfl": "CLE",
-        "status": "QUESTIONABLE",
+        "status": "ACTIVE",
         "owned": 90,
         "seasonPts": 102.3,
         "starter": true
@@ -1089,7 +1079,7 @@
         "name": "Mike Evans",
         "pos": "WR",
         "nfl": "SF",
-        "status": "QUESTIONABLE",
+        "status": "OUT",
         "owned": 92,
         "seasonPts": 89,
         "starter": false
@@ -1160,7 +1150,7 @@
         "pos": "RB",
         "nfl": "KC",
         "status": "ACTIVE",
-        "owned": 25,
+        "owned": 29,
         "seasonPts": 60.8,
         "starter": true
       },
@@ -1232,7 +1222,7 @@
         "pos": "QB",
         "nfl": "SEA",
         "status": "OUT",
-        "owned": 23,
+        "owned": 22,
         "seasonPts": 92.3,
         "starter": false
       },
@@ -1272,7 +1262,7 @@
         "pos": "TE",
         "nfl": "NO",
         "status": "ACTIVE",
-        "owned": 42,
+        "owned": 41,
         "seasonPts": 78.9,
         "starter": true
       },
@@ -1423,7 +1413,7 @@
         "name": "George Pickens",
         "pos": "WR",
         "nfl": "DAL",
-        "status": "QUESTIONABLE",
+        "status": "ACTIVE",
         "owned": 98,
         "seasonPts": 104.3,
         "starter": true
@@ -1646,7 +1636,7 @@
         "pos": "TE",
         "nfl": "SEA",
         "status": "ACTIVE",
-        "owned": 11,
+        "owned": 12,
         "seasonPts": 62.8,
         "starter": false
       },
@@ -1656,7 +1646,7 @@
         "pos": "K",
         "nfl": "CHI",
         "status": "ACTIVE",
-        "owned": 24,
+        "owned": 23,
         "seasonPts": 79,
         "starter": true
       },
@@ -1747,7 +1737,7 @@
         "name": "Woody Marks",
         "pos": "RB",
         "nfl": "HOU",
-        "status": "QUESTIONABLE",
+        "status": "ACTIVE",
         "owned": 81,
         "seasonPts": 70.9,
         "starter": true
@@ -1767,7 +1757,7 @@
         "name": "Kyler Murray",
         "pos": "QB",
         "nfl": "MIN",
-        "status": "DOUBTFUL",
+        "status": "OUT",
         "owned": 38,
         "seasonPts": 73.6,
         "starter": false
@@ -1778,7 +1768,7 @@
         "pos": "D/ST",
         "nfl": "NE",
         "status": null,
-        "owned": 47,
+        "owned": 46,
         "seasonPts": 46,
         "starter": true
       },
@@ -1788,7 +1778,7 @@
         "pos": "K",
         "nfl": "BAL",
         "status": "INJURY_RESERVE",
-        "owned": 23,
+        "owned": 22,
         "seasonPts": 66,
         "starter": false
       },
@@ -1848,7 +1838,7 @@
         "pos": "K",
         "nfl": "NYJ",
         "status": "ACTIVE",
-        "owned": 14,
+        "owned": 15,
         "seasonPts": 86,
         "starter": true
       }
@@ -1889,7 +1879,7 @@
         "name": "Tony Pollard",
         "pos": "RB",
         "nfl": "TEN",
-        "status": "QUESTIONABLE",
+        "status": "ACTIVE",
         "owned": 91,
         "seasonPts": 116.5,
         "starter": true
@@ -1989,7 +1979,7 @@
         "name": "Colby Parkinson",
         "pos": "TE",
         "nfl": "LAR",
-        "status": "QUESTIONABLE",
+        "status": "ACTIVE",
         "owned": 4,
         "seasonPts": 35.6,
         "starter": false
@@ -2091,7 +2081,7 @@
         "name": "Jordan Addison",
         "pos": "WR",
         "nfl": "MIN",
-        "status": "ACTIVE",
+        "status": "QUESTIONABLE",
         "owned": 76,
         "seasonPts": 53.9,
         "starter": false
@@ -2141,7 +2131,7 @@
         "name": "Adonai Mitchell",
         "pos": "WR",
         "nfl": "NYJ",
-        "status": "ACTIVE",
+        "status": "QUESTIONABLE",
         "owned": 40,
         "seasonPts": 48.5,
         "starter": false
@@ -2253,7 +2243,7 @@
         "name": "Dalton Kincaid",
         "pos": "TE",
         "nfl": "BUF",
-        "status": "QUESTIONABLE",
+        "status": "ACTIVE",
         "owned": 78,
         "seasonPts": 84.9,
         "starter": true
@@ -2402,7 +2392,9 @@
     "recap:2026:9",
     "injury:4696981:OUT:10",
     "rumor:10:14:4",
-    "injury:4871023:OUT:10"
+    "injury:4871023:OUT:10",
+    "injury:4036133:OUT:10",
+    "injury:16737:OUT:10"
   ],
   "pending": []
 }
