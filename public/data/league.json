@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-13T19:50:11.921Z",
+  "updatedAt": "2026-11-14T01:28:48.423Z",
   "week": 10,
   "teams": [
     {
       "teamId": 14,
       "name": "Its gonna be Maye",
       "owner": "Jaxson C.",
-      "projTotal": 133.05,
+      "projTotal": 133.62,
       "actualTotal": 2,
       "isAustin": false
     },
@@ -14,7 +14,7 @@
       "teamId": 10,
       "name": "Doug's coin eaters",
       "owner": "Gavin D.",
-      "projTotal": 121.88,
+      "projTotal": 123.6,
       "actualTotal": 6.4,
       "isAustin": false
     },
@@ -22,7 +22,7 @@
       "teamId": 3,
       "name": "JehOda's Witness",
       "owner": "Dylan E.",
-      "projTotal": 115.79,
+      "projTotal": 115.8,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -30,23 +30,15 @@
       "teamId": 1,
       "name": "Skatt on My Dihggs",
       "owner": "Jared G.",
-      "projTotal": 115.3,
+      "projTotal": 115.16,
       "actualTotal": 7.4,
-      "isAustin": false
-    },
-    {
-      "teamId": 12,
-      "name": "Zoey's Grand Canyon Hikers",
-      "owner": "Jaylin M.",
-      "projTotal": 113.32,
-      "actualTotal": 54.9,
       "isAustin": false
     },
     {
       "teamId": 13,
       "name": "No Diddy Giddy",
       "owner": "Jaiden A.",
-      "projTotal": 110.63,
+      "projTotal": 110.47,
       "actualTotal": 6.2,
       "isAustin": false
     },
@@ -54,47 +46,39 @@
       "teamId": 5,
       "name": "Antonio's Team",
       "owner": "Antonio G.",
-      "projTotal": 109.5,
+      "projTotal": 109.94,
       "actualTotal": 20.3,
       "isAustin": false
     },
     {
-      "teamId": 8,
-      "name": "Any Given Sunday",
-      "owner": "Clayton T.",
-      "projTotal": 106.64,
-      "actualTotal": 4,
+      "teamId": 12,
+      "name": "Zoey's Grand Canyon Hikers",
+      "owner": "Jaylin M.",
+      "projTotal": 108.37,
+      "actualTotal": 54.9,
       "isAustin": false
     },
     {
       "teamId": 6,
       "name": "North Atlantic 1912 Swim Team",
       "owner": "Cole K.",
-      "projTotal": 106.53,
+      "projTotal": 106.71,
       "actualTotal": 0,
+      "isAustin": false
+    },
+    {
+      "teamId": 8,
+      "name": "Any Given Sunday",
+      "owner": "Clayton T.",
+      "projTotal": 106.61,
+      "actualTotal": 4,
       "isAustin": false
     },
     {
       "teamId": 15,
       "name": "The Juice",
       "owner": "Sam C.",
-      "projTotal": 104.03,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
-      "teamId": 4,
-      "name": "Burrow it deeper",
-      "owner": "Max F.",
-      "projTotal": 102.04,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
-      "teamId": 2,
-      "name": "Pickle Runners",
-      "owner": "Patience U.",
-      "projTotal": 100.84,
+      "projTotal": 103.91,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -102,15 +86,31 @@
       "teamId": 9,
       "name": "Gooners Guild of America",
       "owner": "Austin G.",
-      "projTotal": 100.63,
+      "projTotal": 100.64,
       "actualTotal": 0,
       "isAustin": true
+    },
+    {
+      "teamId": 2,
+      "name": "Pickle Runners",
+      "owner": "Patience U.",
+      "projTotal": 97.1,
+      "actualTotal": 0,
+      "isAustin": false
     },
     {
       "teamId": 11,
       "name": "Professional Cowgirls",
       "owner": "Jaycey M.",
-      "projTotal": 96.6,
+      "projTotal": 96.43,
+      "actualTotal": 0,
+      "isAustin": false
+    },
+    {
+      "teamId": 4,
+      "name": "Burrow it deeper",
+      "owner": "Max F.",
+      "projTotal": 96.03,
       "actualTotal": 0,
       "isAustin": false
     }
