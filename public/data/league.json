@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-14T22:35:27.635Z",
+  "updatedAt": "2026-11-15T06:45:28.272Z",
   "week": 10,
   "teams": [
     {
       "teamId": 14,
       "name": "Its gonna be Maye",
       "owner": "Jaxson C.",
-      "projTotal": 133.63,
+      "projTotal": 133.64,
       "actualTotal": 2,
       "isAustin": false
     },
@@ -14,7 +14,7 @@
       "teamId": 10,
       "name": "Doug's coin eaters",
       "owner": "Gavin D.",
-      "projTotal": 123.65,
+      "projTotal": 123.66,
       "actualTotal": 6.4,
       "isAustin": false
     },
@@ -22,7 +22,7 @@
       "teamId": 8,
       "name": "Any Given Sunday",
       "owner": "Clayton T.",
-      "projTotal": 116.65,
+      "projTotal": 119.79,
       "actualTotal": 4,
       "isAustin": false
     },
@@ -30,7 +30,7 @@
       "teamId": 1,
       "name": "Skatt on My Dihggs",
       "owner": "Jared G.",
-      "projTotal": 115.17,
+      "projTotal": 115.18,
       "actualTotal": 7.4,
       "isAustin": false
     },
@@ -46,7 +46,7 @@
       "teamId": 13,
       "name": "No Diddy Giddy",
       "owner": "Jaiden A.",
-      "projTotal": 110.6,
+      "projTotal": 110.55,
       "actualTotal": 6.2,
       "isAustin": false
     },
@@ -62,7 +62,7 @@
       "teamId": 6,
       "name": "North Atlantic 1912 Swim Team",
       "owner": "Cole K.",
-      "projTotal": 106.7,
+      "projTotal": 106.69,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -83,10 +83,18 @@
       "isAustin": true
     },
     {
+      "teamId": 3,
+      "name": "JehOda's Witness",
+      "owner": "Dylan E.",
+      "projTotal": 98.17,
+      "actualTotal": 0,
+      "isAustin": false
+    },
+    {
       "teamId": 2,
       "name": "Pickle Runners",
       "owner": "Patience U.",
-      "projTotal": 97.1,
+      "projTotal": 97.11,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -94,7 +102,7 @@
       "teamId": 4,
       "name": "Burrow it deeper",
       "owner": "Max F.",
-      "projTotal": 96.82,
+      "projTotal": 96.81,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -102,15 +110,7 @@
       "teamId": 11,
       "name": "Professional Cowgirls",
       "owner": "Jaycey M.",
-      "projTotal": 96.51,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
-      "teamId": 3,
-      "name": "JehOda's Witness",
-      "owner": "Dylan E.",
-      "projTotal": 89.67,
+      "projTotal": 96.47,
       "actualTotal": 0,
       "isAustin": false
     }
