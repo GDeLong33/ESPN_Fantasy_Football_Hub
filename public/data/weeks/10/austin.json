@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T22:35:27.635Z",
+  "updatedAt": "2026-11-15T22:56:21.590Z",
   "week": 10,
   "teamId": 9,
   "teamName": "Gooners Guild of America",
@@ -11,7 +11,7 @@
       "pos": "QB",
       "team": "CLE",
       "projPts": 15.17,
-      "actualPts": null
+      "actualPts": 21.38
     },
     {
       "slot": "RB",
@@ -20,7 +20,7 @@
       "pos": "RB",
       "team": "BUF",
       "projPts": 20.54,
-      "actualPts": null
+      "actualPts": 21.7
     },
     {
       "slot": "RB",
@@ -28,8 +28,8 @@
       "name": "Zach Charbonnet",
       "pos": "RB",
       "team": "SEA",
-      "projPts": 14.53,
-      "actualPts": null
+      "projPts": 14.52,
+      "actualPts": 5.3
     },
     {
       "slot": "WR",
@@ -38,7 +38,7 @@
       "pos": "WR",
       "team": "CLE",
       "projPts": 10.62,
-      "actualPts": null
+      "actualPts": 11.7
     },
     {
       "slot": "WR",
@@ -46,8 +46,8 @@
       "name": "Josh Downs",
       "pos": "WR",
       "team": "KC",
-      "projPts": 10.22,
-      "actualPts": null
+      "projPts": 10.42,
+      "actualPts": 15.3
     },
     {
       "slot": "TE",
@@ -56,7 +56,7 @@
       "pos": "TE",
       "team": "NO",
       "projPts": 7.28,
-      "actualPts": null
+      "actualPts": 4.8
     },
     {
       "slot": "FLEX",
@@ -65,7 +65,7 @@
       "pos": "WR",
       "team": "DAL",
       "projPts": 8.37,
-      "actualPts": null
+      "actualPts": 1.7
     },
     {
       "slot": "D/ST",
@@ -73,8 +73,8 @@
       "name": "Panthers D/ST",
       "pos": "D/ST",
       "team": "CAR",
-      "projPts": 4.45,
-      "actualPts": null
+      "projPts": 4.48,
+      "actualPts": 10
     },
     {
       "slot": "K",
@@ -86,6 +86,6 @@
       "actualPts": null
     }
   ],
-  "projTotal": 101.68,
-  "actualTotal": 0
+  "projTotal": 101.9,
+  "actualTotal": 91.88
 }
