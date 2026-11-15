@@ -1,5 +1,5 @@
 {
-  "snapshotAt": "2026-11-14T18:57:22.702Z",
+  "snapshotAt": "2026-11-15T02:56:36.211Z",
   "rosters": {
     "1": [
       {
@@ -290,7 +290,7 @@
         "pos": "D/ST",
         "nfl": "CLE",
         "status": null,
-        "owned": 44,
+        "owned": 43,
         "seasonPts": 52,
         "starter": true
       },
@@ -344,7 +344,7 @@
         "status": "OUT",
         "owned": 100,
         "seasonPts": 196.4,
-        "starter": true
+        "starter": false
       },
       {
         "id": 4372016,
@@ -372,7 +372,7 @@
         "pos": "TE",
         "nfl": "DET",
         "status": "ACTIVE",
-        "owned": 97,
+        "owned": 96,
         "seasonPts": 93.1,
         "starter": true
       },
@@ -434,7 +434,7 @@
         "status": "ACTIVE",
         "owned": 42,
         "seasonPts": 5,
-        "starter": false
+        "starter": true
       },
       {
         "id": 4723820,
@@ -442,7 +442,7 @@
         "pos": "WR",
         "nfl": "NYJ",
         "status": "QUESTIONABLE",
-        "owned": 57,
+        "owned": 56,
         "seasonPts": 62.6,
         "starter": true
       },
@@ -452,7 +452,7 @@
         "pos": "RB",
         "nfl": "ARI",
         "status": "ACTIVE",
-        "owned": 66,
+        "owned": 65,
         "seasonPts": 90.7,
         "starter": false
       },
@@ -554,7 +554,7 @@
         "pos": "TE",
         "nfl": "MIN",
         "status": "OUT",
-        "owned": 80,
+        "owned": 79,
         "seasonPts": 85.8,
         "starter": false
       },
@@ -614,7 +614,7 @@
         "pos": "WR",
         "nfl": "NE",
         "status": "ACTIVE",
-        "owned": 72,
+        "owned": 71,
         "seasonPts": 96.4,
         "starter": true
       },
@@ -644,7 +644,7 @@
         "pos": "RB",
         "nfl": "NO",
         "status": "ACTIVE",
-        "owned": 51,
+        "owned": 48,
         "seasonPts": 22.6,
         "starter": true
       },
@@ -726,7 +726,7 @@
         "pos": "WR",
         "nfl": "ARI",
         "status": "INJURY_RESERVE",
-        "owned": 50,
+        "owned": 49,
         "seasonPts": 120.7,
         "starter": false
       },
@@ -848,7 +848,7 @@
         "pos": "WR",
         "nfl": "TB",
         "status": "ACTIVE",
-        "owned": 93,
+        "owned": 92,
         "seasonPts": 78,
         "starter": false
       },
@@ -928,7 +928,7 @@
         "pos": "RB",
         "nfl": "NYJ",
         "status": "ACTIVE",
-        "owned": 76,
+        "owned": 75,
         "seasonPts": 105,
         "starter": true
       },
@@ -978,7 +978,7 @@
         "pos": "QB",
         "nfl": "BAL",
         "status": "INJURY_RESERVE",
-        "owned": 82,
+        "owned": 81,
         "seasonPts": 79.1,
         "starter": false
       },
@@ -1009,10 +1009,10 @@
         "name": "Travis Etienne Jr.",
         "pos": "RB",
         "nfl": "NO",
-        "status": "INJURY_RESERVE",
+        "status": "QUESTIONABLE",
         "owned": 82,
         "seasonPts": 30.9,
-        "starter": false
+        "starter": true
       },
       {
         "id": 5083076,
@@ -1050,7 +1050,7 @@
         "pos": "D/ST",
         "nfl": "PIT",
         "status": null,
-        "owned": 82,
+        "owned": 81,
         "seasonPts": 73,
         "starter": false
       },
@@ -1150,18 +1150,8 @@
         "pos": "RB",
         "nfl": "KC",
         "status": "ACTIVE",
-        "owned": 48,
+        "owned": 62,
         "seasonPts": 60.8,
-        "starter": true
-      },
-      {
-        "id": 4038441,
-        "name": "Justice Hill",
-        "pos": "RB",
-        "nfl": "BAL",
-        "status": "ACTIVE",
-        "owned": 13,
-        "seasonPts": 61.1,
         "starter": true
       }
     ],
@@ -1182,7 +1172,7 @@
         "pos": "WR",
         "nfl": "CLE",
         "status": "ACTIVE",
-        "owned": 68,
+        "owned": 69,
         "seasonPts": 88.4,
         "starter": true
       },
@@ -1212,7 +1202,7 @@
         "pos": "K",
         "nfl": "PIT",
         "status": "ACTIVE",
-        "owned": 58,
+        "owned": 59,
         "seasonPts": 77,
         "starter": true
       },
@@ -1242,7 +1232,7 @@
         "pos": "RB",
         "nfl": "HOU",
         "status": "OUT",
-        "owned": 75,
+        "owned": 74,
         "seasonPts": 45.5,
         "starter": false
       },
@@ -1434,7 +1424,7 @@
         "pos": "WR",
         "nfl": "IND",
         "status": "INJURY_RESERVE",
-        "owned": 45,
+        "owned": 44,
         "seasonPts": 12.2,
         "starter": false
       },
@@ -1484,7 +1474,7 @@
         "pos": "D/ST",
         "nfl": "LAR",
         "status": null,
-        "owned": 94,
+        "owned": 95,
         "seasonPts": 48,
         "starter": true
       },
@@ -1494,7 +1484,7 @@
         "pos": "WR",
         "nfl": "HOU",
         "status": "ACTIVE",
-        "owned": 57,
+        "owned": 58,
         "seasonPts": 26,
         "starter": true
       },
@@ -1504,7 +1494,7 @@
         "pos": "RB",
         "nfl": "IND",
         "status": "ACTIVE",
-        "owned": 12,
+        "owned": 11,
         "seasonPts": 32.7,
         "starter": false
       }
@@ -1596,7 +1586,7 @@
         "pos": "WR",
         "nfl": "BUF",
         "status": "ACTIVE",
-        "owned": 63,
+        "owned": 64,
         "seasonPts": 76.2,
         "starter": true
       },
@@ -1666,7 +1656,7 @@
         "pos": "D/ST",
         "nfl": "DAL",
         "status": null,
-        "owned": 11,
+        "owned": 10,
         "seasonPts": 19,
         "starter": false
       }
@@ -1768,7 +1758,7 @@
         "pos": "D/ST",
         "nfl": "NE",
         "status": null,
-        "owned": 46,
+        "owned": 45,
         "seasonPts": 46,
         "starter": true
       },
@@ -2224,7 +2214,7 @@
         "pos": "WR",
         "nfl": "TEN",
         "status": "OUT",
-        "owned": 84,
+        "owned": 83,
         "seasonPts": 77.3,
         "starter": false
       },
@@ -2324,7 +2314,7 @@
         "pos": "RB",
         "nfl": "NE",
         "status": "ACTIVE",
-        "owned": 42,
+        "owned": 43,
         "seasonPts": 32,
         "starter": true
       },
@@ -2333,7 +2323,7 @@
         "name": "Keaton Mitchell",
         "pos": "RB",
         "nfl": "LAC",
-        "status": "QUESTIONABLE",
+        "status": "ACTIVE",
         "owned": 9,
         "seasonPts": 50.1,
         "starter": false
@@ -2344,7 +2334,7 @@
         "pos": "WR",
         "nfl": "LAR",
         "status": "ACTIVE",
-        "owned": 11,
+        "owned": 12,
         "seasonPts": 33.2,
         "starter": true
       }
