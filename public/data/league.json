@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T22:56:21.590Z",
+  "updatedAt": "2026-11-16T06:44:07.584Z",
   "week": 10,
   "teams": [
     {
@@ -7,7 +7,7 @@
       "name": "Its gonna be Maye",
       "owner": "Jaxson C.",
       "projTotal": 133.64,
-      "actualTotal": 81.22,
+      "actualTotal": 126.92,
       "isAustin": false
     },
     {
@@ -15,7 +15,7 @@
       "name": "Doug's coin eaters",
       "owner": "Gavin D.",
       "projTotal": 123.67,
-      "actualTotal": 116.3,
+      "actualTotal": 161.2,
       "isAustin": false
     },
     {
@@ -23,7 +23,7 @@
       "name": "Any Given Sunday",
       "owner": "Clayton T.",
       "projTotal": 121.62,
-      "actualTotal": 105.66,
+      "actualTotal": 153.52,
       "isAustin": false
     },
     {
@@ -31,7 +31,7 @@
       "name": "Skatt on My Dihggs",
       "owner": "Jared G.",
       "projTotal": 115.15,
-      "actualTotal": 50.68,
+      "actualTotal": 73.06,
       "isAustin": false
     },
     {
@@ -47,7 +47,7 @@
       "name": "Professional Cowgirls",
       "owner": "Jaycey M.",
       "projTotal": 112.7,
-      "actualTotal": 89.2,
+      "actualTotal": 92.3,
       "isAustin": false
     },
     {
@@ -55,7 +55,7 @@
       "name": "Antonio's Team",
       "owner": "Antonio G.",
       "projTotal": 111.2,
-      "actualTotal": 93.92,
+      "actualTotal": 122.22,
       "isAustin": false
     },
     {
@@ -63,7 +63,7 @@
       "name": "No Diddy Giddy",
       "owner": "Jaiden A.",
       "projTotal": 110.55,
-      "actualTotal": 83.24,
+      "actualTotal": 110.44,
       "isAustin": false
     },
     {
@@ -71,7 +71,7 @@
       "name": "North Atlantic 1912 Swim Team",
       "owner": "Cole K.",
       "projTotal": 108.34,
-      "actualTotal": 63.28,
+      "actualTotal": 74.88,
       "isAustin": false
     },
     {
@@ -79,7 +79,7 @@
       "name": "JehOda's Witness",
       "owner": "Dylan E.",
       "projTotal": 102.26,
-      "actualTotal": 80.42,
+      "actualTotal": 96.2,
       "isAustin": false
     },
     {
@@ -87,7 +87,7 @@
       "name": "Gooners Guild of America",
       "owner": "Austin G.",
       "projTotal": 101.9,
-      "actualTotal": 91.88,
+      "actualTotal": 118.38,
       "isAustin": true
     },
     {
@@ -95,7 +95,7 @@
       "name": "The Juice",
       "owner": "Sam C.",
       "projTotal": 101.06,
-      "actualTotal": 89.64,
+      "actualTotal": 110.74,
       "isAustin": false
     },
     {
@@ -103,7 +103,7 @@
       "name": "Burrow it deeper",
       "owner": "Max F.",
       "projTotal": 98.34,
-      "actualTotal": 41.3,
+      "actualTotal": 86.16,
       "isAustin": false
     },
     {
