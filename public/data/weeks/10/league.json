@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T03:58:26.141Z",
+  "updatedAt": "2026-11-17T20:58:20.053Z",
   "week": 10,
   "teams": [
     {
@@ -39,7 +39,7 @@
       "name": "Zoey's Grand Canyon Hikers",
       "owner": "Jaylin M.",
       "projTotal": 113.6,
-      "actualTotal": 151.64,
+      "actualTotal": 152.14,
       "isAustin": false
     },
     {
@@ -47,7 +47,7 @@
       "name": "Professional Cowgirls",
       "owner": "Jaycey M.",
       "projTotal": 112.7,
-      "actualTotal": 119,
+      "actualTotal": 120.8,
       "isAustin": false
     },
     {
@@ -103,7 +103,7 @@
       "name": "Burrow it deeper",
       "owner": "Max F.",
       "projTotal": 98.34,
-      "actualTotal": 101.86,
+      "actualTotal": 105.16,
       "isAustin": false
     },
     {

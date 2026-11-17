@@ -1,0 +1,94 @@
+{
+  "updatedAt": "2026-11-17T20:58:20.053Z",
+  "season": 2026,
+  "week": 10,
+  "austin": {
+    "teamName": "Gooners Guild of America",
+    "points": 118.38,
+    "lineup": [
+      {
+        "slot": "QB",
+        "playerId": 3122840,
+        "name": "Deshaun Watson",
+        "pos": "QB",
+        "team": "CLE",
+        "projPts": 15.17,
+        "actualPts": 21.38
+      },
+      {
+        "slot": "RB",
+        "playerId": 4379399,
+        "name": "James Cook III",
+        "pos": "RB",
+        "team": "BUF",
+        "projPts": 20.54,
+        "actualPts": 21.7
+      },
+      {
+        "slot": "RB",
+        "playerId": 4426385,
+        "name": "Zach Charbonnet",
+        "pos": "RB",
+        "team": "SEA",
+        "projPts": 14.52,
+        "actualPts": 9.4
+      },
+      {
+        "slot": "WR",
+        "playerId": 4870653,
+        "name": "KC Concepcion",
+        "pos": "WR",
+        "team": "CLE",
+        "projPts": 10.62,
+        "actualPts": 11.7
+      },
+      {
+        "slot": "WR",
+        "playerId": 4688813,
+        "name": "Josh Downs",
+        "pos": "WR",
+        "team": "KC",
+        "projPts": 10.42,
+        "actualPts": 15.3
+      },
+      {
+        "slot": "TE",
+        "playerId": 3929645,
+        "name": "Juwan Johnson",
+        "pos": "TE",
+        "team": "NO",
+        "projPts": 7.28,
+        "actualPts": 4.8
+      },
+      {
+        "slot": "FLEX",
+        "playerId": 5083754,
+        "name": "Ryan Flournoy",
+        "pos": "WR",
+        "team": "DAL",
+        "projPts": 8.37,
+        "actualPts": 19.1
+      },
+      {
+        "slot": "D/ST",
+        "playerId": -16029,
+        "name": "Panthers D/ST",
+        "pos": "D/ST",
+        "team": "CAR",
+        "projPts": 4.48,
+        "actualPts": 10
+      },
+      {
+        "slot": "K",
+        "playerId": 17372,
+        "name": "Chris Boswell",
+        "pos": "K",
+        "team": "PIT",
+        "projPts": 10.5,
+        "actualPts": 5
+      }
+    ]
+  },
+  "winner": null,
+  "entries": []
+}
