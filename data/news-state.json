@@ -1,5 +1,5 @@
 {
-  "snapshotAt": "2026-11-16T23:00:48.284Z",
+  "snapshotAt": "2026-11-17T05:11:00.601Z",
   "rosters": {
     "1": [
       {
@@ -169,7 +169,7 @@
         "nfl": "BAL",
         "status": null,
         "owned": 84,
-        "seasonPts": 33,
+        "seasonPts": 37,
         "starter": true
       }
     ],
@@ -311,7 +311,7 @@
         "nfl": "LAC",
         "status": null,
         "owned": 10,
-        "seasonPts": 29,
+        "seasonPts": 35,
         "starter": false
       },
       {
@@ -515,7 +515,7 @@
         "nfl": "BAL",
         "status": "ACTIVE",
         "owned": 100,
-        "seasonPts": 142.3,
+        "seasonPts": 161.3,
         "starter": true
       },
       {
@@ -665,7 +665,7 @@
         "nfl": "BAL",
         "status": "ACTIVE",
         "owned": 54,
-        "seasonPts": 58.7,
+        "seasonPts": 74.9,
         "starter": false
       }
     ],
@@ -827,7 +827,7 @@
         "nfl": "LAC",
         "status": "ACTIVE",
         "owned": 12,
-        "seasonPts": 43.8,
+        "seasonPts": 47.2,
         "starter": false
       }
     ],
@@ -899,7 +899,7 @@
         "nfl": "LAC",
         "status": "ACTIVE",
         "owned": 24,
-        "seasonPts": 45.8,
+        "seasonPts": 47.4,
         "starter": false
       },
       {
@@ -1241,7 +1241,7 @@
         "name": "David Montgomery",
         "pos": "RB",
         "nfl": "HOU",
-        "status": "OUT",
+        "status": "ACTIVE",
         "owned": 73,
         "seasonPts": 45.5,
         "starter": false
@@ -1445,7 +1445,7 @@
         "nfl": "BAL",
         "status": "ACTIVE",
         "owned": 6,
-        "seasonPts": 17.9,
+        "seasonPts": 27,
         "starter": false
       },
       {
@@ -1527,7 +1527,7 @@
         "nfl": "LAC",
         "status": "ACTIVE",
         "owned": 82,
-        "seasonPts": 68.2,
+        "seasonPts": 85.7,
         "starter": true
       },
       {
@@ -1667,7 +1667,7 @@
         "nfl": "LAC",
         "status": "ACTIVE",
         "owned": 42,
-        "seasonPts": 60,
+        "seasonPts": 71,
         "starter": true
       }
     ],
@@ -1699,7 +1699,7 @@
         "nfl": "BAL",
         "status": "ACTIVE",
         "owned": 99,
-        "seasonPts": 127.5,
+        "seasonPts": 138.9,
         "starter": true
       },
       {
@@ -2325,7 +2325,7 @@
         "nfl": "LAC",
         "status": "ACTIVE",
         "owned": 9,
-        "seasonPts": 50.1,
+        "seasonPts": 50.5,
         "starter": false
       },
       {
