@@ -1,26 +1,56 @@
 {
-  "updatedAt": "2026-11-10T17:07:36.321Z",
+  "updatedAt": "2026-11-17T16:11:51.252Z",
   "season": 2026,
-  "week": 10,
+  "week": 11,
   "teams": [
     {
       "teamId": 1,
       "name": "Skatt on My Dihggs",
       "owner": "Jared G.",
       "wins": 7,
-      "losses": 2,
+      "losses": 3,
       "ties": 0,
-      "pointsFor": 1168.16,
+      "pointsFor": 1245.22,
       "isAustin": false
     },
     {
       "teamId": 14,
       "name": "Its gonna be Maye",
       "owner": "Jaxson C.",
-      "wins": 6,
+      "wins": 7,
       "losses": 3,
       "ties": 0,
-      "pointsFor": 1115.18,
+      "pointsFor": 1242.1,
+      "isAustin": false
+    },
+    {
+      "teamId": 13,
+      "name": "No Diddy Giddy",
+      "owner": "Jaiden A.",
+      "wins": 7,
+      "losses": 3,
+      "ties": 0,
+      "pointsFor": 1097.32,
+      "isAustin": false
+    },
+    {
+      "teamId": 10,
+      "name": "Doug's coin eaters",
+      "owner": "Gavin D.",
+      "wins": 6,
+      "losses": 4,
+      "ties": 0,
+      "pointsFor": 1162.66,
+      "isAustin": false
+    },
+    {
+      "teamId": 8,
+      "name": "Any Given Sunday",
+      "owner": "Clayton T.",
+      "wins": 6,
+      "losses": 4,
+      "ties": 0,
+      "pointsFor": 1160.12,
       "isAustin": false
     },
     {
@@ -28,39 +58,9 @@
       "name": "Professional Cowgirls",
       "owner": "Jaycey M.",
       "wins": 6,
-      "losses": 3,
-      "ties": 0,
-      "pointsFor": 1035.98,
-      "isAustin": false
-    },
-    {
-      "teamId": 13,
-      "name": "No Diddy Giddy",
-      "owner": "Jaiden A.",
-      "wins": 6,
-      "losses": 3,
-      "ties": 0,
-      "pointsFor": 986.88,
-      "isAustin": false
-    },
-    {
-      "teamId": 8,
-      "name": "Any Given Sunday",
-      "owner": "Clayton T.",
-      "wins": 5,
       "losses": 4,
       "ties": 0,
-      "pointsFor": 1006.6,
-      "isAustin": false
-    },
-    {
-      "teamId": 10,
-      "name": "Doug's coin eaters",
-      "owner": "Gavin D.",
-      "wins": 5,
-      "losses": 4,
-      "ties": 0,
-      "pointsFor": 1001.46,
+      "pointsFor": 1156.78,
       "isAustin": false
     },
     {
@@ -68,9 +68,9 @@
       "name": "Zoey's Grand Canyon Hikers",
       "owner": "Jaylin M.",
       "wins": 5,
-      "losses": 4,
+      "losses": 5,
       "ties": 0,
-      "pointsFor": 989.5,
+      "pointsFor": 1141.64,
       "isAustin": false
     },
     {
@@ -78,9 +78,29 @@
       "name": "Burrow it deeper",
       "owner": "Max F.",
       "wins": 5,
-      "losses": 4,
+      "losses": 5,
       "ties": 0,
-      "pointsFor": 942.3,
+      "pointsFor": 1047.46,
+      "isAustin": false
+    },
+    {
+      "teamId": 5,
+      "name": "Antonio's Team",
+      "owner": "Antonio G.",
+      "wins": 5,
+      "losses": 5,
+      "ties": 0,
+      "pointsFor": 1026.3,
+      "isAustin": false
+    },
+    {
+      "teamId": 15,
+      "name": "The Juice",
+      "owner": "Sam C.",
+      "wins": 4,
+      "losses": 6,
+      "ties": 0,
+      "pointsFor": 1050.28,
       "isAustin": false
     },
     {
@@ -88,19 +108,9 @@
       "name": "JehOda's Witness",
       "owner": "Dylan E.",
       "wins": 4,
-      "losses": 5,
+      "losses": 6,
       "ties": 0,
-      "pointsFor": 937.6,
-      "isAustin": false
-    },
-    {
-      "teamId": 5,
-      "name": "Antonio's Team",
-      "owner": "Antonio G.",
-      "wins": 4,
-      "losses": 5,
-      "ties": 0,
-      "pointsFor": 904.08,
+      "pointsFor": 1033.8,
       "isAustin": false
     },
     {
@@ -108,40 +118,30 @@
       "name": "Pickle Runners",
       "owner": "Patience U.",
       "wins": 3,
-      "losses": 6,
-      "ties": 0,
-      "pointsFor": 1044.22,
-      "isAustin": false
-    },
-    {
-      "teamId": 15,
-      "name": "The Juice",
-      "owner": "Sam C.",
-      "wins": 3,
-      "losses": 6,
-      "ties": 0,
-      "pointsFor": 939.54,
-      "isAustin": false
-    },
-    {
-      "teamId": 6,
-      "name": "North Atlantic 1912 Swim Team",
-      "owner": "Cole K.",
-      "wins": 2,
       "losses": 7,
       "ties": 0,
-      "pointsFor": 1012.08,
+      "pointsFor": 1148.2,
       "isAustin": false
     },
     {
       "teamId": 9,
       "name": "Gooners Guild of America",
       "owner": "Austin G.",
-      "wins": 2,
+      "wins": 3,
       "losses": 7,
       "ties": 0,
-      "pointsFor": 812.84,
+      "pointsFor": 931.22,
       "isAustin": true
+    },
+    {
+      "teamId": 6,
+      "name": "North Atlantic 1912 Swim Team",
+      "owner": "Cole K.",
+      "wins": 2,
+      "losses": 8,
+      "ties": 0,
+      "pointsFor": 1086.96,
+      "isAustin": false
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-16T06:44:07.584Z",
-  "week": 10,
+  "updatedAt": "2026-11-17T16:11:51.252Z",
+  "week": 11,
   "teamId": 9,
   "teamName": "Gooners Guild of America",
   "lineup": [
@@ -10,8 +10,17 @@
       "name": "Deshaun Watson",
       "pos": "QB",
       "team": "CLE",
-      "projPts": 15.17,
-      "actualPts": 21.38
+      "projPts": 0,
+      "actualPts": null
+    },
+    {
+      "slot": "RB",
+      "playerId": 4035538,
+      "name": "David Montgomery",
+      "pos": "RB",
+      "team": "HOU",
+      "projPts": 13.67,
+      "actualPts": null
     },
     {
       "slot": "RB",
@@ -19,62 +28,53 @@
       "name": "James Cook III",
       "pos": "RB",
       "team": "BUF",
-      "projPts": 20.54,
-      "actualPts": 21.7
-    },
-    {
-      "slot": "RB",
-      "playerId": 4426385,
-      "name": "Zach Charbonnet",
-      "pos": "RB",
-      "team": "SEA",
-      "projPts": 14.52,
-      "actualPts": 9.4
+      "projPts": 20.87,
+      "actualPts": null
     },
     {
       "slot": "WR",
-      "playerId": 4870653,
-      "name": "KC Concepcion",
+      "playerId": 4685278,
+      "name": "Luther Burden III",
       "pos": "WR",
-      "team": "CLE",
-      "projPts": 10.62,
-      "actualPts": 11.7
+      "team": "CHI",
+      "projPts": 15.09,
+      "actualPts": null
     },
     {
       "slot": "WR",
-      "playerId": 4688813,
-      "name": "Josh Downs",
-      "pos": "WR",
-      "team": "KC",
-      "projPts": 10.42,
-      "actualPts": 15.3
-    },
-    {
-      "slot": "TE",
-      "playerId": 3929645,
-      "name": "Juwan Johnson",
-      "pos": "TE",
-      "team": "NO",
-      "projPts": 7.28,
-      "actualPts": 4.8
-    },
-    {
-      "slot": "FLEX",
       "playerId": 5083754,
       "name": "Ryan Flournoy",
       "pos": "WR",
       "team": "DAL",
-      "projPts": 8.37,
-      "actualPts": 19.1
+      "projPts": 9.66,
+      "actualPts": null
+    },
+    {
+      "slot": "TE",
+      "playerId": 4808766,
+      "name": "Mason Taylor",
+      "pos": "TE",
+      "team": "NYJ",
+      "projPts": 6.57,
+      "actualPts": null
+    },
+    {
+      "slot": "FLEX",
+      "playerId": 4688813,
+      "name": "Josh Downs",
+      "pos": "WR",
+      "team": "KC",
+      "projPts": 9.11,
+      "actualPts": null
     },
     {
       "slot": "D/ST",
-      "playerId": -16029,
-      "name": "Panthers D/ST",
+      "playerId": -16007,
+      "name": "Broncos D/ST",
       "pos": "D/ST",
-      "team": "CAR",
-      "projPts": 4.48,
-      "actualPts": 10
+      "team": "DEN",
+      "projPts": 6.47,
+      "actualPts": null
     },
     {
       "slot": "K",
@@ -82,10 +82,10 @@
       "name": "Chris Boswell",
       "pos": "K",
       "team": "PIT",
-      "projPts": 10.5,
-      "actualPts": 5
+      "projPts": 10.16,
+      "actualPts": null
     }
   ],
-  "projTotal": 101.9,
-  "actualTotal": 118.38
+  "projTotal": 91.6,
+  "actualTotal": 0
 }
