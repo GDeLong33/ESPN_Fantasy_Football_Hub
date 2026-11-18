@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T01:00:12.550Z",
+  "updatedAt": "2026-11-18T11:54:31.583Z",
   "week": 11,
   "teams": [
     {
@@ -19,6 +19,14 @@
       "isAustin": false
     },
     {
+      "teamId": 3,
+      "name": "JehOda's Witness",
+      "owner": "Dylan E.",
+      "projTotal": 113.83,
+      "actualTotal": 0,
+      "isAustin": false
+    },
+    {
       "teamId": 15,
       "name": "The Juice",
       "owner": "Sam C.",
@@ -31,14 +39,6 @@
       "name": "Doug's coin eaters",
       "owner": "Gavin D.",
       "projTotal": 112.95,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
-      "teamId": 3,
-      "name": "JehOda's Witness",
-      "owner": "Dylan E.",
-      "projTotal": 112.58,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -91,6 +91,14 @@
       "isAustin": false
     },
     {
+      "teamId": 12,
+      "name": "Zoey's Grand Canyon Hikers",
+      "owner": "Jaylin M.",
+      "projTotal": 87.82,
+      "actualTotal": 0,
+      "isAustin": false
+    },
+    {
       "teamId": 11,
       "name": "Professional Cowgirls",
       "owner": "Jaycey M.",
@@ -103,14 +111,6 @@
       "name": "North Atlantic 1912 Swim Team",
       "owner": "Cole K.",
       "projTotal": 85.54,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
-      "teamId": 12,
-      "name": "Zoey's Grand Canyon Hikers",
-      "owner": "Jaylin M.",
-      "projTotal": 84.14,
       "actualTotal": 0,
       "isAustin": false
     }
