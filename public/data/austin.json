@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T01:00:12.550Z",
+  "updatedAt": "2026-11-18T20:39:38.283Z",
   "week": 11,
   "teamId": 9,
   "teamName": "Gooners Guild of America",
@@ -28,7 +28,7 @@
       "name": "James Cook III",
       "pos": "RB",
       "team": "BUF",
-      "projPts": 20.86,
+      "projPts": 20.85,
       "actualPts": null
     },
     {
@@ -55,7 +55,7 @@
       "name": "Mason Taylor",
       "pos": "TE",
       "team": "NYJ",
-      "projPts": 6.57,
+      "projPts": 6.66,
       "actualPts": null
     },
     {
@@ -73,7 +73,7 @@
       "name": "Broncos D/ST",
       "pos": "D/ST",
       "team": "DEN",
-      "projPts": 6.47,
+      "projPts": 6.38,
       "actualPts": null
     },
     {
@@ -86,6 +86,6 @@
       "actualPts": null
     }
   ],
-  "projTotal": 91.59,
+  "projTotal": 91.58,
   "actualTotal": 0
 }
