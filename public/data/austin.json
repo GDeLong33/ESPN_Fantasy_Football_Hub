@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T16:11:51.252Z",
+  "updatedAt": "2026-11-18T01:00:12.550Z",
   "week": 11,
   "teamId": 9,
   "teamName": "Gooners Guild of America",
@@ -28,7 +28,7 @@
       "name": "James Cook III",
       "pos": "RB",
       "team": "BUF",
-      "projPts": 20.87,
+      "projPts": 20.86,
       "actualPts": null
     },
     {
@@ -86,6 +86,6 @@
       "actualPts": null
     }
   ],
-  "projTotal": 91.6,
+  "projTotal": 91.59,
   "actualTotal": 0
 }
