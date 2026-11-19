@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T20:39:38.283Z",
+  "updatedAt": "2026-11-19T02:38:53.708Z",
   "week": 11,
   "teams": [
     {
@@ -15,6 +15,14 @@
       "name": "Doug's coin eaters",
       "owner": "Gavin D.",
       "projTotal": 116.89,
+      "actualTotal": 0,
+      "isAustin": false
+    },
+    {
+      "teamId": 15,
+      "name": "The Juice",
+      "owner": "Sam C.",
+      "projTotal": 115.58,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -35,12 +43,20 @@
       "isAustin": false
     },
     {
-      "teamId": 15,
-      "name": "The Juice",
-      "owner": "Sam C.",
-      "projTotal": 113.73,
+      "teamId": 12,
+      "name": "Zoey's Grand Canyon Hikers",
+      "owner": "Jaylin M.",
+      "projTotal": 111.06,
       "actualTotal": 0,
       "isAustin": false
+    },
+    {
+      "teamId": 9,
+      "name": "Gooners Guild of America",
+      "owner": "Austin G.",
+      "projTotal": 108.53,
+      "actualTotal": 0,
+      "isAustin": true
     },
     {
       "teamId": 4,
@@ -54,7 +70,7 @@
       "teamId": 14,
       "name": "Its gonna be Maye",
       "owner": "Jaxson C.",
-      "projTotal": 97.66,
+      "projTotal": 102.55,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -67,20 +83,20 @@
       "isAustin": false
     },
     {
-      "teamId": 13,
-      "name": "No Diddy Giddy",
-      "owner": "Jaiden A.",
-      "projTotal": 91.84,
+      "teamId": 6,
+      "name": "North Atlantic 1912 Swim Team",
+      "owner": "Cole K.",
+      "projTotal": 92.93,
       "actualTotal": 0,
       "isAustin": false
     },
     {
-      "teamId": 9,
-      "name": "Gooners Guild of America",
-      "owner": "Austin G.",
-      "projTotal": 91.58,
+      "teamId": 13,
+      "name": "No Diddy Giddy",
+      "owner": "Jaiden A.",
+      "projTotal": 92.54,
       "actualTotal": 0,
-      "isAustin": true
+      "isAustin": false
     },
     {
       "teamId": 2,
@@ -91,26 +107,10 @@
       "isAustin": false
     },
     {
-      "teamId": 12,
-      "name": "Zoey's Grand Canyon Hikers",
-      "owner": "Jaylin M.",
-      "projTotal": 87.82,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
       "teamId": 11,
       "name": "Professional Cowgirls",
       "owner": "Jaycey M.",
       "projTotal": 85.5,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
-      "teamId": 6,
-      "name": "North Atlantic 1912 Swim Team",
-      "owner": "Cole K.",
-      "projTotal": 84.45,
       "actualTotal": 0,
       "isAustin": false
     }

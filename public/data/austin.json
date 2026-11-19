@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-11-18T20:39:38.283Z",
+  "updatedAt": "2026-11-19T02:38:53.708Z",
   "week": 11,
   "teamId": 9,
   "teamName": "Gooners Guild of America",
   "lineup": [
     {
       "slot": "QB",
-      "playerId": 3122840,
-      "name": "Deshaun Watson",
+      "playerId": 4688380,
+      "name": "Cam Ward",
       "pos": "QB",
-      "team": "CLE",
-      "projPts": 0,
+      "team": "TEN",
+      "projPts": 16.95,
       "actualPts": null
     },
     {
@@ -86,6 +86,6 @@
       "actualPts": null
     }
   ],
-  "projTotal": 91.58,
+  "projTotal": 108.53,
   "actualTotal": 0
 }
