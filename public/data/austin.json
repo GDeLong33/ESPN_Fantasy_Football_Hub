@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T02:23:35.276Z",
+  "updatedAt": "2026-11-20T11:52:49.318Z",
   "week": 11,
   "teamId": 9,
   "teamName": "Gooners Guild of America",
@@ -20,7 +20,7 @@
       "pos": "RB",
       "team": "HOU",
       "projPts": 13.67,
-      "actualPts": 3.9
+      "actualPts": 15.4
     },
     {
       "slot": "RB",
@@ -87,5 +87,5 @@
     }
   ],
   "projTotal": 108.57,
-  "actualTotal": 3.9
+  "actualTotal": 15.4
 }

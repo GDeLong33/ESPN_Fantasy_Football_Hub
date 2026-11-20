@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T02:23:35.276Z",
+  "updatedAt": "2026-11-20T11:52:49.318Z",
   "week": 11,
   "teams": [
     {
@@ -7,7 +7,7 @@
       "name": "Skatt on My Dihggs",
       "owner": "Jared G.",
       "projTotal": 124.11,
-      "actualTotal": 2,
+      "actualTotal": 11.7,
       "isAustin": false
     },
     {
@@ -15,7 +15,7 @@
       "name": "Professional Cowgirls",
       "owner": "Jaycey M.",
       "projTotal": 118.54,
-      "actualTotal": 9,
+      "actualTotal": 15,
       "isAustin": false
     },
     {
@@ -31,7 +31,7 @@
       "name": "Doug's coin eaters",
       "owner": "Gavin D.",
       "projTotal": 116.94,
-      "actualTotal": 4.3,
+      "actualTotal": 7.7,
       "isAustin": false
     },
     {
@@ -47,7 +47,7 @@
       "name": "North Atlantic 1912 Swim Team",
       "owner": "Cole K.",
       "projTotal": 115.45,
-      "actualTotal": 12.8,
+      "actualTotal": 14.8,
       "isAustin": false
     },
     {
@@ -56,6 +56,14 @@
       "owner": "Antonio G.",
       "projTotal": 114.73,
       "actualTotal": 0,
+      "isAustin": false
+    },
+    {
+      "teamId": 2,
+      "name": "Pickle Runners",
+      "owner": "Patience U.",
+      "projTotal": 114.49,
+      "actualTotal": 3.2,
       "isAustin": false
     },
     {
@@ -71,7 +79,7 @@
       "name": "Gooners Guild of America",
       "owner": "Austin G.",
       "projTotal": 108.57,
-      "actualTotal": 3.9,
+      "actualTotal": 15.4,
       "isAustin": true
     },
     {
@@ -95,22 +103,14 @@
       "name": "No Diddy Giddy",
       "owner": "Jaiden A.",
       "projTotal": 99.63,
-      "actualTotal": 11.12,
-      "isAustin": false
-    },
-    {
-      "teamId": 2,
-      "name": "Pickle Runners",
-      "owner": "Patience U.",
-      "projTotal": 90.95,
-      "actualTotal": 0,
+      "actualTotal": 20.46,
       "isAustin": false
     },
     {
       "teamId": 3,
       "name": "JehOda's Witness",
       "owner": "Dylan E.",
-      "projTotal": 88.14,
+      "projTotal": 95.51,
       "actualTotal": 0,
       "isAustin": false
     }
