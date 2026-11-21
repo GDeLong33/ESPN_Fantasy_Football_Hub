@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T20:29:34.722Z",
+  "updatedAt": "2026-11-21T19:26:30.031Z",
   "week": 11,
   "teamId": 9,
   "teamName": "Gooners Guild of America",
@@ -10,7 +10,7 @@
       "name": "Cam Ward",
       "pos": "QB",
       "team": "TEN",
-      "projPts": 16.95,
+      "projPts": 16.96,
       "actualPts": null
     },
     {
@@ -86,6 +86,6 @@
       "actualPts": null
     }
   ],
-  "projTotal": 109.24,
+  "projTotal": 109.25,
   "actualTotal": 15.4
 }

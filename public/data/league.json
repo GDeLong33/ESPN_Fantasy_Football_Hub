@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-21T02:26:45.943Z",
+  "updatedAt": "2026-11-21T19:26:30.031Z",
   "week": 11,
   "teams": [
     {
       "teamId": 1,
       "name": "Skatt on My Dihggs",
       "owner": "Jared G.",
-      "projTotal": 124.07,
+      "projTotal": 124.11,
       "actualTotal": 11.7,
       "isAustin": false
     },
@@ -22,7 +22,7 @@
       "teamId": 10,
       "name": "Doug's coin eaters",
       "owner": "Gavin D.",
-      "projTotal": 117.14,
+      "projTotal": 117.11,
       "actualTotal": 7.7,
       "isAustin": false
     },
@@ -38,7 +38,7 @@
       "teamId": 6,
       "name": "North Atlantic 1912 Swim Team",
       "owner": "Cole K.",
-      "projTotal": 115.64,
+      "projTotal": 115.65,
       "actualTotal": 14.8,
       "isAustin": false
     },
@@ -46,7 +46,7 @@
       "teamId": 5,
       "name": "Antonio's Team",
       "owner": "Antonio G.",
-      "projTotal": 114.96,
+      "projTotal": 114.97,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -54,7 +54,7 @@
       "teamId": 2,
       "name": "Pickle Runners",
       "owner": "Patience U.",
-      "projTotal": 114.49,
+      "projTotal": 114.43,
       "actualTotal": 3.2,
       "isAustin": false
     },
@@ -70,7 +70,7 @@
       "teamId": 12,
       "name": "Zoey's Grand Canyon Hikers",
       "owner": "Jaylin M.",
-      "projTotal": 111.05,
+      "projTotal": 111.07,
       "actualTotal": 0,
       "isAustin": false
     },
@@ -78,7 +78,7 @@
       "teamId": 9,
       "name": "Gooners Guild of America",
       "owner": "Austin G.",
-      "projTotal": 109.24,
+      "projTotal": 109.25,
       "actualTotal": 15.4,
       "isAustin": true
     },
