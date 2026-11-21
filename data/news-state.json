@@ -1,5 +1,5 @@
 {
-  "snapshotAt": "2026-11-21T04:09:51.077Z",
+  "snapshotAt": "2026-11-21T20:12:50.835Z",
   "rosters": {
     "1": [
       {
@@ -8,7 +8,7 @@
         "pos": "WR",
         "nfl": "LAR",
         "status": "INJURY_RESERVE",
-        "owned": 96,
+        "owned": 95,
         "seasonPts": 173.6,
         "starter": false
       },
@@ -210,7 +210,7 @@
         "pos": "TE",
         "nfl": "CHI",
         "status": "ACTIVE",
-        "owned": 96,
+        "owned": 97,
         "seasonPts": 83.3,
         "starter": true
       },
@@ -422,7 +422,7 @@
         "pos": "WR",
         "nfl": "NO",
         "status": "ACTIVE",
-        "owned": 70,
+        "owned": 71,
         "seasonPts": 24,
         "starter": true
       },
@@ -442,7 +442,7 @@
         "pos": "WR",
         "nfl": "WSH",
         "status": "ACTIVE",
-        "owned": 20,
+        "owned": 21,
         "seasonPts": 72.6,
         "starter": false
       },
@@ -462,7 +462,7 @@
         "pos": "RB",
         "nfl": "SEA",
         "status": "ACTIVE",
-        "owned": 78,
+        "owned": 77,
         "seasonPts": 42.9,
         "starter": false
       },
@@ -482,7 +482,7 @@
         "pos": "RB",
         "nfl": "BAL",
         "status": "ACTIVE",
-        "owned": 23,
+        "owned": 24,
         "seasonPts": 69.9,
         "starter": true
       },
@@ -492,9 +492,19 @@
         "pos": "RB",
         "nfl": "ARI",
         "status": "ACTIVE",
-        "owned": 6,
+        "owned": 7,
         "seasonPts": 27,
         "starter": true
+      },
+      {
+        "id": 4883647,
+        "name": "Elic Ayomanor",
+        "pos": "WR",
+        "nfl": "TEN",
+        "status": "ACTIVE",
+        "owned": 18,
+        "seasonPts": 53,
+        "starter": false
       }
     ],
     "4": [
@@ -584,7 +594,7 @@
         "pos": "WR",
         "nfl": "TEN",
         "status": "INJURY_RESERVE",
-        "owned": 42,
+        "owned": 41,
         "seasonPts": 81.3,
         "starter": false
       },
@@ -614,7 +624,7 @@
         "pos": "K",
         "nfl": "BUF",
         "status": "ACTIVE",
-        "owned": 85,
+        "owned": 86,
         "seasonPts": 98,
         "starter": true
       },
@@ -634,7 +644,7 @@
         "pos": "TE",
         "nfl": "BAL",
         "status": "ACTIVE",
-        "owned": 63,
+        "owned": 64,
         "seasonPts": 74.9,
         "starter": true
       },
@@ -716,7 +726,7 @@
         "pos": "QB",
         "nfl": "LAR",
         "status": "ACTIVE",
-        "owned": 85,
+        "owned": 84,
         "seasonPts": 162.6,
         "starter": false
       },
@@ -726,7 +736,7 @@
         "pos": "TE",
         "nfl": "ATL",
         "status": "ACTIVE",
-        "owned": 75,
+        "owned": 74,
         "seasonPts": 78,
         "starter": false
       },
@@ -736,7 +746,7 @@
         "pos": "WR",
         "nfl": "ARI",
         "status": "INJURY_RESERVE",
-        "owned": 40,
+        "owned": 39,
         "seasonPts": 120.7,
         "starter": false
       },
@@ -878,7 +888,7 @@
         "pos": "WR",
         "nfl": "CLE",
         "status": "ACTIVE",
-        "owned": 75,
+        "owned": 74,
         "seasonPts": 105.3,
         "starter": false
       },
@@ -1100,7 +1110,7 @@
         "pos": "K",
         "nfl": "LV",
         "status": "QUESTIONABLE",
-        "owned": 40,
+        "owned": 39,
         "seasonPts": 96,
         "starter": true
       },
@@ -1130,7 +1140,7 @@
         "pos": "RB",
         "nfl": "TB",
         "status": "ACTIVE",
-        "owned": 58,
+        "owned": 59,
         "seasonPts": 63.6,
         "starter": false
       },
@@ -1150,7 +1160,7 @@
         "pos": "RB",
         "nfl": "KC",
         "status": "ACTIVE",
-        "owned": 89,
+        "owned": 90,
         "seasonPts": 95.9,
         "starter": true
       },
@@ -1282,7 +1292,7 @@
         "pos": "WR",
         "nfl": "DAL",
         "status": "ACTIVE",
-        "owned": 42,
+        "owned": 43,
         "seasonPts": 102.9,
         "starter": true
       },
@@ -1322,7 +1332,7 @@
         "pos": "D/ST",
         "nfl": "CAR",
         "status": null,
-        "owned": 18,
+        "owned": 19,
         "seasonPts": 39,
         "starter": false
       },
@@ -1454,7 +1464,7 @@
         "pos": "TE",
         "nfl": "WSH",
         "status": "ACTIVE",
-        "owned": 52,
+        "owned": 53,
         "seasonPts": 51.3,
         "starter": true
       },
@@ -1504,7 +1514,7 @@
         "pos": "WR",
         "nfl": "LAR",
         "status": "INJURY_RESERVE",
-        "owned": 90,
+        "owned": 91,
         "seasonPts": 102,
         "starter": false
       }
@@ -1586,7 +1596,7 @@
         "pos": "RB",
         "nfl": "NE",
         "status": "ACTIVE",
-        "owned": 89,
+        "owned": 88,
         "seasonPts": 115.2,
         "starter": false
       },
@@ -1606,7 +1616,7 @@
         "pos": "WR",
         "nfl": "KC",
         "status": "ACTIVE",
-        "owned": 58,
+        "owned": 57,
         "seasonPts": 66.8,
         "starter": false
       },
@@ -1636,7 +1646,7 @@
         "pos": "TE",
         "nfl": "SEA",
         "status": "ACTIVE",
-        "owned": 10,
+        "owned": 9,
         "seasonPts": 67.7,
         "starter": false
       },
@@ -1666,7 +1676,7 @@
         "pos": "K",
         "nfl": "LAC",
         "status": "ACTIVE",
-        "owned": 58,
+        "owned": 59,
         "seasonPts": 71,
         "starter": true
       }
@@ -1828,7 +1838,7 @@
         "pos": "QB",
         "nfl": "LAC",
         "status": "ACTIVE",
-        "owned": 35,
+        "owned": 36,
         "seasonPts": 96.9,
         "starter": true
       }
@@ -2152,7 +2162,7 @@
         "pos": "WR",
         "nfl": "PIT",
         "status": "ACTIVE",
-        "owned": 44,
+        "owned": 43,
         "seasonPts": 67.8,
         "starter": false
       },
@@ -2224,7 +2234,7 @@
         "pos": "TE",
         "nfl": "BUF",
         "status": "DOUBTFUL",
-        "owned": 78,
+        "owned": 77,
         "seasonPts": 92.7,
         "starter": false
       },
@@ -2339,7 +2349,7 @@
   "cybaWeeks": [
     8
   ],
-  "lastRumorAt": "2026-11-12T04:21:01.267Z",
+  "lastRumorAt": "2026-11-21T20:12:50.834Z",
   "covered": [
     "recap:2026:7",
     "rumor:8:12:1",
@@ -2388,7 +2398,8 @@
     "trade:11:4258173,4259545,4426348,4685261,4882093",
     "injury:4567048:OUT:11",
     "injury:4047646:DOUBTFUL:11",
-    "injury:4385690:DOUBTFUL:11"
+    "injury:4385690:DOUBTFUL:11",
+    "rumor:11:6:3"
   ],
   "pending": []
 }
