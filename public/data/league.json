@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T19:26:30.031Z",
+  "updatedAt": "2026-11-22T11:38:06.236Z",
   "week": 11,
   "teams": [
     {
@@ -94,7 +94,7 @@
       "teamId": 8,
       "name": "Any Given Sunday",
       "owner": "Clayton T.",
-      "projTotal": 107.28,
+      "projTotal": 105.29,
       "actualTotal": 3.3,
       "isAustin": false
     },
