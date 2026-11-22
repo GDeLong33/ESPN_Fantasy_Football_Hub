@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T19:26:30.031Z",
+  "updatedAt": "2026-11-22T19:48:24.132Z",
   "week": 11,
   "teamId": 9,
   "teamName": "Gooners Guild of America",
@@ -11,7 +11,7 @@
       "pos": "QB",
       "team": "TEN",
       "projPts": 16.96,
-      "actualPts": null
+      "actualPts": 9.74
     },
     {
       "slot": "RB",
@@ -29,7 +29,7 @@
       "pos": "RB",
       "team": "BUF",
       "projPts": 20.88,
-      "actualPts": null
+      "actualPts": 9.6
     },
     {
       "slot": "WR",
@@ -37,8 +37,8 @@
       "name": "Luther Burden III",
       "pos": "WR",
       "team": "CHI",
-      "projPts": 15.09,
-      "actualPts": null
+      "projPts": 15.08,
+      "actualPts": 3
     },
     {
       "slot": "WR",
@@ -46,8 +46,8 @@
       "name": "Ryan Flournoy",
       "pos": "WR",
       "team": "DAL",
-      "projPts": 9.66,
-      "actualPts": null
+      "projPts": 9.64,
+      "actualPts": 2.1
     },
     {
       "slot": "TE",
@@ -55,7 +55,7 @@
       "name": "Mason Taylor",
       "pos": "TE",
       "team": "NYJ",
-      "projPts": 7.21,
+      "projPts": 7.19,
       "actualPts": null
     },
     {
@@ -65,7 +65,7 @@
       "pos": "WR",
       "team": "KC",
       "projPts": 9.15,
-      "actualPts": null
+      "actualPts": 7.6
     },
     {
       "slot": "D/ST",
@@ -83,9 +83,9 @@
       "pos": "K",
       "team": "PIT",
       "projPts": 10.16,
-      "actualPts": null
+      "actualPts": 7
     }
   ],
-  "projTotal": 109.25,
-  "actualTotal": 15.4
+  "projTotal": 109.2,
+  "actualTotal": 54.44
 }
