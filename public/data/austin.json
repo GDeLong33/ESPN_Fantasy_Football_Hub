@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T19:48:24.132Z",
+  "updatedAt": "2026-11-23T01:48:53.030Z",
   "week": 11,
   "teamId": 9,
   "teamName": "Gooners Guild of America",
@@ -11,7 +11,7 @@
       "pos": "QB",
       "team": "TEN",
       "projPts": 16.96,
-      "actualPts": 9.74
+      "actualPts": 22.22
     },
     {
       "slot": "RB",
@@ -29,7 +29,7 @@
       "pos": "RB",
       "team": "BUF",
       "projPts": 20.88,
-      "actualPts": 9.6
+      "actualPts": 17.2
     },
     {
       "slot": "WR",
@@ -38,7 +38,7 @@
       "pos": "WR",
       "team": "CHI",
       "projPts": 15.08,
-      "actualPts": 3
+      "actualPts": 3.3
     },
     {
       "slot": "WR",
@@ -55,8 +55,8 @@
       "name": "Mason Taylor",
       "pos": "TE",
       "team": "NYJ",
-      "projPts": 7.19,
-      "actualPts": null
+      "projPts": 7.2,
+      "actualPts": 4.5
     },
     {
       "slot": "FLEX",
@@ -65,7 +65,7 @@
       "pos": "WR",
       "team": "KC",
       "projPts": 9.15,
-      "actualPts": 7.6
+      "actualPts": 9.9
     },
     {
       "slot": "D/ST",
@@ -73,8 +73,8 @@
       "name": "Broncos D/ST",
       "pos": "D/ST",
       "team": "DEN",
-      "projPts": 6.47,
-      "actualPts": null
+      "projPts": 6.46,
+      "actualPts": 12
     },
     {
       "slot": "K",
@@ -83,9 +83,9 @@
       "pos": "K",
       "team": "PIT",
       "projPts": 10.16,
-      "actualPts": 7
+      "actualPts": 13
     }
   ],
   "projTotal": 109.2,
-  "actualTotal": 54.44
+  "actualTotal": 99.62
 }
