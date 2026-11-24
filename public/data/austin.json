@@ -1,26 +1,17 @@
 {
-  "updatedAt": "2026-11-23T01:48:53.030Z",
-  "week": 11,
+  "updatedAt": "2026-11-24T13:55:16.821Z",
+  "week": 12,
   "teamId": 9,
   "teamName": "Gooners Guild of America",
   "lineup": [
     {
       "slot": "QB",
-      "playerId": 4688380,
-      "name": "Cam Ward",
+      "playerId": 3122840,
+      "name": "Deshaun Watson",
       "pos": "QB",
-      "team": "TEN",
-      "projPts": 16.96,
-      "actualPts": 22.22
-    },
-    {
-      "slot": "RB",
-      "playerId": 4035538,
-      "name": "David Montgomery",
-      "pos": "RB",
-      "team": "HOU",
-      "projPts": 13.67,
-      "actualPts": 15.4
+      "team": "CLE",
+      "projPts": 19.88,
+      "actualPts": null
     },
     {
       "slot": "RB",
@@ -28,8 +19,26 @@
       "name": "James Cook III",
       "pos": "RB",
       "team": "BUF",
-      "projPts": 20.88,
-      "actualPts": 17.2
+      "projPts": 14.52,
+      "actualPts": null
+    },
+    {
+      "slot": "RB",
+      "playerId": 4426385,
+      "name": "Zach Charbonnet",
+      "pos": "RB",
+      "team": "SEA",
+      "projPts": 11.66,
+      "actualPts": null
+    },
+    {
+      "slot": "WR",
+      "playerId": 4870653,
+      "name": "KC Concepcion",
+      "pos": "WR",
+      "team": "CLE",
+      "projPts": 11.74,
+      "actualPts": null
     },
     {
       "slot": "WR",
@@ -37,17 +46,8 @@
       "name": "Luther Burden III",
       "pos": "WR",
       "team": "CHI",
-      "projPts": 15.08,
-      "actualPts": 3.3
-    },
-    {
-      "slot": "WR",
-      "playerId": 5083754,
-      "name": "Ryan Flournoy",
-      "pos": "WR",
-      "team": "DAL",
-      "projPts": 9.64,
-      "actualPts": 2.1
+      "projPts": 13.02,
+      "actualPts": null
     },
     {
       "slot": "TE",
@@ -55,8 +55,8 @@
       "name": "Mason Taylor",
       "pos": "TE",
       "team": "NYJ",
-      "projPts": 7.2,
-      "actualPts": 4.5
+      "projPts": 6.06,
+      "actualPts": null
     },
     {
       "slot": "FLEX",
@@ -64,8 +64,8 @@
       "name": "Josh Downs",
       "pos": "WR",
       "team": "KC",
-      "projPts": 9.15,
-      "actualPts": 9.9
+      "projPts": 7.99,
+      "actualPts": null
     },
     {
       "slot": "D/ST",
@@ -73,19 +73,19 @@
       "name": "Broncos D/ST",
       "pos": "D/ST",
       "team": "DEN",
-      "projPts": 6.46,
-      "actualPts": 12
+      "projPts": 6.18,
+      "actualPts": null
     },
     {
       "slot": "K",
-      "playerId": 17372,
-      "name": "Chris Boswell",
+      "playerId": 4258620,
+      "name": "Andre Szmyt",
       "pos": "K",
-      "team": "PIT",
-      "projPts": 10.16,
-      "actualPts": 13
+      "team": "CLE",
+      "projPts": 10.92,
+      "actualPts": null
     }
   ],
-  "projTotal": 109.2,
-  "actualTotal": 99.62
+  "projTotal": 101.97,
+  "actualTotal": 0
 }

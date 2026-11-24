@@ -1,0 +1,91 @@
+{
+  "updatedAt": "2026-11-24T13:55:16.821Z",
+  "week": 12,
+  "teamId": 9,
+  "teamName": "Gooners Guild of America",
+  "lineup": [
+    {
+      "slot": "QB",
+      "playerId": 3122840,
+      "name": "Deshaun Watson",
+      "pos": "QB",
+      "team": "CLE",
+      "projPts": 19.88,
+      "actualPts": null
+    },
+    {
+      "slot": "RB",
+      "playerId": 4379399,
+      "name": "James Cook III",
+      "pos": "RB",
+      "team": "BUF",
+      "projPts": 14.52,
+      "actualPts": null
+    },
+    {
+      "slot": "RB",
+      "playerId": 4426385,
+      "name": "Zach Charbonnet",
+      "pos": "RB",
+      "team": "SEA",
+      "projPts": 11.66,
+      "actualPts": null
+    },
+    {
+      "slot": "WR",
+      "playerId": 4870653,
+      "name": "KC Concepcion",
+      "pos": "WR",
+      "team": "CLE",
+      "projPts": 11.74,
+      "actualPts": null
+    },
+    {
+      "slot": "WR",
+      "playerId": 4685278,
+      "name": "Luther Burden III",
+      "pos": "WR",
+      "team": "CHI",
+      "projPts": 13.02,
+      "actualPts": null
+    },
+    {
+      "slot": "TE",
+      "playerId": 4808766,
+      "name": "Mason Taylor",
+      "pos": "TE",
+      "team": "NYJ",
+      "projPts": 6.06,
+      "actualPts": null
+    },
+    {
+      "slot": "FLEX",
+      "playerId": 4688813,
+      "name": "Josh Downs",
+      "pos": "WR",
+      "team": "KC",
+      "projPts": 7.99,
+      "actualPts": null
+    },
+    {
+      "slot": "D/ST",
+      "playerId": -16007,
+      "name": "Broncos D/ST",
+      "pos": "D/ST",
+      "team": "DEN",
+      "projPts": 6.18,
+      "actualPts": null
+    },
+    {
+      "slot": "K",
+      "playerId": 4258620,
+      "name": "Andre Szmyt",
+      "pos": "K",
+      "team": "CLE",
+      "projPts": 10.92,
+      "actualPts": null
+    }
+  ],
+  "projTotal": 101.97,
+  "actualTotal": 0
+}
