@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T13:55:16.821Z",
+  "updatedAt": "2026-11-24T23:56:31.736Z",
   "week": 12,
   "teamId": 9,
   "teamName": "Gooners Guild of America",
@@ -10,7 +10,7 @@
       "name": "Deshaun Watson",
       "pos": "QB",
       "team": "CLE",
-      "projPts": 19.88,
+      "projPts": 19.9,
       "actualPts": null
     },
     {
@@ -19,7 +19,7 @@
       "name": "James Cook III",
       "pos": "RB",
       "team": "BUF",
-      "projPts": 14.52,
+      "projPts": 14.18,
       "actualPts": null
     },
     {
@@ -28,7 +28,7 @@
       "name": "Zach Charbonnet",
       "pos": "RB",
       "team": "SEA",
-      "projPts": 11.66,
+      "projPts": 11.67,
       "actualPts": null
     },
     {
@@ -64,7 +64,7 @@
       "name": "Josh Downs",
       "pos": "WR",
       "team": "KC",
-      "projPts": 7.99,
+      "projPts": 7.65,
       "actualPts": null
     },
     {
@@ -82,10 +82,10 @@
       "name": "Andre Szmyt",
       "pos": "K",
       "team": "CLE",
-      "projPts": 10.92,
+      "projPts": 10.93,
       "actualPts": null
     }
   ],
-  "projTotal": 101.97,
+  "projTotal": 101.33,
   "actualTotal": 0
 }
