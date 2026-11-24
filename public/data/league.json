@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T13:07:29.874Z",
+  "updatedAt": "2026-11-24T02:18:22.281Z",
   "week": 11,
   "teams": [
     {
@@ -15,7 +15,7 @@
       "name": "Its gonna be Maye",
       "owner": "Jaxson C.",
       "projTotal": 118.18,
-      "actualTotal": 64.8,
+      "actualTotal": 70.5,
       "isAustin": false
     },
     {
@@ -47,7 +47,7 @@
       "name": "Antonio's Team",
       "owner": "Antonio G.",
       "projTotal": 114.97,
-      "actualTotal": 110.76,
+      "actualTotal": 115.76,
       "isAustin": false
     },
     {
@@ -71,7 +71,7 @@
       "name": "Burrow it deeper",
       "owner": "Max F.",
       "projTotal": 111.65,
-      "actualTotal": 112.4,
+      "actualTotal": 116.56,
       "isAustin": false
     },
     {
@@ -103,7 +103,7 @@
       "name": "No Diddy Giddy",
       "owner": "Jaiden A.",
       "projTotal": 100.55,
-      "actualTotal": 70.56,
+      "actualTotal": 83.56,
       "isAustin": false
     },
     {
