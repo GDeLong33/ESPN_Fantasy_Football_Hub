@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T19:24:17.081Z",
+  "updatedAt": "2026-11-26T03:38:16.129Z",
   "week": 12,
   "teams": [
     {
@@ -7,7 +7,15 @@
       "name": "Any Given Sunday",
       "owner": "Clayton T.",
       "projTotal": 130.22,
-      "actualTotal": 0,
+      "actualTotal": 4.9,
+      "isAustin": false
+    },
+    {
+      "teamId": 14,
+      "name": "Its gonna be Maye",
+      "owner": "Jaxson C.",
+      "projTotal": 126.69,
+      "actualTotal": 14.5,
       "isAustin": false
     },
     {
@@ -31,7 +39,7 @@
       "name": "Pickle Runners",
       "owner": "Patience U.",
       "projTotal": 119.14,
-      "actualTotal": 0,
+      "actualTotal": 10,
       "isAustin": false
     },
     {
@@ -39,7 +47,7 @@
       "name": "Doug's coin eaters",
       "owner": "Gavin D.",
       "projTotal": 118.82,
-      "actualTotal": 0,
+      "actualTotal": 24.3,
       "isAustin": false
     },
     {
@@ -59,19 +67,11 @@
       "isAustin": false
     },
     {
-      "teamId": 14,
-      "name": "Its gonna be Maye",
-      "owner": "Jaxson C.",
-      "projTotal": 113.33,
-      "actualTotal": 0,
-      "isAustin": false
-    },
-    {
       "teamId": 11,
       "name": "Professional Cowgirls",
       "owner": "Jaycey M.",
       "projTotal": 112.72,
-      "actualTotal": 0,
+      "actualTotal": 25.36,
       "isAustin": false
     },
     {
@@ -87,7 +87,7 @@
       "name": "No Diddy Giddy",
       "owner": "Jaiden A.",
       "projTotal": 110.8,
-      "actualTotal": 0,
+      "actualTotal": 1.6,
       "isAustin": false
     },
     {
