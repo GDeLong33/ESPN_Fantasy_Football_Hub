@@ -1,5 +1,5 @@
 {
-  "snapshotAt": "2026-11-27T05:14:38.650Z",
+  "snapshotAt": "2026-11-27T22:27:37.904Z",
   "rosters": {
     "1": [
       {
@@ -49,7 +49,7 @@
         "nfl": "PIT",
         "status": "ACTIVE",
         "owned": 67,
-        "seasonPts": 57.4,
+        "seasonPts": 62.7,
         "starter": false
       },
       {
@@ -98,7 +98,7 @@
         "pos": "WR",
         "nfl": "FA",
         "status": "QUESTIONABLE",
-        "owned": 13,
+        "owned": 12,
         "seasonPts": 0,
         "starter": false
       },
@@ -128,8 +128,8 @@
         "pos": "RB",
         "nfl": "DEN",
         "status": "ACTIVE",
-        "owned": 92,
-        "seasonPts": 97.8,
+        "owned": 93,
+        "seasonPts": 110.2,
         "starter": true
       },
       {
@@ -138,9 +138,9 @@
         "pos": "RB",
         "nfl": "JAX",
         "status": "ACTIVE",
-        "owned": 27,
+        "owned": 29,
         "seasonPts": 60,
-        "starter": false
+        "starter": true
       },
       {
         "id": 2991662,
@@ -160,7 +160,7 @@
         "status": "ACTIVE",
         "owned": 55,
         "seasonPts": 36.8,
-        "starter": true
+        "starter": false
       },
       {
         "id": 4603186,
@@ -209,7 +209,7 @@
         "name": "Colston Loveland",
         "pos": "TE",
         "nfl": "CHI",
-        "status": "QUESTIONABLE",
+        "status": "DOUBTFUL",
         "owned": 97,
         "seasonPts": 94.7,
         "starter": true
@@ -241,7 +241,7 @@
         "nfl": "PIT",
         "status": "ACTIVE",
         "owned": 96,
-        "seasonPts": 154.8,
+        "seasonPts": 159.2,
         "starter": true
       },
       {
@@ -353,7 +353,7 @@
         "nfl": "DEN",
         "status": "ACTIVE",
         "owned": 85,
-        "seasonPts": 91.1,
+        "seasonPts": 99,
         "starter": false
       },
       {
@@ -421,7 +421,7 @@
         "name": "Omar Cooper Jr.",
         "pos": "WR",
         "nfl": "NYJ",
-        "status": "QUESTIONABLE",
+        "status": "OUT",
         "owned": 37,
         "seasonPts": 62.6,
         "starter": false
@@ -432,7 +432,7 @@
         "pos": "WR",
         "nfl": "WSH",
         "status": "ACTIVE",
-        "owned": 55,
+        "owned": 57,
         "seasonPts": 93.8,
         "starter": true
       },
@@ -462,7 +462,7 @@
         "pos": "QB",
         "nfl": "LV",
         "status": "ACTIVE",
-        "owned": 32,
+        "owned": 33,
         "seasonPts": 39,
         "starter": true
       },
@@ -482,7 +482,7 @@
         "pos": "WR",
         "nfl": "TEN",
         "status": "ACTIVE",
-        "owned": 13,
+        "owned": 12,
         "seasonPts": 58.7,
         "starter": false
       },
@@ -503,10 +503,10 @@
         "name": "Derrick Henry",
         "pos": "RB",
         "nfl": "BAL",
-        "status": "QUESTIONABLE",
+        "status": "ACTIVE",
         "owned": 99,
         "seasonPts": 180.4,
-        "starter": true
+        "starter": false
       },
       {
         "id": 4612826,
@@ -514,7 +514,7 @@
         "pos": "WR",
         "nfl": "LAC",
         "status": "ACTIVE",
-        "owned": 85,
+        "owned": 86,
         "seasonPts": 72.3,
         "starter": true
       },
@@ -554,7 +554,7 @@
         "pos": "TE",
         "nfl": "MIN",
         "status": "ACTIVE",
-        "owned": 86,
+        "owned": 87,
         "seasonPts": 97.3,
         "starter": true
       },
@@ -584,7 +584,7 @@
         "pos": "WR",
         "nfl": "SF",
         "status": "ACTIVE",
-        "owned": 49,
+        "owned": 48,
         "seasonPts": 99,
         "starter": false
       },
@@ -634,7 +634,7 @@
         "pos": "RB",
         "nfl": "CIN",
         "status": "ACTIVE",
-        "owned": 22,
+        "owned": 23,
         "seasonPts": 72.5,
         "starter": true
       },
@@ -644,9 +644,19 @@
         "pos": "RB",
         "nfl": "DEN",
         "status": "SUSPENSION",
-        "owned": 54,
+        "owned": 53,
         "seasonPts": 62.5,
         "starter": false
+      },
+      {
+        "id": 4879194,
+        "name": "Josh Cameron",
+        "pos": "WR",
+        "nfl": "JAX",
+        "status": "ACTIVE",
+        "owned": 4,
+        "seasonPts": 56.4,
+        "starter": true
       }
     ],
     "5": [
@@ -746,7 +756,7 @@
         "pos": "QB",
         "nfl": "DET",
         "status": "ACTIVE",
-        "owned": 88,
+        "owned": 89,
         "seasonPts": 204,
         "starter": true
       },
@@ -775,8 +785,8 @@
         "name": "Dalton Schultz",
         "pos": "TE",
         "nfl": "HOU",
-        "status": "QUESTIONABLE",
-        "owned": 30,
+        "status": "ACTIVE",
+        "owned": 29,
         "seasonPts": 81.6,
         "starter": false
       },
@@ -817,7 +827,7 @@
         "name": "A.J. Brown",
         "pos": "WR",
         "nfl": "NE",
-        "status": "DOUBTFUL",
+        "status": "OUT",
         "owned": 80,
         "seasonPts": 23.8,
         "starter": false
@@ -827,7 +837,7 @@
         "name": "Tee Higgins",
         "pos": "WR",
         "nfl": "CIN",
-        "status": "ACTIVE",
+        "status": "QUESTIONABLE",
         "owned": 99,
         "seasonPts": 183.7,
         "starter": true
@@ -848,9 +858,9 @@
         "pos": "RB",
         "nfl": "WSH",
         "status": "ACTIVE",
-        "owned": 64,
+        "owned": 65,
         "seasonPts": 60.6,
-        "starter": false
+        "starter": true
       },
       {
         "id": 4832800,
@@ -957,10 +967,10 @@
         "name": "Bhayshul Tuten",
         "pos": "RB",
         "nfl": "JAX",
-        "status": "QUESTIONABLE",
+        "status": "OUT",
         "owned": 96,
         "seasonPts": 155.8,
-        "starter": true
+        "starter": false
       },
       {
         "id": 2985659,
@@ -969,7 +979,7 @@
         "nfl": "DEN",
         "status": "ACTIVE",
         "owned": 14,
-        "seasonPts": 79,
+        "seasonPts": 83,
         "starter": true
       }
     ],
@@ -979,7 +989,7 @@
         "name": "Jaxon Smith-Njigba",
         "pos": "WR",
         "nfl": "SEA",
-        "status": "QUESTIONABLE",
+        "status": "ACTIVE",
         "owned": 100,
         "seasonPts": 263.2,
         "starter": true
@@ -1030,8 +1040,8 @@
         "pos": "D/ST",
         "nfl": "PIT",
         "status": null,
-        "owned": 86,
-        "seasonPts": 73,
+        "owned": 85,
+        "seasonPts": 97,
         "starter": false
       },
       {
@@ -1173,7 +1183,7 @@
         "nfl": "DEN",
         "status": null,
         "owned": 84,
-        "seasonPts": 68,
+        "seasonPts": 79,
         "starter": true
       },
       {
@@ -1183,7 +1193,7 @@
         "nfl": "PIT",
         "status": "ACTIVE",
         "owned": 61,
-        "seasonPts": 95,
+        "seasonPts": 102,
         "starter": false
       },
       {
@@ -1221,7 +1231,7 @@
         "name": "Juwan Johnson",
         "pos": "TE",
         "nfl": "NO",
-        "status": "QUESTIONABLE",
+        "status": "OUT",
         "owned": 32,
         "seasonPts": 83.7,
         "starter": false
@@ -1272,7 +1282,7 @@
         "pos": "QB",
         "nfl": "CLE",
         "status": "ACTIVE",
-        "owned": 43,
+        "owned": 44,
         "seasonPts": 139.3,
         "starter": true
       },
@@ -1302,7 +1312,7 @@
         "pos": "QB",
         "nfl": "TEN",
         "status": "ACTIVE",
-        "owned": 28,
+        "owned": 27,
         "seasonPts": 141.9,
         "starter": false
       }
@@ -1354,7 +1364,7 @@
         "pos": "QB",
         "nfl": "CAR",
         "status": "ACTIVE",
-        "owned": 73,
+        "owned": 72,
         "seasonPts": 170.6,
         "starter": false
       },
@@ -1463,8 +1473,8 @@
         "name": "Jakobi Meyers",
         "pos": "WR",
         "nfl": "JAX",
-        "status": "QUESTIONABLE",
-        "owned": 76,
+        "status": "ACTIVE",
+        "owned": 77,
         "seasonPts": 94.5,
         "starter": false
       },
@@ -1527,7 +1537,7 @@
         "nfl": "DEN",
         "status": "ACTIVE",
         "owned": 72,
-        "seasonPts": 142.3,
+        "seasonPts": 143.9,
         "starter": false
       },
       {
@@ -1606,7 +1616,7 @@
         "pos": "TE",
         "nfl": "SEA",
         "status": "ACTIVE",
-        "owned": 9,
+        "owned": 10,
         "seasonPts": 67.7,
         "starter": false
       },
@@ -1687,7 +1697,7 @@
         "name": "Parker Washington",
         "pos": "WR",
         "nfl": "JAX",
-        "status": "QUESTIONABLE",
+        "status": "OUT",
         "owned": 97,
         "seasonPts": 156.1,
         "starter": true
@@ -1697,7 +1707,7 @@
         "name": "Isaiah Likely",
         "pos": "TE",
         "nfl": "NYG",
-        "status": "QUESTIONABLE",
+        "status": "ACTIVE",
         "owned": 97,
         "seasonPts": 161,
         "starter": true
@@ -1707,7 +1717,7 @@
         "name": "Woody Marks",
         "pos": "RB",
         "nfl": "HOU",
-        "status": "QUESTIONABLE",
+        "status": "ACTIVE",
         "owned": 65,
         "seasonPts": 78.4,
         "starter": false
@@ -1778,7 +1788,7 @@
         "pos": "K",
         "nfl": "NYJ",
         "status": "ACTIVE",
-        "owned": 31,
+        "owned": 32,
         "seasonPts": 111,
         "starter": true
       },
@@ -1850,7 +1860,7 @@
         "pos": "TE",
         "nfl": "JAX",
         "status": "ACTIVE",
-        "owned": 53,
+        "owned": 54,
         "seasonPts": 85.1,
         "starter": false
       },
@@ -1931,7 +1941,7 @@
         "nfl": "DEN",
         "status": "ACTIVE",
         "owned": 8,
-        "seasonPts": 53.7,
+        "seasonPts": 59.4,
         "starter": false
       },
       {
@@ -1960,7 +1970,7 @@
         "pos": "RB",
         "nfl": "ARI",
         "status": "ACTIVE",
-        "owned": 52,
+        "owned": 51,
         "seasonPts": 94.4,
         "starter": true
       }
@@ -2002,8 +2012,8 @@
         "pos": "WR",
         "nfl": "PIT",
         "status": "ACTIVE",
-        "owned": 37,
-        "seasonPts": 15.9,
+        "owned": 36,
+        "seasonPts": 17.6,
         "starter": false
       },
       {
@@ -2021,7 +2031,7 @@
         "name": "Jordan Addison",
         "pos": "WR",
         "nfl": "MIN",
-        "status": "DOUBTFUL",
+        "status": "OUT",
         "owned": 62,
         "seasonPts": 53.9,
         "starter": false
@@ -2042,7 +2052,7 @@
         "pos": "WR",
         "nfl": "TB",
         "status": "ACTIVE",
-        "owned": 37,
+        "owned": 36,
         "seasonPts": 62.2,
         "starter": false
       },
@@ -2092,7 +2102,7 @@
         "pos": "TE",
         "nfl": "CIN",
         "status": "ACTIVE",
-        "owned": 35,
+        "owned": 36,
         "seasonPts": 94.8,
         "starter": false
       },
@@ -2123,7 +2133,7 @@
         "nfl": "PIT",
         "status": "ACTIVE",
         "owned": 38,
-        "seasonPts": 77.8,
+        "seasonPts": 84.6,
         "starter": false
       },
       {
@@ -2185,7 +2195,7 @@
         "nfl": "PIT",
         "status": "ACTIVE",
         "owned": 84,
-        "seasonPts": 94.5,
+        "seasonPts": 107.1,
         "starter": false
       },
       {
@@ -2254,7 +2264,7 @@
         "pos": "D/ST",
         "nfl": "KC",
         "status": null,
-        "owned": 66,
+        "owned": 65,
         "seasonPts": 78,
         "starter": false
       },
@@ -2265,7 +2275,7 @@
         "nfl": "DEN",
         "status": "ACTIVE",
         "owned": 62,
-        "seasonPts": 63.6,
+        "seasonPts": 65,
         "starter": false
       },
       {
@@ -2365,7 +2375,10 @@
     "injury:4241985:OUT:12",
     "recap:2026:11",
     "injury:4567048:OUT:12",
-    "injury:4047365:OUT:12"
+    "injury:4047365:OUT:12",
+    "injury:4723086:DOUBTFUL:12",
+    "injury:4882093:OUT:12",
+    "injury:4432620:OUT:12"
   ],
   "pending": []
 }
