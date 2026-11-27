@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T17:02:55.358Z",
+  "updatedAt": "2026-11-27T01:46:50.959Z",
   "week": 12,
   "teamId": 9,
   "teamName": "Gooners Guild of America",
@@ -15,21 +15,21 @@
     },
     {
       "slot": "RB",
+      "playerId": 4035538,
+      "name": "David Montgomery",
+      "pos": "RB",
+      "team": "HOU",
+      "projPts": 11.26,
+      "actualPts": null
+    },
+    {
+      "slot": "RB",
       "playerId": 4379399,
       "name": "James Cook III",
       "pos": "RB",
       "team": "BUF",
       "projPts": 14.18,
-      "actualPts": null
-    },
-    {
-      "slot": "RB",
-      "playerId": 4426385,
-      "name": "Zach Charbonnet",
-      "pos": "RB",
-      "team": "SEA",
-      "projPts": 11.67,
-      "actualPts": null
+      "actualPts": 2.9
     },
     {
       "slot": "WR",
@@ -47,7 +47,7 @@
       "pos": "WR",
       "team": "CHI",
       "projPts": 13.03,
-      "actualPts": null
+      "actualPts": 7.5
     },
     {
       "slot": "TE",
@@ -60,11 +60,11 @@
     },
     {
       "slot": "FLEX",
-      "playerId": 4688813,
-      "name": "Josh Downs",
-      "pos": "WR",
-      "team": "KC",
-      "projPts": 8.27,
+      "playerId": 4426385,
+      "name": "Zach Charbonnet",
+      "pos": "RB",
+      "team": "SEA",
+      "projPts": 11.67,
       "actualPts": null
     },
     {
@@ -86,6 +86,6 @@
       "actualPts": null
     }
   ],
-  "projTotal": 101.47,
-  "actualTotal": 0
+  "projTotal": 104.46,
+  "actualTotal": 10.4
 }
