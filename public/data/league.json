@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T23:31:31.052Z",
+  "updatedAt": "2026-11-28T07:59:45.145Z",
   "week": 12,
   "teams": [
     {
@@ -27,6 +27,14 @@
       "isAustin": false
     },
     {
+      "teamId": 4,
+      "name": "Burrow it deeper",
+      "owner": "Max F.",
+      "projTotal": 121.88,
+      "actualTotal": 11,
+      "isAustin": false
+    },
+    {
       "teamId": 1,
       "name": "Skatt on My Dihggs",
       "owner": "Jared G.",
@@ -48,14 +56,6 @@
       "owner": "Gavin D.",
       "projTotal": 119.31,
       "actualTotal": 120.5,
-      "isAustin": false
-    },
-    {
-      "teamId": 4,
-      "name": "Burrow it deeper",
-      "owner": "Max F.",
-      "projTotal": 115.9,
-      "actualTotal": 11,
       "isAustin": false
     },
     {
@@ -83,6 +83,14 @@
       "isAustin": false
     },
     {
+      "teamId": 12,
+      "name": "Zoey's Grand Canyon Hikers",
+      "owner": "Jaylin M.",
+      "projTotal": 109.74,
+      "actualTotal": 21.6,
+      "isAustin": false
+    },
+    {
       "teamId": 6,
       "name": "North Atlantic 1912 Swim Team",
       "owner": "Cole K.",
@@ -104,14 +112,6 @@
       "owner": "Dylan E.",
       "projTotal": 104.11,
       "actualTotal": 23.4,
-      "isAustin": false
-    },
-    {
-      "teamId": 12,
-      "name": "Zoey's Grand Canyon Hikers",
-      "owner": "Jaylin M.",
-      "projTotal": 90.62,
-      "actualTotal": 21.6,
       "isAustin": false
     }
   ]
